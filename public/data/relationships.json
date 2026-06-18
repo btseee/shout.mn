@@ -8,8 +8,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-001"],
-    "sourceIds": ["source-001"],
+    "evidenceIds": [
+      "ev-001"
+    ],
+    "sourceIds": [
+      "source-001"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -24,8 +28,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-002"],
-    "sourceIds": ["source-002"],
+    "evidenceIds": [
+      "ev-002"
+    ],
+    "sourceIds": [
+      "source-002"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -40,8 +48,14 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-003", "ev-004"],
-    "sourceIds": ["source-004", "source-005"],
+    "evidenceIds": [
+      "ev-003",
+      "ev-004"
+    ],
+    "sourceIds": [
+      "source-004",
+      "source-005"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2025-05-22T00:00:00Z",
@@ -56,8 +70,12 @@
     "strength": 90,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-005"],
-    "sourceIds": ["source-008"],
+    "evidenceIds": [
+      "ev-005"
+    ],
+    "sourceIds": [
+      "source-008"
+    ],
     "startDate": "2021-06-25",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -72,8 +90,12 @@
     "strength": 95,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-006"],
-    "sourceIds": ["source-001"],
+    "evidenceIds": [
+      "ev-006"
+    ],
+    "sourceIds": [
+      "source-001"
+    ],
     "startDate": "1991-01-01",
     "endDate": "2021-06-25",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -88,8 +110,12 @@
     "strength": 95,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-007"],
-    "sourceIds": ["source-002"],
+    "evidenceIds": [
+      "ev-007"
+    ],
+    "sourceIds": [
+      "source-002"
+    ],
     "startDate": "2010-01-01",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -104,8 +130,12 @@
     "strength": 95,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-008"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-008"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2026-04-01T00:00:00Z",
@@ -120,8 +150,13 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-009"],
-    "sourceIds": ["source-006", "source-007"],
+    "evidenceIds": [
+      "ev-009"
+    ],
+    "sourceIds": [
+      "source-006",
+      "source-007"
+    ],
     "startDate": "2021-01-29",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -136,8 +171,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-010"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-010"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "2025-06-18",
     "endDate": "",
     "createdAt": "2025-06-20T00:00:00Z",
@@ -152,8 +191,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-011"],
-    "sourceIds": ["source-009"],
+    "evidenceIds": [
+      "ev-011"
+    ],
+    "sourceIds": [
+      "source-009"
+    ],
     "startDate": "2024-07-01",
     "endDate": "",
     "createdAt": "2024-07-01T00:00:00Z",
@@ -168,8 +211,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-012"],
-    "sourceIds": ["source-001"],
+    "evidenceIds": [
+      "ev-012"
+    ],
+    "sourceIds": [
+      "source-001"
+    ],
     "startDate": "2017-10-04",
     "endDate": "2021-01-27",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -184,8 +231,13 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-013"],
-    "sourceIds": ["source-002", "source-003"],
+    "evidenceIds": [
+      "ev-013"
+    ],
+    "sourceIds": [
+      "source-002",
+      "source-003"
+    ],
     "startDate": "2021-01-27",
     "endDate": "2025-06-13",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -200,8 +252,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-014"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-014"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "2026-03-30",
     "endDate": "",
     "createdAt": "2026-04-01T00:00:00Z",
@@ -216,8 +272,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-015"],
-    "sourceIds": ["source-001"],
+    "evidenceIds": [
+      "ev-015"
+    ],
+    "sourceIds": [
+      "source-001"
+    ],
     "startDate": "2021-06-25",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -232,8 +292,13 @@
     "strength": 75,
     "confidence": 95,
     "status": "confirmed",
-    "evidenceIds": ["ev-016"],
-    "sourceIds": ["source-002", "source-013"],
+    "evidenceIds": [
+      "ev-016"
+    ],
+    "sourceIds": [
+      "source-002",
+      "source-013"
+    ],
     "startDate": "2019-02-02",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -248,8 +313,13 @@
     "strength": 80,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-017"],
-    "sourceIds": ["source-010", "source-011"],
+    "evidenceIds": [
+      "ev-017"
+    ],
+    "sourceIds": [
+      "source-010",
+      "source-011"
+    ],
     "startDate": "2022-12-13",
     "endDate": "2025-06-13",
     "createdAt": "2023-01-01T00:00:00Z",
@@ -264,8 +334,12 @@
     "strength": 75,
     "confidence": 90,
     "status": "confirmed",
-    "evidenceIds": ["ev-018"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-018"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "2025-06-18",
     "endDate": "",
     "createdAt": "2025-06-20T00:00:00Z",
@@ -280,8 +354,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-019"],
-    "sourceIds": ["source-003"],
+    "evidenceIds": [
+      "ev-019"
+    ],
+    "sourceIds": [
+      "source-003"
+    ],
     "startDate": "2025-06-13",
     "endDate": "2026-03-30",
     "createdAt": "2025-06-15T00:00:00Z",
@@ -296,8 +374,12 @@
     "strength": 90,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-020"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-020"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -312,8 +394,13 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-021"],
-    "sourceIds": ["source-006", "source-007"],
+    "evidenceIds": [
+      "ev-021"
+    ],
+    "sourceIds": [
+      "source-006",
+      "source-007"
+    ],
     "startDate": "2026-04-04",
     "endDate": "",
     "createdAt": "2026-04-05T00:00:00Z",
@@ -328,8 +415,12 @@
     "strength": 100,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-022"],
-    "sourceIds": ["source-001"],
+    "evidenceIds": [
+      "ev-022"
+    ],
+    "sourceIds": [
+      "source-001"
+    ],
     "startDate": "2016-07-08",
     "endDate": "2017-10-04",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -344,8 +435,12 @@
     "strength": 90,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-023"],
-    "sourceIds": ["source-006"],
+    "evidenceIds": [
+      "ev-023"
+    ],
+    "sourceIds": [
+      "source-006"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -360,8 +455,12 @@
     "strength": 90,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-024"],
-    "sourceIds": ["source-009"],
+    "evidenceIds": [
+      "ev-024"
+    ],
+    "sourceIds": [
+      "source-009"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
@@ -376,11 +475,3568 @@
     "strength": 90,
     "confidence": 100,
     "status": "confirmed",
-    "evidenceIds": ["ev-025"],
-    "sourceIds": ["source-003"],
+    "evidenceIds": [
+      "ev-025"
+    ],
+    "sourceIds": [
+      "source-003"
+    ],
     "startDate": "",
     "endDate": "",
     "createdAt": "2024-01-01T00:00:00Z",
     "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rel-025",
+    "sourceEntityId": "person-014",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Ёндонпэрэнлэйн Баатарбилэг 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-026",
+    "sourceEntityId": "person-014",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Ёндонпэрэнлэйн Баатарбилэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-027",
+    "sourceEntityId": "person-015",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жамьяангийн Мөнхбат 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-028",
+    "sourceEntityId": "person-015",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жамьяангийн Мөнхбат МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-029",
+    "sourceEntityId": "person-016",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Ганзоригийн Тэмүүлэн 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-030",
+    "sourceEntityId": "person-016",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Ганзоригийн Тэмүүлэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-031",
+    "sourceEntityId": "person-017",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Хавдисламын Бадьелхан 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-032",
+    "sourceEntityId": "person-017",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Хавдисламын Бадьелхан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-033",
+    "sourceEntityId": "person-018",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Тьэлухань Аубакар 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-034",
+    "sourceEntityId": "person-018",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Тьэлухань Аубакар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-035",
+    "sourceEntityId": "person-019",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Буланы Бьэйсьэн 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-036",
+    "sourceEntityId": "person-019",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Буланы Бьэйсьэн АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-037",
+    "sourceEntityId": "person-020",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дашдондогийн Ганбат 2020 оны сонгуулиар Баянхонгор тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-038",
+    "sourceEntityId": "person-020",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Дашдондогийн Ганбат АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-039",
+    "sourceEntityId": "person-021",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Амгалангийн Адъяасүрэн 2020 оны сонгуулиар Баянхонгор тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-040",
+    "sourceEntityId": "person-021",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Амгалангийн Адъяасүрэн АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-041",
+    "sourceEntityId": "person-022",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цогт-Очирын Анандбазар 2020 оны сонгуулиар Булган тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-042",
+    "sourceEntityId": "person-022",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цогт-Очирын Анандбазар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-043",
+    "sourceEntityId": "person-023",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жадамбын Бат-Эрдэнэ 2020 оны сонгуулиар Булган тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-044",
+    "sourceEntityId": "person-023",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жадамбын Бат-Эрдэнэ МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-045",
+    "sourceEntityId": "person-024",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Бямбасүрэнгийн Энх-Амгалан 2020 оны сонгуулиар Говь-Алтай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-046",
+    "sourceEntityId": "person-024",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Бямбасүрэнгийн Энх-Амгалан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-047",
+    "sourceEntityId": "person-025",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Шатарбалын Раднаасэд 2020 оны сонгуулиар Говь-Алтай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-048",
+    "sourceEntityId": "person-025",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Шатарбалын Раднаасэд МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-049",
+    "sourceEntityId": "person-026",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Сүхбаатарын Батболд 2020 оны сонгуулиар Дундговь Говьсүмбэр тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-050",
+    "sourceEntityId": "person-026",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Сүхбаатарын Батболд МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-051",
+    "sourceEntityId": "person-027",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Гомпилдоогийн Мөнхцэцэг 2020 оны сонгуулиар Дундговь Говьсүмбэр тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-052",
+    "sourceEntityId": "person-027",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Гомпилдоогийн Мөнхцэцэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-053",
+    "sourceEntityId": "person-028",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Хаянгаагийн Болорчулуун 2020 оны сонгуулиар Дорнод тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-054",
+    "sourceEntityId": "person-028",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Хаянгаагийн Болорчулуун МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-055",
+    "sourceEntityId": "person-029",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэдэвийн Сэргэлэн 2020 оны сонгуулиар Дорнод тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-056",
+    "sourceEntityId": "person-029",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэдэвийн Сэргэлэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-057",
+    "sourceEntityId": "person-030",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Борхүүгийн Дэлгэрсайхан 2020 оны сонгуулиар Дорноговь тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-058",
+    "sourceEntityId": "person-030",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Борхүүгийн Дэлгэрсайхан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-059",
+    "sourceEntityId": "person-031",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Тэмөртэгоогийн Энхтүвшин 2020 оны сонгуулиар Дорноговь тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-060",
+    "sourceEntityId": "person-031",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Тэмөртэгоогийн Энхтүвшин МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-061",
+    "sourceEntityId": "person-032",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэдэндамбын Цэрэнпунцаг 2020 оны сонгуулиар Завхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-062",
+    "sourceEntityId": "person-032",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэдэндамбын Цэрэнпунцаг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-063",
+    "sourceEntityId": "person-033",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Балжинням Баярсайхан 2020 оны сонгуулиар Завхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-064",
+    "sourceEntityId": "person-033",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Балжинням Баярсайхан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-065",
+    "sourceEntityId": "person-034",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Содномын Чинзориг 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-066",
+    "sourceEntityId": "person-034",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Содномын Чинзориг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-067",
+    "sourceEntityId": "person-035",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дуламдоржийн Тогтохсүрэн 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-068",
+    "sourceEntityId": "person-035",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дуламдоржийн Тогтохсүрэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-069",
+    "sourceEntityId": "person-036",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Гочоогийн Ганболд 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-070",
+    "sourceEntityId": "person-036",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Гочоогийн Ганболд МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-071",
+    "sourceEntityId": "person-037",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Нанзадын Наранбаатар 2020 оны сонгуулиар Өмнөговь тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-072",
+    "sourceEntityId": "person-037",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Нанзадын Наранбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-073",
+    "sourceEntityId": "person-038",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дашдэмбэрэлийн Бат-Эрдэнэ 2020 оны сонгуулиар Өмнөговь тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-074",
+    "sourceEntityId": "person-038",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Дашдэмбэрэлийн Бат-Эрдэнэ АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-075",
+    "sourceEntityId": "person-039",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жамбын Батсуурь 2020 оны сонгуулиар Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-076",
+    "sourceEntityId": "person-039",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Жамбын Батсуурь АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-077",
+    "sourceEntityId": "person-040",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Наянтайн Ганибал 2020 оны сонгуулиар Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-078",
+    "sourceEntityId": "person-040",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Наянтайн Ганибал АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-079",
+    "sourceEntityId": "person-041",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Чинбатын Ундрам 2020 оны сонгуулиар Сэлэнгэ тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-080",
+    "sourceEntityId": "person-041",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Чинбатын Ундрам МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-081",
+    "sourceEntityId": "person-042",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дамдинсүрэнгийн Өнөрболор 2020 оны сонгуулиар Сэлэнгэ тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-082",
+    "sourceEntityId": "person-042",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дамдинсүрэнгийн Өнөрболор МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-083",
+    "sourceEntityId": "person-043",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жигжидийн Батжаргал 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-084",
+    "sourceEntityId": "person-043",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жигжидийн Батжаргал МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-085",
+    "sourceEntityId": "person-044",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэвэгдоржийн Туваан 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-086",
+    "sourceEntityId": "person-044",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Цэвэгдоржийн Туваан АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-087",
+    "sourceEntityId": "person-045",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Няамаагийн Энхболд 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-088",
+    "sourceEntityId": "person-045",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Няамаагийн Энхболд МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-089",
+    "sourceEntityId": "person-046",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Одонгийн Цогтгэрэл 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-090",
+    "sourceEntityId": "person-046",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Одонгийн Цогтгэрэл АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-091",
+    "sourceEntityId": "person-047",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Чимэдийн Хүрэлбаатар 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-092",
+    "sourceEntityId": "person-047",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Чимэдийн Хүрэлбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-093",
+    "sourceEntityId": "person-048",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Баттогтохын Чойжилсүрэн 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-094",
+    "sourceEntityId": "person-048",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Баттогтохын Чойжилсүрэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-095",
+    "sourceEntityId": "person-049",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Ширнэнбанидийн Адишаа 2020 оны сонгуулиар Ховд тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-096",
+    "sourceEntityId": "person-049",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Ширнэнбанидийн Адишаа АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-097",
+    "sourceEntityId": "person-050",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Бөхчулуун Пүрэвдорж 2020 оны сонгуулиар Ховд тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-098",
+    "sourceEntityId": "person-050",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Бөхчулуун Пүрэвдорж АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-099",
+    "sourceEntityId": "person-051",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэрэнпилийн Давааcүрэн 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-100",
+    "sourceEntityId": "person-051",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэрэнпилийн Давааcүрэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-101",
+    "sourceEntityId": "person-052",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Лхагвын Мөнхбаатар 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-102",
+    "sourceEntityId": "person-052",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Лхагвын Мөнхбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-103",
+    "sourceEntityId": "person-053",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Лувсантсэрэнгийн Энх-Амгалан 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-104",
+    "sourceEntityId": "person-053",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Лувсантсэрэнгийн Энх-Амгалан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-105",
+    "sourceEntityId": "person-054",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Бадманьямбуугийн Бат-Эрдэнэ 2020 оны сонгуулиар Хэнтий тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-106",
+    "sourceEntityId": "person-054",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Бадманьямбуугийн Бат-Эрдэнэ МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-107",
+    "sourceEntityId": "person-055",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цагаанхүүгийн Идэрбат 2020 оны сонгуулиар Хэнтий тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-108",
+    "sourceEntityId": "person-055",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цагаанхүүгийн Идэрбат МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-109",
+    "sourceEntityId": "person-056",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Болдын Жавхлан 2020 оны сонгуулиар Дархан-Уул тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-110",
+    "sourceEntityId": "person-056",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Болдын Жавхлан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-111",
+    "sourceEntityId": "person-057",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Баагаагийн Баттөмөр 2020 оны сонгуулиар Дархан-Уул тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-112",
+    "sourceEntityId": "person-057",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Баагаагийн Баттөмөр МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-113",
+    "sourceEntityId": "person-058",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дамбын Батлут 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-114",
+    "sourceEntityId": "person-058",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дамбын Батлут МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-115",
+    "sourceEntityId": "person-059",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Норовын Алтанхуяг 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-116",
+    "sourceEntityId": "person-060",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Сайнхүүгийн Ганбаатар 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-117",
+    "sourceEntityId": "person-061",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Сайнбуянгийн Амарсайхан 2020 оны сонгуулиар УБ Багахангай Багануур Налайх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-118",
+    "sourceEntityId": "person-061",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Сайнбуянгийн Амарсайхан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-119",
+    "sourceEntityId": "person-062",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэндийн Сандаг-Очир 2020 оны сонгуулиар УБ Багахангай Багануур Налайх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-120",
+    "sourceEntityId": "person-062",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэндийн Сандаг-Очир МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-121",
+    "sourceEntityId": "person-063",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Баттөмөрийн Энхбаяр 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-122",
+    "sourceEntityId": "person-063",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Баттөмөрийн Энхбаяр МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-123",
+    "sourceEntityId": "person-064",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Батсүхийн Саранчимэг 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-124",
+    "sourceEntityId": "person-064",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Батсүхийн Саранчимэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-125",
+    "sourceEntityId": "person-065",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жигждсүрэнгийн Чинбүрэн 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-126",
+    "sourceEntityId": "person-065",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жигждсүрэнгийн Чинбүрэн МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-127",
+    "sourceEntityId": "person-066",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Хүрэлбаатарын Булгантуяа 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-128",
+    "sourceEntityId": "person-066",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Хүрэлбаатарын Булгантуяа МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-129",
+    "sourceEntityId": "person-067",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Энхтайваны Бат-Амгалан 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-130",
+    "sourceEntityId": "person-067",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Энхтайваны Бат-Амгалан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-131",
+    "sourceEntityId": "person-068",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дамдины Цогтбаатар 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-132",
+    "sourceEntityId": "person-068",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дамдины Цогтбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-133",
+    "sourceEntityId": "person-069",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэндийн Мөнх-Оргил 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-134",
+    "sourceEntityId": "person-069",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэндийн Мөнх-Оргил МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-135",
+    "sourceEntityId": "person-070",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Цэрэнжамцын Мөнхцэцэг 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-136",
+    "sourceEntityId": "person-070",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Цэрэнжамцын Мөнхцэцэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-137",
+    "sourceEntityId": "person-071",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Тэморбаатарын Аюурсайхан 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-138",
+    "sourceEntityId": "person-071",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Тэморбаатарын Аюурсайхан МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-139",
+    "sourceEntityId": "person-072",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Мөнхөөгийн Оюунчимэг 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-140",
+    "sourceEntityId": "person-072",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Мөнхөөгийн Оюунчимэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-141",
+    "sourceEntityId": "person-073",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жамьянхорлоогийн Сүхбаатар 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-142",
+    "sourceEntityId": "person-073",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жамьянхорлоогийн Сүхбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-143",
+    "sourceEntityId": "person-074",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Хассуурийн Ганхуяг 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-144",
+    "sourceEntityId": "person-074",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Хассуурийн Ганхуяг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-145",
+    "sourceEntityId": "person-075",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жамбалын Ганбаатар 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-146",
+    "sourceEntityId": "person-075",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Жамбалын Ганбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-147",
+    "sourceEntityId": "person-076",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Салдангийн Одонтуяа 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-148",
+    "sourceEntityId": "person-076",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Салдангийн Одонтуяа АН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-149",
+    "sourceEntityId": "person-077",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Хишгээгийн Нямбаатар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-150",
+    "sourceEntityId": "person-077",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Хишгээгийн Нямбаатар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-151",
+    "sourceEntityId": "person-078",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Бадарчийн Жаргалмаа 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-152",
+    "sourceEntityId": "person-078",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Бадарчийн Жаргалмаа МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-153",
+    "sourceEntityId": "person-079",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дологрсүрэнгийн Сумьяабазар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-154",
+    "sourceEntityId": "person-079",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дологрсүрэнгийн Сумьяабазар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-155",
+    "sourceEntityId": "person-080",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Энхбаярын Батшугар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-156",
+    "sourceEntityId": "person-080",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Энхбаярын Батшугар МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-157",
+    "sourceEntityId": "person-081",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Пурэв-Очирын Анужин 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-158",
+    "sourceEntityId": "person-081",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Пурэв-Очирын Анужин МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-159",
+    "sourceEntityId": "person-082",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Ганибалын Амартүвшин 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-160",
+    "sourceEntityId": "person-082",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Ганибалын Амартүвшин МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-161",
+    "sourceEntityId": "person-083",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дагвааянцангийн Саранцэцэг 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-162",
+    "sourceEntityId": "person-083",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дагвааянцангийн Саранцэцэг МАН-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-163",
+    "sourceEntityId": "person-084",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Тогмидын Доржханд 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024).",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-164",
+    "sourceEntityId": "person-001",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Ухнаагийн Хүрэлсүх Хэнтий тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2021-06-25",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-165",
+    "sourceEntityId": "person-003",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Лувсаннамсрайн Оюун-Эрдэнэ Хэнтий тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-166",
+    "sourceEntityId": "person-006",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Няморсрын Учрал УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-167",
+    "sourceEntityId": "person-008",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жадамбын Энхбаяр Булган тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-168",
+    "sourceEntityId": "person-009",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Гонгорын Дамдинням Дархан-Уул тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-169",
+    "sourceEntityId": "person-010",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Сандагийн Бямбацогт Ховд тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-170",
+    "sourceEntityId": "person-011",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Жаргалтулгын Эрдэнэбат Сэлэнгэ тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-171",
+    "sourceEntityId": "person-012",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Гомбожавын Занданшатар Баянхонгор тойргоос УИХ-д сонгогдсон.",
+    "strength": 90,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014",
+      "source-015"
+    ],
+    "startDate": "2020-07-01",
+    "endDate": "2024-07-02",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-172",
+    "sourceEntityId": "person-052",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-173",
+    "sourceEntityId": "person-023",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-174",
+    "sourceEntityId": "person-051",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-175",
+    "sourceEntityId": "person-058",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-176",
+    "sourceEntityId": "person-053",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-177",
+    "sourceEntityId": "person-056",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-178",
+    "sourceEntityId": "person-044",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-179",
+    "sourceEntityId": "person-043",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-180",
+    "sourceEntityId": "person-009",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-181",
+    "sourceEntityId": "person-041",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-182",
+    "sourceEntityId": "person-016",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Архангай/Баянхонгор/Өвөрхангай (1-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-183",
+    "sourceEntityId": "person-020",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Архангай/Баянхонгор/Өвөрхангай (1-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-184",
+    "sourceEntityId": "person-010",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-185",
+    "sourceEntityId": "person-046",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-186",
+    "sourceEntityId": "person-050",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-187",
+    "sourceEntityId": "person-048",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-188",
+    "sourceEntityId": "person-018",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Баян-Өлгий (3-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-189",
+    "sourceEntityId": "person-019",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Баян-Өлгий (3-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-190",
+    "sourceEntityId": "person-003",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дорнод/Хэнтий/Сүхбаатар (6-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-191",
+    "sourceEntityId": "person-055",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дорнод/Хэнтий/Сүхбаатар (6-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-192",
+    "sourceEntityId": "person-030",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дорноговь/Дундговь/Өмнөговь (7-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-193",
+    "sourceEntityId": "person-037",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дорноговь/Дундговь/Өмнөговь (7-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-194",
+    "sourceEntityId": "person-065",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-195",
+    "sourceEntityId": "person-063",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-196",
+    "sourceEntityId": "person-067",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-197",
+    "sourceEntityId": "person-066",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-198",
+    "sourceEntityId": "person-074",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянгол (9-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-199",
+    "sourceEntityId": "person-075",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Баянгол (9-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-200",
+    "sourceEntityId": "person-006",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Чингэлтэй/Сүхбаатар (10-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-201",
+    "sourceEntityId": "person-068",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Чингэлтэй/Сүхбаатар (10-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-202",
+    "sourceEntityId": "person-080",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Сонгинохайрхан (11-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-203",
+    "sourceEntityId": "person-059",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Сонгинохайрхан (11-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-204",
+    "sourceEntityId": "person-061",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Багахангай/Багануур/Налайх (13-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-205",
+    "sourceEntityId": "person-062",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар УБ Багахангай/Багануур/Налайх (13-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-206",
+    "sourceEntityId": "person-039",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар ДН нийтийн жагсаалт (3-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-207",
+    "sourceEntityId": "person-076",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар ДН нийтийн жагсаалт (2-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-208",
+    "sourceEntityId": "person-084",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар ХҮН нийтийн жагсаалт (1-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-209",
+    "sourceEntityId": "person-008",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-210",
+    "sourceEntityId": "person-085",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Халтмаагийн Батулга 2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р тойрог) тойрогт сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-211",
+    "sourceEntityId": "person-085",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Халтмаагийн Батулга DP-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-212",
+    "sourceEntityId": "person-086",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Дашзэгвийн Амарбаясгалан 2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р тойрог) тойрогт сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-213",
+    "sourceEntityId": "person-086",
+    "targetEntityId": "org-001",
+    "relationshipType": "party_member",
+    "description": "Дашзэгвийн Амарбаясгалан MPP-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-214",
+    "sourceEntityId": "person-087",
+    "targetEntityId": "agency-003",
+    "relationshipType": "employment",
+    "description": "Лувсанням Гантөмөр 2024 оны сонгуулиар ДН-ын нийтийн жагсаалт (1-р байр) тойрогт сонгогдсон.",
+    "strength": 90,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "2024-07-02",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-215",
+    "sourceEntityId": "person-087",
+    "targetEntityId": "org-002",
+    "relationshipType": "party_member",
+    "description": "Лувсанням Гантөмөр DP-ын гишүүн.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-016"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-216",
+    "sourceEntityId": "person-085",
+    "targetEntityId": "agency-001",
+    "relationshipType": "employment",
+    "description": "Халтмаагийн Батулга 2017 оны 7 дугаар сарын 10-аас 2021 оны 6 дугаар сарын 25 хүртэл Монгол Улсын 5 дахь Ерөнхийлөгч.",
+    "strength": 95,
+    "confidence": 100,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "2017-07-10",
+    "endDate": "2021-06-25",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-217",
+    "sourceEntityId": "person-085",
+    "targetEntityId": "person-001",
+    "relationshipType": "political_ally",
+    "description": "Батулга болон Хүрэлсүх хоёр ерөнхийлөгчийн хувьд улс төрийн өрсөлдөгчид. Батулга ДН-аас, Хүрэлсүх МАН-аас.",
+    "strength": 40,
+    "confidence": 90,
+    "status": "confirmed",
+    "evidenceIds": [],
+    "sourceIds": [
+      "source-014"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "createdAt": "2026-06-18T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
   }
 ]

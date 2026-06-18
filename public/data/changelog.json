@@ -118,5 +118,597 @@
     "entityId": "person-013",
     "description": "З.Мэндсайхан (Одоогийн Сангийн сайд) нэмэгдлээ",
     "addedBy": "research-team"
+  },
+  {
+    "id": "cl-016",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-014",
+    "description": "Ёндонпэрэнлэйн Баатарбилэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-017",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-015",
+    "description": "Жамьяангийн Мөнхбат (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-018",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-016",
+    "description": "Ганзоригийн Тэмүүлэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-019",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-017",
+    "description": "Хавдисламын Бадьелхан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-020",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-018",
+    "description": "Тьэлухань Аубакар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-021",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-019",
+    "description": "Буланы Бьэйсьэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-022",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-020",
+    "description": "Дашдондогийн Ганбат (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-023",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-021",
+    "description": "Амгалангийн Адъяасүрэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-024",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-022",
+    "description": "Цогт-Очирын Анандбазар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-025",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-023",
+    "description": "Жадамбын Бат-Эрдэнэ (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-026",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-024",
+    "description": "Бямбасүрэнгийн Энх-Амгалан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-027",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-025",
+    "description": "Шатарбалын Раднаасэд (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-028",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-026",
+    "description": "Сүхбаатарын Батболд (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-029",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-027",
+    "description": "Гомпилдоогийн Мөнхцэцэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-030",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-028",
+    "description": "Хаянгаагийн Болорчулуун (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-031",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-029",
+    "description": "Цэдэвийн Сэргэлэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-032",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-030",
+    "description": "Борхүүгийн Дэлгэрсайхан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-033",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-031",
+    "description": "Тэмөртэгоогийн Энхтүвшин (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-034",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-032",
+    "description": "Цэдэндамбын Цэрэнпунцаг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-035",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-033",
+    "description": "Балжинням Баярсайхан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-036",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-034",
+    "description": "Содномын Чинзориг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-037",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-035",
+    "description": "Дуламдоржийн Тогтохсүрэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-038",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-036",
+    "description": "Гочоогийн Ганболд (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-039",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-037",
+    "description": "Нанзадын Наранбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-040",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-038",
+    "description": "Дашдэмбэрэлийн Бат-Эрдэнэ (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-041",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-039",
+    "description": "Жамбын Батсуурь (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-042",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-040",
+    "description": "Наянтайн Ганибал (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-043",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-041",
+    "description": "Чинбатын Ундрам (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-044",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-042",
+    "description": "Дамдинсүрэнгийн Өнөрболор (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-045",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-043",
+    "description": "Жигжидийн Батжаргал (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-046",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-044",
+    "description": "Цэвэгдоржийн Туваан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-047",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-045",
+    "description": "Няамаагийн Энхболд (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-048",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-046",
+    "description": "Одонгийн Цогтгэрэл (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-049",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-047",
+    "description": "Чимэдийн Хүрэлбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-050",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-048",
+    "description": "Баттогтохын Чойжилсүрэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-051",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-049",
+    "description": "Ширнэнбанидийн Адишаа (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-052",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-050",
+    "description": "Бөхчулуун Пүрэвдорж (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-053",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-051",
+    "description": "Цэрэнпилийн Давааcүрэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-054",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-052",
+    "description": "Лхагвын Мөнхбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-055",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-053",
+    "description": "Лувсантсэрэнгийн Энх-Амгалан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-056",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-054",
+    "description": "Бадманьямбуугийн Бат-Эрдэнэ (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-057",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-055",
+    "description": "Цагаанхүүгийн Идэрбат (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-058",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-056",
+    "description": "Болдын Жавхлан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-059",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-057",
+    "description": "Баагаагийн Баттөмөр (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-060",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-058",
+    "description": "Дамбын Батлут (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-061",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-059",
+    "description": "Норовын Алтанхуяг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-062",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-060",
+    "description": "Сайнхүүгийн Ганбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-063",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-061",
+    "description": "Сайнбуянгийн Амарсайхан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-064",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-062",
+    "description": "Цэндийн Сандаг-Очир (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-065",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-063",
+    "description": "Баттөмөрийн Энхбаяр (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-066",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-064",
+    "description": "Батсүхийн Саранчимэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-067",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-065",
+    "description": "Жигждсүрэнгийн Чинбүрэн (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-068",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-066",
+    "description": "Хүрэлбаатарын Булгантуяа (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-069",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-067",
+    "description": "Энхтайваны Бат-Амгалан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-070",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-068",
+    "description": "Дамдины Цогтбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-071",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-069",
+    "description": "Цэндийн Мөнх-Оргил (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-072",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-070",
+    "description": "Цэрэнжамцын Мөнхцэцэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-073",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-071",
+    "description": "Тэморбаатарын Аюурсайхан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-074",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-072",
+    "description": "Мөнхөөгийн Оюунчимэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-075",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-073",
+    "description": "Жамьянхорлоогийн Сүхбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-076",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-074",
+    "description": "Хассуурийн Ганхуяг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-077",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-075",
+    "description": "Жамбалын Ганбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-078",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-076",
+    "description": "Салдангийн Одонтуяа (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-079",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-077",
+    "description": "Хишгээгийн Нямбаатар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-080",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-078",
+    "description": "Бадарчийн Жаргалмаа (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-081",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-079",
+    "description": "Дологрсүрэнгийн Сумьяабазар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-082",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-080",
+    "description": "Энхбаярын Батшугар (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-083",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-081",
+    "description": "Пурэв-Очирын Анужин (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-084",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-082",
+    "description": "Ганибалын Амартүвшин (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-085",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-083",
+    "description": "Дагвааянцангийн Саранцэцэг (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-086",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-084",
+    "description": "Тогмидын Доржханд (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-087",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-085",
+    "description": "Халтмаагийн Батулга (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-088",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-086",
+    "description": "Дашзэгвийн Амарбаясгалан (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-089",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-087",
+    "description": "Лувсанням Гантөмөр (УИХ-ын гишүүн) нэмэгдлээ",
+    "addedBy": "parliament-import"
   }
 ]

@@ -8,7 +8,11 @@
     "publishedAt": "2021-06-25",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Reuters, Montsame зэрэг анхдагч эх сурвалжаас баталгаажуулсан. Намтар, гэр бүлийн мэдээллийн хувьд дунд-өндөр найдвартай.",
-    "tags": ["president", "biography", "MPP"]
+    "tags": [
+      "president",
+      "biography",
+      "MPP"
+    ]
   },
   {
     "id": "source-002",
@@ -19,7 +23,11 @@
     "publishedAt": "2021-01-27",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Reuters, BBC, The Guardian зэрэг эх сурвалжаас баталгаажуулсан. Дунд-өндөр найдвартай.",
-    "tags": ["prime-minister", "biography", "MPP"]
+    "tags": [
+      "prime-minister",
+      "biography",
+      "MPP"
+    ]
   },
   {
     "id": "source-003",
@@ -30,7 +38,11 @@
     "publishedAt": "2025-06-03",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "BBC-ийн шуурхай мэдээлэл. Өндөр найдвартай байдал.",
-    "tags": ["prime-minister", "resignation", "protests-2025"]
+    "tags": [
+      "prime-minister",
+      "resignation",
+      "protests-2025"
+    ]
   },
   {
     "id": "source-004",
@@ -41,7 +53,11 @@
     "publishedAt": "2025-05-22",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Associated Press мэдээллийн агентлагийн сурвалжлага. Өндөр найдвартай байдал.",
-    "tags": ["protests", "corruption", "2025"]
+    "tags": [
+      "protests",
+      "corruption",
+      "2025"
+    ]
   },
   {
     "id": "source-005",
@@ -52,7 +68,11 @@
     "publishedAt": "2025-05-27",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Патрик Уинтурын нийтлэл — 59,000 гаруй гарын үсгийн нэхэмжлэлийн тухай. Өндөр найдвартай.",
-    "tags": ["protests", "petition", "corruption"]
+    "tags": [
+      "protests",
+      "petition",
+      "corruption"
+    ]
   },
   {
     "id": "source-006",
@@ -63,7 +83,11 @@
     "publishedAt": "2026-04-03",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Монгол Улсын Засгийн газрын бүтцийн тухай. Дунд-өндөр найдвартай.",
-    "tags": ["cabinet", "government", "Uchral"]
+    "tags": [
+      "cabinet",
+      "government",
+      "Uchral"
+    ]
   },
   {
     "id": "source-007",
@@ -74,7 +98,11 @@
     "publishedAt": "2026-04-04",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Wikipedia нийтлэл — Монгол Улсын Засгийн газрын тухай. Кабинетийн жагсаалтын хувьд дунд-өндөр найдвартай.",
-    "tags": ["official", "government", "cabinet"]
+    "tags": [
+      "official",
+      "government",
+      "cabinet"
+    ]
   },
   {
     "id": "source-008",
@@ -85,7 +113,12 @@
     "publishedAt": "2021-06-25",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Монгол Улсын Ерөнхийлөгчийн Тамгын газрын албан ёсны нийтлэл. Маш өндөр найдвартай.",
-    "tags": ["official", "appointment", "NSC", "Khurelsukh"]
+    "tags": [
+      "official",
+      "appointment",
+      "NSC",
+      "Khurelsukh"
+    ]
   },
   {
     "id": "source-009",
@@ -96,7 +129,11 @@
     "publishedAt": "2024-06-30",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Монгол Улсын улс төрийн тойм Wikipedia нийтлэл. Дунд-өндөр найдвартай.",
-    "tags": ["parliament", "elections", "parties"]
+    "tags": [
+      "parliament",
+      "elections",
+      "parties"
+    ]
   },
   {
     "id": "source-010",
@@ -107,7 +144,12 @@
     "publishedAt": "2022-12-08",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Reuters мэдээллийн агентлагийн сурвалжлага. Өндөр найдвартай.",
-    "tags": ["protest", "coal", "corruption", "ETT"]
+    "tags": [
+      "protest",
+      "coal",
+      "corruption",
+      "ETT"
+    ]
   },
   {
     "id": "source-011",
@@ -118,7 +160,12 @@
     "publishedAt": "2022-12-13",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Reuters — ЭТТ-ийн шинэчлэлийн тухай. Өндөр найдвартай.",
-    "tags": ["ETT", "mining", "corruption", "reform"]
+    "tags": [
+      "ETT",
+      "mining",
+      "corruption",
+      "reform"
+    ]
   },
   {
     "id": "source-012",
@@ -129,7 +176,12 @@
     "publishedAt": "2023-03-14",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "AP-д тулгуурласан The Independent — Оюу Толгойн тухай. Өндөр найдвартай.",
-    "tags": ["Oyu-Tolgoi", "copper", "Rio-Tinto", "mining"]
+    "tags": [
+      "Oyu-Tolgoi",
+      "copper",
+      "Rio-Tinto",
+      "mining"
+    ]
   },
   {
     "id": "source-013",
@@ -140,6 +192,55 @@
     "publishedAt": "2025-10-20",
     "retrievedAt": "2026-06-18",
     "reliabilityNotes": "Al Jazeera — 2025 оны улс төрийн хямралын тухай. Өндөр найдвартай.",
-    "tags": ["veto", "political-crisis", "Zandanshatar"]
+    "tags": [
+      "veto",
+      "political-crisis",
+      "Zandanshatar"
+    ]
+  },
+  {
+    "id": "source-014",
+    "title": "List of members of the State Great Khural, 2020–2024 — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2020%E2%80%932024",
+    "archiveUrl": "",
+    "publishedAt": "2020-07-01",
+    "retrievedAt": "2026-06-18",
+    "reliabilityNotes": "2020-2024 оны УИХ-ын бүрэн гишүүдийн жагсаалт. Wikipedia – дунд-өндөр найдвартай.",
+    "tags": [
+      "parliament",
+      "2020",
+      "election"
+    ]
+  },
+  {
+    "id": "source-015",
+    "title": "2020 Mongolian parliamentary election — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2020_Mongolian_parliamentary_election",
+    "archiveUrl": "",
+    "publishedAt": "2020-06-24",
+    "retrievedAt": "2026-06-18",
+    "reliabilityNotes": "2020 оны УИХ-ын сонгуулийн дүн. Wikipedia – өндөр найдвартай.",
+    "tags": [
+      "parliament",
+      "election",
+      "2020"
+    ]
+  },
+  {
+    "id": "source-016",
+    "title": "List of members of the State Great Khural, 2024–2028 — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+    "archiveUrl": "",
+    "publishedAt": "2024-07-02",
+    "retrievedAt": "2026-06-18",
+    "reliabilityNotes": "2024-2028 оны УИХ-ын бүрэн гишүүдийн жагсаалт. Wikipedia – дунд-өндөр найдвартай.",
+    "tags": [
+      "parliament",
+      "2024",
+      "election"
+    ]
   }
 ]
