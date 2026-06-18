@@ -1,17 +1,122 @@
 [
-  { "id": "cl-001", "type": "entity_added", "entityId": "person-001", "description": "Added entity: Viktor Mersin (politician, former Infrastructure Minister)", "date": "2024-01-10" },
-  { "id": "cl-002", "type": "entity_added", "entityId": "company-001", "description": "Added entity: NordBuild Construction Ltd", "date": "2024-01-10" },
-  { "id": "cl-003", "type": "entity_added", "entityId": "company-002", "description": "Added entity: AquaPure Holdings", "date": "2024-01-10" },
-  { "id": "cl-004", "type": "relationship_added", "relationshipId": "rel-002", "description": "Added relationship: Viktor Mersin / Elena Korchova — family connection (confirmed)", "date": "2024-01-10" },
-  { "id": "cl-005", "type": "relationship_added", "relationshipId": "rel-012", "description": "Added relationship: Ministry of Infrastructure / NordBuild — Contract #2019-112 (confirmed)", "date": "2024-01-10" },
-  { "id": "cl-006", "type": "source_added", "sourceId": "source-006", "description": "Added source: National Procurement Commission review notice", "date": "2024-01-11" },
-  { "id": "cl-007", "type": "relationship_added", "relationshipId": "rel-013", "description": "Added relationship: Ministry of Infrastructure / AquaPure Holdings — Contract #2021-047 (confirmed)", "date": "2024-01-11" },
-  { "id": "cl-008", "type": "entity_added", "entityId": "person-005", "description": "Added entity: Marc Delacroix (French diplomat)", "date": "2024-02-01" },
-  { "id": "cl-009", "type": "relationship_added", "relationshipId": "rel-023", "description": "Added relationship: Delacroix / AquaPure Holdings — organizational link (disputed)", "date": "2024-02-01" },
-  { "id": "cl-010", "type": "relationship_added", "relationshipId": "rel-019", "description": "Added relationship: Viktor Mersin / AquaPure Holdings — inferred connection", "date": "2024-02-15" },
-  { "id": "cl-011", "type": "investigation_added", "investigationId": "inv-001", "description": "Published investigation: The AquaPure Network", "date": "2024-03-01" },
-  { "id": "cl-012", "type": "investigation_added", "investigationId": "inv-002", "description": "Published investigation: Emergency Clause — The Highway Contract", "date": "2024-03-15" },
-  { "id": "cl-013", "type": "evidence_added", "evidenceId": "ev-021", "description": "Added evidence: Electoral Commission campaign finance disclosure linking Meridian Capital donation to Mersin campaign", "date": "2024-03-20" },
-  { "id": "cl-014", "type": "relationship_updated", "relationshipId": "rel-019", "description": "Updated confidence on inferred Mersin/AquaPure relationship following new evidence (ev-021)", "date": "2024-04-01" },
-  { "id": "cl-015", "type": "investigation_added", "investigationId": "inv-003", "description": "Published investigation: The Diplomat's Role — Marc Delacroix and AquaPure", "date": "2024-04-01" }
+  {
+    "id": "cl-001",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-001",
+    "description": "У.Хүрэлсүх (Ерөнхийлөгч) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-002",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-002",
+    "description": "Л.Болорцэцэг (Ерөнхийлөгчийн эхнэр) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-003",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-003",
+    "description": "Л.Оюун-Эрдэнэ (Хуучин Ерөнхий сайд) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-004",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-005",
+    "description": "Тэмүүлэн Оюун-Эрдэнэ (ЕС-ын хүү, 2025 оны эсэргүүцлийн нэрт баатар) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-005",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-006",
+    "description": "Н.Учрал (Одоогийн Ерөнхий сайд) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-006",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-007",
+    "description": "Б.Батцэцэг (Гадаад харилцааны сайд) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-007",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-012",
+    "description": "Г.Занданшатар (Хуучин Ерөнхий сайд 2025) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-008",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "company-001",
+    "description": "Эрдэнэс Тавантолгой ХК — авлигын мөрдөн байцаалттай холбогдон нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-009",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "company-002",
+    "description": "Оюу Толгой ХК — Рио Тинтогийн хамтын ажиллагаатай холбогдон нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-010",
+    "date": "2026-06-18",
+    "type": "relationship_added",
+    "relationshipId": "rel-003",
+    "description": "Л.Оюун-Эрдэнэ → Тэмүүлэн (эцэг-хүү): 2025 оны эсэргүүцлийн нотлох баримт нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-011",
+    "date": "2026-06-18",
+    "type": "relationship_added",
+    "relationshipId": "rel-012",
+    "description": "Л.Оюун-Эрдэнэ → Засгийн газар (Ерөнхий сайд 2021–2025) нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-012",
+    "date": "2026-06-18",
+    "type": "investigation_added",
+    "investigationId": "inv-001",
+    "description": "'2025 оны залуучуудын эсэргүүцэл' мөрдлөг нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-013",
+    "date": "2026-06-18",
+    "type": "investigation_added",
+    "investigationId": "inv-002",
+    "description": "'ЭТТ нүүрсний хулгай' мөрдлөг нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-014",
+    "date": "2026-06-18",
+    "type": "relationship_added",
+    "relationshipId": "rel-016",
+    "description": "Л.Оюун-Эрдэнэ → ЭТТ (хяналт): Нүүрсний хулгайн хямралын дараах шинэчлэлийн тушаал нэмэгдлээ",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-015",
+    "date": "2026-06-18",
+    "type": "entity_added",
+    "entityId": "person-013",
+    "description": "З.Мэндсайхан (Одоогийн Сангийн сайд) нэмэгдлээ",
+    "addedBy": "research-team"
+  }
 ]

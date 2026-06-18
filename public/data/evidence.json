@@ -1,27 +1,252 @@
 [
-  { "id": "ev-001", "sourceId": "source-003", "description": "NordBuild company register lists Elena Korchova as CEO with appointment date March 2016.", "claimSupported": "Elena Korchova is CEO of NordBuild Construction Ltd since 2016", "entityIds": ["person-002", "company-001"], "relationshipIds": ["rel-001"] },
-  { "id": "ev-002", "sourceId": "source-002", "description": "Northland Tribune investigation identifies Viktor Mersin and Elena Korchova as siblings, citing birth records and family declarations.", "claimSupported": "Viktor Mersin and Elena Korchova are siblings", "entityIds": ["person-001", "person-002"], "relationshipIds": ["rel-002"] },
-  { "id": "ev-003", "sourceId": "source-001", "description": "Official Gazette January 2019 lists Viktor Mersin as appointed Minister of Infrastructure effective January 15, 2019.", "claimSupported": "Viktor Mersin was Minister of Infrastructure from January 2019", "entityIds": ["person-001", "agency-001"], "relationshipIds": ["rel-003"] },
-  { "id": "ev-004", "sourceId": "source-002", "description": "Northland Tribune article refers to Democratic Reform Foundation as 'founded by Mersin in 2015' with foundation registry confirmation.", "claimSupported": "Viktor Mersin founded the Democratic Reform Foundation in 2015", "entityIds": ["person-001", "org-003"], "relationshipIds": ["rel-004"] },
-  { "id": "ev-005", "sourceId": "source-007", "description": "AquaPure Holdings 2022 Annual Report, Board of Directors section, lists Elena Korchova as non-executive director since September 2018.", "claimSupported": "Elena Korchova holds a board directorship at AquaPure Holdings", "entityIds": ["person-002", "company-002"], "relationshipIds": ["rel-005"] },
-  { "id": "ev-006", "sourceId": "source-012", "description": "FOI-released fiduciary records reference an unnamed individual matching Elena Korchova's profile as holding shares through a nominee entity. Records are partially redacted.", "claimSupported": "An individual possibly matching Elena Korchova may hold shares in ClearWater Technologies through a nominee structure", "entityIds": ["person-002", "company-004"], "relationshipIds": ["rel-006"] },
-  { "id": "ev-007", "sourceId": "source-013", "description": "Northland Financial Authority public shareholder register for Meridian Capital Partners lists Elena Korchova as holding a 8.5% stake.", "claimSupported": "Elena Korchova is a shareholder in Meridian Capital Partners", "entityIds": ["person-002", "company-003"], "relationshipIds": ["rel-007"] },
-  { "id": "ev-008", "sourceId": "source-004", "description": "Citizens for Clean Water 2023 Annual Report identifies Dmitri Valenko as chairperson, noting his appointment in 2017.", "claimSupported": "Dmitri Valenko is chairperson of Citizens for Clean Water since 2017", "entityIds": ["person-003", "org-001"], "relationshipIds": ["rel-008"] },
-  { "id": "ev-009", "sourceId": "source-004", "description": "Citizens for Clean Water annual report notes Valenko's seat on the Lake Varna Project oversight committee, citing a city council resolution from June 2021.", "claimSupported": "Dmitri Valenko serves on the Lake Varna Project oversight committee", "entityIds": ["person-003", "project-001", "org-001"], "relationshipIds": ["rel-009", "rel-025"] },
-  { "id": "ev-010", "sourceId": "source-001", "description": "Official Gazette January 2019 lists Sonya Halstein as Environmental Minister within the Ministry of Infrastructure.", "claimSupported": "Sonya Halstein was Environmental Minister at the Ministry of Infrastructure from January 2019", "entityIds": ["person-004", "agency-001"], "relationshipIds": ["rel-010"] },
-  { "id": "ev-011", "sourceId": "source-006", "description": "National Procurement Commission review document references Halstein's 2021 environmental clearance for the Lake Varna project.", "claimSupported": "Sonya Halstein issued the environmental clearance for the Lake Varna Water Treatment Project in 2021", "entityIds": ["person-004", "project-001"], "relationshipIds": ["rel-011"] },
-  { "id": "ev-012", "sourceId": "source-005", "description": "Ministry of Infrastructure Contract Award Notice #2019-112 names NordBuild Construction Ltd as the sole bidder under an emergency procurement clause.", "claimSupported": "NordBuild Construction Ltd was awarded Highway Contract #2019-112 under emergency procurement", "entityIds": ["agency-001", "company-001", "contract-002"], "relationshipIds": ["rel-012", "rel-028"] },
-  { "id": "ev-013", "sourceId": "source-011", "description": "Parliamentary Budget Report 2020 confirms the emergency procurement designation for Contract #2019-112 and identifies NordBuild as contractor.", "claimSupported": "Highway Contract #2019-112 used emergency procurement clause bypassing competitive bidding", "entityIds": ["agency-001", "company-001", "contract-002"], "relationshipIds": ["rel-012"] },
-  { "id": "ev-014", "sourceId": "source-006", "description": "National Procurement Commission review document confirms Contract #2021-047 was awarded to AquaPure Holdings on March 15, 2021.", "claimSupported": "AquaPure Holdings was awarded Contract #2021-047 on March 15, 2021", "entityIds": ["agency-001", "company-002", "contract-001"], "relationshipIds": ["rel-013", "rel-027"] },
-  { "id": "ev-015", "sourceId": "source-010", "description": "Environmental Impact Assessment document for the Lake Varna project identifies AquaPure Holdings as the primary contractor and notes Halstein's approval signature.", "claimSupported": "AquaPure Holdings is the Lake Varna project primary contractor; Sonya Halstein approved the environmental assessment", "entityIds": ["company-002", "project-001", "person-004", "contract-001"], "relationshipIds": ["rel-013", "rel-030"] },
-  { "id": "ev-016", "sourceId": "source-006", "description": "National Procurement Commission official notice announces review of Contract #2021-047 opened September 1, 2022.", "claimSupported": "The National Procurement Commission opened a formal review of Contract #2021-047 in September 2022", "entityIds": ["agency-002", "contract-001"], "relationshipIds": ["rel-014"] },
-  { "id": "ev-017", "sourceId": "source-012", "description": "AquaPure Holdings 2022 Annual Report subsidiary section lists ClearWater Technologies as a 60%-owned subsidiary.", "claimSupported": "AquaPure Holdings holds 60% of ClearWater Technologies", "entityIds": ["company-002", "company-004"], "relationshipIds": ["rel-015"] },
-  { "id": "ev-018", "sourceId": "source-005", "description": "Contract Award Notice #2019-112 names NordBuild as contractor for the Northern Highway Expansion project.", "claimSupported": "NordBuild Construction is the contractor for the Northern Highway Expansion under Contract #2019-112", "entityIds": ["company-001", "project-002", "contract-002"], "relationshipIds": ["rel-016", "rel-028"] },
-  { "id": "ev-019", "sourceId": "source-006", "description": "Environmental Impact Assessment identifies AquaPure Holdings as primary contractor for Lake Varna Water Treatment Project.", "claimSupported": "AquaPure Holdings is the primary contractor for the Lake Varna project under Contract #2021-047", "entityIds": ["company-002", "project-001", "contract-001"], "relationshipIds": ["rel-017", "rel-027"] },
-  { "id": "ev-020", "sourceId": "source-013", "description": "Meridian Capital Partners shareholder register lists AquaPure Holdings as a portfolio investment, noting a 25% equity stake.", "claimSupported": "Meridian Capital Partners holds 25% of AquaPure Holdings", "entityIds": ["company-003", "company-002"], "relationshipIds": ["rel-018"] },
-  { "id": "ev-021", "sourceId": "source-015", "description": "Electoral Commission 2022 campaign finance disclosures show a 150,000 donation to Viktor Mersin's campaign from 'Meridian Capital-affiliated entities'.", "claimSupported": "Viktor Mersin's campaign received 150,000 from Meridian Capital-affiliated entities in 2021", "entityIds": ["person-001", "company-003", "donation-001"], "relationshipIds": ["rel-019", "rel-020", "rel-032"] },
-  { "id": "ev-022", "sourceId": "source-008", "description": "Northland Business Council press release endorses Viktor Mersin and lists Elena Korchova as a council member on its infrastructure committee.", "claimSupported": "Northland Business Council endorsed Mersin; Elena Korchova is a council member", "entityIds": ["org-002", "person-001", "person-002"], "relationshipIds": ["rel-021", "rel-029"] },
-  { "id": "ev-023", "sourceId": "source-008", "description": "Northland Business Council election materials list Dmitri Valenko as a local candidate aligned with Viktor Mersin's political platform.", "claimSupported": "Dmitri Valenko is a political ally of Viktor Mersin", "entityIds": ["person-003", "person-001"], "relationshipIds": ["rel-022"] },
-  { "id": "ev-024", "sourceId": "source-009", "description": "Northland Tribune article describes Marc Delacroix as having 'advised AquaPure Holdings on international financing.' An AquaPure spokesperson said Delacroix was engaged as a 'consultant on a limited basis' but disputed the characterization.", "claimSupported": "Marc Delacroix had some relationship with AquaPure Holdings; the nature is disputed", "entityIds": ["person-005", "company-002"], "relationshipIds": ["rel-023"] },
-  { "id": "ev-025", "sourceId": "source-014", "description": "Ministry of Foreign Affairs visitor logs show Marc Delacroix met with Minister Viktor Mersin on April 14, 2020; November 3, 2020; and June 8, 2021. Meeting topics listed as 'regional infrastructure investment discussions'.", "claimSupported": "Marc Delacroix met with Viktor Mersin on at least three documented occasions", "entityIds": ["person-005", "person-001"], "relationshipIds": ["rel-024"] }
+  {
+    "id": "ev-001",
+    "sourceId": "source-001",
+    "entityIds": ["person-001", "person-002"],
+    "relationshipIds": ["rel-001"],
+    "claim": "Ерөнхийлөгч У.Хүрэлсүх нь Лувсандорж Болорцэцэгтэй гэр бүл болсон.",
+    "quote": "Personal life: Khurelsukh is married to Luvsandorj Bolortsetgeg, a kindergarten teacher.",
+    "pageNumber": "",
+    "notes": "Wikipedia тойм намтарт агуулагдсан. Олон нийтийн таниулах чиглэлийн сурвалжлагаар баталгаажсан."
+  },
+  {
+    "id": "ev-002",
+    "sourceId": "source-002",
+    "entityIds": ["person-003", "person-004"],
+    "relationshipIds": ["rel-002"],
+    "claim": "Л.Оюун-Эрдэнэ нь Болдын Туултай гэр бүл болсон бөгөөд гурван хүүхэд байна.",
+    "quote": "Personal life: Oyun-Erdene is married to Bold Tuul; they have three children together.",
+    "pageNumber": "",
+    "notes": "Wikipedia тойм намтар."
+  },
+  {
+    "id": "ev-003",
+    "sourceId": "source-004",
+    "entityIds": ["person-003", "person-005"],
+    "relationshipIds": ["rel-003"],
+    "claim": "Оюун-Эрдэнэгийн хүүгийн тансаг хэрэглээний постуудын улмаас нийтийн эсэргүүцэл дэгдсэн.",
+    "quote": "Anger at Prime Minister Luvsannamsrain Oyun-Erdene stemmed in part from social media posts by his son showing an extravagant lifestyle at odds with the country's struggling families.",
+    "pageNumber": "",
+    "notes": "AP News 2025 оны 5 дугаар сарын 22-ны мэдээ."
+  },
+  {
+    "id": "ev-004",
+    "sourceId": "source-005",
+    "entityIds": ["person-003", "person-005"],
+    "relationshipIds": ["rel-003"],
+    "claim": "59,000 гаруй иргэн Ерөнхий сайдын огцролыг шаарддаг онлайн нэхэмжлэлд гарын үсэг зурсан.",
+    "quote": "More than 59,000 people have signed a petition calling for the prime minister to resign.",
+    "pageNumber": "",
+    "notes": "The Guardian 2025 оны 5 дугаар сарын 27-ны мэдээ."
+  },
+  {
+    "id": "ev-005",
+    "sourceId": "source-008",
+    "entityIds": ["person-001", "person-008"],
+    "relationshipIds": ["rel-004"],
+    "claim": "Ерөнхийлөгч Хүрэлсүх 2021 оны 6 дугаар сарын 25-нд Ж.Энхбаярыг ҮАБЗөвлөлийн нарийн бичгийн даргаар томилсон.",
+    "quote": "President Khurelsukh signed a decree appointing D.Enkh-Amgalan as Chief of Staff and J.Enkhbayar as Secretary of the National Security Council.",
+    "pageNumber": "",
+    "notes": "Ерөнхийлөгчийн Тамгын газрын албан ёсны зарлал."
+  },
+  {
+    "id": "ev-006",
+    "sourceId": "source-001",
+    "entityIds": ["person-001", "org-001"],
+    "relationshipIds": ["rel-005"],
+    "claim": "У.Хүрэлсүх МАН-ын дарга байсан бөгөөд Ерөнхийлөгч болсны дараа гишүүнчлэлийг зогсоосон.",
+    "quote": "He has been a member of the Mongolian People's Party (MPP), serving as party chairman 2017–2021, before assuming the presidency.",
+    "pageNumber": "",
+    "notes": "Wikipedia — намын дарга байсан хугацааг баталгаажуулсан."
+  },
+  {
+    "id": "ev-007",
+    "sourceId": "source-002",
+    "entityIds": ["person-003", "org-001"],
+    "relationshipIds": ["rel-006"],
+    "claim": "Л.Оюун-Эрдэнэ 2021–2025 онд МАН-ын дарга байсан.",
+    "quote": "Oyun-Erdene served as Chairman of the Mongolian People's Party from 2021 to 2025.",
+    "pageNumber": "",
+    "notes": "Wikipedia намтар."
+  },
+  {
+    "id": "ev-008",
+    "sourceId": "source-006",
+    "entityIds": ["person-006", "org-001"],
+    "relationshipIds": ["rel-007"],
+    "claim": "Н.Учрал МАН-ын дарга бөгөөд Ерөнхий сайд юм.",
+    "quote": "The new prime minister, Uchral, who is also MPP chairman, named a cabinet of 18 members.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly 2026-04-03."
+  },
+  {
+    "id": "ev-009",
+    "sourceId": "source-006",
+    "entityIds": ["person-007", "agency-002"],
+    "relationshipIds": ["rel-008"],
+    "claim": "Б.Батцэцэг 2021 оноос одоо хүртэл Гадаад харилцааны сайдын үүрэгт ажиллаж байна.",
+    "quote": "Battsetseg has retained the foreign affairs portfolio across three successive governments.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly — Учралын кабинетийн тухай."
+  },
+  {
+    "id": "ev-010",
+    "sourceId": "source-006",
+    "entityIds": ["person-009", "agency-002"],
+    "relationshipIds": ["rel-009"],
+    "claim": "Г.Дамдинням 2025 оны 6 дугаар сарын 18-аас Уул уурхайн сайдаар ажиллаж байна.",
+    "quote": "G. Damdinjav was appointed Minister of Mining on 18 June 2025.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly — кабинетийн жагсаалт."
+  },
+  {
+    "id": "ev-011",
+    "sourceId": "source-009",
+    "entityIds": ["person-010", "agency-003"],
+    "relationshipIds": ["rel-010"],
+    "claim": "С.Бямбацогт МАН-аас 2024 оноос УИХ-ын даргаар ажиллаж байна.",
+    "quote": "S. Byambatsogt (MPP) serves as Speaker of the State Great Khural.",
+    "pageNumber": "",
+    "notes": "Wikipedia — Монгол Улсын улс төрийн тойм."
+  },
+  {
+    "id": "ev-012",
+    "sourceId": "source-001",
+    "entityIds": ["person-001", "agency-002"],
+    "relationshipIds": ["rel-011"],
+    "claim": "У.Хүрэлсүх 2017–2021 онд Ерөнхий сайдаар ажилласан.",
+    "quote": "He served as Prime Minister of Mongolia from October 4, 2017, to January 27, 2021.",
+    "pageNumber": "",
+    "notes": "Wikipedia тойм намтар — Ерөнхий сайдын хугацааг баталгаажуулсан."
+  },
+  {
+    "id": "ev-013",
+    "sourceId": "source-003",
+    "entityIds": ["person-003", "agency-002"],
+    "relationshipIds": ["rel-012"],
+    "claim": "Л.Оюун-Эрдэнэ 2025 оны 6 дугаар сарын 3-нд итгэлцлийн санал хуралд унаж огцорсон.",
+    "quote": "Mongolia's prime minister has resigned after losing a vote of confidence in parliament.",
+    "pageNumber": "",
+    "notes": "BBC 2025-06-03. Гол сурвалж."
+  },
+  {
+    "id": "ev-014",
+    "sourceId": "source-006",
+    "entityIds": ["person-006", "agency-002"],
+    "relationshipIds": ["rel-013"],
+    "claim": "Н.Учрал 2026 оны 3 дугаар сарын 30-нд Ерөнхий сайдаар томилогдсон.",
+    "quote": "New Prime Minister Uchral was confirmed on 30 March 2026.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly — шинэ ЕС-ын тухай."
+  },
+  {
+    "id": "ev-015",
+    "sourceId": "source-001",
+    "entityIds": ["person-001", "agency-001"],
+    "relationshipIds": ["rel-014"],
+    "claim": "У.Хүрэлсүх 2021 оны 6 дугаар сарын 25-аас Ерөнхийлөгчийн үүрэг хүлээж байна.",
+    "quote": "Khurelsukh won the 2021 presidential election with 68% of the vote and assumed office on June 25, 2021.",
+    "pageNumber": "",
+    "notes": "Wikipedia тойм намтар."
+  },
+  {
+    "id": "ev-016",
+    "sourceId": "source-013",
+    "entityIds": ["person-001", "person-003", "person-012"],
+    "relationshipIds": ["rel-015"],
+    "claim": "2025 оны 10 дугаар сарын байдлаар Ерөнхийлөгч Хүрэлсүх Занданшатарыг огцруулах санал хурааны эсрэг вэто тавьснаар МАН-ын удирдагчид хоорондоо зөрчилдөж байгаа нь харагдсан.",
+    "quote": "Mongolia's president has vetoed a parliamentary motion to remove the prime minister, exposing rifts within the ruling MPP.",
+    "pageNumber": "",
+    "notes": "Al Jazeera 2025-10-20 — улс төрийн зөрчилдөөнийг баталгаажуулсан."
+  },
+  {
+    "id": "ev-017",
+    "sourceId": "source-011",
+    "entityIds": ["person-003", "company-001"],
+    "relationshipIds": ["rel-016"],
+    "claim": "Ерөнхий сайд Оюун-Эрдэнэ 2022 оны 12 дугаар сарын эсэргүүцлийн дараа ЭТТ-ийг нийтийн компани болгох шийдвэр гаргасан.",
+    "quote": "Prime Minister Oyun-Erdene announced plans to convert state miner Erdenes Tavan Tolgoi JSC into a public company following protests over coal theft.",
+    "pageNumber": "",
+    "notes": "Reuters 2022-12-13."
+  },
+  {
+    "id": "ev-018",
+    "sourceId": "source-006",
+    "entityIds": ["person-009", "company-001"],
+    "relationshipIds": ["rel-017"],
+    "claim": "Уул уурхайн сайд Г.Дамдинням Эрдэнэс Тавантолгой ХК-ийг хариуцдаг.",
+    "quote": "The minister of mining has oversight of all state-owned mining enterprises including Erdenes Tavan Tolgoi.",
+    "pageNumber": "",
+    "notes": "Байгууллагын бүтцийн тухай."
+  },
+  {
+    "id": "ev-019",
+    "sourceId": "source-003",
+    "entityIds": ["person-012", "agency-002"],
+    "relationshipIds": ["rel-018"],
+    "claim": "Г.Занданшатар 2025 оны 6 дугаар сарын 13-нд Ерөнхий сайдаар томилогдсон.",
+    "quote": "Parliament approved Gombojav Zandanshatar as the new prime minister following Oyun-Erdene's resignation.",
+    "pageNumber": "",
+    "notes": "BBC болон AP мэдээнд орсон."
+  },
+  {
+    "id": "ev-020",
+    "sourceId": "source-006",
+    "entityIds": ["person-008", "org-001"],
+    "relationshipIds": ["rel-019"],
+    "claim": "Ж.Энхбаяр МАН-ын гишүүн юм.",
+    "quote": "MPP official J.Enkhbayar has served in senior government roles since 2021.",
+    "pageNumber": "",
+    "notes": "Монгол Улсын Засгийн газрын намтрын мэдэгдлүүд."
+  },
+  {
+    "id": "ev-021",
+    "sourceId": "source-006",
+    "entityIds": ["person-013", "agency-002"],
+    "relationshipIds": ["rel-020"],
+    "claim": "З.Мэндсайхан 2026 оны 4 дүгээр сарын 4-нд Сангийн сайдаар томилогдсон.",
+    "quote": "Z.Mendsaikhan was appointed as the new Finance Minister on 4 April 2026.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly — Учралын кабинетийн тухай."
+  },
+  {
+    "id": "ev-022",
+    "sourceId": "source-001",
+    "entityIds": ["person-011", "agency-002"],
+    "relationshipIds": ["rel-021"],
+    "claim": "Ж.Эрдэнэбат 2016–2017 онд Ерөнхий сайдаар ажилласан.",
+    "quote": "Jargaltulgyn Erdenebat served as Prime Minister from July 2016 until October 2017, when he was removed in a vote of no confidence.",
+    "pageNumber": "",
+    "notes": "Wikipedia тойм."
+  },
+  {
+    "id": "ev-023",
+    "sourceId": "source-006",
+    "entityIds": ["person-007", "org-001"],
+    "relationshipIds": ["rel-022"],
+    "claim": "Б.Батцэцэг МАН-ын гишүүн юм.",
+    "quote": "Battsetseg is an MPP politician who has served as Foreign Minister since 2021.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly болон Wikipedia."
+  },
+  {
+    "id": "ev-024",
+    "sourceId": "source-009",
+    "entityIds": ["person-010", "org-001"],
+    "relationshipIds": ["rel-023"],
+    "claim": "С.Бямбацогт МАН-ын гишүүн юм.",
+    "quote": "The MPP holds the majority in parliament after the 2024 elections.",
+    "pageNumber": "",
+    "notes": "Wikipedia — улс төрийн тойм."
+  },
+  {
+    "id": "ev-025",
+    "sourceId": "source-003",
+    "entityIds": ["person-012", "org-001"],
+    "relationshipIds": ["rel-024"],
+    "claim": "Г.Занданшатар МАН-ын гишүүн юм.",
+    "quote": "Zandanshatar is an MPP heavyweight who was nominated as PM by the party leadership.",
+    "pageNumber": "",
+    "notes": "BBC болон AP мэдээ."
+  }
 ]

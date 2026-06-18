@@ -1,60 +1,32 @@
 [
   {
     "id": "inv-001",
-    "title": "The AquaPure Network: How Water Contracts Flow Through Connected Interests",
-    "summary": "An investigation tracing the documented connections between the Ministry of Infrastructure, AquaPure Holdings, and individuals connected to former Infrastructure Minister Viktor Mersin. The investigation maps a chain of relationships linking a political figure, a family member, and an investment firm to the primary beneficiary of a 320 million government contract.",
-    "content": "## The AquaPure Network\n\nIn March 2021, the Ministry of Infrastructure awarded Contract #2021-047 to AquaPure Holdings — a 320 million contract for the Lake Varna Water Treatment Project.\n\nThe contract was approved under Viktor Mersin, who served as Minister of Infrastructure from January 2019 to December 2022. Mersin's sister, Elena Korchova, sits on AquaPure Holdings' board of directors. Korchova is also a shareholder in Meridian Capital Partners, which holds a 25% stake in AquaPure Holdings.\n\nIn November 2021, Mersin's election campaign received a 150,000 donation from entities described in electoral filings as 'Meridian Capital-affiliated.'\n\nThe National Procurement Commission opened a formal review of Contract #2021-047 in September 2022, citing procedural concerns about the award process.\n\n**What the evidence shows:**\n- Viktor Mersin was the minister who authorized AquaPure's contract\n- His sister holds a board seat at AquaPure and a stake in its principal investor\n- His campaign received donations from that investor's affiliates\n- The contract award is now under formal review\n\n**What the evidence does not show:**\n- No evidence has been found that Mersin personally directed the contract award\n- No evidence of payment or benefit flowing directly from AquaPure to Mersin\n- The review is procedural and has not resulted in findings of wrongdoing\n\nThis platform presents documented connections. Readers should draw their own conclusions.",
-    "keyFindings": [
-      "Viktor Mersin's sister Elena Korchova holds a board seat at AquaPure Holdings",
-      "Korchova is a shareholder in Meridian Capital Partners, which holds 25% of AquaPure Holdings",
-      "Mersin's campaign received 150,000 from Meridian Capital-affiliated entities in 2021",
-      "Mersin authorized AquaPure's 320 million government contract in 2021",
-      "The National Procurement Commission opened a formal review of this contract in 2022"
-    ],
-    "entityIds": ["person-001", "person-002", "company-002", "company-003", "agency-001", "agency-002", "contract-001", "project-001", "donation-001"],
-    "relationshipIds": ["rel-002", "rel-003", "rel-005", "rel-007", "rel-013", "rel-014", "rel-018", "rel-019", "rel-020"],
-    "sourceIds": ["source-001", "source-002", "source-006", "source-007", "source-013", "source-015"],
-    "relatedInvestigationIds": ["inv-002", "inv-003"],
-    "tags": ["procurement", "conflict-of-interest", "water", "contracts"],
-    "createdAt": "2024-03-01T08:00:00Z",
-    "updatedAt": "2024-06-01T12:00:00Z"
+    "title": "2025 оны залуучуудын эсэргүүцэл: Ерөнхий сайдын огцрол",
+    "slug": "2025-protests-pm-resignation",
+    "description": "2025 оны 5 дугаар сарын сүүлч, 6 дугаар сарын эхэнд хийгдсэн нийтийн эсэргүүцэл. Тэмүүлэн Оюун-Эрдэнэ — ЕС-ын хүүгийн нийгмийн сүлжээн дэх тансаг хэрэглээг дэлгэсэн постуудаас дэгдсэн эсэргүүцэл. 59,000 гаруй иргэн гарын үсэг зурсан нэхэмжлэлд дэмжлэг үзүүлж, УИХ 2025 оны 6 дугаар сарын 3-нд итгэлцлийн санал хурааг зарласан. Ерөнхий сайд Оюун-Эрдэнэ итгэлцлийн санал хуурайд унаснаар огцорсон. Иргэдийн шударга ёсны өсөн нэмэгдэж буй шаардлага болон удирдах давхаргын тансаглалын эсрэг олон нийтийн хариу үйлдлийн тод жишээ болсон.",
+    "status": "completed",
+    "startDate": "2025-05-22",
+    "endDate": "2025-06-13",
+    "entityIds": ["person-003", "person-005", "person-012", "org-001"],
+    "relationshipIds": ["rel-003", "rel-012", "rel-018"],
+    "sourceIds": ["source-003", "source-004", "source-005"],
+    "tags": ["protests", "corruption", "PM", "2025", "resignation"],
+    "createdAt": "2025-06-10T00:00:00Z",
+    "updatedAt": "2025-06-15T00:00:00Z"
   },
   {
     "id": "inv-002",
-    "title": "Emergency Clause: The Highway Contract That Bypassed Competition",
-    "summary": "An examination of how NordBuild Construction Ltd received a 520 million highway contract in 2019 without competitive bidding, through an emergency procurement clause invoked by the Ministry of Infrastructure. NordBuild's CEO is Elena Korchova — the sister of the then-Minister of Infrastructure.",
-    "content": "## Emergency Clause\n\nIn September 2019, the Ministry of Infrastructure awarded Contract #2019-112 to NordBuild Construction Ltd for the Northern Highway Expansion. The contract, valued at 520 million, was awarded under an emergency procurement clause — meaning NordBuild was the only company to bid.\n\nAt the time, the Minister of Infrastructure was Viktor Mersin. The CEO of NordBuild is Elena Korchova, who is Viktor Mersin's sister.\n\nThe Parliamentary Budget Office, in its 2020 review, confirmed that the emergency designation was used but did not make a finding on whether its use was appropriate.\n\n**Key documented facts:**\n- Contract #2019-112 was awarded to NordBuild without competitive bidding\n- Viktor Mersin was Minister of Infrastructure when the contract was awarded\n- Elena Korchova, Mersin's sister, is NordBuild's CEO\n- The Parliamentary Budget Office confirmed the emergency designation in 2020\n\n**What this investigation cannot determine:**\n- Whether the emergency designation was justified on technical grounds\n- Whether Mersin was personally involved in the contract decision\n- Whether NordBuild's performance on the contract has been satisfactory",
-    "keyFindings": [
-      "NordBuild Construction Ltd received Contract #2019-112 without competitive bidding in 2019",
-      "The contract was awarded under an emergency procurement clause",
-      "NordBuild CEO Elena Korchova is the sister of then-Infrastructure Minister Viktor Mersin",
-      "The Parliamentary Budget Office confirmed the emergency designation in its 2020 review"
-    ],
-    "entityIds": ["person-001", "person-002", "company-001", "agency-001", "contract-002", "project-002"],
-    "relationshipIds": ["rel-002", "rel-003", "rel-012", "rel-016"],
-    "sourceIds": ["source-001", "source-002", "source-005", "source-011"],
-    "relatedInvestigationIds": ["inv-001"],
-    "tags": ["procurement", "construction", "highway", "emergency-clause"],
-    "createdAt": "2024-03-15T08:00:00Z",
-    "updatedAt": "2024-05-10T10:00:00Z"
-  },
-  {
-    "id": "inv-003",
-    "title": "The Diplomat's Role: Marc Delacroix and the AquaPure Connection",
-    "summary": "A disputed account of French diplomat Marc Delacroix's reported relationship with AquaPure Holdings and his documented meetings with Viktor Mersin. The Northland Tribune reported Delacroix advised AquaPure on international financing; AquaPure disputes the characterization.",
-    "content": "## The Diplomat's Role\n\nThe Northland Tribune reported in April 2023 that French diplomat Marc Delacroix had advised AquaPure Holdings on international financing arrangements. AquaPure Holdings disputed this characterization, describing Delacroix as a 'consultant engaged on a limited basis.'\n\nWhat is documented: Ministry of Foreign Affairs visitor logs, released under a freedom of information request, confirm that Delacroix met with Infrastructure Minister Viktor Mersin on three occasions between April 2020 and June 2021. The logs describe the meetings as 'regional infrastructure investment discussions.'\n\nThe combination of Delacroix's reported relationship with AquaPure and his documented meetings with the minister responsible for awarding AquaPure's government contract has raised questions that remain unresolved.\n\n**Documented:**\n- Delacroix met with Mersin on April 14, 2020; November 3, 2020; and June 8, 2021\n- The Northland Tribune reported Delacroix advised AquaPure Holdings\n- AquaPure Holdings disputes the characterization of his role\n\n**Not documented:**\n- The content of the meetings with Mersin\n- Any direct link between Delacroix and the contract award\n- Any financial relationship between Delacroix and AquaPure or Mersin",
-    "keyFindings": [
-      "Marc Delacroix met with Viktor Mersin three times between April 2020 and June 2021",
-      "Meetings were documented in Ministry of Foreign Affairs visitor logs as 'regional infrastructure investment discussions'",
-      "The Northland Tribune reported Delacroix advised AquaPure Holdings on international financing",
-      "AquaPure Holdings disputes the characterization of Delacroix's role"
-    ],
-    "entityIds": ["person-005", "person-001", "company-002"],
-    "relationshipIds": ["rel-023", "rel-024"],
-    "sourceIds": ["source-009", "source-014"],
-    "relatedInvestigationIds": ["inv-001"],
-    "tags": ["diplomacy", "disputed", "international", "aquapure"],
-    "createdAt": "2024-04-01T08:00:00Z",
-    "updatedAt": "2024-05-15T10:00:00Z"
+    "title": "Эрдэнэс Тавантолгой ХК: Нүүрсний хулгайн хэрэг",
+    "slug": "erdenes-tavan-tolgoi-coal-theft",
+    "description": "Монгол Улсын Говь нутаг дахь дэлхийн хамгийн том нүүрсний ордыг ашиглах эрхтэй Эрдэнэс Тавантолгой ХК-д авлига газар авсан тухай. 2022 оны 12 дугаар сард хүйтний улиралд нийтийн эсэргүүцэл дэгдэж, нүүрс гадаадад хулгайгаар гарч байгааг илчилсэн — жилд 1 сая тонн гэсэн тооцоо байсан. 2023 оны 1 дүгээр сарын байдлаар 30 гаруй гүйцэтгэх захирал болон ахлах ажилтан шамшигдуулалтын хэрэгт шалгагдсан. Ерөнхий сайд Оюун-Эрдэнэ 2022 оны 12 дугаар сарын 13-нд 6 сарын мөрдөн байцаалт явуулах, компанийг нийтийн компани болгохоор тушаасан. ЭТТ-ийн авлига нь улс орны нөөцийг удирдах засаглалын асуудлыг тодруулсан мэтгэлцээний гол сэдэв болж байна.",
+    "status": "ongoing",
+    "startDate": "2022-12-08",
+    "endDate": "",
+    "entityIds": ["company-001", "person-003", "person-009"],
+    "relationshipIds": ["rel-016", "rel-017"],
+    "sourceIds": ["source-010", "source-011"],
+    "tags": ["corruption", "mining", "coal", "ETT", "embezzlement"],
+    "createdAt": "2023-01-10T00:00:00Z",
+    "updatedAt": "2026-06-18T00:00:00Z"
   }
 ]
