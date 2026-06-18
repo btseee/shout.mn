@@ -4,6 +4,7 @@ import { useNavigate } from '@tanstack/react-router'
 import { useSearch } from '@/search/useSearch.ts'
 import { EntityTypeBadge } from '@/components/common/Badge.tsx'
 import { useEntities } from '@/data/hooks.ts'
+import { t } from '@/i18n/index.ts'
 
 interface SearchBarProps {
   placeholder?: string
@@ -11,7 +12,7 @@ interface SearchBarProps {
   onResultSelect?: () => void
 }
 
-export function SearchBar({ placeholder = 'Субьект, харилцаа, эх сурвалж хайх...', autoFocus = false, onResultSelect }: SearchBarProps) {
+export function SearchBar({ placeholder = t.search.placeholder, autoFocus = false, onResultSelect }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [open, setOpen] = useState(false)
   const navigate = useNavigate()
@@ -82,7 +83,7 @@ export function SearchBar({ placeholder = 'Субьект, харилцаа, э�
           <button
             onClick={() => { setQuery(''); setOpen(false) }}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            aria-label="Хайлт цэврэх"
+            aria-label={t.search.clearLabel}
           >
             <X size={14} />
           </button>
@@ -101,7 +102,7 @@ export function SearchBar({ placeholder = 'Субьект, харилцаа, э�
           {results.entities.length > 0 && (
             <div>
               <div className="px-3 py-1.5 text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider bg-slate-50 dark:bg-slate-800/50">
-                Субьектүүд
+                {t.search.dropdownSection}
               </div>
               {results.entities.slice(0, 5).map((r) => {
                 const entity = entityMap.get(r.id)

@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { AlertCircle } from 'lucide-react'
+import { t } from '@/i18n/index.ts'
 
 interface EmptyStateProps {
   icon?: ReactNode
@@ -27,8 +28,8 @@ export function ErrorState({ message }: { message?: string }) {
   return (
     <EmptyState
       icon={<AlertCircle size={48} className="text-red-400" />}
-      title="Алдаа гарлаа"
-      description={message ?? 'Өгөгдөл ачаалахад амжилтгүй боллоо. Дахин оролдоно уу.'}
+      title={t.common.errorTitle}
+      description={message ?? t.common.errorDesc}
     />
   )
 }

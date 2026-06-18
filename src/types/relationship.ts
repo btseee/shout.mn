@@ -8,6 +8,8 @@ export type RelationshipType =
   | 'donation'
   | 'appointment'
   | 'family'
+  | 'friendship'
+  | 'colleague'
   | 'organizational_link'
   | 'investment'
   | 'partnership'
@@ -54,6 +56,8 @@ export const RELATIONSHIP_TYPE_LABELS: Record<string, string> = {
   donation: 'Хандив',
   appointment: 'Томилгоо',
   family: 'Гэр бүлийн холбоо',
+  friendship: 'Найрсаг холбоо',
+  colleague: 'Хамтран ажилладаг',
   organizational_link: 'Байгууллагын холбоо',
   investment: 'Хөрөнгө оруулалт',
   partnership: 'Партнершип',

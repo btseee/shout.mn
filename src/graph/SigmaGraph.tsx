@@ -3,6 +3,8 @@ import Sigma from 'sigma'
 import type Graph from 'graphology'
 import { useSelectionStore } from '@/store/selection.ts'
 import { useFiltersStore } from '@/store/filters.ts'
+import { t } from '@/i18n/index.ts'
+import type { EntityType } from '@/types/entity.ts'
 
 interface SigmaGraphProps {
   graph: Graph
@@ -31,7 +33,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         const filt = useFiltersStore.getState()
 
         // Filter by entity type
-        if (filt.entityTypes.length > 0 && !filt.entityTypes.includes(data.entityType as string)) {
+        if (filt.entityTypes.length > 0 && !filt.entityTypes.includes(data.entityType as unknown as EntityType)) {
           return { ...data, hidden: true }
         }
 
@@ -140,7 +142,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       ref={containerRef}
       className={`sigma-container ${className}`}
       role="img"
-      aria-label="Харилцааны граф. Зангилаа сонгосны дараа гарыг дусгар гаръдах товчлуури ашиглана уу."
+      aria-label={t.graph.ariaLabel}
     />
   )
 }

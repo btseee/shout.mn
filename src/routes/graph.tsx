@@ -1,6 +1,5 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { GraphPage } from '@/pages/GraphPage.tsx'
+import { createFileRoute, Navigate } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/graph')({
-  component: GraphPage,
+  component: () => <Navigate to="/" replace />,
 })

@@ -1,10 +1,10 @@
-import { Link } from '@tanstack/react-router'
-import { ExternalLink, Network } from 'lucide-react'
+import { Network } from 'lucide-react'
 import type { Entity } from '@/types/entity.ts'
 import type { Relationship } from '@/types/relationship.ts'
 import { EntityTypeBadge, StatusBadge, ConfidenceBadge } from '@/components/common/Badge.tsx'
 import { RELATIONSHIP_TYPE_LABELS } from '@/types/relationship.ts'
 import { formatDateRange } from '@/utils/format.ts'
+import { t } from '@/i18n/index.ts'
 
 interface NodePanelProps {
   entity: Entity
@@ -13,7 +13,7 @@ interface NodePanelProps {
   onClose: () => void
 }
 
-export function NodePanel({ entity, relationships, entities, onClose }: NodePanelProps) {
+export function NodePanel({ entity, relationships, entities }: NodePanelProps) {
   const entityMap = new Map(entities.map((e) => [e.id, e]))
   const connected = relationships.filter(
     (r) => r.sourceEntityId === entity.id || r.targetEntityId === entity.id,
@@ -29,58 +29,39 @@ export function NodePanel({ entity, relationships, entities, onClose }: NodePane
         <h3 className="text-lg font-bold text-slate-900 dark:text-white">{entity.name}</h3>
         {entity.aliases.length > 0 && (
           <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">
-            Мөн нэрлэгддэг: {entity.aliases.join(', ')}
+            {t.panel.alsoKnownAs} {entity.aliases.join(', ')}
           </p>
         )}
-        <p className="text-sm text-slate-600 dark:text-slate-300 mt-2 line-clamp-3">
+        <p className="text-sm text-slate-600 dark:text-slate-300 mt-2 line-clamp-4">
           {entity.description}
         </p>
       </div>
 
       <div>
         <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-          {connected.length} Холбоо{connected.length !== 1 ? 'с' : ''}
+          {t.panel.connections(connected.length)}
         </p>
         <div className="space-y-2">
-          {connected.slice(0, 5).map((rel) => {
-            const otherId =
-              rel.sourceEntityId === entity.id ? rel.targetEntityId : rel.sourceEntityId
+          {connected.slice(0, 6).map((rel) => {
+            const otherId = rel.sourceEntityId === entity.id ? rel.targetEntityId : rel.sourceEntityId
             const other = entityMap.get(otherId)
             if (!other) return null
             return (
-              <div
-                key={rel.id}
-                className="flex items-start gap-2 p-2 rounded-lg bg-slate-50 dark:bg-slate-800/50"
-              >
-                <div className="min-w-0 flex-1">
-                  <p className="text-sm font-medium text-slate-900 dark:text-white truncate">
-                    {other.name}
-                  </p>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">
-                    {RELATIONSHIP_TYPE_LABELS[rel.relationshipType] ?? rel.relationshipType}
-                  </p>
-                  <StatusBadge status={rel.status} />
-                </div>
+              <div key={rel.id} className="p-2 rounded-lg bg-slate-50 dark:bg-slate-800/50">
+                <p className="text-sm font-medium text-slate-900 dark:text-white truncate">{other.name}</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {RELATIONSHIP_TYPE_LABELS[rel.relationshipType] ?? rel.relationshipType}
+                </p>
+                <StatusBadge status={rel.status} />
               </div>
             )
           })}
-          {connected.length > 5 && (
+          {connected.length > 6 && (
             <p className="text-xs text-slate-400 dark:text-slate-500 text-center">
-              +{connected.length - 5} даха байна
+              {t.panel.more(connected.length - 6)}
             </p>
           )}
         </div>
-      </div>
-
-      <div className="flex gap-2 pt-2">
-        <Link
-          to="/entity/$id"
-          params={{ id: entity.id }}
-          onClick={onClose}
-          className="flex-1 text-center text-sm font-medium px-3 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-lg transition-colors"
-        >
-          Бүрэн профайл харах
-        </Link>
       </div>
     </div>
   )
@@ -93,7 +74,7 @@ interface EdgePanelProps {
   onClose: () => void
 }
 
-export function EdgePanel({ relationship, sourceEntity, targetEntity, onClose }: EdgePanelProps) {
+export function EdgePanel({ relationship, sourceEntity, targetEntity }: EdgePanelProps) {
   return (
     <div className="space-y-4">
       <div>
@@ -122,25 +103,13 @@ export function EdgePanel({ relationship, sourceEntity, targetEntity, onClose }:
       {(relationship.startDate || relationship.endDate) && (
         <div>
           <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">
-            Хугацаа
+            {t.panel.period}
           </p>
           <p className="text-sm text-slate-700 dark:text-slate-200">
             {formatDateRange(relationship.startDate, relationship.endDate)}
           </p>
         </div>
       )}
-
-      <div className="flex gap-2 pt-2">
-        <Link
-          to="/relationship/$id"
-          params={{ id: relationship.id }}
-          onClick={onClose}
-          className="flex-1 text-center text-sm font-medium px-3 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-lg transition-colors flex items-center justify-center gap-1.5"
-        >
-          <ExternalLink size={14} />
-          Харилцаа харах
-        </Link>
-      </div>
     </div>
   )
 }

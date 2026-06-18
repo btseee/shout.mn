@@ -1,4 +1,5 @@
 import { Loader2 } from 'lucide-react'
+import { t } from '@/i18n/index.ts'
 
 interface LoadingSpinnerProps {
   size?: number
@@ -6,7 +7,7 @@ interface LoadingSpinnerProps {
   label?: string
 }
 
-export function LoadingSpinner({ size = 24, className = '', label = 'Ачаалж байна...' }: LoadingSpinnerProps) {
+export function LoadingSpinner({ size = 24, className = '', label = t.common.loading }: LoadingSpinnerProps) {
   return (
     <div className={`flex items-center justify-center ${className}`} role="status" aria-label={label}>
       <Loader2 size={size} className="animate-spin text-slate-400" />

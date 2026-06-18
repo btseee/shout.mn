@@ -1,6 +1,5 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { EditorialPolicyPage } from '@/pages/EditorialPolicyPage.tsx'
+import { createFileRoute, Navigate } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/editorial-policy')({
-  component: EditorialPolicyPage,
+  component: () => <Navigate to="/" replace />,
 })

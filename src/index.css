@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Class-based dark mode — html.dark triggers all dark: variants */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   /* Entity type colors (accessible palette, no red/green guilt indicators) */
   --color-entity-person: #3b82f6;

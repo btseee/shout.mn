@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { X } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
+import { t } from '@/i18n/index.ts'
 
 interface SidePanelProps {
   open: boolean
@@ -35,7 +36,7 @@ export function SidePanel({ open, onClose, title, children }: SidePanelProps) {
               <button
                 onClick={onClose}
                 className="p-1.5 rounded-md text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-                aria-label="Хаах"
+                aria-label={t.common.closePanel}
               >
                 <X size={18} />
               </button>
