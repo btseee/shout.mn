@@ -25,7 +25,7 @@ export function InvestigationPage() {
   if (isLoading) return <PageLoader />
   if (!investigation) return (
     <PageLayout maxWidth="2xl">
-      <ErrorState message="Investigation not found." />
+      <ErrorState message="Мөрдлөг олдсонгүй." />
     </PageLayout>
   )
 
@@ -60,11 +60,11 @@ export function InvestigationPage() {
             to="/"
             className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-white mb-6 transition-colors"
           >
-            <ArrowLeft size={14} /> Home
+            <ArrowLeft size={14} /> Нүүр хуудас
           </Link>
           <div className="flex items-center gap-2 mb-4">
             <FileText size={18} className="text-rose-400" />
-            <span className="text-sm text-rose-400 font-medium uppercase tracking-wider">Investigation</span>
+            <span className="text-sm text-rose-400 font-medium uppercase tracking-wider">Мөрдлөг</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">{investigation.title}</h1>
           <p className="text-lg text-slate-300 mb-6">{investigation.summary}</p>
@@ -84,7 +84,7 @@ export function InvestigationPage() {
           <div className="lg:col-span-2 space-y-8">
             {/* Key Findings */}
             <div>
-              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Key Findings</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Гол олдворууд</h2>
               <ul className="space-y-2">
                 {investigation.keyFindings.map((finding, i) => (
                   <li key={i} className="flex items-start gap-3 p-3 rounded-lg bg-rose-50 dark:bg-rose-900/20 border border-rose-100 dark:border-rose-900/30">
@@ -99,7 +99,7 @@ export function InvestigationPage() {
 
             {/* Narrative */}
             <div>
-              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">Investigation</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">Мөрдлөг</h2>
               <div className="prose-like space-y-2">
                 {renderContent(investigation.content)}
               </div>
@@ -109,7 +109,7 @@ export function InvestigationPage() {
             {invRelationships.length > 0 && (
               <div>
                 <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">
-                  Key Relationships ({invRelationships.length})
+                  Гол харилцаанууд ({invRelationships.length})
                 </h2>
                 <div className="space-y-3">
                   {invRelationships.map((rel) => {
@@ -151,7 +151,7 @@ export function InvestigationPage() {
             {/* Entities */}
             <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
               <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">
-                Key Entities ({invEntities.length})
+                Гол субьектүүд ({invEntities.length})
               </h3>
               <div className="space-y-2">
                 {invEntities.map((entity) => {
@@ -202,7 +202,7 @@ export function InvestigationPage() {
             {/* Evidence count */}
             <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 text-center">
               <p className="text-2xl font-bold text-slate-900 dark:text-white">{invEvidence.length}</p>
-              <p className="text-xs text-slate-500 dark:text-slate-400">Evidence items</p>
+              <p className="text-xs text-slate-500 dark:text-slate-400">Нотолгооны зүйлүүд</p>
             </div>
           </div>
         </div>

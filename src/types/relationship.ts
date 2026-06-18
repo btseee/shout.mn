@@ -33,10 +33,10 @@ export interface Relationship {
 }
 
 export const RELATIONSHIP_STATUS_LABELS: Record<RelationshipStatus, string> = {
-  confirmed: 'Confirmed',
-  probable: 'Probable',
-  inferred: 'Inferred',
-  disputed: 'Disputed',
+  confirmed: 'Баталгаажсан',
+  probable: 'Магадлалтай',
+  inferred: 'Дүгнэсэн',
+  disputed: 'Маргаантай',
 }
 
 export const RELATIONSHIP_STATUS_COLORS: Record<RelationshipStatus, string> = {
@@ -47,16 +47,16 @@ export const RELATIONSHIP_STATUS_COLORS: Record<RelationshipStatus, string> = {
 }
 
 export const RELATIONSHIP_TYPE_LABELS: Record<string, string> = {
-  ownership: 'Ownership',
-  board_membership: 'Board Membership',
-  employment: 'Employment',
-  procurement_contract: 'Procurement Contract',
-  donation: 'Donation',
-  appointment: 'Appointment',
-  family: 'Family Connection',
-  organizational_link: 'Organizational Link',
-  investment: 'Investment',
-  partnership: 'Partnership',
-  media_coverage: 'Media Coverage',
-  oversight: 'Oversight',
+  ownership: 'Өмчлөл',
+  board_membership: 'Захирлын зөвлөлийн гишүүнчлэл',
+  employment: 'Хөдөлмөр эрхлэлт',
+  procurement_contract: 'Худалдан авалтын гэрээ',
+  donation: 'Хандив',
+  appointment: 'Томилгоо',
+  family: 'Гэр бүлийн холбоо',
+  organizational_link: 'Байгууллагын холбоо',
+  investment: 'Хөрөнгө оруулалт',
+  partnership: 'Партнершип',
+  media_coverage: 'Мэдиа сурвалжлага',
+  oversight: 'Хяналт',
 }

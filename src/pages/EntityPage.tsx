@@ -23,14 +23,14 @@ export function EntityPage() {
   const { data: evidence } = useEvidence()
 
   usePageMeta({
-    title: entity?.name ?? 'Entity',
+    title: entity?.name ?? 'Субьект',
     description: entity?.description,
   })
 
   if (isLoading) return <PageLoader />
   if (!entity) return (
     <PageLayout maxWidth="2xl">
-      <ErrorState message="Entity not found." />
+      <ErrorState message="Субьект олдсонгүй." />
     </PageLayout>
   )
 
@@ -54,7 +54,7 @@ export function EntityPage() {
         to="/graph"
         className="inline-flex items-center gap-1.5 text-sm text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white mb-6 transition-colors"
       >
-        <ArrowLeft size={14} /> Graph
+        <ArrowLeft size={14} /> Граф
       </Link>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -82,24 +82,24 @@ export function EntityPage() {
             </div>
             {entity.aliases.length > 0 && (
               <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-                Also known as: {entity.aliases.join(', ')}
+                Мөн нэрлэгддэг: {entity.aliases.join(', ')}
               </p>
             )}
           </div>
 
           {/* Description */}
           <div>
-            <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Overview</h2>
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Ерөнхий тойм</h2>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">{entity.description}</p>
           </div>
 
           {/* Relationships */}
           <div>
             <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">
-              Relationships ({entityRelationships.length})
+              Харилцаанууд ({entityRelationships.length})
             </h2>
             {entityRelationships.length === 0 ? (
-              <EmptyState title="No relationships" description="No documented relationships for this entity." />
+              <EmptyState title="Харилцаа байхгүй" description="Энэ субьектийн баримтлагдсан харилцаа байхгүй." />
             ) : (
               <div className="space-y-3">
                 {entityRelationships.map((rel) => {
@@ -153,7 +153,7 @@ export function EntityPage() {
           {entityEvidence.length > 0 && (
             <div>
               <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">
-                Evidence ({entityEvidence.length})
+                Нотолгоо ({entityEvidence.length})
               </h2>
               <div className="space-y-3">
                 {entityEvidence.map((ev) => {
@@ -168,7 +168,7 @@ export function EntityPage() {
                           params={{ id: src.id }}
                           className="text-xs text-rose-600 dark:text-rose-400 hover:underline"
                         >
-                          Source: {src.title}
+                          Эх сурвалж: {src.title}
                         </Link>
                       )}
                     </div>
@@ -183,13 +183,13 @@ export function EntityPage() {
         <div className="space-y-6">
           {/* Meta */}
           <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Entity Details</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Субьектийн дэлгэрэнгүй</h3>
             <dl className="space-y-3 text-sm">
-              <MetaItem label="Type" value={ENTITY_TYPE_LABELS[entity.type] ?? entity.type} />
-              <MetaItem label="Importance" value={`${entity.importance}/100`} />
-              <MetaItem label="Confidence" value={`${entity.confidence}%`} />
-              <MetaItem label="Added" value={formatDate(entity.createdAt)} />
-              <MetaItem label="Updated" value={formatDate(entity.updatedAt)} />
+              <MetaItem label="Төрөл" value={ENTITY_TYPE_LABELS[entity.type] ?? entity.type} />
+              <MetaItem label="Ач холбогдол" value={`${entity.importance}/100`} />
+              <MetaItem label="Итгэмжлэл" value={`${entity.confidence}%`} />
+              <MetaItem label="Нэмэгдсэн" value={formatDate(entity.createdAt)} />
+              <MetaItem label="Шинэчлэгдсэн" value={formatDate(entity.updatedAt)} />
             </dl>
 
             {entity.tags.length > 0 && (
@@ -209,7 +209,7 @@ export function EntityPage() {
           {entitySources.length > 0 && (
             <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
               <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">
-                Sources ({entitySources.length})
+                Эх сурвалжууд ({entitySources.length})
               </h3>
               <div className="space-y-2">
                 {entitySources.map((src) => {
@@ -237,7 +237,7 @@ export function EntityPage() {
               to="/graph"
               className="flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-medium rounded-xl hover:bg-slate-700 dark:hover:bg-slate-100 transition-colors text-sm"
             >
-              View in Graph
+              Графт харах
             </Link>
             <div className="flex gap-2">
               <ShareButton />
@@ -246,7 +246,7 @@ export function EntityPage() {
                 className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-xl text-sm font-medium transition-colors"
               >
                 <Download size={14} />
-                Export JSON
+                JSON экспортлох
               </button>
             </div>
           </div>

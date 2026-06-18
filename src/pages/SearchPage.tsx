@@ -23,8 +23,8 @@ export function SearchPage() {
   useState(() => { if (initialQuery) setQuery(initialQuery) })
 
   usePageMeta({
-    title: query ? `Search: "${query}"` : 'Search',
-    description: 'Search entities, relationships, and sources.',
+    title: query ? `Хайлт: "${query}"` : 'Хайлт',
+    description: 'Субьект, харилцаа, эх сурвалж хайх.',
   })
 
   const entityMap = new Map(entities?.map((e) => [e.id, e]) ?? [])
@@ -41,7 +41,7 @@ export function SearchPage() {
 
   return (
     <PageLayout maxWidth="2xl">
-      <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">Search</h1>
+      <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">Хайлт</h1>
 
       {/* Search input */}
       <div className="relative mb-6">
@@ -50,16 +50,16 @@ export function SearchPage() {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search entities, relationships, sources..."
+          placeholder="Субьект, харилцаа, эх сурвалж хайх..."
           autoFocus
           className="w-full pl-9 pr-9 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent"
-          aria-label="Search"
+          aria-label="Хайх"
         />
         {query && (
           <button
             onClick={() => setQuery('')}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
-            aria-label="Clear"
+            aria-label="Цэврэх"
           >
             <X size={16} />
           </button>
@@ -79,10 +79,10 @@ export function SearchPage() {
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
               }`}
             >
-              {f === 'all' ? `All (${totalCount})` :
-               f === 'entity' ? `Entities (${results.entities.length})` :
-               f === 'relationship' ? `Relationships (${results.relationships.length})` :
-               `Sources (${results.sources.length})`}
+              f === 'all' ? `Бүгд (${totalCount})` :
+               f === 'entity' ? `Субьектүүд (${results.entities.length})` :
+               f === 'relationship' ? `Харилцаанууд (${results.relationships.length})` :
+               `Эх сурвалжууд (${results.sources.length})`
             </button>
           ))}
         </div>
@@ -92,14 +92,14 @@ export function SearchPage() {
       {!query && (
         <div className="text-center py-16 text-slate-400 dark:text-slate-500">
           <Search size={48} className="mx-auto mb-4 opacity-30" />
-          <p className="text-lg">Start typing to search</p>
+          <p className="text-lg">Хайлт хийхийн түлчиж эхлэнэ уу</p>
         </div>
       )}
 
       {query && filteredResults.length === 0 && (
         <div className="text-center py-16 text-slate-400 dark:text-slate-500">
-          <p className="text-lg mb-2">No results for "{query}"</p>
-          <p className="text-sm">Try different keywords or browse the graph</p>
+          <p className="text-lg mb-2">"{query}"-д үр дүн олдсонгүй</p>
+          <p className="text-sm">Өөр түлхүүр үг оролдох эсвэл графыг харах</p>
         </div>
       )}
 
@@ -118,7 +118,7 @@ export function SearchPage() {
                   <div className="flex items-center gap-2 mb-1">
                     <span className="font-semibold text-slate-900 dark:text-white">{result.label}</span>
                     {entity && <EntityTypeBadge type={entity.type} />}
-                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Entity</span>
+                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Субьект</span>
                   </div>
                   <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">{result.description}</p>
                 </Link>
@@ -140,7 +140,7 @@ export function SearchPage() {
                     <span className="font-semibold text-slate-900 dark:text-white">
                       {src?.name ?? '?'} → {tgt?.name ?? '?'}
                     </span>
-                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Relationship</span>
+                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Харилцаа</span>
                   </div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">
                     {RELATIONSHIP_TYPE_LABELS[result.label] ?? result.label}
@@ -160,7 +160,7 @@ export function SearchPage() {
                 >
                   <div className="flex items-center gap-2 mb-1">
                     <span className="font-semibold text-slate-900 dark:text-white">{result.label}</span>
-                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Source</span>
+                    <span className="ml-auto text-xs text-slate-400 hidden sm:block">Эх сурвалж</span>
                   </div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">{src?.publisher ?? result.description}</p>
                 </Link>

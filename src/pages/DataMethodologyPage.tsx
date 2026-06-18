@@ -2,7 +2,7 @@ import { PageLayout } from '@/components/layout/PageLayout.tsx'
 import { usePageMeta } from '@/utils/seo.ts'
 
 export function DataMethodologyPage() {
-  usePageMeta({ title: 'Data Methodology', description: 'How shout.mn collects, validates, and presents data.' })
+  usePageMeta({ title: 'Өгөгдөлийн арга зүй', description: 'shout.mn өгөгдөл цуглах, баталгаажуулах ба танилцуулах арга зүй.' })
 
   return (
     <PageLayout maxWidth="2xl">

@@ -4,17 +4,17 @@ import type { EntityType } from '@/types/entity.ts'
 const ENTITY_TYPES = Object.keys(ENTITY_TYPE_LABELS) as EntityType[]
 
 const STATUS_ITEMS = [
-  { label: 'Confirmed', style: 'border-b-2 border-slate-500', desc: 'Solid line' },
-  { label: 'Probable', style: 'border-b-2 border-slate-400 opacity-80', desc: 'Lighter line' },
-  { label: 'Inferred', style: 'border-b-2 border-dashed border-slate-300', desc: 'Dashed' },
-  { label: 'Disputed', style: 'border-b-2 border-dotted border-slate-200', desc: 'Dotted' },
+  { label: 'Баталгаажсан', style: 'border-b-2 border-slate-500', desc: 'Цөмцөг шугам' },
+  { label: 'Магадлалтай', style: 'border-b-2 border-slate-400 opacity-80', desc: 'Хүнгэн шугам' },
+  { label: 'Дүгнэсэн', style: 'border-b-2 border-dashed border-slate-300', desc: 'Тасархай шугам' },
+  { label: 'Маргаантай', style: 'border-b-2 border-dotted border-slate-200', desc: 'Цэгцэлгэсэн шугам' },
 ]
 
 export function GraphLegend() {
   return (
     <div className="absolute bottom-4 left-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-3 z-10 max-w-48">
       <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-        Entities
+        Субьектүүд
       </p>
       <div className="space-y-1 mb-3">
         {ENTITY_TYPES.slice(0, 6).map((type) => (
@@ -31,7 +31,7 @@ export function GraphLegend() {
       </div>
 
       <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-        Relationships
+        Харилцаанууд
       </p>
       <div className="space-y-1.5">
         {STATUS_ITEMS.map((item) => (
@@ -43,7 +43,7 @@ export function GraphLegend() {
       </div>
 
       <p className="text-xs text-slate-400 dark:text-slate-500 mt-2 pt-2 border-t border-slate-100 dark:border-slate-700/50">
-        Node size = importance
+        Зангилааны хэмжээ = ач холбогдол
       </p>
     </div>
   )

@@ -24,7 +24,7 @@ export function SourcePage() {
   if (isLoading) return <PageLoader />
   if (!source) return (
     <PageLayout maxWidth="2xl">
-      <ErrorState message="Source not found." />
+      <ErrorState message="Эх сурвалж олдсонгүй." />
     </PageLayout>
   )
 
@@ -48,7 +48,7 @@ export function SourcePage() {
         <div className="md:col-span-2 space-y-6">
           <div>
             <p className="text-xs font-semibold text-rose-600 dark:text-rose-400 uppercase tracking-wider mb-1">
-              Source
+              Эх сурвалж
             </p>
             <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">{source.title}</h1>
             <p className="text-slate-500 dark:text-slate-400">{source.publisher}</p>
@@ -56,14 +56,14 @@ export function SourcePage() {
 
           {source.url && (
             <ExternalLink href={source.url}>
-              Read original source
+              Анхны эх сурвалжыг унших
             </ExternalLink>
           )}
 
           {source.reliabilityNotes && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-                Reliability Notes
+                Найдвартай байдалын тэмдэглэл
               </h2>
               <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">{source.reliabilityNotes}</p>
             </div>
@@ -73,7 +73,7 @@ export function SourcePage() {
           {sourceEvidence.length > 0 && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
-                Evidence Using This Source ({sourceEvidence.length})
+                Энэ эх сурвалжыг ашигласан нотолгоо ({sourceEvidence.length})
               </h2>
               <div className="space-y-3">
                 {sourceEvidence.map((ev) => (
@@ -90,7 +90,7 @@ export function SourcePage() {
           {referencedEntityIds.length > 0 && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
-                Entities Referenced
+                Дурьдагдсан субьектүүд
               </h2>
               <div className="flex flex-wrap gap-2">
                 {referencedEntityIds.map((eid) => {
@@ -115,7 +115,7 @@ export function SourcePage() {
           {referencedRelIds.length > 0 && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
-                Relationships Referenced
+                Дурьдагдсан харилцаанууд
               </h2>
               <div className="space-y-2">
                 {referencedRelIds.map((rid) => {
@@ -141,12 +141,12 @@ export function SourcePage() {
 
         <div className="space-y-4">
           <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Source Details</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Эх сурвалжийн дэлгэрэнгүй</h3>
             <dl className="space-y-3 text-sm">
-              <MetaItem label="Publisher" value={source.publisher} />
-              {source.publishedAt && <MetaItem label="Published" value={formatDate(source.publishedAt)} />}
-              {source.retrievedAt && <MetaItem label="Retrieved" value={formatDate(source.retrievedAt)} />}
-              <MetaItem label="Evidence" value={`${sourceEvidence.length} items`} />
+              <MetaItem label="Нийтлэгч" value={source.publisher} />
+              {source.publishedAt && <MetaItem label="Нийтлэгдсэн" value={formatDate(source.publishedAt)} />}
+              {source.retrievedAt && <MetaItem label="Олдсон" value={formatDate(source.retrievedAt)} />}
+              <MetaItem label="Нотолгоо" value={`${sourceEvidence.length} зүйл`} />
             </dl>
           </div>
           <ShareButton />

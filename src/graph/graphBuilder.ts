@@ -26,7 +26,7 @@ export function buildGraph(
       label: entity.name,
       color,
       size,
-      type: entity.type,
+      entityType: entity.type,
       importance: entity.importance,
       confidence: entity.confidence,
     })

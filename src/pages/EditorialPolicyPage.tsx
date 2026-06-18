@@ -3,13 +3,13 @@ import { usePageMeta } from '@/utils/seo.ts'
 import { Shield } from 'lucide-react'
 
 export function EditorialPolicyPage() {
-  usePageMeta({ title: 'Editorial Policy', description: 'Editorial standards and policies for shout.mn.' })
+  usePageMeta({ title: 'Редакцийн бодлого', description: 'shout.mn-ийн редакцийн стандарт ба бодлого.' })
 
   return (
     <PageLayout maxWidth="2xl">
       <div className="flex items-center gap-2 mb-8">
         <Shield size={20} className="text-rose-600" />
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Editorial Policy</h1>
+        <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Редакцийн бодлого</h1>
       </div>
 
       <div className="space-y-8 text-slate-600 dark:text-slate-300">

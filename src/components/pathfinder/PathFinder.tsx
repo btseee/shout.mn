@@ -56,14 +56,14 @@ export function PathFinder({ graph, entities, relationships }: PathFinderProps) 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div>
           <label className="block text-xs font-medium text-slate-500 dark:text-slate-400 mb-1">
-            From entity
+            Субьектээс
           </label>
           <select
             value={sourceId}
             onChange={(e) => setSourceId(e.target.value)}
             className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-rose-500"
           >
-            <option value="">Select entity...</option>
+            <option value="">Субьект сонгох...</option>
             {entities.map((e) => (
               <option key={e.id} value={e.id}>{e.name}</option>
             ))}
@@ -71,14 +71,14 @@ export function PathFinder({ graph, entities, relationships }: PathFinderProps) 
         </div>
         <div>
           <label className="block text-xs font-medium text-slate-500 dark:text-slate-400 mb-1">
-            To entity
+            Субьект рүү
           </label>
           <select
             value={targetId}
             onChange={(e) => setTargetId(e.target.value)}
             className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-rose-500"
           >
-            <option value="">Select entity...</option>
+            <option value="">Субьект сонгох...</option>
             {entities.map((e) => (
               <option key={e.id} value={e.id}>{e.name}</option>
             ))}
@@ -92,14 +92,14 @@ export function PathFinder({ graph, entities, relationships }: PathFinderProps) 
           disabled={!sourceId || !targetId}
           className="flex-1 py-2 px-4 bg-rose-600 hover:bg-rose-700 disabled:bg-slate-200 dark:disabled:bg-slate-700 disabled:text-slate-400 text-white font-medium rounded-lg text-sm transition-colors"
         >
-          Find Connection
+          Холбоос олох
         </button>
         {searched && (
           <button
             onClick={handleClear}
             className="py-2 px-4 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 font-medium rounded-lg text-sm transition-colors"
           >
-            Clear
+            Арилгах
           </button>
         )}
       </div>
@@ -107,15 +107,15 @@ export function PathFinder({ graph, entities, relationships }: PathFinderProps) 
       {searched && !path && (
         <EmptyState
           icon={<Network size={36} />}
-          title="No connection found"
-          description="These entities have no documented path between them in the current data."
+          title="Холбоос олдсонгүй"
+          description="Эдгээр субьектийн хоорондох баримтат зам одоогийн өгөгдөлд байхгүй байна."
         />
       )}
 
       {path && (
         <div className="space-y-2">
           <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
-            Path: {path.entityIds.length} entities, {pathRelationships.length} steps
+            Зам: {path.entityIds.length} субьект, {pathRelationships.length} алхам
           </p>
 
           <div className="space-y-2">

@@ -30,7 +30,7 @@ export function RelationshipPage() {
   if (isLoading) return <PageLoader />
   if (!relationship) return (
     <PageLayout maxWidth="2xl">
-      <ErrorState message="Relationship not found." />
+      <ErrorState message="Харилцаа олдсонгүй." />
     </PageLayout>
   )
 
@@ -44,7 +44,7 @@ export function RelationshipPage() {
         to="/graph"
         className="inline-flex items-center gap-1.5 text-sm text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white mb-6 transition-colors"
       >
-        <ArrowLeft size={14} /> Graph
+        <ArrowLeft size={14} /> Граф
       </Link>
 
       {/* Header: entity → entity */}
@@ -93,7 +93,7 @@ export function RelationshipPage() {
           {(relationship.startDate || relationship.endDate) && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-                Period
+                Хугацаа
               </h2>
               <p className="text-slate-700 dark:text-slate-300">
                 {formatDateRange(relationship.startDate, relationship.endDate)}
@@ -105,7 +105,7 @@ export function RelationshipPage() {
           {relEvidence.length > 0 && (
             <div>
               <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
-                Evidence ({relEvidence.length})
+                Нотолгоо ({relEvidence.length})
               </h2>
               <div className="space-y-3">
                 {relEvidence.map((ev) => {
@@ -120,7 +120,7 @@ export function RelationshipPage() {
                           params={{ id: src.id }}
                           className="text-xs text-rose-600 dark:text-rose-400 hover:underline"
                         >
-                          Source: {src.title}
+                          Эх сурвалж: {src.title}
                         </Link>
                       )}
                     </div>
@@ -134,12 +134,12 @@ export function RelationshipPage() {
         <div className="space-y-6">
           {/* Meta */}
           <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Details</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Дэлгэрэнгүй</h3>
             <dl className="space-y-3 text-sm">
-              <MetaItem label="Status" value={RELATIONSHIP_STATUS_LABELS[relationship.status]} />
-              <MetaItem label="Confidence" value={`${relationship.confidence}%`} />
-              <MetaItem label="Strength" value={`${relationship.strength}/100`} />
-              <MetaItem label="Added" value={formatDate(relationship.createdAt)} />
+              <MetaItem label="Статус" value={RELATIONSHIP_STATUS_LABELS[relationship.status]} />
+              <MetaItem label="Итгэмжлэл" value={`${relationship.confidence}%`} />
+              <MetaItem label="Хүч" value={`${relationship.strength}/100`} />
+              <MetaItem label="Нэмэгдсэн" value={formatDate(relationship.createdAt)} />
             </dl>
           </div>
 

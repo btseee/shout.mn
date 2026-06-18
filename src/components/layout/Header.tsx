@@ -26,17 +26,17 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
-            <NavLink to="/graph" active={isActive('/graph')} icon={<Network size={16} />}>Graph</NavLink>
-            <NavLink to="/search" active={isActive('/search')} icon={<Search size={16} />}>Search</NavLink>
-            <NavLink to="/changes" active={isActive('/changes')} icon={<Clock size={16} />}>Updates</NavLink>
+          <nav className="hidden md:flex items-center gap-1" aria-label="Үндсэн навигаци">
+            <NavLink to="/graph" active={isActive('/graph')} icon={<Network size={16} />}>Граф</NavLink>
+            <NavLink to="/search" active={isActive('/search')} icon={<Search size={16} />}>Хайлт</NavLink>
+            <NavLink to="/changes" active={isActive('/changes')} icon={<Clock size={16} />}>Шинэчлэлт</NavLink>
           </nav>
 
           {/* Actions */}
           <div className="flex items-center gap-2">
             <button
               onClick={toggleDarkMode}
-              aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+              aria-label={darkMode ? 'Цайвар горим руу шилжих' : 'Харанхуй горим руу шилжих'}
               className="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             >
               {darkMode ? <Sun size={18} /> : <Moon size={18} />}
@@ -46,7 +46,7 @@ export function Header() {
             <button
               className="md:hidden p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800"
               onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+              aria-label={mobileOpen ? 'Цэс хаах' : 'Цэс нээх'}
               aria-expanded={mobileOpen}
             >
               {mobileOpen ? <X size={20} /> : <Menu size={20} />}
@@ -59,16 +59,16 @@ export function Header() {
       {mobileOpen && (
         <div className="md:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-3 space-y-1">
           <MobileNavLink to="/graph" onClick={() => setMobileOpen(false)}>
-            <Network size={16} /> Graph
+            <Network size={16} /> Граф
           </MobileNavLink>
           <MobileNavLink to="/search" onClick={() => setMobileOpen(false)}>
-            <Search size={16} /> Search
+            <Search size={16} /> Хайлт
           </MobileNavLink>
           <MobileNavLink to="/changes" onClick={() => setMobileOpen(false)}>
-            <Clock size={16} /> Updates
+            <Clock size={16} /> Шинэчлэлт
           </MobileNavLink>
           <MobileNavLink to="/about" onClick={() => setMobileOpen(false)}>
-            <FileText size={16} /> About
+            <FileText size={16} /> Тухай
           </MobileNavLink>
         </div>
       )}

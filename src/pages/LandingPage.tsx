@@ -32,18 +32,17 @@ export function LandingPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <div className="inline-flex items-center gap-2 bg-rose-600/20 text-rose-300 px-4 py-1.5 rounded-full text-sm font-medium mb-6 border border-rose-600/30">
             <Shield size={14} />
-            Public Interest Journalism
+            Нийтийн ашиг сонирхолын сэтгүүл зүй
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
-            Documented relationships.{' '}
-            <span className="text-rose-400">Transparent evidence.</span>
+            Баримтат харилцаанууд.{' '}
+            <span className="text-rose-400">Ил тод нотолгоо.</span>
           </h1>
           <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-            shout.mn visualizes documented connections between politicians, companies, government agencies,
-            procurement contracts, and public-interest entities. Every relationship is sourced. Every claim is documented.
+            shout.mn нь улс төрчид, компаниуд, засгийн газрын байгуулага, худалдан авалтын гэрээ болон нийтийн ашиг сонирхолын байгууллагуудын хоорондох баримтат холбоосуудыг дүрслэн харуулдаг. Бүх харилцаа эх сурвалжтай. Бүх мэдэгдэл баримтлагдсан.
           </p>
           <div className="max-w-xl mx-auto mb-8">
-            <SearchBar placeholder="Search entities, relationships, sources..." />
+            <SearchBar placeholder="Субьект, харилцаа, эх сурвалж хайх..." />
           </div>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link
@@ -51,14 +50,14 @@ export function LandingPage() {
               className="inline-flex items-center gap-2 px-6 py-3 bg-rose-600 hover:bg-rose-700 text-white font-semibold rounded-xl transition-colors"
             >
               <Network size={18} />
-              Explore Graph
+              Граф судлах
             </Link>
             <Link
               to="/search"
               className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20"
             >
               <Search size={18} />
-              Search Entities
+              Субьектүүд хайх
             </Link>
           </div>
         </div>
@@ -68,9 +67,9 @@ export function LandingPage() {
       <section className="border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-3 gap-6 text-center">
-            <Stat value={entities?.length ?? 0} label="Entities" />
-            <Stat value={relationships?.length ?? 0} label="Relationships" />
-            <Stat value={sources?.length ?? 0} label="Sources" />
+            <Stat value={entities?.length ?? 0} label="Субьектүүд" />
+            <Stat value={relationships?.length ?? 0} label="Харилцаанууд" />
+            <Stat value={sources?.length ?? 0} label="Эх сурвалжууд" />
           </div>
         </div>
       </section>
@@ -82,13 +81,11 @@ export function LandingPage() {
             <Shield size={20} className="text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
             <div>
               <p className="font-semibold text-amber-900 dark:text-amber-200 mb-1">
-                What shout.mn is not
+                shout.mn гэж юу биш вэ
               </p>
               <p className="text-sm text-amber-800 dark:text-amber-300">
-                This platform does not accuse anyone of wrongdoing. Proximity, family connections, board membership,
-                and procurement contracts are documented facts, not accusations. Users draw their own conclusions from
-                the evidence. All relationships are labeled as <strong>confirmed</strong>,{' '}
-                <strong>probable</strong>, <strong>inferred</strong>, or <strong>disputed</strong>.
+                Энэ платформ нь хэн нэгэнийг буруу зүйл хийгээ учир агуулдаггүй. Ойрчны байдал, гэр бүлийн холбоо, танхимийн зөвлөлийн гишүүнчлэл болон худалдан авалтын гэрээ нь баримтагдсан баримтууд бөгөөд хэлхэн бурутгаллалга биш. Хэрэглэгчид нотолгооноос өөрийн дүгнэлтийг гаргана. Бүх харилцаа нь <strong>баталгаажсан</strong>,{' '}
+                <strong>магадлалтай</strong>, <strong>дүгнэсэн</strong>, эсвэл <strong>маргаантай</strong> гэж шошиглогдсон.
               </p>
             </div>
           </div>
@@ -102,10 +99,10 @@ export function LandingPage() {
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
                 <FileText size={20} className="text-rose-600" />
-                Featured Investigations
+                Онцлох мөрдлөгүүд
               </h2>
               <Link to="/search" className="text-sm text-rose-600 dark:text-rose-400 hover:underline flex items-center gap-1">
-                All <ArrowRight size={14} />
+                Бүгд <ArrowRight size={14} />
               </Link>
             </div>
             <div className="space-y-4">
@@ -137,10 +134,10 @@ export function LandingPage() {
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
                   <Clock size={18} className="text-rose-600" />
-                  Recent Updates
+                  Сүүлийн шинэчлэлтүүд
                 </h2>
                 <Link to="/changes" className="text-sm text-rose-600 dark:text-rose-400 hover:underline">
-                  All
+                  Бүгд
                 </Link>
               </div>
               <div className="space-y-2">
@@ -159,7 +156,7 @@ export function LandingPage() {
             {/* Recent Entities */}
             <div>
               <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">
-                Recently Added
+                Сүүлд нэмэгдсэн
               </h2>
               <div className="space-y-2">
                 {recentEntities.map((entity) => (
@@ -183,28 +180,28 @@ export function LandingPage() {
         {/* Relationship status explanation */}
         <div className="mt-12 p-6 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">
-            Understanding relationship status
+            Харилцааны статусыг ойлгох
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <StatusExplainer
               status="confirmed"
-              label="Confirmed"
-              description="Documented in official records, legal filings, or multiple independent sources."
+              label="Баталгаажсан"
+              description="Албан баримт, хуулийн материал эсвэл хэдэл бие хамаарал тусгаал эх сурвалжт баримтлагдсан."
             />
             <StatusExplainer
               status="probable"
-              label="Probable"
-              description="Supported by credible evidence but not independently verified in official records."
+              label="Магадлалтай"
+              description="Итгэмтгүй нотолгоогоор дэмжлэгдсэн боловч албан баримтаар баталгаажаагүй байна."
             />
             <StatusExplainer
               status="inferred"
-              label="Inferred"
-              description="Logically derived from other confirmed relationships. Explicitly labeled as inference."
+              label="Дүгнэсэн"
+              description="Бусад баталгаажсан харилцаануудаас логикийн даагал гарган. Илэрхүйцээр дүгнэлт гэж шошиглогдсон."
             />
             <StatusExplainer
               status="disputed"
-              label="Disputed"
-              description="One or more parties contest the existence or nature of this relationship."
+              label="Маргаантай"
+              description="Нэг ц түүнээс талууд харилцааны оршин буй ч мөн чанарыг эсэргүйцэж байна."
             />
           </div>
         </div>

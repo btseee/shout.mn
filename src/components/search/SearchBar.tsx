@@ -11,7 +11,7 @@ interface SearchBarProps {
   onResultSelect?: () => void
 }
 
-export function SearchBar({ placeholder = 'Search entities, relationships, sources...', autoFocus = false, onResultSelect }: SearchBarProps) {
+export function SearchBar({ placeholder = 'Субьект, харилцаа, эх сурвалж хайх...', autoFocus = false, onResultSelect }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [open, setOpen] = useState(false)
   const navigate = useNavigate()
@@ -73,7 +73,7 @@ export function SearchBar({ placeholder = 'Search entities, relationships, sourc
           onBlur={() => setTimeout(() => setOpen(false), 200)}
           placeholder={placeholder}
           autoFocus={autoFocus}
-          aria-label="Search"
+          aria-label="Хайх"
           aria-expanded={open}
           aria-autocomplete="list"
           className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent text-sm"
@@ -82,7 +82,7 @@ export function SearchBar({ placeholder = 'Search entities, relationships, sourc
           <button
             onClick={() => { setQuery(''); setOpen(false) }}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            aria-label="Clear search"
+            aria-label="Хайлт цэврэх"
           >
             <X size={14} />
           </button>
@@ -94,14 +94,14 @@ export function SearchBar({ placeholder = 'Search entities, relationships, sourc
         <div className="absolute top-full mt-1 left-0 right-0 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-xl z-50 overflow-hidden max-h-80 overflow-y-auto">
           {!hasResults && (
             <div className="px-4 py-3 text-sm text-slate-500 dark:text-slate-400">
-              No results for "{query}"
+              "{query}"-ийн хайлтын үр дүн олдсонгүй
             </div>
           )}
 
           {results.entities.length > 0 && (
             <div>
               <div className="px-3 py-1.5 text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider bg-slate-50 dark:bg-slate-800/50">
-                Entities
+                Субьектүүд
               </div>
               {results.entities.slice(0, 5).map((r) => {
                 const entity = entityMap.get(r.id)
@@ -126,7 +126,7 @@ export function SearchBar({ placeholder = 'Search entities, relationships, sourc
               onMouseDown={handleSearchAll}
               className="w-full text-center text-sm text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20 py-2.5 border-t border-slate-100 dark:border-slate-800 font-medium"
             >
-              See all {totalCount} results for "{query}"
+              "{query}"-ийн {totalCount} үр дүнийг харах
             </button>
           )}
         </div>

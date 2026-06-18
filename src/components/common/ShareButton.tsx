@@ -15,17 +15,17 @@ export function ShareButton() {
     <button
       onClick={handleShare}
       className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
-      aria-label="Copy link to clipboard"
+      aria-label="Холбоосыг хуулах"
     >
       {copied ? (
         <>
           <Check size={14} className="text-green-600" />
-          Copied
+          Хуулагдлаа
         </>
       ) : (
         <>
           <Share2 size={14} />
-          Share
+          Хуваалцах
         </>
       )}
     </button>

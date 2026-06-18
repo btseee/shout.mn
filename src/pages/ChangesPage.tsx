@@ -19,18 +19,18 @@ const TYPE_ICONS: Record<ChangelogEntryType, typeof Plus> = {
 }
 
 const TYPE_LABELS: Record<ChangelogEntryType, string> = {
-  entity_added: 'Entity Added',
-  entity_updated: 'Entity Updated',
-  relationship_added: 'Relationship Added',
-  relationship_updated: 'Relationship Updated',
-  source_added: 'Source Added',
-  evidence_added: 'Evidence Added',
-  evidence_updated: 'Evidence Updated',
-  investigation_added: 'Investigation Published',
+  entity_added: 'Субьект нэмэгдсэн',
+  entity_updated: 'Субьект шинэчлэгдсэн',
+  relationship_added: 'Харилцаа нэмэгдсэн',
+  relationship_updated: 'Харилцаа шинэчлэгдсэн',
+  source_added: 'Эх сурвалж нэмэгдсэн',
+  evidence_added: 'Нотолгоо нэмэгдсэн',
+  evidence_updated: 'Нотолгоо шинэчлэгдсэн',
+  investigation_added: 'Мөрдлөг нийтлэгдсэн',
 }
 
 export function ChangesPage() {
-  usePageMeta({ title: 'Recent Updates', description: 'Recent changes to the shout.mn dataset.' })
+  usePageMeta({ title: 'Сүүлийн шинэчлэлтүүд', description: 'shout.mn өгөгдөлийн сүүлийн өөрчлөлтүүд.' })
 
   const { data: changelog, isLoading } = useChangelog()
   const { data: entities } = useEntities()
@@ -49,7 +49,7 @@ export function ChangesPage() {
     <PageLayout maxWidth="2xl">
       <div className="flex items-center gap-2 mb-8">
         <Clock size={20} className="text-rose-600" />
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Recent Updates</h1>
+        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Сүүлийн шинэчлэлтүүд</h1>
       </div>
 
       <div className="space-y-4">
@@ -61,7 +61,7 @@ export function ChangesPage() {
             const entity = entityMap.get(entry.entityId)
             link = entity ? (
               <Link to="/entity/$id" params={{ id: entry.entityId }} className="text-xs text-rose-600 dark:text-rose-400 hover:underline">
-                View: {entity.name}
+                Харах: {entity.name}
               </Link>
             ) : null
           } else if (entry.relationshipId) {
@@ -71,7 +71,7 @@ export function ChangesPage() {
               const tgt = entityMap.get(rel.targetEntityId)
               link = (
                 <Link to="/relationship/$id" params={{ id: entry.relationshipId }} className="text-xs text-rose-600 dark:text-rose-400 hover:underline">
-                  View: {src?.name ?? '?'} → {tgt?.name ?? '?'}
+                  Харах: {src?.name ?? '?'} → {tgt?.name ?? '?'}
                 </Link>
               )
             }
@@ -79,13 +79,13 @@ export function ChangesPage() {
             const source = sourceMap.get(entry.sourceId)
             link = source ? (
               <Link to="/source/$id" params={{ id: entry.sourceId }} className="text-xs text-rose-600 dark:text-rose-400 hover:underline">
-                View: {source.title}
+                Харах: {source.title}
               </Link>
             ) : null
           } else if (entry.investigationId) {
             link = (
               <Link to="/investigation/$id" params={{ id: entry.investigationId }} className="text-xs text-rose-600 dark:text-rose-400 hover:underline">
-                View investigation
+                Мөрдлөгийг харах
               </Link>
             )
           }

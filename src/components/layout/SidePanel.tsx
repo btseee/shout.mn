@@ -35,7 +35,7 @@ export function SidePanel({ open, onClose, title, children }: SidePanelProps) {
               <button
                 onClick={onClose}
                 className="p-1.5 rounded-md text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-                aria-label="Close panel"
+                aria-label="Хаах"
               >
                 <X size={18} />
               </button>

@@ -11,35 +11,35 @@ export function Footer() {
               <span className="text-rose-600 dark:text-rose-400">.mn</span>
             </div>
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              Documented relationships between public-interest entities. Transparency through evidence.
+              Нийтийн ашиг сонирхолын байгууллагуудын хоорондох баримтат харилцаанууд. Нотолгоогоор дамжуулсан ил тод байдал.
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Platform</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Платформ</h3>
             <ul className="space-y-2">
-              <li><FooterLink to="/graph">Graph Explorer</FooterLink></li>
-              <li><FooterLink to="/search">Search</FooterLink></li>
-              <li><FooterLink to="/changes">Recent Updates</FooterLink></li>
+              <li><FooterLink to="/graph">Граф судлагч</FooterLink></li>
+              <li><FooterLink to="/search">Хайлт</FooterLink></li>
+              <li><FooterLink to="/changes">Сүүлийн шинэчлэлтүүд</FooterLink></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">About</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Тухай</h3>
             <ul className="space-y-2">
-              <li><FooterLink to="/about">About shout.mn</FooterLink></li>
-              <li><FooterLink to="/editorial-policy">Editorial Policy</FooterLink></li>
-              <li><FooterLink to="/data-methodology">Data Methodology</FooterLink></li>
+              <li><FooterLink to="/about">shout.mn-ийн тухай</FooterLink></li>
+              <li><FooterLink to="/editorial-policy">Редакцийн бодлого</FooterLink></li>
+              <li><FooterLink to="/data-methodology">Өгөгдөлийн арга зүй</FooterLink></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            All relationships are documented and sourced. Nothing on this platform implies wrongdoing. Users draw their own conclusions from evidence.
+            Бүх харилцаа нь баримтлагдсан бөгөөд эх сурвалжтай. Энэ платформ дээрх ямар ч мэдээлэл буруу зүйл хийгээ учир агуулдаггүй. Хэрэглэгчид нотолгооноос өөрийн дүгнэлтийг гаргана.
           </p>
           <p className="text-xs text-slate-400 dark:text-slate-500 shrink-0">
-            All sample data is fictional
+            Бүх жишиг өгөгдөл нь зохиомол
           </p>
         </div>
       </div>

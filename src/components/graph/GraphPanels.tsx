@@ -29,7 +29,7 @@ export function NodePanel({ entity, relationships, entities, onClose }: NodePane
         <h3 className="text-lg font-bold text-slate-900 dark:text-white">{entity.name}</h3>
         {entity.aliases.length > 0 && (
           <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">
-            Also known as: {entity.aliases.join(', ')}
+            Мөн нэрлэгддэг: {entity.aliases.join(', ')}
           </p>
         )}
         <p className="text-sm text-slate-600 dark:text-slate-300 mt-2 line-clamp-3">
@@ -39,7 +39,7 @@ export function NodePanel({ entity, relationships, entities, onClose }: NodePane
 
       <div>
         <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-          {connected.length} Connection{connected.length !== 1 ? 's' : ''}
+          {connected.length} Холбоо{connected.length !== 1 ? 'с' : ''}
         </p>
         <div className="space-y-2">
           {connected.slice(0, 5).map((rel) => {
@@ -66,7 +66,7 @@ export function NodePanel({ entity, relationships, entities, onClose }: NodePane
           })}
           {connected.length > 5 && (
             <p className="text-xs text-slate-400 dark:text-slate-500 text-center">
-              +{connected.length - 5} more
+              +{connected.length - 5} даха байна
             </p>
           )}
         </div>
@@ -79,7 +79,7 @@ export function NodePanel({ entity, relationships, entities, onClose }: NodePane
           onClick={onClose}
           className="flex-1 text-center text-sm font-medium px-3 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-lg transition-colors"
         >
-          View Full Profile
+          Бүрэн профайл харах
         </Link>
       </div>
     </div>
@@ -122,7 +122,7 @@ export function EdgePanel({ relationship, sourceEntity, targetEntity, onClose }:
       {(relationship.startDate || relationship.endDate) && (
         <div>
           <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">
-            Period
+            Хугацаа
           </p>
           <p className="text-sm text-slate-700 dark:text-slate-200">
             {formatDateRange(relationship.startDate, relationship.endDate)}
@@ -138,7 +138,7 @@ export function EdgePanel({ relationship, sourceEntity, targetEntity, onClose }:
           className="flex-1 text-center text-sm font-medium px-3 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-lg transition-colors flex items-center justify-center gap-1.5"
         >
           <ExternalLink size={14} />
-          View Relationship
+          Харилцаа харах
         </Link>
       </div>
     </div>

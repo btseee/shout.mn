@@ -31,7 +31,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         const filt = useFiltersStore.getState()
 
         // Filter by entity type
-        if (filt.entityTypes.length > 0 && !filt.entityTypes.includes(data.type)) {
+        if (filt.entityTypes.length > 0 && !filt.entityTypes.includes(data.entityType as string)) {
           return { ...data, hidden: true }
         }
 
@@ -140,7 +140,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       ref={containerRef}
       className={`sigma-container ${className}`}
       role="img"
-      aria-label="Interactive relationship graph. Use keyboard to navigate after selecting a node."
+      aria-label="Харилцааны граф. Зангилаа сонгосны дараа гарыг дусгар гаръдах товчлуури ашиглана уу."
     />
   )
 }

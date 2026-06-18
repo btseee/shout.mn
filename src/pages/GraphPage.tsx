@@ -17,8 +17,8 @@ import { Network, GitFork } from 'lucide-react'
 
 export function GraphPage() {
   usePageMeta({
-    title: 'Graph Explorer',
-    description: 'Interactive relationship graph exploring connections between entities.',
+    title: 'Граф судлагч',
+    description: 'Харилцаануудын хоорондах холбоосуудыг судлах харилцааны граф.',
   })
 
   const { data: entities, isLoading: entLoading } = useEntities()
@@ -62,22 +62,22 @@ export function GraphPage() {
       {/* Tabs bar */}
       <div className="flex items-center gap-1 px-4 py-2 border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
         <TabButton active={activeTab === 'info'} onClick={() => setActiveTab('info')}>
-          <Network size={14} /> Graph
+          <Network size={14} /> Граф
         </TabButton>
         <TabButton active={activeTab === 'pathfinder'} onClick={() => setActiveTab('pathfinder')}>
-          <GitFork size={14} /> Path Finder
+          <GitFork size={14} /> Зам олагч
         </TabButton>
         <div className="flex-1" />
         <p className="text-xs text-slate-400 dark:text-slate-500 hidden sm:block">
-          {entities?.length} entities · {relationships?.length} relationships
+          {entities?.length} субьект · {relationships?.length} харилцаа
         </p>
       </div>
 
       {activeTab === 'pathfinder' ? (
         <div className="flex-1 overflow-y-auto p-4 max-w-2xl mx-auto w-full">
-          <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">Connection Path Finder</h2>
+          <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-4">Холбоосын зам олагч</h2>
           <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">
-            Find the shortest documented path between any two entities. Each step shows the relationship type and evidence.
+            Аливаа хоёр субьектийн хоорондох хамгийн богино баримтат замыг олоорой. Хар алхам нь харилцааны төрлөв ба нотолгоогоор харуулдаг.
           </p>
           <PathFinder graph={graph} entities={entities ?? []} relationships={relationships ?? []} />
         </div>

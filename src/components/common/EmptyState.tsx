@@ -27,8 +27,8 @@ export function ErrorState({ message }: { message?: string }) {
   return (
     <EmptyState
       icon={<AlertCircle size={48} className="text-red-400" />}
-      title="Something went wrong"
-      description={message ?? 'Failed to load data. Please try again.'}
+      title="Алдаа гарлаа"
+      description={message ?? 'Өгөгдөл ачаалахад амжилтгүй боллоо. Дахин оролдоно уу.'}
     />
   )
 }

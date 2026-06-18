@@ -25,16 +25,16 @@ export interface Entity {
 }
 
 export const ENTITY_TYPE_LABELS: Record<EntityType, string> = {
-  person: 'Person',
-  company: 'Company',
-  organization: 'Organization',
-  government_agency: 'Government Agency',
-  project: 'Project',
-  asset: 'Asset',
-  contract: 'Contract',
-  donation: 'Donation',
-  media: 'Media Outlet',
-  source: 'Source',
+  person: 'Хүн',
+  company: 'Компани',
+  organization: 'Байгуулага',
+  government_agency: 'Засгийн газрын байгуулага',
+  project: 'Төсөл',
+  asset: 'Хөрөнгө',
+  contract: 'Гэрээ',
+  donation: 'Хандив',
+  media: 'Мэдиа байгуулага',
+  source: 'Эх сурвалж',
 }
 
 export const ENTITY_TYPE_COLORS: Record<EntityType, string> = {
