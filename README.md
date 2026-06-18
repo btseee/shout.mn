@@ -1,75 +1,65 @@
-# React + TypeScript + Vite
+# shout.mn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A public-interest investigative relationship intelligence platform that visualizes documented connections between politicians, companies, government agencies, procurement contracts, and other public-interest entities.
 
-Currently, two official plugins are available:
+**Transparency through evidence.** Every relationship is sourced. Every claim is documented. Nothing on this platform implies wrongdoing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> ⚠️ This repository contains entirely fictional sample data for demonstration purposes.
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Interactive graph** — Sigma.js + Graphology visualization with zoom, pan, node/edge selection, and neighborhood highlighting
+- **Entity pages** — Full profiles with relationships, evidence, sources, and export
+- **Relationship pages** — Detailed views with evidence, source attribution, confidence scores
+- **Source pages** — Full source metadata with evidence snippets and cross-references
+- **Investigation pages** — Narrative reports combining storytelling with data
+- **Connection path finder** — Find shortest documented path between any two entities
+- **Client-side search** — MiniSearch fuzzy search across entities, relationships, and sources
+- **Change tracking** — Chronological feed of dataset updates
+- **Dark mode** — Full dark/light mode toggle, persisted to localStorage
+- **100% static** — No backend, no database, no authentication
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
 
-## Expanding the ESLint configuration
+React 19 · TypeScript · Vite 8 · React Compiler · TanStack Router · TanStack Query · Zustand · Tailwind CSS v4 · Sigma.js · Graphology · MiniSearch · Lucide React · Motion
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Quick Start
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open [http://localhost:5173](http://localhost:5173).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Available Scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Production build |
+| `npm run typecheck` | TypeScript type checking |
+| `npm run validate:data` | Validate all JSON data files |
+| `npm run preview` | Preview production build |
+
+## Adding Data
+
+All data lives in `public/data/`. Edit the JSON files and run `npm run validate:data` to check integrity.
+
+See [docs/editor-guide.md](docs/editor-guide.md) for step-by-step instructions.
+
+## Deployment (GitHub Pages)
+
+1. Push to a GitHub repository
+2. Go to **Settings → Pages → Source → GitHub Actions**
+3. The workflow in `.github/workflows/deploy.yml` deploys automatically on push to `main`
+
+For a custom base path, set `VITE_BASE_PATH` in the workflow environment.
+
+## Documentation
+
+- [Data Schema](docs/data-schema.md)
+- [Editor Guide](docs/editor-guide.md)
+- [Editorial Policy](docs/editorial-policy.md)
+- [Deployment](docs/deployment.md)
+- [Architecture](docs/architecture.md)

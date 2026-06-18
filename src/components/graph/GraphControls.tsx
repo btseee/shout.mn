@@ -1,0 +1,69 @@
+import { ZoomIn, ZoomOut, RotateCcw, Filter, Map } from 'lucide-react'
+
+interface GraphControlsProps {
+  onZoomIn: () => void
+  onZoomOut: () => void
+  onReset: () => void
+  onToggleFilters: () => void
+  onToggleLegend: () => void
+  showLegend: boolean
+  showFilters: boolean
+}
+
+export function GraphControls({
+  onZoomIn,
+  onZoomOut,
+  onReset,
+  onToggleFilters,
+  onToggleLegend,
+  showLegend,
+  showFilters,
+}: GraphControlsProps) {
+  return (
+    <div className="absolute top-4 right-4 flex flex-col gap-1.5 z-10">
+      <ControlButton onClick={onZoomIn} label="Zoom in">
+        <ZoomIn size={16} />
+      </ControlButton>
+      <ControlButton onClick={onZoomOut} label="Zoom out">
+        <ZoomOut size={16} />
+      </ControlButton>
+      <ControlButton onClick={onReset} label="Reset view">
+        <RotateCcw size={16} />
+      </ControlButton>
+      <div className="h-px bg-slate-200 dark:bg-slate-700 my-0.5" />
+      <ControlButton onClick={onToggleFilters} label="Toggle filters" active={showFilters}>
+        <Filter size={16} />
+      </ControlButton>
+      <ControlButton onClick={onToggleLegend} label="Toggle legend" active={showLegend}>
+        <Map size={16} />
+      </ControlButton>
+    </div>
+  )
+}
+
+function ControlButton({
+  onClick,
+  label,
+  active,
+  children,
+}: {
+  onClick: () => void
+  label: string
+  active?: boolean
+  children: React.ReactNode
+}) {
+  return (
+    <button
+      onClick={onClick}
+      aria-label={label}
+      title={label}
+      className={`w-8 h-8 flex items-center justify-center rounded-lg shadow-sm border transition-colors ${
+        active
+          ? 'bg-rose-600 text-white border-rose-600'
+          : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700'
+      }`}
+    >
+      {children}
+    </button>
+  )
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "source-001",
+    "title": "Official Gazette: Government Appointments, January 2019",
+    "publisher": "Northland Republic Official Gazette",
+    "url": "https://gazette.northland.example.gov/2019/01/appointments",
+    "archiveUrl": "",
+    "publishedAt": "2019-01-15",
+    "retrievedAt": "2024-01-08",
+    "reliabilityNotes": "Primary government source. Official publication of government appointments. High reliability.",
+    "tags": ["government", "official", "appointments"]
+  },
+  {
+    "id": "source-002",
+    "title": "Northland Tribune: 'Mersin's Infrastructure Legacy: Contracts and Connections'",
+    "publisher": "The Northland Tribune",
+    "url": "https://tribune.northland.example/2022/08/mersin-infrastructure-legacy",
+    "archiveUrl": "https://archive.example.org/20220815/mersin-legacy",
+    "publishedAt": "2022-08-15",
+    "retrievedAt": "2024-01-08",
+    "reliabilityNotes": "Investigative reporting by The Northland Tribune. Bylined by senior investigative reporter. Includes document references. Reliable but represents editorial judgment.",
+    "tags": ["investigative", "journalism", "politics"]
+  },
+  {
+    "id": "source-003",
+    "title": "NordBuild Construction Ltd — Company Register Entry",
+    "publisher": "Northland Commercial Registry",
+    "url": "https://registry.northland.example.gov/company/nordbuild",
+    "archiveUrl": "",
+    "publishedAt": "2023-12-31",
+    "retrievedAt": "2024-01-09",
+    "reliabilityNotes": "Official commercial registry. Lists company officers and directors. High reliability.",
+    "tags": ["company-register", "official", "corporate"]
+  },
+  {
+    "id": "source-004",
+    "title": "Citizens for Clean Water — Annual Report 2023",
+    "publisher": "Citizens for Clean Water NGO",
+    "url": "https://ccw.northland.example/annual-report-2023",
+    "archiveUrl": "",
+    "publishedAt": "2024-02-01",
+    "retrievedAt": "2024-02-10",
+    "reliabilityNotes": "NGO self-publication. Provides information on board composition and activities. Medium reliability — reflects organization's perspective.",
+    "tags": ["ngo", "annual-report", "water"]
+  },
+  {
+    "id": "source-005",
+    "title": "Ministry of Infrastructure — Contract Award Notice #2019-112",
+    "publisher": "Ministry of Infrastructure",
+    "url": "https://moi.northland.example.gov/procurement/2019/112",
+    "archiveUrl": "",
+    "publishedAt": "2019-09-20",
+    "retrievedAt": "2024-01-08",
+    "reliabilityNotes": "Official government procurement notice. Primary source. High reliability.",
+    "tags": ["procurement", "government", "contract"]
+  },
+  {
+    "id": "source-006",
+    "title": "National Procurement Commission — Review Notice: Contract 2021-047",
+    "publisher": "National Procurement Commission",
+    "url": "https://npc.northland.example.gov/review/2022/047",
+    "archiveUrl": "",
+    "publishedAt": "2022-09-05",
+    "retrievedAt": "2024-01-08",
+    "reliabilityNotes": "Official government oversight body. Primary source for procurement review. High reliability.",
+    "tags": ["procurement", "oversight", "official"]
+  },
+  {
+    "id": "source-007",
+    "title": "AquaPure Holdings — Annual Report 2022",
+    "publisher": "AquaPure Holdings",
+    "url": "https://aquapure.example/investor-relations/annual-report-2022",
+    "archiveUrl": "",
+    "publishedAt": "2023-03-15",
+    "retrievedAt": "2024-01-09",
+    "reliabilityNotes": "Company-published document. Lists board members and major shareholders. Medium-high reliability for factual claims about corporate structure.",
+    "tags": ["annual-report", "corporate", "shareholders"]
+  },
+  {
+    "id": "source-008",
+    "title": "Northland Business Council — 2022 Election Endorsement Press Release",
+    "publisher": "Northland Business Council",
+    "url": "https://nbc.northland.example/press/2022-election-endorsement",
+    "archiveUrl": "",
+    "publishedAt": "2022-03-10",
+    "retrievedAt": "2024-01-09",
+    "reliabilityNotes": "Organization self-publication announcing political endorsement. Medium reliability — reflects organization's official position.",
+    "tags": ["politics", "endorsement", "business-lobby"]
+  },
+  {
+    "id": "source-009",
+    "title": "Northland Tribune: 'French Diplomat's Role in Northland Water Deals Raises Questions'",
+    "publisher": "The Northland Tribune",
+    "url": "https://tribune.northland.example/2023/04/delacroix-aquapure-connection",
+    "archiveUrl": "https://archive.example.org/20230420/delacroix",
+    "publishedAt": "2023-04-20",
+    "retrievedAt": "2024-01-09",
+    "reliabilityNotes": "Investigative reporting. Cites unnamed sources within the Ministry of Foreign Affairs. Claims disputed by AquaPure Holdings spokesperson. Moderate reliability given disputed claims.",
+    "tags": ["investigative", "diplomacy", "disputed"]
+  },
+  {
+    "id": "source-010",
+    "title": "Lake Varna Water Treatment Project — Environmental Impact Assessment",
+    "publisher": "Ministry of Infrastructure",
+    "url": "https://moi.northland.example.gov/eia/lake-varna-2021",
+    "archiveUrl": "",
+    "publishedAt": "2021-03-01",
+    "retrievedAt": "2024-01-08",
+    "reliabilityNotes": "Official government-commissioned environmental assessment. High reliability for project scope and contractor information.",
+    "tags": ["government", "environment", "project"]
+  },
+  {
+    "id": "source-011",
+    "title": "Northern Highway Expansion — Parliamentary Budget Report 2020",
+    "publisher": "Northland Parliament Budget Office",
+    "url": "https://parliament.northland.example.gov/budget/2020/highway",
+    "archiveUrl": "",
+    "publishedAt": "2020-06-01",
+    "retrievedAt": "2024-01-09",
+    "reliabilityNotes": "Parliamentary budget oversight report. High reliability for contract values and contractor details.",
+    "tags": ["parliament", "budget", "infrastructure"]
+  },
+  {
+    "id": "source-012",
+    "title": "Freedom of Information Response: ClearWater Technologies Ownership Structure",
+    "publisher": "Ministry of Industry (FOI Response)",
+    "url": "https://moi.northland.example.gov/foi/2023/clearwater-ownership",
+    "archiveUrl": "",
+    "publishedAt": "2023-11-15",
+    "retrievedAt": "2024-01-10",
+    "reliabilityNotes": "Official FOI disclosure. Contains partially redacted fiduciary records. High reliability for disclosed information, but some ownership details remain redacted.",
+    "tags": ["foi", "corporate", "ownership"]
+  },
+  {
+    "id": "source-013",
+    "title": "Meridian Capital Partners — Shareholder Register (Public Disclosure)",
+    "publisher": "Northland Financial Authority",
+    "url": "https://nfa.northland.example.gov/registers/meridian-capital",
+    "archiveUrl": "",
+    "publishedAt": "2023-09-01",
+    "retrievedAt": "2024-01-10",
+    "reliabilityNotes": "Regulatory financial disclosure. Required by investment fund regulations. High reliability.",
+    "tags": ["financial", "regulatory", "shareholders"]
+  },
+  {
+    "id": "source-014",
+    "title": "Ministry of Foreign Affairs — Official Visitor Logs 2020-2022 (FOI Release)",
+    "publisher": "Ministry of Foreign Affairs (FOI Release)",
+    "url": "https://mfa.northland.example.gov/foi/visitor-logs-2020-2022",
+    "archiveUrl": "",
+    "publishedAt": "2023-07-01",
+    "retrievedAt": "2024-01-10",
+    "reliabilityNotes": "Official government visitor log data released under FOI. High reliability for confirming meetings, but logs do not record meeting content.",
+    "tags": ["foi", "government", "visitor-logs"]
+  },
+  {
+    "id": "source-015",
+    "title": "Electoral Commission — 2022 Campaign Finance Disclosures",
+    "publisher": "Northland Electoral Commission",
+    "url": "https://elections.northland.example.gov/finance/2022",
+    "archiveUrl": "",
+    "publishedAt": "2022-12-31",
+    "retrievedAt": "2024-01-10",
+    "reliabilityNotes": "Mandatory electoral finance disclosure. High reliability for disclosed donation amounts and donor categories. Donor identity disclosed at aggregate level.",
+    "tags": ["elections", "campaign-finance", "official"]
+  }
+]
