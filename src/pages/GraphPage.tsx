@@ -100,7 +100,7 @@ export function GraphPage() {
           {/* Tip */}
           {!selectedEntity && !selectedRelationship && (
             <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-xl px-4 py-3 text-xs text-slate-500 dark:text-slate-400 shadow-md z-10 hidden sm:block">
-              Click a node to explore connections
+              Зангилааг товшиж холбоосуудыг судлах
             </div>
           )}
         </div>
