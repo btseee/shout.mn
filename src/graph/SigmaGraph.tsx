@@ -26,8 +26,11 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       renderEdgeLabels: false,
       defaultNodeType: 'circle',
       labelFont: 'Inter, system-ui, sans-serif',
-      labelSize: 13,
-      labelColor: { attribute: 'labelColor', color: '#64748b' },
+      labelSize: 12,
+      labelWeight: '500',
+      labelColor: { attribute: 'labelColor', color: '#94a3b8' },
+      // Only render labels for nodes that appear larger than 8px on screen
+      labelRenderedSizeThreshold: 8,
       nodeReducer: (node, data) => {
         const sel = useSelectionStore.getState()
         const filt = useFiltersStore.getState()
