@@ -2,8 +2,13 @@
   {
     "id": "ev-001",
     "sourceId": "source-001",
-    "entityIds": ["person-001", "person-002"],
-    "relationshipIds": ["rel-001"],
+    "entityIds": [
+      "person-001",
+      "person-002"
+    ],
+    "relationshipIds": [
+      "rel-001"
+    ],
     "claim": "Ерөнхийлөгч У.Хүрэлсүх нь Лувсандорж Болорцэцэгтэй гэр бүл болсон.",
     "quote": "Personal life: Khurelsukh is married to Luvsandorj Bolortsetgeg, a kindergarten teacher.",
     "pageNumber": "",
@@ -12,8 +17,13 @@
   {
     "id": "ev-002",
     "sourceId": "source-002",
-    "entityIds": ["person-003", "person-004"],
-    "relationshipIds": ["rel-002"],
+    "entityIds": [
+      "person-003",
+      "person-004"
+    ],
+    "relationshipIds": [
+      "rel-002"
+    ],
     "claim": "Л.Оюун-Эрдэнэ нь Болдын Туултай гэр бүл болсон бөгөөд гурван хүүхэд байна.",
     "quote": "Personal life: Oyun-Erdene is married to Bold Tuul; they have three children together.",
     "pageNumber": "",
@@ -22,8 +32,13 @@
   {
     "id": "ev-003",
     "sourceId": "source-004",
-    "entityIds": ["person-003", "person-005"],
-    "relationshipIds": ["rel-003"],
+    "entityIds": [
+      "person-003",
+      "person-005"
+    ],
+    "relationshipIds": [
+      "rel-003"
+    ],
     "claim": "Оюун-Эрдэнэгийн хүүгийн тансаг хэрэглээний постуудын улмаас нийтийн эсэргүүцэл дэгдсэн.",
     "quote": "Anger at Prime Minister Luvsannamsrain Oyun-Erdene stemmed in part from social media posts by his son showing an extravagant lifestyle at odds with the country's struggling families.",
     "pageNumber": "",
@@ -32,8 +47,13 @@
   {
     "id": "ev-004",
     "sourceId": "source-005",
-    "entityIds": ["person-003", "person-005"],
-    "relationshipIds": ["rel-003"],
+    "entityIds": [
+      "person-003",
+      "person-005"
+    ],
+    "relationshipIds": [
+      "rel-003"
+    ],
     "claim": "59,000 гаруй иргэн Ерөнхий сайдын огцролыг шаарддаг онлайн нэхэмжлэлд гарын үсэг зурсан.",
     "quote": "More than 59,000 people have signed a petition calling for the prime minister to resign.",
     "pageNumber": "",
@@ -42,8 +62,13 @@
   {
     "id": "ev-005",
     "sourceId": "source-008",
-    "entityIds": ["person-001", "person-008"],
-    "relationshipIds": ["rel-004"],
+    "entityIds": [
+      "person-001",
+      "person-008"
+    ],
+    "relationshipIds": [
+      "rel-004"
+    ],
     "claim": "Ерөнхийлөгч Хүрэлсүх 2021 оны 6 дугаар сарын 25-нд Ж.Энхбаярыг ҮАБЗөвлөлийн нарийн бичгийн даргаар томилсон.",
     "quote": "President Khurelsukh signed a decree appointing D.Enkh-Amgalan as Chief of Staff and J.Enkhbayar as Secretary of the National Security Council.",
     "pageNumber": "",
@@ -52,8 +77,13 @@
   {
     "id": "ev-006",
     "sourceId": "source-001",
-    "entityIds": ["person-001", "org-001"],
-    "relationshipIds": ["rel-005"],
+    "entityIds": [
+      "person-001",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-005"
+    ],
     "claim": "У.Хүрэлсүх МАН-ын дарга байсан бөгөөд Ерөнхийлөгч болсны дараа гишүүнчлэлийг зогсоосон.",
     "quote": "He has been a member of the Mongolian People's Party (MPP), serving as party chairman 2017–2021, before assuming the presidency.",
     "pageNumber": "",
@@ -62,8 +92,13 @@
   {
     "id": "ev-007",
     "sourceId": "source-002",
-    "entityIds": ["person-003", "org-001"],
-    "relationshipIds": ["rel-006"],
+    "entityIds": [
+      "person-003",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-006"
+    ],
     "claim": "Л.Оюун-Эрдэнэ 2021–2025 онд МАН-ын дарга байсан.",
     "quote": "Oyun-Erdene served as Chairman of the Mongolian People's Party from 2021 to 2025.",
     "pageNumber": "",
@@ -72,8 +107,13 @@
   {
     "id": "ev-008",
     "sourceId": "source-006",
-    "entityIds": ["person-006", "org-001"],
-    "relationshipIds": ["rel-007"],
+    "entityIds": [
+      "person-006",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-007"
+    ],
     "claim": "Н.Учрал МАН-ын дарга бөгөөд Ерөнхий сайд юм.",
     "quote": "The new prime minister, Uchral, who is also MPP chairman, named a cabinet of 18 members.",
     "pageNumber": "",
@@ -82,8 +122,13 @@
   {
     "id": "ev-009",
     "sourceId": "source-006",
-    "entityIds": ["person-007", "agency-002"],
-    "relationshipIds": ["rel-008"],
+    "entityIds": [
+      "person-007",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-008"
+    ],
     "claim": "Б.Батцэцэг 2021 оноос одоо хүртэл Гадаад харилцааны сайдын үүрэгт ажиллаж байна.",
     "quote": "Battsetseg has retained the foreign affairs portfolio across three successive governments.",
     "pageNumber": "",
@@ -92,8 +137,13 @@
   {
     "id": "ev-010",
     "sourceId": "source-006",
-    "entityIds": ["person-009", "agency-002"],
-    "relationshipIds": ["rel-009"],
+    "entityIds": [
+      "person-009",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-009"
+    ],
     "claim": "Г.Дамдинням 2025 оны 6 дугаар сарын 18-аас Уул уурхайн сайдаар ажиллаж байна.",
     "quote": "G. Damdinjav was appointed Minister of Mining on 18 June 2025.",
     "pageNumber": "",
@@ -102,8 +152,13 @@
   {
     "id": "ev-011",
     "sourceId": "source-009",
-    "entityIds": ["person-010", "agency-003"],
-    "relationshipIds": ["rel-010"],
+    "entityIds": [
+      "person-010",
+      "agency-003"
+    ],
+    "relationshipIds": [
+      "rel-010"
+    ],
     "claim": "С.Бямбацогт МАН-аас 2024 оноос УИХ-ын даргаар ажиллаж байна.",
     "quote": "S. Byambatsogt (MPP) serves as Speaker of the State Great Khural.",
     "pageNumber": "",
@@ -112,8 +167,13 @@
   {
     "id": "ev-012",
     "sourceId": "source-001",
-    "entityIds": ["person-001", "agency-002"],
-    "relationshipIds": ["rel-011"],
+    "entityIds": [
+      "person-001",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-011"
+    ],
     "claim": "У.Хүрэлсүх 2017–2021 онд Ерөнхий сайдаар ажилласан.",
     "quote": "He served as Prime Minister of Mongolia from October 4, 2017, to January 27, 2021.",
     "pageNumber": "",
@@ -122,8 +182,13 @@
   {
     "id": "ev-013",
     "sourceId": "source-003",
-    "entityIds": ["person-003", "agency-002"],
-    "relationshipIds": ["rel-012"],
+    "entityIds": [
+      "person-003",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-012"
+    ],
     "claim": "Л.Оюун-Эрдэнэ 2025 оны 6 дугаар сарын 3-нд итгэлцлийн санал хуралд унаж огцорсон.",
     "quote": "Mongolia's prime minister has resigned after losing a vote of confidence in parliament.",
     "pageNumber": "",
@@ -132,8 +197,13 @@
   {
     "id": "ev-014",
     "sourceId": "source-006",
-    "entityIds": ["person-006", "agency-002"],
-    "relationshipIds": ["rel-013"],
+    "entityIds": [
+      "person-006",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-013"
+    ],
     "claim": "Н.Учрал 2026 оны 3 дугаар сарын 30-нд Ерөнхий сайдаар томилогдсон.",
     "quote": "New Prime Minister Uchral was confirmed on 30 March 2026.",
     "pageNumber": "",
@@ -142,8 +212,13 @@
   {
     "id": "ev-015",
     "sourceId": "source-001",
-    "entityIds": ["person-001", "agency-001"],
-    "relationshipIds": ["rel-014"],
+    "entityIds": [
+      "person-001",
+      "agency-001"
+    ],
+    "relationshipIds": [
+      "rel-014"
+    ],
     "claim": "У.Хүрэлсүх 2021 оны 6 дугаар сарын 25-аас Ерөнхийлөгчийн үүрэг хүлээж байна.",
     "quote": "Khurelsukh won the 2021 presidential election with 68% of the vote and assumed office on June 25, 2021.",
     "pageNumber": "",
@@ -152,8 +227,14 @@
   {
     "id": "ev-016",
     "sourceId": "source-013",
-    "entityIds": ["person-001", "person-003", "person-012"],
-    "relationshipIds": ["rel-015"],
+    "entityIds": [
+      "person-001",
+      "person-003",
+      "person-012"
+    ],
+    "relationshipIds": [
+      "rel-015"
+    ],
     "claim": "2025 оны 10 дугаар сарын байдлаар Ерөнхийлөгч Хүрэлсүх Занданшатарыг огцруулах санал хурааны эсрэг вэто тавьснаар МАН-ын удирдагчид хоорондоо зөрчилдөж байгаа нь харагдсан.",
     "quote": "Mongolia's president has vetoed a parliamentary motion to remove the prime minister, exposing rifts within the ruling MPP.",
     "pageNumber": "",
@@ -162,8 +243,13 @@
   {
     "id": "ev-017",
     "sourceId": "source-011",
-    "entityIds": ["person-003", "company-001"],
-    "relationshipIds": ["rel-016"],
+    "entityIds": [
+      "person-003",
+      "company-001"
+    ],
+    "relationshipIds": [
+      "rel-016"
+    ],
     "claim": "Ерөнхий сайд Оюун-Эрдэнэ 2022 оны 12 дугаар сарын эсэргүүцлийн дараа ЭТТ-ийг нийтийн компани болгох шийдвэр гаргасан.",
     "quote": "Prime Minister Oyun-Erdene announced plans to convert state miner Erdenes Tavan Tolgoi JSC into a public company following protests over coal theft.",
     "pageNumber": "",
@@ -172,8 +258,13 @@
   {
     "id": "ev-018",
     "sourceId": "source-006",
-    "entityIds": ["person-009", "company-001"],
-    "relationshipIds": ["rel-017"],
+    "entityIds": [
+      "person-009",
+      "company-001"
+    ],
+    "relationshipIds": [
+      "rel-017"
+    ],
     "claim": "Уул уурхайн сайд Г.Дамдинням Эрдэнэс Тавантолгой ХК-ийг хариуцдаг.",
     "quote": "The minister of mining has oversight of all state-owned mining enterprises including Erdenes Tavan Tolgoi.",
     "pageNumber": "",
@@ -182,8 +273,13 @@
   {
     "id": "ev-019",
     "sourceId": "source-003",
-    "entityIds": ["person-012", "agency-002"],
-    "relationshipIds": ["rel-018"],
+    "entityIds": [
+      "person-012",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-018"
+    ],
     "claim": "Г.Занданшатар 2025 оны 6 дугаар сарын 13-нд Ерөнхий сайдаар томилогдсон.",
     "quote": "Parliament approved Gombojav Zandanshatar as the new prime minister following Oyun-Erdene's resignation.",
     "pageNumber": "",
@@ -192,8 +288,13 @@
   {
     "id": "ev-020",
     "sourceId": "source-006",
-    "entityIds": ["person-008", "org-001"],
-    "relationshipIds": ["rel-019"],
+    "entityIds": [
+      "person-008",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-019"
+    ],
     "claim": "Ж.Энхбаяр МАН-ын гишүүн юм.",
     "quote": "MPP official J.Enkhbayar has served in senior government roles since 2021.",
     "pageNumber": "",
@@ -202,8 +303,13 @@
   {
     "id": "ev-021",
     "sourceId": "source-006",
-    "entityIds": ["person-013", "agency-002"],
-    "relationshipIds": ["rel-020"],
+    "entityIds": [
+      "person-013",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-020"
+    ],
     "claim": "З.Мэндсайхан 2026 оны 4 дүгээр сарын 4-нд Сангийн сайдаар томилогдсон.",
     "quote": "Z.Mendsaikhan was appointed as the new Finance Minister on 4 April 2026.",
     "pageNumber": "",
@@ -212,8 +318,13 @@
   {
     "id": "ev-022",
     "sourceId": "source-001",
-    "entityIds": ["person-011", "agency-002"],
-    "relationshipIds": ["rel-021"],
+    "entityIds": [
+      "person-011",
+      "agency-002"
+    ],
+    "relationshipIds": [
+      "rel-021"
+    ],
     "claim": "Ж.Эрдэнэбат 2016–2017 онд Ерөнхий сайдаар ажилласан.",
     "quote": "Jargaltulgyn Erdenebat served as Prime Minister from July 2016 until October 2017, when he was removed in a vote of no confidence.",
     "pageNumber": "",
@@ -222,8 +333,13 @@
   {
     "id": "ev-023",
     "sourceId": "source-006",
-    "entityIds": ["person-007", "org-001"],
-    "relationshipIds": ["rel-022"],
+    "entityIds": [
+      "person-007",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-022"
+    ],
     "claim": "Б.Батцэцэг МАН-ын гишүүн юм.",
     "quote": "Battsetseg is an MPP politician who has served as Foreign Minister since 2021.",
     "pageNumber": "",
@@ -232,8 +348,13 @@
   {
     "id": "ev-024",
     "sourceId": "source-009",
-    "entityIds": ["person-010", "org-001"],
-    "relationshipIds": ["rel-023"],
+    "entityIds": [
+      "person-010",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-023"
+    ],
     "claim": "С.Бямбацогт МАН-ын гишүүн юм.",
     "quote": "The MPP holds the majority in parliament after the 2024 elections.",
     "pageNumber": "",
@@ -242,11 +363,47 @@
   {
     "id": "ev-025",
     "sourceId": "source-003",
-    "entityIds": ["person-012", "org-001"],
-    "relationshipIds": ["rel-024"],
+    "entityIds": [
+      "person-012",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-024"
+    ],
     "claim": "Г.Занданшатар МАН-ын гишүүн юм.",
     "quote": "Zandanshatar is an MPP heavyweight who was nominated as PM by the party leadership.",
     "pageNumber": "",
     "notes": "BBC болон AP мэдээ."
+  },
+  {
+    "id": "ev-026",
+    "sourceId": "source-017",
+    "entityIds": [
+      "person-006",
+      "person-088"
+    ],
+    "relationshipIds": [
+      "rel-218",
+      "rel-219"
+    ],
+    "claim": "Ерөнхий сайд Учрал 2026 оны 5 дугаар сарын 16-нд Хишгээгийн Няамбаатарыг УБ хотын захирагч албанаас огцруулав.",
+    "quote": "PM Uchral fired Ulaanbaatar city governor Nyambaatar, citing failures in meat supply management.",
+    "pageNumber": "",
+    "notes": "Mongolia Weekly болон бусад хэрэгслүүдэд тайлагнасан. Ажиглагчид улс төрийн цэвэрлэгэ гэж үзэв."
+  },
+  {
+    "id": "ev-027",
+    "sourceId": "source-018",
+    "entityIds": [
+      "person-006",
+      "company-003"
+    ],
+    "relationshipIds": [
+      "rel-220"
+    ],
+    "claim": "Засгийн газар 2026-06-17-нд Эрдэнэс Монгол ХХК-ийн 14 охин компанийг татан буулгаж, нэрийг өөрчилж, 260 ажлын байрыг хасаж 67.3 тэрбум төгрөг хэмнэв.",
+    "quote": "The government dissolved 14 subsidiaries of Erdenes Mongol, renamed it Chinggis Khaan Wealth Fund Group LLC, eliminated 260 positions saving MNT 67.3 billion.",
+    "pageNumber": "",
+    "notes": "Montsame мэдээллийн агентлагт тайлагнасан. PM Учралын шинэчлэлийн бодлогын хэсэг."
   }
 ]

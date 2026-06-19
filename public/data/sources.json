@@ -242,5 +242,27 @@
       "2024",
       "election"
     ]
+  },
+  {
+    "id": "source-017",
+    "name": "Mongolia Weekly — UB Mayor fired",
+    "url": "https://mongoliaweekly.org/ub-mayor-nyambaatar-fired-uchral",
+    "type": "news",
+    "reliability": "high",
+    "language": "en",
+    "description": "Report on UB Mayor Nyambaatar being fired by PM Uchral, May 16 2026.",
+    "publishedAt": "2026-05-16",
+    "createdAt": "2026-06-20T00:00:00Z"
+  },
+  {
+    "id": "source-018",
+    "name": "Montsame — Erdenes Mongol restructured",
+    "url": "https://montsame.mn/en/read/402324",
+    "type": "news",
+    "reliability": "high",
+    "language": "en",
+    "description": "Montsame official news agency report on Erdenes Mongol restructuring, June 17 2026.",
+    "publishedAt": "2026-06-17",
+    "createdAt": "2026-06-20T00:00:00Z"
   }
 ]

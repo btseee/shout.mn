@@ -4038,5 +4038,65 @@
     "endDate": "",
     "createdAt": "2026-06-18T00:00:00Z",
     "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "rel-218",
+    "sourceEntityId": "person-006",
+    "targetEntityId": "person-088",
+    "relationshipType": "appointment",
+    "description": "2026 оны 5 дугаар сарын 16-нд Ерөнхий сайд Учрал УБ хотын захирагч Няамбаатарыг огцруулав. Мах, махан бүтээгдэхүүний хангамжийн алдааны талаар хариуцлага тооцох нэрийдлээр хийгдсэн боловч улс төрийн цэвэрлэгэ гэж тайлбарлагдсан.",
+    "strength": 80,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [
+      "ev-026"
+    ],
+    "sourceIds": [
+      "source-017"
+    ],
+    "startDate": "2026-05-16",
+    "endDate": "",
+    "createdAt": "2026-06-20T00:00:00Z",
+    "updatedAt": "2026-06-20T00:00:00Z"
+  },
+  {
+    "id": "rel-219",
+    "sourceEntityId": "person-003",
+    "targetEntityId": "person-088",
+    "relationshipType": "political_ally",
+    "description": "Оюун-Эрдэнэ Ерөнхий сайдаар ажиллах үед (2021–2025) Няамбаатар УБ хотын захирагчаар томилогдож, дэмжлэгтэй байсан. Учрал хавчлага үзүүлснээр тэдний улс төрийн ойр дотны байдал нотлогдов.",
+    "strength": 70,
+    "confidence": 85,
+    "status": "probable",
+    "evidenceIds": [
+      "ev-026"
+    ],
+    "sourceIds": [
+      "source-017"
+    ],
+    "startDate": "2021-01-01",
+    "endDate": "2026-05-16",
+    "createdAt": "2026-06-20T00:00:00Z",
+    "updatedAt": "2026-06-20T00:00:00Z"
+  },
+  {
+    "id": "rel-220",
+    "sourceEntityId": "person-006",
+    "targetEntityId": "company-003",
+    "relationshipType": "oversight",
+    "description": "2026 оны 6 дугаар сарын 17-нд Засгийн газрын шийдвэрээр Эрдэнэс Монгол ХХК-ийн 14 охин компанийг татан буулгаж, нэрийг өөрчилж, 260 ажлын байрыг халав. Учрал засгийн газрын зардлыг бууруулах шинэчлэлийнхээ нэг хэсэг болгон хэрэгжүүлэв.",
+    "strength": 85,
+    "confidence": 95,
+    "status": "confirmed",
+    "evidenceIds": [
+      "ev-027"
+    ],
+    "sourceIds": [
+      "source-018"
+    ],
+    "startDate": "2026-06-17",
+    "endDate": "",
+    "createdAt": "2026-06-20T00:00:00Z",
+    "updatedAt": "2026-06-20T00:00:00Z"
   }
 ]

@@ -710,5 +710,45 @@
     "entityId": "person-087",
     "description": "Лувсанням Гантөмөр (УИХ-ын гишүүн) нэмэгдлээ",
     "addedBy": "parliament-import"
+  },
+  {
+    "id": "cl-090",
+    "date": "2026-06-20",
+    "type": "entity_added",
+    "entityId": "person-088",
+    "description": "УБ хотын захирагч Хишгээгийн Няамбаатарыг нэмэв (2026-05-16-нд огцруулагдсан)",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-091",
+    "date": "2026-06-20",
+    "type": "entity_added",
+    "entityId": "company-003",
+    "description": "Эрдэнэс Монгол ХХК нэмэгдлээ (2026-06-17-нд Чингис хаан Баялгийн Сан ХХК болсон)",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-092",
+    "date": "2026-06-20",
+    "type": "relationship_added",
+    "entityId": "person-006",
+    "description": "Учрал → Няамбаатар огцруулсан холбоос нэмэгдлээ (rel-218)",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-093",
+    "date": "2026-06-20",
+    "type": "relationship_added",
+    "entityId": "company-003",
+    "description": "Учрал → Эрдэнэс Монгол хяналтын холбоос нэмэгдлээ (rel-220)",
+    "addedBy": "research-team"
+  },
+  {
+    "id": "cl-094",
+    "date": "2026-06-20",
+    "type": "investigation_added",
+    "entityId": "inv-003",
+    "description": "Мөрдлөг inv-003: Учралын улс төрийн нэгтгэл 2025–2026 нэмэгдлээ",
+    "addedBy": "research-team"
   }
 ]

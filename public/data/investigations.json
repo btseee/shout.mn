@@ -7,10 +7,29 @@
     "status": "completed",
     "startDate": "2025-05-22",
     "endDate": "2025-06-13",
-    "entityIds": ["person-003", "person-005", "person-012", "org-001"],
-    "relationshipIds": ["rel-003", "rel-012", "rel-018"],
-    "sourceIds": ["source-003", "source-004", "source-005"],
-    "tags": ["protests", "corruption", "PM", "2025", "resignation"],
+    "entityIds": [
+      "person-003",
+      "person-005",
+      "person-012",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-003",
+      "rel-012",
+      "rel-018"
+    ],
+    "sourceIds": [
+      "source-003",
+      "source-004",
+      "source-005"
+    ],
+    "tags": [
+      "protests",
+      "corruption",
+      "PM",
+      "2025",
+      "resignation"
+    ],
     "createdAt": "2025-06-10T00:00:00Z",
     "updatedAt": "2025-06-15T00:00:00Z"
   },
@@ -22,11 +41,60 @@
     "status": "ongoing",
     "startDate": "2022-12-08",
     "endDate": "",
-    "entityIds": ["company-001", "person-003", "person-009"],
-    "relationshipIds": ["rel-016", "rel-017"],
-    "sourceIds": ["source-010", "source-011"],
-    "tags": ["corruption", "mining", "coal", "ETT", "embezzlement"],
+    "entityIds": [
+      "company-001",
+      "person-003",
+      "person-009"
+    ],
+    "relationshipIds": [
+      "rel-016",
+      "rel-017"
+    ],
+    "sourceIds": [
+      "source-010",
+      "source-011"
+    ],
+    "tags": [
+      "corruption",
+      "mining",
+      "coal",
+      "ETT",
+      "embezzlement"
+    ],
     "createdAt": "2023-01-10T00:00:00Z",
     "updatedAt": "2026-06-18T00:00:00Z"
+  },
+  {
+    "id": "inv-003",
+    "title": "Учралын улс төрийн нэгтгэл 2025–2026",
+    "titleEn": "Uchral Political Consolidation 2025–2026",
+    "description": "2025 оны 6 дугаар сарын 13-нд Ерөнхий сайдаар томилогдсоноос хойш Учрал Оюун-Эрдэнийн үеийн гол хүмүүсийг нэг нэгээр огцруулж, улс төрийн хяналтаа бэхжүүлэв. УБ хотын захирагч Няамбаатарыг халах болон Эрдэнэс Монголыг өөрчлөн байгуулах нь Монгол улсын нийтийн байгууллага дахь нөлөөг нэгтгэх цуврал алхмуудын нэг юм.",
+    "status": "ongoing",
+    "startDate": "2025-06-13",
+    "endDate": "",
+    "entityIds": [
+      "person-006",
+      "person-003",
+      "person-088",
+      "company-003",
+      "org-001"
+    ],
+    "relationshipIds": [
+      "rel-218",
+      "rel-219",
+      "rel-220"
+    ],
+    "evidenceIds": [
+      "ev-026",
+      "ev-027"
+    ],
+    "tags": [
+      "power-consolidation",
+      "uchral",
+      "mpp",
+      "reform"
+    ],
+    "createdAt": "2026-06-20T00:00:00Z",
+    "updatedAt": "2026-06-20T00:00:00Z"
   }
 ]

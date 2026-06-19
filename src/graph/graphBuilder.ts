@@ -89,21 +89,26 @@ export function getEdgeSize(strength: number, type?: string): number {
 
 export function applyForceLayout(graph: Graph): void {
   if (graph.order === 0) return
-  // Seed positions with circular so ForceAtlas2 has a clean start
-  circular.assign(graph)
-  // Run ForceAtlas2 synchronously for a stable result
-  const settings = forceAtlas2.inferSettings(graph)
-  forceAtlas2.assign(graph, {
-    iterations: 200,
-    settings: {
-      ...settings,
-      gravity: 1.2,
-      scalingRatio: 3,
-      strongGravityMode: false,
-      barnesHutOptimize: graph.order > 50,
-      slowDown: 4,
-    },
-  })
+  try {
+    // Seed positions with circular so ForceAtlas2 has a clean start
+    circular.assign(graph)
+    // Run ForceAtlas2 synchronously for a stable result
+    const settings = forceAtlas2.inferSettings(graph)
+    forceAtlas2.assign(graph, {
+      iterations: 200,
+      settings: {
+        ...settings,
+        gravity: 1.2,
+        scalingRatio: 3,
+        strongGravityMode: false,
+        barnesHutOptimize: graph.order > 50,
+        slowDown: 4,
+      },
+    })
+  } catch (e) {
+    console.error('[shout.mn] ForceAtlas2 layout failed, falling back to circular:', e)
+    try { circular.assign(graph) } catch {}
+  }
 }
 
 /** @deprecated Use applyForceLayout */
