@@ -1,11 +1,12 @@
-export interface Source {
+import type { EvidenceDocType } from './edge'
+
+export interface SourceRecord {
   id: string
   title: string
-  publisher: string
   url: string
-  archiveUrl: string
-  publishedAt: string
-  retrievedAt: string
-  reliabilityNotes: string
-  tags: string[]
+  document_type: EvidenceDocType
+  publisher?: string
+  date_accessed: string
+  reliability_notes?: string
+  tags?: string[]
 }
