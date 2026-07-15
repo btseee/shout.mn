@@ -1,0 +1,2668 @@
+[
+  {
+    "id": "rel-001",
+    "from": "person-001",
+    "to": "person-002",
+    "relationship_type": "family",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Ukhnaagiin Khurelsukh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Ерөнхийлөгч У.Хүрэлсүх нь Лувсандорж Болорцэцэгтэй гэр бүл болсон."
+      }
+    ]
+  },
+  {
+    "id": "rel-002",
+    "from": "person-003",
+    "to": "person-004",
+    "relationship_type": "family",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Luvsannamsrain Oyun-Erdene — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luvsannamsrain_Oyun-Erdene",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Л.Оюун-Эрдэнэ нь Болдын Туултай гэр бүл болсон бөгөөд гурван хүүхэд байна."
+      }
+    ]
+  },
+  {
+    "id": "rel-003",
+    "from": "person-003",
+    "to": "person-005",
+    "relationship_type": "family",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Protests against prime minister in Mongolia could lead to government shake-up",
+        "url": "https://apnews.com/article/mongolia-protests-prime-minister-resign-047f7bbcbcf3935fb39ddb92ba655fd2",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Оюун-Эрдэнэгийн хүүгийн тансаг хэрэглээний постуудын улмаас нийтийн эсэргүүцэл дэгдсэн."
+      },
+      {
+        "source_name": "Mongolia PM expected to call vote of confidence in the face of protests",
+        "url": "https://www.theguardian.com/world/2025/may/27/mongolia-protests-prime-minister-luvsannamsrai",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "59,000 гаруй иргэн Ерөнхий сайдын огцролыг шаарддаг онлайн нэхэмжлэлд гарын үсэг зурсан."
+      }
+    ]
+  },
+  {
+    "id": "rel-004",
+    "from": "person-001",
+    "to": "person-008",
+    "relationship_type": "appointment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "PRESIDENT KHURELSUKH APPOINTS CHIEF OF STAFF, NSC SECRETARY",
+        "url": "https://president.mn/en/2021/06/25/president-khurelsukh-appoints-chief-of-staff/",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Ерөнхийлөгч Хүрэлсүх 2021 оны 6 дугаар сарын 25-нд Ж.Энхбаярыг ҮАБЗөвлөлийн нарийн бичгийн даргаар томилсон."
+      }
+    ],
+    "date_range": {
+      "from": "2021-06-25"
+    }
+  },
+  {
+    "id": "rel-008",
+    "from": "person-007",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Prime Minister Uchral Names His Cabinet",
+        "url": "https://www.mongoliaweekly.org/post/prime-minister-uchral-names-his-cabinet",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Б.Батцэцэг 2021 оноос одоо хүртэл Гадаад харилцааны сайдын үүрэгт ажиллаж байна."
+      }
+    ],
+    "date_range": {
+      "from": "2021-01-29"
+    }
+  },
+  {
+    "id": "rel-009",
+    "from": "person-009",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Prime Minister Uchral Names His Cabinet",
+        "url": "https://www.mongoliaweekly.org/post/prime-minister-uchral-names-his-cabinet",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Г.Дамдинням 2025 оны 6 дугаар сарын 18-аас Уул уурхайн сайдаар ажиллаж байна."
+      }
+    ],
+    "date_range": {
+      "from": "2025-06-18"
+    }
+  },
+  {
+    "id": "rel-010",
+    "from": "person-010",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Politics of Mongolia — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Politics_of_Mongolia",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "С.Бямбацогт МАН-аас 2024 оноос УИХ-ын даргаар ажиллаж байна."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-01"
+    }
+  },
+  {
+    "id": "rel-011",
+    "from": "person-001",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Ukhnaagiin Khurelsukh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "У.Хүрэлсүх 2017–2021 онд Ерөнхий сайдаар ажилласан."
+      }
+    ],
+    "date_range": {
+      "from": "2017-10-04",
+      "to": "2021-01-27"
+    }
+  },
+  {
+    "id": "rel-012",
+    "from": "person-003",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Mongolia PM resigns after losing confidence vote",
+        "url": "https://www.bbc.com/news/articles/c5yg8dxv5w9o",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Л.Оюун-Эрдэнэ 2025 оны 6 дугаар сарын 3-нд итгэлцлийн санал хуралд унаж огцорсон."
+      }
+    ],
+    "date_range": {
+      "from": "2021-01-27",
+      "to": "2025-06-13"
+    }
+  },
+  {
+    "id": "rel-013",
+    "from": "person-006",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Prime Minister Uchral Names His Cabinet",
+        "url": "https://www.mongoliaweekly.org/post/prime-minister-uchral-names-his-cabinet",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Н.Учрал 2026 оны 3 дугаар сарын 30-нд Ерөнхий сайдаар томилогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2026-03-30"
+    }
+  },
+  {
+    "id": "rel-014",
+    "from": "person-001",
+    "to": "agency-001",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Ukhnaagiin Khurelsukh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "У.Хүрэлсүх 2021 оны 6 дугаар сарын 25-аас Ерөнхийлөгчийн үүрэг хүлээж байна."
+      }
+    ],
+    "date_range": {
+      "from": "2021-06-25"
+    }
+  },
+  {
+    "id": "rel-018",
+    "from": "person-012",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Mongolia PM resigns after losing confidence vote",
+        "url": "https://www.bbc.com/news/articles/c5yg8dxv5w9o",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Г.Занданшатар 2025 оны 6 дугаар сарын 13-нд Ерөнхий сайдаар томилогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2025-06-13",
+      "to": "2026-03-30"
+    }
+  },
+  {
+    "id": "rel-020",
+    "from": "person-013",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Prime Minister Uchral Names His Cabinet",
+        "url": "https://www.mongoliaweekly.org/post/prime-minister-uchral-names-his-cabinet",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "З.Мэндсайхан 2026 оны 4 дүгээр сарын 4-нд Сангийн сайдаар томилогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2026-04-04"
+    }
+  },
+  {
+    "id": "rel-021",
+    "from": "person-011",
+    "to": "agency-002",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Ukhnaagiin Khurelsukh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+        "date_accessed": "2026-06-18",
+        "document_type": "news_article",
+        "note": "Ж.Эрдэнэбат 2016–2017 онд Ерөнхий сайдаар ажилласан."
+      }
+    ],
+    "date_range": {
+      "from": "2016-07-08",
+      "to": "2017-10-04"
+    }
+  },
+  {
+    "id": "rel-025",
+    "from": "person-014",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Ёндонпэрэнлэйн Баатарбилэг 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-027",
+    "from": "person-015",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жамьяангийн Мөнхбат 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-029",
+    "from": "person-016",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Ганзоригийн Тэмүүлэн 2020 оны сонгуулиар Архангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-031",
+    "from": "person-017",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Хавдисламын Бадьелхан 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-033",
+    "from": "person-018",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Тьэлухань Аубакар 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-035",
+    "from": "person-019",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Буланы Бьэйсьэн 2020 оны сонгуулиар Баян-Өлгий тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-037",
+    "from": "person-020",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дашдондогийн Ганбат 2020 оны сонгуулиар Баянхонгор тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-039",
+    "from": "person-021",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Амгалангийн Адъяасүрэн 2020 оны сонгуулиар Баянхонгор тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-041",
+    "from": "person-022",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цогт-Очирын Анандбазар 2020 оны сонгуулиар Булган тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-043",
+    "from": "person-023",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жадамбын Бат-Эрдэнэ 2020 оны сонгуулиар Булган тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-045",
+    "from": "person-024",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Бямбасүрэнгийн Энх-Амгалан 2020 оны сонгуулиар Говь-Алтай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-047",
+    "from": "person-025",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Шатарбалын Раднаасэд 2020 оны сонгуулиар Говь-Алтай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-049",
+    "from": "person-026",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Сүхбаатарын Батболд 2020 оны сонгуулиар Дундговь Говьсүмбэр тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-051",
+    "from": "person-027",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Гомпилдоогийн Мөнхцэцэг 2020 оны сонгуулиар Дундговь Говьсүмбэр тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-053",
+    "from": "person-028",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Хаянгаагийн Болорчулуун 2020 оны сонгуулиар Дорнод тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-055",
+    "from": "person-029",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэдэвийн Сэргэлэн 2020 оны сонгуулиар Дорнод тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-057",
+    "from": "person-030",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Борхүүгийн Дэлгэрсайхан 2020 оны сонгуулиар Дорноговь тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-059",
+    "from": "person-031",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Тэмөртэгоогийн Энхтүвшин 2020 оны сонгуулиар Дорноговь тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-061",
+    "from": "person-032",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэдэндамбын Цэрэнпунцаг 2020 оны сонгуулиар Завхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-063",
+    "from": "person-033",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Балжинням Баярсайхан 2020 оны сонгуулиар Завхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-065",
+    "from": "person-034",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Содномын Чинзориг 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-067",
+    "from": "person-035",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дуламдоржийн Тогтохсүрэн 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-069",
+    "from": "person-036",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Гочоогийн Ганболд 2020 оны сонгуулиар Өвөрхангай тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-071",
+    "from": "person-037",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Нанзадын Наранбаатар 2020 оны сонгуулиар Өмнөговь тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-073",
+    "from": "person-038",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дашдэмбэрэлийн Бат-Эрдэнэ 2020 оны сонгуулиар Өмнөговь тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-075",
+    "from": "person-039",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жамбын Батсуурь 2020 оны сонгуулиар Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-077",
+    "from": "person-040",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Наянтайн Ганибал 2020 оны сонгуулиар Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-079",
+    "from": "person-041",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Чинбатын Ундрам 2020 оны сонгуулиар Сэлэнгэ тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-081",
+    "from": "person-042",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дамдинсүрэнгийн Өнөрболор 2020 оны сонгуулиар Сэлэнгэ тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-083",
+    "from": "person-043",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жигжидийн Батжаргал 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-085",
+    "from": "person-044",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэвэгдоржийн Туваан 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-087",
+    "from": "person-045",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Няамаагийн Энхболд 2020 оны сонгуулиар Төв тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-089",
+    "from": "person-046",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Одонгийн Цогтгэрэл 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-091",
+    "from": "person-047",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Чимэдийн Хүрэлбаатар 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-093",
+    "from": "person-048",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Баттогтохын Чойжилсүрэн 2020 оны сонгуулиар Увс тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-095",
+    "from": "person-049",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Ширнэнбанидийн Адишаа 2020 оны сонгуулиар Ховд тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-097",
+    "from": "person-050",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Бөхчулуун Пүрэвдорж 2020 оны сонгуулиар Ховд тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-099",
+    "from": "person-051",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэрэнпилийн Давааcүрэн 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-101",
+    "from": "person-052",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Лхагвын Мөнхбаатар 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-103",
+    "from": "person-053",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Лувсантсэрэнгийн Энх-Амгалан 2020 оны сонгуулиар Хөвсгөл тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-105",
+    "from": "person-054",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Бадманьямбуугийн Бат-Эрдэнэ 2020 оны сонгуулиар Хэнтий тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-107",
+    "from": "person-055",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цагаанхүүгийн Идэрбат 2020 оны сонгуулиар Хэнтий тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-109",
+    "from": "person-056",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Болдын Жавхлан 2020 оны сонгуулиар Дархан-Уул тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-111",
+    "from": "person-057",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Баагаагийн Баттөмөр 2020 оны сонгуулиар Дархан-Уул тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-113",
+    "from": "person-058",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дамбын Батлут 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-115",
+    "from": "person-059",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Норовын Алтанхуяг 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-116",
+    "from": "person-060",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Сайнхүүгийн Ганбаатар 2020 оны сонгуулиар Орхон тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-117",
+    "from": "person-061",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Сайнбуянгийн Амарсайхан 2020 оны сонгуулиар УБ Багахангай Багануур Налайх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-119",
+    "from": "person-062",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэндийн Сандаг-Очир 2020 оны сонгуулиар УБ Багахангай Багануур Налайх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-121",
+    "from": "person-063",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Баттөмөрийн Энхбаяр 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-123",
+    "from": "person-064",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Батсүхийн Саранчимэг 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-125",
+    "from": "person-065",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жигждсүрэнгийн Чинбүрэн 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-127",
+    "from": "person-066",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Хүрэлбаатарын Булгантуяа 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-129",
+    "from": "person-067",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Энхтайваны Бат-Амгалан 2020 оны сонгуулиар УБ Баянзүрх тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-131",
+    "from": "person-068",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дамдины Цогтбаатар 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-133",
+    "from": "person-069",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэндийн Мөнх-Оргил 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-135",
+    "from": "person-070",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Цэрэнжамцын Мөнхцэцэг 2020 оны сонгуулиар УБ Сүхбаатар тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-137",
+    "from": "person-071",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Тэморбаатарын Аюурсайхан 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-139",
+    "from": "person-072",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Мөнхөөгийн Оюунчимэг 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-141",
+    "from": "person-073",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жамьянхорлоогийн Сүхбаатар 2020 оны сонгуулиар УБ Чингэлтэй тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-143",
+    "from": "person-074",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Хассуурийн Ганхуяг 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-145",
+    "from": "person-075",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жамбалын Ганбаатар 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-147",
+    "from": "person-076",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Салдангийн Одонтуяа 2020 оны сонгуулиар УБ Баянгол тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-149",
+    "from": "person-077",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Хишгээгийн Нямбаатар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-151",
+    "from": "person-078",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Бадарчийн Жаргалмаа 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-153",
+    "from": "person-079",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дологрсүрэнгийн Сумьяабазар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-155",
+    "from": "person-080",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Энхбаярын Батшугар 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-157",
+    "from": "person-081",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Пурэв-Очирын Анужин 2020 оны сонгуулиар УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-159",
+    "from": "person-082",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Ганибалын Амартүвшин 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-161",
+    "from": "person-083",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дагвааянцангийн Саранцэцэг 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-163",
+    "from": "person-084",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Тогмидын Доржханд 2020 оны сонгуулиар УБ Хан-Уул тойргоос УИХ-д сонгогдсон (2020–2024)."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-164",
+    "from": "person-001",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Ухнаагийн Хүрэлсүх Хэнтий тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2021-06-25"
+    }
+  },
+  {
+    "id": "rel-165",
+    "from": "person-003",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Лувсаннамсрайн Оюун-Эрдэнэ Хэнтий тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-166",
+    "from": "person-006",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Няморсрын Учрал УБ Сонгинохайрхан тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-167",
+    "from": "person-008",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жадамбын Энхбаяр Булган тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-168",
+    "from": "person-009",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Гонгорын Дамдинням Дархан-Уул тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-169",
+    "from": "person-010",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Сандагийн Бямбацогт Ховд тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-170",
+    "from": "person-011",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Жаргалтулгын Эрдэнэбат Сэлэнгэ тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-171",
+    "from": "person-012",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Гомбожавын Занданшатар Баянхонгор тойргоос УИХ-д сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2020-07-01",
+      "to": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-172",
+    "from": "person-052",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-173",
+    "from": "person-023",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-174",
+    "from": "person-051",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-175",
+    "from": "person-058",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-176",
+    "from": "person-053",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-177",
+    "from": "person-056",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-178",
+    "from": "person-044",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-179",
+    "from": "person-043",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-180",
+    "from": "person-009",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-181",
+    "from": "person-041",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-182",
+    "from": "person-016",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Архангай/Баянхонгор/Өвөрхангай (1-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-183",
+    "from": "person-020",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Архангай/Баянхонгор/Өвөрхангай (1-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-184",
+    "from": "person-010",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-185",
+    "from": "person-046",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-186",
+    "from": "person-050",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-187",
+    "from": "person-048",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-188",
+    "from": "person-018",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Баян-Өлгий (3-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-189",
+    "from": "person-019",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Баян-Өлгий (3-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-190",
+    "from": "person-003",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дорнод/Хэнтий/Сүхбаатар (6-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-191",
+    "from": "person-055",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дорнод/Хэнтий/Сүхбаатар (6-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-192",
+    "from": "person-030",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дорноговь/Дундговь/Өмнөговь (7-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-193",
+    "from": "person-037",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дорноговь/Дундговь/Өмнөговь (7-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-194",
+    "from": "person-065",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-195",
+    "from": "person-063",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-196",
+    "from": "person-067",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-197",
+    "from": "person-066",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянзүрх (8-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-198",
+    "from": "person-074",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянгол (9-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-199",
+    "from": "person-075",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Баянгол (9-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-200",
+    "from": "person-006",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Чингэлтэй/Сүхбаатар (10-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-201",
+    "from": "person-068",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Чингэлтэй/Сүхбаатар (10-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-202",
+    "from": "person-080",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Сонгинохайрхан (11-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-203",
+    "from": "person-059",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Сонгинохайрхан (11-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-204",
+    "from": "person-061",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Багахангай/Багануур/Налайх (13-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-205",
+    "from": "person-062",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар УБ Багахангай/Багануур/Налайх (13-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-206",
+    "from": "person-039",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар ДН нийтийн жагсаалт (3-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-207",
+    "from": "person-076",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар ДН нийтийн жагсаалт (2-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-208",
+    "from": "person-084",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар ХҮН нийтийн жагсаалт (1-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-209",
+    "from": "person-008",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "2024 оны сонгуулиар Дархан-Уул/Сэлэнгэ/Төв (5-р) тойрогт дахин сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-210",
+    "from": "person-085",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Халтмаагийн Батулга 2024 оны сонгуулиар Булган/Хөвсгөл/Орхон (4-р тойрог) тойрогт сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-212",
+    "from": "person-086",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Дашзэгвийн Амарбаясгалан 2024 оны сонгуулиар Говь-Алтай/Ховд/Увс/Завхан (2-р тойрог) тойрогт сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-214",
+    "from": "person-087",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Лувсанням Гантөмөр 2024 оны сонгуулиар ДН-ын нийтийн жагсаалт (1-р байр) тойрогт сонгогдсон."
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "rel-216",
+    "from": "person-085",
+    "to": "agency-001",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Unknown",
+        "url": "",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Халтмаагийн Батулга 2017 оны 7 дугаар сарын 10-аас 2021 оны 6 дугаар сарын 25 хүртэл Монгол Улсын 5 дахь Ерөнхийлөгч."
+      }
+    ],
+    "date_range": {
+      "from": "2017-07-10",
+      "to": "2021-06-25"
+    }
+  },
+  {
+    "id": "rel-218",
+    "from": "person-006",
+    "to": "person-088",
+    "relationship_type": "appointment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "source-017",
+        "url": "https://mongoliaweekly.org/ub-mayor-nyambaatar-fired-uchral",
+        "date_accessed": "2026-07-15",
+        "document_type": "news_article",
+        "note": "Ерөнхий сайд Учрал 2026 оны 5 дугаар сарын 16-нд Хишгээгийн Няамбаатарыг УБ хотын захирагч албанаас огцруулав."
+      }
+    ],
+    "date_range": {
+      "from": "2026-05-16"
+    }
+  }
+]
