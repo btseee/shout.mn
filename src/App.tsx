@@ -19,6 +19,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null)
   const sigmaRef = useRef<Sigma | null>(null)
   const [showLegend, setShowLegend] = useState(false)
+  const [showAbout, setShowAbout] = useState(false)
   const { selectedNodeId, clearSelection } = useSelectionStore()
   const { selectedNodeTypes, selectedConfidence, searchQuery, toggleNodeType, toggleConfidence } = useFiltersStore()
 
@@ -111,6 +112,12 @@ export default function App() {
           className="text-xs text-slate-500 hover:text-slate-300"
         >
           Тэмдэглэгээ
+        </button>
+        <button
+          onClick={() => setShowAbout(true)}
+          className="text-xs text-slate-500 hover:text-slate-300"
+        >
+          Тухай
         </button>
         <div className="flex-1" />
         <p className="text-xs text-slate-500">
@@ -209,6 +216,48 @@ export default function App() {
                     </div>
                   )
                 })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* About modal */}
+      {showAbout && (
+        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4" onClick={() => setShowAbout(false)}>
+          <div className="bg-slate-900 border border-slate-700 rounded-xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6" onClick={e => e.stopPropagation()}>
+            <div className="flex items-start justify-between mb-4">
+              <h2 className="text-lg font-bold text-white">Тухай</h2>
+              <button onClick={() => setShowAbout(false)} className="text-slate-400 hover:text-white text-lg">&times;</button>
+            </div>
+            <div className="space-y-4 text-sm text-slate-300">
+              <p>
+                <strong className="text-white">shout.mn</strong> нь Монгол Улсын улс төрийн холбоо хамааралыг судлах зорилготой судалгааны хэрэгсэл юм.
+              </p>
+              <div>
+                <h3 className="font-semibold text-white mb-1">Эх сурвалжууд</h3>
+                <ul className="list-disc list-inside space-y-1 text-slate-400">
+                  <li>Авлигатай тэмцэх газар (IAAC) — мэдэгдэл, ашиг сонирхлын мэдүүлэг</li>
+                  <li>Татварын ерөнхий газар (GASR) — компанийн бүртгэл</li>
+                  <li>Шүүхийн шийдвэрийн нэгдсэн сан (shuukh.mn)</li>
+                  <li>Тендерийн газар (tender.gov.mn) — төрийн худалдан авалт</li>
+                  <li>OCCRP Aleph, OpenSanctions, OpenCorporates</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-white mb-1">Итгэлцлийн түвшин</h3>
+                <ul className="space-y-1 text-slate-400">
+                  <li><span className="text-green-400">Баталгаажсан</span> — бүртгэл, шүүхийн шийдвэр, албан ёсны эх сурвалжаар нотлогдсон</li>
+                  <li><span className="text-yellow-400">Мэдээлсэн</span> — нэг буюу түүнээс олон найдвартай эх сурвалжид нийтлэгдсэн</li>
+                  <li><span className="text-red-400">Үндэслэлгүй</span> — нэгэн эх сурвалжид үндэслэсэн, баталгаажүүлээгүй</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-white mb-1">Хуулийн зөвлөгөөн</h3>
+                <p className="text-slate-400">
+                  Хувийн мэдээлэл хамгаалах хууль (2022), Эрүүгийн хуулийн 13.14 зүйл (хүндэтгэлийг гутаах) зэрэг хуулиудыг дагаж мөрдөнө.
+                  Зөвхөн нийтийн албан тушаалтан, нийтийн хөрөнгийн хяналтыг чиглэсэн.
+                </p>
+              </div>
             </div>
           </div>
         </div>
