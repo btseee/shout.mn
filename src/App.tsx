@@ -8,6 +8,8 @@ import { buildGraph, applyForceLayout } from '@/graph/graphBuilder'
 import { SigmaGraph } from '@/graph/SigmaGraph'
 import { useSelectionStore } from '@/store/selection'
 import { useFiltersStore } from '@/store/filters'
+import { CONFIDENCE_LABELS } from '@/types/edge'
+import type { ConfidenceTier } from '@/types/edge'
 
 export default function App() {
   const [allNodes, setNodes] = useState<Node[]>([])
@@ -16,8 +18,9 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const sigmaRef = useRef<Sigma | null>(null)
+  const [showLegend, setShowLegend] = useState(false)
   const { selectedNodeId, clearSelection } = useSelectionStore()
-  const { selectedNodeTypes, selectedConfidence, searchQuery } = useFiltersStore()
+  const { selectedNodeTypes, selectedConfidence, searchQuery, toggleNodeType, toggleConfidence } = useFiltersStore()
 
   useEffect(() => {
     Promise.all([fetchNodes(), fetchEdges(), fetchSources()])
@@ -88,11 +91,53 @@ export default function App() {
           onChange={e => useFiltersStore.getState().setSearchQuery(e.target.value)}
           className="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-sm text-white placeholder-slate-400 w-48 focus:outline-none focus:border-blue-500"
         />
+        <div className="w-px h-5 bg-slate-700" />
+        {(['documented', 'reported', 'alleged'] as ConfidenceTier[]).map(c => (
+          <button
+            key={c}
+            onClick={() => toggleConfidence(c)}
+            className={`px-2 py-1 rounded text-xs font-medium transition-colors ${
+              selectedConfidence.includes(c)
+                ? 'bg-slate-700 text-white'
+                : 'text-slate-500 hover:text-slate-300'
+            }`}
+          >
+            {CONFIDENCE_LABELS[c]}
+          </button>
+        ))}
+        <div className="w-px h-5 bg-slate-700" />
+        <button
+          onClick={() => setShowLegend(!showLegend)}
+          className="text-xs text-slate-500 hover:text-slate-300"
+        >
+          Тэмдэглэгээ
+        </button>
         <div className="flex-1" />
         <p className="text-xs text-slate-500">
           {filteredNodes.length}/{allNodes.length} зангилаа · {filteredEdges.length} холбоос
         </p>
       </div>
+
+      {/* Legend overlay */}
+      {showLegend && (
+        <div className="absolute top-12 right-4 bg-slate-900 border border-slate-700 rounded-lg p-3 z-30 shadow-xl">
+          <h4 className="text-xs font-semibold text-slate-300 mb-2">Итгэлцлийн түвшин</h4>
+          <div className="space-y-1.5">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-0.5 bg-[#475569]" style={{ borderTop: '2px solid #475569' }} />
+              <span className="text-xs text-slate-400">Баталгаажсан (documented)</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-0.5" style={{ borderTop: '2px dashed #64748b' }} />
+              <span className="text-xs text-slate-400">Мэдээлсэн (reported)</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-0.5" style={{ borderTop: '2px dotted #94a3b8' }} />
+              <span className="text-xs text-slate-400">Үндэслэлгүй (alleged)</span>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Graph */}
       <div className="flex-1 relative">
