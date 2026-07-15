@@ -1,10 +1,10 @@
 import { useEffect, useRef, useCallback } from 'react'
 import Sigma from 'sigma'
 import type Graph from 'graphology'
-import { useSelectionStore } from '@/store/selection.ts'
-import { useFiltersStore } from '@/store/filters.ts'
-import { t } from '@/i18n/index.ts'
-import type { EntityType } from '@/types/entity.ts'
+import { useSelectionStore } from '@/store/selection'
+import { useFiltersStore } from '@/store/filters'
+import type { NodeType } from '@/types/node'
+import type { ConfidenceTier } from '@/types/edge'
 
 interface SigmaGraphProps {
   graph: Graph
@@ -14,10 +14,9 @@ interface SigmaGraphProps {
 export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const sigmaRef = useRef<Sigma | null>(null)
-  const { selectedNodeId, selectedEdgeId, hopDepth, setSelectedNode, setSelectedEdge, clearSelection } = useSelectionStore()
+  const { selectedNodeId, selectedEdgeId, selectNode, selectEdge, clearSelection } = useSelectionStore()
   const filters = useFiltersStore()
 
-  // Initialize sigma
   useEffect(() => {
     if (!containerRef.current) return
     if (graph.order === 0) return
@@ -29,23 +28,15 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       labelSize: 12,
       labelWeight: '500',
       labelColor: { attribute: 'labelColor', color: '#94a3b8' },
-      // Only render labels for nodes that appear larger than 8px on screen
       labelRenderedSizeThreshold: 8,
       nodeReducer: (node, data) => {
         const sel = useSelectionStore.getState()
         const filt = useFiltersStore.getState()
 
-        // Filter by entity type
-        if (filt.entityTypes.length > 0 && !filt.entityTypes.includes(data.entityType as unknown as EntityType)) {
+        if (filt.selectedNodeTypes.length > 0 && !filt.selectedNodeTypes.includes(data.nodeType as NodeType)) {
           return { ...data, hidden: true }
         }
 
-        // Filter by confidence
-        if (data.confidence < filt.minConfidence) {
-          return { ...data, hidden: true }
-        }
-
-        // Highlight selection
         if (sel.selectedNodeId) {
           const isSelected = node === sel.selectedNodeId
           const isNeighbor = graph.neighbors(sel.selectedNodeId).includes(node)
@@ -57,14 +48,6 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
           }
         }
 
-        // Path highlighting
-        if (sel.pathEntityIds.length > 0) {
-          if (!sel.pathEntityIds.includes(node)) {
-            return { ...data, color: '#e2e8f0', size: Math.max(data.size * 0.7, 4) }
-          }
-          return { ...data, highlighted: true, zIndex: 2 }
-        }
-
         return data
       },
       edgeReducer: (edge, data) => {
@@ -73,36 +56,17 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         const source = graph.source(edge)
         const target = graph.target(edge)
 
-        // Filter by status
-        if (filt.relationshipStatuses.length > 0 && !filt.relationshipStatuses.includes(data.status)) {
-          return { ...data, hidden: true }
-        }
-        // Filter by strength
-        if (data.strength < filt.minStrength) {
-          return { ...data, hidden: true }
-        }
-        // Filter by confidence
-        if (data.confidence < filt.minConfidence) {
+        if (filt.selectedConfidence.length > 0 && !filt.selectedConfidence.includes(data.confidence as ConfidenceTier)) {
           return { ...data, hidden: true }
         }
 
-        // Dim when node is selected
         if (sel.selectedNodeId) {
           if (source !== sel.selectedNodeId && target !== sel.selectedNodeId) {
             return { ...data, color: '#f1f5f9', size: 1 }
           }
-          if (edge === selectedEdgeId) {
+          if (edge === sel.selectedEdgeId) {
             return { ...data, color: '#e11d48', size: 3 }
           }
-        }
-
-        // Path highlighting
-        if (sel.pathEntityIds.length > 0) {
-          const bothOnPath = sel.pathEntityIds.includes(source) && sel.pathEntityIds.includes(target)
-          if (!bothOnPath) {
-            return { ...data, color: '#e2e8f0', size: 1 }
-          }
-          return { ...data, color: '#e11d48', size: 3 }
         }
 
         return data
@@ -110,12 +74,11 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
     })
 
     sigma.on('clickNode', ({ node }) => {
-      setSelectedNode(node)
+      selectNode(node)
     })
 
     sigma.on('clickEdge', ({ edge }) => {
-      const relId = graph.getEdgeAttribute(edge, 'relationshipId') as string
-      setSelectedEdge(relId)
+      selectEdge(edge)
     })
 
     sigma.on('clickStage', () => {
@@ -131,21 +94,20 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph])
 
-  // Refresh sigma when selection or filters change
   const refresh = useCallback(() => {
     sigmaRef.current?.refresh({ skipIndexation: true })
   }, [])
 
   useEffect(() => {
     refresh()
-  }, [selectedNodeId, selectedEdgeId, hopDepth, filters, refresh])
+  }, [selectedNodeId, selectedEdgeId, filters, refresh])
 
   return (
     <div
       ref={containerRef}
       className={`sigma-container ${className}`}
       role="img"
-      aria-label={t.graph.ariaLabel}
+      aria-label="Power mapping graph"
     />
   )
 }

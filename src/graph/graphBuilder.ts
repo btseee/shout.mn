@@ -1,98 +1,52 @@
 import Graph from 'graphology'
 import circular from 'graphology-layout/circular'
 import forceAtlas2 from 'graphology-layout-forceatlas2'
-import type { Entity } from '@/types/entity.ts'
-import type { Relationship } from '@/types/relationship.ts'
-import { ENTITY_TYPE_COLORS } from '@/types/entity.ts'
-import type { EntityType } from '@/types/entity.ts'
-import type { RelationshipStatus } from '@/types/relationship.ts'
+import type { Node } from '@/types/node'
+import type { Edge } from '@/types/edge'
+import { NODE_TYPE_COLORS } from '@/types/node'
+import { CONFIDENCE_COLORS, CONFIDENCE_DASH } from '@/types/edge'
 
-export interface GraphFilters {
-  entityTypes: EntityType[]
-  relationshipStatuses: RelationshipStatus[]
-  minConfidence: number
-  minStrength: number
-}
+export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
+  const graph = new Graph({ type: 'directed', multi: true })
 
-export function buildGraph(
-  entities: Entity[],
-  relationships: Relationship[],
-  activeDate?: string,
-): Graph {
-  const graph = new Graph({ type: 'undirected', multi: false })
-
-  for (const entity of entities) {
-    const color = ENTITY_TYPE_COLORS[entity.type] ?? '#64748b'
-    // Size: min 4px (backbench MP) to 28px (president)
-    const size = 4 + Math.pow(entity.importance / 100, 1.5) * 24
-    // Only render label inline for important nodes; small nodes get label on hover only
-    const labelColor = entity.importance >= 70 ? '#e2e8f0' : '#94a3b8'
-    graph.addNode(entity.id, {
-      label: entity.name,
+  for (const node of nodes) {
+    const color = NODE_TYPE_COLORS[node.type] ?? '#64748b'
+    const size = 4 + Math.pow((node.importance ?? 50) / 100, 1.5) * 24
+    const labelColor = (node.importance ?? 50) >= 70 ? '#e2e8f0' : '#94a3b8'
+    graph.addNode(node.id, {
+      label: node.name,
       color,
       size,
       labelColor,
-      entityType: entity.type,
-      importance: entity.importance,
-      confidence: entity.confidence,
+      nodeType: node.type,
+      importance: node.importance ?? 50,
     })
   }
 
-  for (const rel of relationships) {
-    if (!graph.hasNode(rel.sourceEntityId) || !graph.hasNode(rel.targetEntityId)) continue
-    if (rel.sourceEntityId === rel.targetEntityId) continue
+  for (const edge of edges) {
+    if (!graph.hasNode(edge.from) || !graph.hasNode(edge.to)) continue
+    if (edge.from === edge.to) continue
 
-    // Timeline filtering
-    if (activeDate) {
-      if (rel.startDate && rel.startDate > activeDate) continue
-      if (rel.endDate && rel.endDate < activeDate) continue
-    }
+    const edgeColor = CONFIDENCE_COLORS[edge.confidence]
+    const dash = CONFIDENCE_DASH[edge.confidence]
 
-    const edgeColor = getEdgeColor(rel.status, rel.relationshipType)
-    const edgeSize = getEdgeSize(rel.strength, rel.relationshipType)
-
-    const edgeId = `${rel.sourceEntityId}--${rel.targetEntityId}`
-    if (!graph.hasEdge(edgeId)) {
-      graph.addEdgeWithKey(edgeId, rel.sourceEntityId, rel.targetEntityId, {
-        label: rel.relationshipType.replace(/_/g, ' '),
-        color: edgeColor,
-        size: edgeSize,
-        status: rel.status,
-        confidence: rel.confidence,
-        strength: rel.strength,
-        relationshipId: rel.id,
-      })
-    }
+    graph.addEdgeWithKey(edge.id, edge.from, edge.to, {
+      label: edge.relationship_type.replace(/_/g, ' '),
+      color: edgeColor,
+      size: 1.5,
+      dash,
+      confidence: edge.confidence,
+      edgeId: edge.id,
+    })
   }
 
   return graph
 }
 
-// Bulk structural edges (employment/party) are thin and muted
-const STRUCTURAL_TYPES = new Set(['employment', 'party_member'])
-
-export function getEdgeColor(status: RelationshipStatus, type?: string): string {
-  if (type && STRUCTURAL_TYPES.has(type)) return '#334155' // very muted
-  const colors: Record<RelationshipStatus, string> = {
-    confirmed: '#475569',
-    probable: '#64748b',
-    inferred: '#94a3b8',
-    disputed: '#cbd5e1',
-  }
-  return colors[status]
-}
-
-export function getEdgeSize(strength: number, type?: string): number {
-  if (type && STRUCTURAL_TYPES.has(type)) return 0.5 // very thin
-  return 0.8 + (strength / 100) * 3.5
-}
-
 export function applyForceLayout(graph: Graph): void {
   if (graph.order === 0) return
   try {
-    // Seed positions with circular so ForceAtlas2 has a clean start
     circular.assign(graph)
-    // Run ForceAtlas2 synchronously for a stable result
     const settings = forceAtlas2.inferSettings(graph)
     forceAtlas2.assign(graph, {
       iterations: 200,
@@ -106,12 +60,7 @@ export function applyForceLayout(graph: Graph): void {
       },
     })
   } catch (e) {
-    console.error('[shout.mn] ForceAtlas2 layout failed, falling back to circular:', e)
+    console.error('[shout.mn] ForceAtlas2 layout failed:', e)
     try { circular.assign(graph) } catch {}
   }
-}
-
-/** @deprecated Use applyForceLayout */
-export function applyCircularLayout(graph: Graph): void {
-  applyForceLayout(graph)
 }
