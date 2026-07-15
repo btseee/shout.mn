@@ -49,14 +49,15 @@ export function applyForceLayout(graph: Graph): void {
     circular.assign(graph)
     const settings = forceAtlas2.inferSettings(graph)
     forceAtlas2.assign(graph, {
-      iterations: 200,
+      iterations: 400,
       settings: {
         ...settings,
-        gravity: 1.2,
-        scalingRatio: 3,
+        gravity: 0.3,
+        scalingRatio: 8,
         strongGravityMode: false,
-        barnesHutOptimize: graph.order > 50,
-        slowDown: 4,
+        barnesHutOptimize: graph.order > 30,
+        slowDown: 2,
+        edgeWeightInfluence: 0.5,
       },
     })
   } catch (e) {
