@@ -66,3 +66,15 @@ export const RELATIONSHIP_TYPE_LABELS: Record<RelationshipType, string> = {
   co_mention: 'Хамт нэр дурдсан',
   political_affiliation: 'Улс төрийн холбоо',
 }
+
+export const RELATIONSHIP_TYPE_LABELS_EN: Record<RelationshipType, string> = {
+  family: 'Family',
+  business_ownership: 'Business Ownership',
+  employment: 'Employment',
+  appointment: 'Appointment',
+  board_membership: 'Board Membership',
+  financial_transaction: 'Financial Transaction',
+  contract_awarded: 'Contract Awarded',
+  co_mention: 'Co-mention',
+  political_affiliation: 'Political Affiliation',
+}

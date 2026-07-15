@@ -2664,5 +2664,4216 @@
     "date_range": {
       "from": "2026-05-16"
     }
+  },
+  {
+    "id": "edge-party-person-095-party-dp",
+    "from": "person-095",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-095",
+    "from": "person-095",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-060-party-dp",
+    "from": "person-060",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-007-party-mpp",
+    "from": "person-007",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-007",
+    "from": "person-007",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-096-party-dp",
+    "from": "person-096",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-096",
+    "from": "person-096",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-020-party-dp",
+    "from": "person-020",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-016-party-mpp",
+    "from": "person-016",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-097-party-dp",
+    "from": "person-097",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-097",
+    "from": "person-097",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-098-party-dp",
+    "from": "person-098",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-098",
+    "from": "person-098",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-099-party-dp",
+    "from": "person-099",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-099",
+    "from": "person-099",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-010-party-mpp",
+    "from": "person-010",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-046-party-dp",
+    "from": "person-046",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-086-party-mpp",
+    "from": "person-086",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-050-party-dp",
+    "from": "person-050",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-048-party-mpp",
+    "from": "person-048",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-100-party-dp",
+    "from": "person-100",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-100",
+    "from": "person-100",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-101-party-dp",
+    "from": "person-101",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-101",
+    "from": "person-101",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-102-party-mpp",
+    "from": "person-102",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-102",
+    "from": "person-102",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-013-party-mpp",
+    "from": "person-013",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-013",
+    "from": "person-013",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-103-party-mpp",
+    "from": "person-103",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-103",
+    "from": "person-103",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-104-party-mpp",
+    "from": "person-104",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-104",
+    "from": "person-104",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-105-party-mpp",
+    "from": "person-105",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-105",
+    "from": "person-105",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-019-party-dp",
+    "from": "person-019",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-085-party-dp",
+    "from": "person-085",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-053-party-mpp",
+    "from": "person-053",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-058-party-mpp",
+    "from": "person-058",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-106-party-mpp",
+    "from": "person-106",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-106",
+    "from": "person-106",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-107-party-mpp",
+    "from": "person-107",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-107",
+    "from": "person-107",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-052-party-mpp",
+    "from": "person-052",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-023-party-mpp",
+    "from": "person-023",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-070-party-mpp",
+    "from": "person-070",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-056-party-mpp",
+    "from": "person-056",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-044-party-dp",
+    "from": "person-044",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-108-party-dp",
+    "from": "person-108",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-108",
+    "from": "person-108",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-008-party-mpp",
+    "from": "person-008",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-109-party-mpp",
+    "from": "person-109",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-109",
+    "from": "person-109",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-009-party-mpp",
+    "from": "person-009",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-110-party-dp",
+    "from": "person-110",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-110",
+    "from": "person-110",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-111-party-mpp",
+    "from": "person-111",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-111",
+    "from": "person-111",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-065-party-mpp",
+    "from": "person-065",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-043-party-mpp",
+    "from": "person-043",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-003-party-mpp",
+    "from": "person-003",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-112-party-mpp",
+    "from": "person-112",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-112",
+    "from": "person-112",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-069-party-mpp",
+    "from": "person-069",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-113-party-mpp",
+    "from": "person-113",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-113",
+    "from": "person-113",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-114-party-mpp",
+    "from": "person-114",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-114",
+    "from": "person-114",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-115-party-dp",
+    "from": "person-115",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-115",
+    "from": "person-115",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-116-party-mpp",
+    "from": "person-116",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-116",
+    "from": "person-116",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-117-party-dp",
+    "from": "person-117",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-117",
+    "from": "person-117",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-030-party-mpp",
+    "from": "person-030",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-037-party-mpp",
+    "from": "person-037",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-118-party-dp",
+    "from": "person-118",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-118",
+    "from": "person-118",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-119-party-dp",
+    "from": "person-119",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-119",
+    "from": "person-119",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-120-party-dp",
+    "from": "person-120",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-120",
+    "from": "person-120",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-121-party-dp",
+    "from": "person-121",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-121",
+    "from": "person-121",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-063-party-mpp",
+    "from": "person-063",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-122-party-hun",
+    "from": "person-122",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-122",
+    "from": "person-122",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-067-party-mpp",
+    "from": "person-067",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-066-party-mpp",
+    "from": "person-066",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-123-party-hun",
+    "from": "person-123",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-123",
+    "from": "person-123",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-074-party-mpp",
+    "from": "person-074",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-075-party-mpp",
+    "from": "person-075",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-006-party-mpp",
+    "from": "person-006",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-124-party-mpp",
+    "from": "person-124",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-124",
+    "from": "person-124",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-125-party-dp",
+    "from": "person-125",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-125",
+    "from": "person-125",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-126-party-mpp",
+    "from": "person-126",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-126",
+    "from": "person-126",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-068-party-mpp",
+    "from": "person-068",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-127-party-dp",
+    "from": "person-127",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-127",
+    "from": "person-127",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-080-party-mpp",
+    "from": "person-080",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-059-party-dp",
+    "from": "person-059",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-128-party-mpp",
+    "from": "person-128",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-128",
+    "from": "person-128",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-129-party-mpp",
+    "from": "person-129",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-129",
+    "from": "person-129",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-130-party-mpp",
+    "from": "person-130",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-130",
+    "from": "person-130",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-131-party-mpp",
+    "from": "person-131",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-131",
+    "from": "person-131",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-132-party-dp",
+    "from": "person-132",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-132",
+    "from": "person-132",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-133-party-mpp",
+    "from": "person-133",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-133",
+    "from": "person-133",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-061-party-mpp",
+    "from": "person-061",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-062-party-mpp",
+    "from": "person-062",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-134-party-mpp",
+    "from": "person-134",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-134",
+    "from": "person-134",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-135-party-mpp",
+    "from": "person-135",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-135",
+    "from": "person-135",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-136-party-mpp",
+    "from": "person-136",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-136",
+    "from": "person-136",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-137-party-mpp",
+    "from": "person-137",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-137",
+    "from": "person-137",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-138-party-mpp",
+    "from": "person-138",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-138",
+    "from": "person-138",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-139-party-mpp",
+    "from": "person-139",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-139",
+    "from": "person-139",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-140-party-mpp",
+    "from": "person-140",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-140",
+    "from": "person-140",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-141-party-mpp",
+    "from": "person-141",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-141",
+    "from": "person-141",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-142-party-mpp",
+    "from": "person-142",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-142",
+    "from": "person-142",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-143-party-mpp",
+    "from": "person-143",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-143",
+    "from": "person-143",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-144-party-mpp",
+    "from": "person-144",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-144",
+    "from": "person-144",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-145-party-mpp",
+    "from": "person-145",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-145",
+    "from": "person-145",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-146-party-mpp",
+    "from": "person-146",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-146",
+    "from": "person-146",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-147-party-mpp",
+    "from": "person-147",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-147",
+    "from": "person-147",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-148-party-mpp",
+    "from": "person-148",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-148",
+    "from": "person-148",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-149-party-mpp",
+    "from": "person-149",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-149",
+    "from": "person-149",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-150-party-mpp",
+    "from": "person-150",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-150",
+    "from": "person-150",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-151-party-mpp",
+    "from": "person-151",
+    "to": "party-mpp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-151",
+    "from": "person-151",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-087-party-dp",
+    "from": "person-087",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-027-party-dp",
+    "from": "person-027",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-028-party-dp",
+    "from": "person-028",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-031-party-dp",
+    "from": "person-031",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-045-party-dp",
+    "from": "person-045",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-025-party-dp",
+    "from": "person-025",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-026-party-dp",
+    "from": "person-026",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-054-party-dp",
+    "from": "person-054",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-069-party-dp",
+    "from": "person-069",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-081-party-dp",
+    "from": "person-081",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-076-party-dp",
+    "from": "person-076",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-078-party-dp",
+    "from": "person-078",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-083-party-dp",
+    "from": "person-083",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-082-party-dp",
+    "from": "person-082",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-084-party-dp",
+    "from": "person-084",
+    "to": "party-dp",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-077-party-hun",
+    "from": "person-077",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-049-party-hun",
+    "from": "person-049",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-066-party-hun",
+    "from": "person-066",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-152-party-hun",
+    "from": "person-152",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-152",
+    "from": "person-152",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-072-party-hun",
+    "from": "person-072",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-153-party-hun",
+    "from": "person-153",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-153",
+    "from": "person-153",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-154-party-hun",
+    "from": "person-154",
+    "to": "party-hun",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-154",
+    "from": "person-154",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-032-party-national-coalition",
+    "from": "person-032",
+    "to": "party-national-coalition",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-033-party-national-coalition",
+    "from": "person-033",
+    "to": "party-national-coalition",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-034-party-national-coalition",
+    "from": "person-034",
+    "to": "party-national-coalition",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-035-party-national-coalition",
+    "from": "person-035",
+    "to": "party-national-coalition",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-036-party-civil-will-green",
+    "from": "person-036",
+    "to": "party-civil-will-green",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-070-party-civil-will-green",
+    "from": "person-070",
+    "to": "party-civil-will-green",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-052-party-civil-will-green",
+    "from": "person-052",
+    "to": "party-civil-will-green",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-party-person-155-party-civil-will-green",
+    "from": "person-155",
+    "to": "party-civil-will-green",
+    "relationship_type": "political_affiliation",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02"
+    }
+  },
+  {
+    "id": "edge-sgh-person-155",
+    "from": "person-155",
+    "to": "agency-003",
+    "relationship_type": "employment",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_members_of_the_State_Great_Khural,_2024%E2%80%932028",
+        "date_accessed": "2026-07-15",
+        "document_type": "other",
+        "note": "Wikipedia list of 2024-2028 State Great Khural members with party affiliations"
+      }
+    ],
+    "date_range": {
+      "from": "2024-07-02",
+      "to": "2028-07-02"
+    }
+  },
+  {
+    "id": "edge-0325",
+    "source_node": "person-158",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3657/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0326",
+    "source_node": "person-159",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0327",
+    "source_node": "person-160",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0328",
+    "source_node": "person-161",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0329",
+    "source_node": "person-162",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0330",
+    "source_node": "person-163",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0331",
+    "source_node": "person-164",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0332",
+    "source_node": "person-165",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0333",
+    "source_node": "person-166",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0334",
+    "source_node": "person-167",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0335",
+    "source_node": "person-168",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0336",
+    "source_node": "person-169",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0337",
+    "source_node": "person-170",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0338",
+    "source_node": "person-171",
+    "target_node": "gov-001",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "Mentioned in IAAC report"
+      }
+    ]
+  },
+  {
+    "id": "edge-0339",
+    "source_node": "person-172",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Н.Долгорсүрэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0340",
+    "source_node": "person-173",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge С.Соёмбо-Эрдэнэ"
+      }
+    ]
+  },
+  {
+    "id": "edge-0341",
+    "source_node": "person-174",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/1470?id=3&court_cat=2",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Д.Ганзориг"
+      }
+    ]
+  },
+  {
+    "id": "edge-0342",
+    "source_node": "person-175",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Т.Мөнх-Эрдэнэ"
+      }
+    ]
+  },
+  {
+    "id": "edge-0343",
+    "source_node": "person-176",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ж.Бурмаа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0344",
+    "source_node": "person-177",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ц.Амаржаргал"
+      }
+    ]
+  },
+  {
+    "id": "edge-0345",
+    "source_node": "person-178",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/17481?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Цогийн Оч"
+      }
+    ]
+  },
+  {
+    "id": "edge-0346",
+    "source_node": "person-179",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/37065?start_date=&end_date=&id=1&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Б.Отгонцэцэг"
+      }
+    ]
+  },
+  {
+    "id": "edge-0347",
+    "source_node": "person-180",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/13827?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Бямбаа Ариунхишиг"
+      }
+    ]
+  },
+  {
+    "id": "edge-0348",
+    "source_node": "person-181",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ж.Баттогтох"
+      }
+    ]
+  },
+  {
+    "id": "edge-0349",
+    "source_node": "person-182",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/82509?start_date=&end_date=&id=1&court_cat=2&bb=1%C2%A0",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ю.Энхмаа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0350",
+    "source_node": "person-183",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/8507?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge О.Чулуунцэцэг"
+      }
+    ]
+  },
+  {
+    "id": "edge-0351",
+    "source_node": "person-184",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge М.Мөнхдаваа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0352",
+    "source_node": "person-185",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/131936?start_date=&end_date=&id=1&court_cat=1&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ц.Дагиймаа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0353",
+    "source_node": "person-186",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge М.Баясгалан"
+      }
+    ]
+  },
+  {
+    "id": "edge-0354",
+    "source_node": "person-187",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/12186?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Н.Батсайхан"
+      }
+    ]
+  },
+  {
+    "id": "edge-0355",
+    "source_node": "person-188",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Л.Наранбаяр"
+      }
+    ]
+  },
+  {
+    "id": "edge-0356",
+    "source_node": "person-189",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ж.Оюунчимэг"
+      }
+    ]
+  },
+  {
+    "id": "edge-0357",
+    "source_node": "person-190",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Ц.Сувдмаа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0358",
+    "source_node": "person-191",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/8001?daterange=2024-01-01%20-%202024-10-17&id=2&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Н.Хонинхүү"
+      }
+    ]
+  },
+  {
+    "id": "edge-0359",
+    "source_node": "person-192",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/2371?start_date=&end_date=&id=3&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Д.Мөнхтуяа"
+      }
+    ]
+  },
+  {
+    "id": "edge-0360",
+    "source_node": "person-193",
+    "target_node": "gov-007",
+    "relationship_type": "adjudicated",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "shuukh.mn",
+        "url": "https://shuukh.mn/single_case/2471?start_date=&end_date=&id=2&court_cat=3&bb=1",
+        "date_accessed": "2026-07-15",
+        "document_type": "court_decision",
+        "note": "Judge Э.Лхагвасүрэн"
+      }
+    ]
   }
 ]

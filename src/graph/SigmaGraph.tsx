@@ -1,14 +1,26 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef, useCallback, useState } from 'react'
 import Sigma from 'sigma'
 import type Graph from 'graphology'
 import { useSelectionStore } from '@/store/selection'
 import { useFiltersStore } from '@/store/filters'
 import type { NodeType } from '@/types/node'
-import type { ConfidenceTier } from '@/types/edge'
+import type { ConfidenceTier, RelationshipType } from '@/types/edge'
+import { RELATIONSHIP_TYPE_LABELS, RELATIONSHIP_TYPE_LABELS_EN, CONFIDENCE_LABELS } from '@/types/edge'
+import { useI18n } from '@/store/i18n'
 
 interface SigmaGraphProps {
   graph: Graph
   className?: string
+}
+
+interface TooltipData {
+  x: number
+  y: number
+  type: 'node' | 'edge'
+  label: string
+  sublabel?: string
+  confidence?: string
+  relType?: string
 }
 
 export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
@@ -16,6 +28,8 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
   const sigmaRef = useRef<Sigma | null>(null)
   const { selectedNodeId, selectedEdgeId, selectNode, selectEdge, clearSelection } = useSelectionStore()
   const filters = useFiltersStore()
+  const [tooltip, setTooltip] = useState<TooltipData | null>(null)
+  const { lang } = useI18n()
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -25,10 +39,43 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       renderEdgeLabels: false,
       defaultNodeType: 'circle',
       labelFont: 'Inter, system-ui, sans-serif',
-      labelSize: 12,
+      labelSize: 11,
       labelWeight: '500',
       labelColor: { attribute: 'labelColor', color: '#94a3b8' },
-      labelRenderedSizeThreshold: 8,
+      labelRenderedSizeThreshold: 12,
+      labelGridSize: 200,
+      renderLabels: true,
+      renderEdgeArrows: true,
+      edgeReducer: (edge, data) => {
+        const sel = useSelectionStore.getState()
+        const filt = useFiltersStore.getState()
+        const source = graph.source(edge)
+        const target = graph.target(edge)
+
+        if (filt.selectedConfidence.length > 0 && !filt.selectedConfidence.includes(data.confidence as ConfidenceTier)) {
+          return { ...data, hidden: true, size: 0 }
+        }
+
+        if (filt.selectedRelTypes.length > 0) {
+          const relLabel = (data.label as string).replace(/ /g, '_')
+          if (!filt.selectedRelTypes.includes(relLabel as RelationshipType)) {
+            return { ...data, hidden: true, size: 0 }
+          }
+        }
+
+        if (sel.selectedNodeId) {
+          if (source !== sel.selectedNodeId && target !== sel.selectedNodeId) {
+            return { ...data, color: '#1e293b', size: 0.3, opacity: 0.15 }
+          }
+          if (edge === sel.selectedEdgeId) {
+            return { ...data, color: '#f59e0b', size: 3, opacity: 1 }
+          }
+          return { ...data, size: 1.5, opacity: 0.8 }
+        }
+
+        const baseSize = data.confidence === 'documented' ? 1.2 : data.confidence === 'reported' ? 0.8 : 0.5
+        return { ...data, size: baseSize, opacity: data.confidence === 'documented' ? 0.7 : 0.4 }
+      },
       nodeReducer: (node, data) => {
         const sel = useSelectionStore.getState()
         const filt = useFiltersStore.getState()
@@ -39,51 +86,93 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
 
         if (sel.selectedNodeId) {
           const isSelected = node === sel.selectedNodeId
-          const isNeighbor = graph.neighbors(sel.selectedNodeId).includes(node)
-          if (!isSelected && !isNeighbor) {
-            return { ...data, color: '#e2e8f0', size: Math.max(data.size * 0.7, 4), zIndex: 0 }
+          const neighbors = graph.neighbors(sel.selectedNodeId)
+          const isNeighbor = neighbors.includes(node)
+          const isConnectedByEdge = graph.edges(sel.selectedNodeId).some(e => {
+            return graph.source(e) === node || graph.target(e) === node
+          })
+
+          if (!isSelected && !isNeighbor && !isConnectedByEdge) {
+            return { ...data, color: '#1e293b', size: Math.max(data.size * 0.4, 2), zIndex: 0, opacity: 0.2 }
           }
           if (isSelected) {
-            return { ...data, highlighted: true, zIndex: 2 }
+            return { ...data, highlighted: true, zIndex: 3, size: data.size * 1.3 }
           }
+          return { ...data, zIndex: 1, opacity: 0.9 }
         }
 
-        return data
-      },
-      edgeReducer: (edge, data) => {
-        const sel = useSelectionStore.getState()
-        const filt = useFiltersStore.getState()
-        const source = graph.source(edge)
-        const target = graph.target(edge)
-
-        if (filt.selectedConfidence.length > 0 && !filt.selectedConfidence.includes(data.confidence as ConfidenceTier)) {
-          return { ...data, hidden: true }
-        }
-
-        if (sel.selectedNodeId) {
-          if (source !== sel.selectedNodeId && target !== sel.selectedNodeId) {
-            return { ...data, color: '#f1f5f9', size: 1 }
-          }
-          if (edge === sel.selectedEdgeId) {
-            return { ...data, color: '#e11d48', size: 3 }
-          }
-        }
-
-        return data
+        return { ...data, opacity: 0.85 }
       },
     })
 
     sigma.on('clickNode', ({ node }) => {
       selectNode(node)
+      setTooltip(null)
     })
 
     sigma.on('clickEdge', ({ edge }) => {
       selectEdge(edge)
+      setTooltip(null)
     })
 
     sigma.on('clickStage', () => {
       clearSelection()
+      setTooltip(null)
     })
+
+    sigma.on('enterNode', ({ node }) => {
+      const attrs = graph.getNodeAttributes(node)
+      const screenPos = sigma.graphToViewport({ x: attrs.x ?? 0, y: attrs.y ?? 0 })
+      setTooltip({
+        x: screenPos.x,
+        y: screenPos.y - 20,
+        type: 'node',
+        label: attrs.label as string,
+        sublabel: (attrs as any).nodeType,
+      })
+    })
+
+    sigma.on('leaveNode', () => {
+      setTooltip(null)
+    })
+
+    sigma.on('enterEdge', ({ edge }) => {
+      const sourceAttrs = graph.getNodeAttributes(graph.source(edge))
+      const targetAttrs = graph.getNodeAttributes(graph.target(edge))
+      const edgeAttrs = graph.getEdgeAttributes(edge)
+      const midX = ((sourceAttrs.x ?? 0) + (targetAttrs.x ?? 0)) / 2
+      const midY = ((sourceAttrs.y ?? 0) + (targetAttrs.y ?? 0)) / 2
+      const screenPos = sigma.graphToViewport({ x: midX, y: midY })
+      const relKey = edgeAttrs.label?.toString().replace(/ /g, '_') as any
+      const labels = lang === 'en' ? RELATIONSHIP_TYPE_LABELS_EN : RELATIONSHIP_TYPE_LABELS
+
+      setTooltip({
+        x: screenPos.x,
+        y: screenPos.y - 20,
+        type: 'edge',
+        label: labels[relKey] ?? edgeAttrs.label as string,
+        confidence: edgeAttrs.confidence as string,
+      })
+    })
+
+    sigma.on('leaveEdge', () => {
+      setTooltip(null)
+    })
+
+    setTimeout(() => {
+      sigma.getCamera().animatedFitBounds({
+        x: 0, y: 0,
+        width: 1, height: 1,
+      }, { duration: 0 })
+      const bbox = sigma.getGraphBBox()
+      const padding = 80
+      sigma.getCamera().animatedFitBounds({
+        x: bbox.x - padding,
+        y: bbox.y - padding,
+        width: bbox.width + padding * 2,
+        height: bbox.height + padding * 2,
+      }, { duration: 500 })
+    }, 100)
 
     sigmaRef.current = sigma
 
@@ -91,8 +180,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       sigma.kill()
       sigmaRef.current = null
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph])
+  }, [graph, lang])
 
   const refresh = useCallback(() => {
     sigmaRef.current?.refresh({ skipIndexation: true })
@@ -103,11 +191,31 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
   }, [selectedNodeId, selectedEdgeId, filters, refresh])
 
   return (
-    <div
-      ref={containerRef}
-      className={`sigma-container ${className}`}
-      role="img"
-      aria-label="Power mapping graph"
-    />
+    <div className={`relative ${className}`}>
+      <div
+        ref={containerRef}
+        className="sigma-container w-full h-full"
+        role="img"
+        aria-label="Power mapping graph"
+      />
+      {tooltip && (
+        <div
+          className="absolute pointer-events-none z-40 bg-slate-800/95 border border-slate-600 rounded-lg px-3 py-2 text-xs shadow-xl max-w-xs"
+          style={{ left: tooltip.x, top: tooltip.y, transform: 'translate(-50%, -100%)' }}
+        >
+          <div className="font-medium text-white">{tooltip.label}</div>
+          {tooltip.sublabel && <div className="text-slate-400 mt-0.5">{tooltip.sublabel}</div>}
+          {tooltip.relType && <div className="text-slate-400 mt-0.5">{tooltip.relType}</div>}
+          {tooltip.confidence && (
+            <div className={`mt-1 ${
+              tooltip.confidence === 'documented' ? 'text-green-400' :
+              tooltip.confidence === 'reported' ? 'text-yellow-400' : 'text-red-400'
+            }`}>
+              {CONFIDENCE_LABELS[tooltip.confidence as ConfidenceTier]}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   )
 }

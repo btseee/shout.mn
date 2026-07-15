@@ -125,7 +125,7 @@
     "name": "Сандагийн Бямбацогт",
     "type": "person",
     "subtype": "speaker",
-    "role_title": "УИХ-ын дарга (одоо). МАН.",
+    "role_title": "УИХ-ын дарга (2026 оны 4-өөс). МАН. 5 дахь удаагаа УИХ-ын гишүүн.",
     "description": "УИХ-ын дарга (одоо). МАН.",
     "aliases": [
       "Sandagiin Byambatsogt",
@@ -208,32 +208,6 @@
       "УИХ"
     ],
     "importance": 95
-  },
-  {
-    "id": "company-001",
-    "name": "Эрдэнэс Тавантолгой ХК",
-    "type": "company",
-    "role_title": "Монгол Улсын томоохон төрийн нүүрсний компани. 2022 оны 12 дугаар сарын эсэргүүц",
-    "description": "Монгол Улсын томоохон төрийн нүүрсний компани. 2022 оны 12 дугаар сарын эсэргүүцлийн дараа авлигын мөрдөн байцаалтад орсон. 2023 оны 1 дүгээр сарын байдлаар гүйцэтгэх захирал зэрэг 30 гаруй албан тушаалтан шамшигдуулалтын хэрэгт шалгагдсан.",
-    "aliases": [
-      "Erdenes Tavan Tolgoi",
-      "ETT",
-      "Эрдэнэс ТТ"
-    ],
-    "importance": 88
-  },
-  {
-    "id": "company-002",
-    "name": "Оюу Толгой ХК",
-    "type": "company",
-    "role_title": "Говийн цөлд байрлах зэс, алтны уурхай. Рио Тинтогийн партнершип дээр суурилагдса",
-    "description": "Говийн цөлд байрлах зэс, алтны уурхай. Рио Тинтогийн партнершип дээр суурилагдсан. 2023 оны 3 дугаар сард газар доорх олборлолт эхэлсэн. 2028–2036 онд жилд дунджаар 500,000 тонн зэс олборлоно.",
-    "aliases": [
-      "Oyu Tolgoi",
-      "ОТ",
-      "OT"
-    ],
-    "importance": 85
   },
   {
     "id": "person-014",
@@ -852,7 +826,7 @@
     "name": "Жигждсүрэнгийн Чинбүрэн",
     "type": "person",
     "subtype": "public_figure",
-    "role_title": "1972 онд төрсөн. МАН-ын гишүүн. УБ Баянзүрх тойргоос УИХ-д сонгогдсон.",
+    "role_title": "УИХ-ын гишүүн. МАН.",
     "description": "1972 онд төрсөн. МАН-ын гишүүн. УБ Баянзүрх тойргоос УИХ-д сонгогдсон.",
     "aliases": [
       "Jigjidsürengiin Chinbüren"
@@ -1092,7 +1066,7 @@
     "name": "Халтмаагийн Батулга",
     "type": "person",
     "subtype": "public_figure",
-    "role_title": "1963 онд төрсөн. АН-ын гишүүн. Булган/Хөвсгөл/Орхон (4-р тойрог) тойргоос УИХ-д ",
+    "role_title": "Монгол Улсын Ерөнхийлөгч (2017-2021). АН. Анхны Ерөнхийлөгчөөсөө УИХ-д суусан.",
     "description": "1963 онд төрсөн. АН-ын гишүүн. Булган/Хөвсгөл/Орхон (4-р тойрог) тойргоос УИХ-д сонгогдсон. Монгол Улсын 5 дахь Ерөнхийлөгч (2017–2021). ДН-аас 2024 онд УИХ-д сонгогдсон. Монголын улс төрийн гол баатруудын нэг.",
     "aliases": [
       "Khaltmaagiin Battulga"
@@ -1104,7 +1078,7 @@
     "name": "Дашзэгвийн Амарбаясгалан",
     "type": "person",
     "subtype": "public_figure",
-    "role_title": "1981 онд төрсөн. МАН-ын гишүүн. Говь-Алтай/Ховд/Увс/Завхан (2-р тойрог) тойргоос",
+    "role_title": "МАН-ын НБН (2025). УИХ-ын дарга (2025 оны 10-11). МАН-ын нэр дэвших 2024 онд.",
     "description": "1981 онд төрсөн. МАН-ын гишүүн. Говь-Алтай/Ховд/Увс/Завхан (2-р тойрог) тойргоос УИХ-д сонгогдсон. УИХ-ын дарга 2024 оны 7 дугаар сараас 2025 оны 10 дугаар сар хүртэл. МАН-ын гишүүн.",
     "aliases": [
       "Dashzegviin Amarbayasgalan"
@@ -1138,16 +1112,1335 @@
     "importance": 65
   },
   {
-    "id": "company-003",
-    "name": "Эрдэнэс Монгол ХХК",
-    "type": "company",
-    "role_title": "Монгол улсын стратегийн ашигт малтмалын салбарын томоохон төрийн өмчит холдинг к",
-    "description": "Монгол улсын стратегийн ашигт малтмалын салбарын томоохон төрийн өмчит холдинг компани. 2026 оны 6 дугаар сарын 17-нд Засгийн газар 14 охин компанийг татан буулгаж, нэрийг \"Чингис хаан Баялгийн Сан ХХК\" болгон өөрчилж, 260 ажлын байрыг халж 67.3 тэрбум төгрөгийн хэмнэлт гаргав.",
+    "id": "party-mpp",
+    "name": "Монгол Ардын Нам (МАН)",
+    "type": "government_body",
+    "description": "MPP political party in Mongolia",
     "aliases": [
-      "Erdenes Mongol",
-      "Chinggis Khaan Wealth Fund Group LLC",
-      "CKHWF"
+      "MPP"
     ],
-    "importance": 78
+    "importance": 90
+  },
+  {
+    "id": "party-dp",
+    "name": "Ардчилсан Нам (АН)",
+    "type": "government_body",
+    "description": "DP political party in Mongolia",
+    "aliases": [
+      "DP"
+    ],
+    "importance": 80
+  },
+  {
+    "id": "party-hun",
+    "name": "Хүн Нам",
+    "type": "government_body",
+    "description": "HUN Party political party in Mongolia",
+    "aliases": [
+      "HUN Party"
+    ],
+    "importance": 60
+  },
+  {
+    "id": "party-national-coalition",
+    "name": "Үндэсний Эвсэл",
+    "type": "government_body",
+    "description": "National Coalition political party in Mongolia",
+    "aliases": [
+      "National Coalition"
+    ],
+    "importance": 60
+  },
+  {
+    "id": "party-civil-will-green",
+    "name": "Иргэний Зориг-Ногоон Нам",
+    "type": "government_body",
+    "description": "Civil Will-Green Party political party in Mongolia",
+    "aliases": [
+      "Civil Will-Green Party"
+    ],
+    "importance": 60
+  },
+  {
+    "id": "person-095",
+    "name": "Оюунсайханы Ангaramel",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 1), DP",
+    "description": "Oyunsaikhany Altangerel. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Oyunsaikhany Altangerel"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-096",
+    "name": "Пүрэвбаатарын Мөнхтулга",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 1), DP",
+    "description": "Pürevbaataryn Mönkhtulga. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Pürevbaataryn Mönkhtulga"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-097",
+    "name": "Ганбатын Хосбаяр",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 1), DP",
+    "description": "Ganbatyn Khosbayar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ganbatyn Khosbayar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-098",
+    "name": "Дамдинсүрэнгийн Жаргалсайхан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 1), DP",
+    "description": "Damdinsürengiin Jargalsaikhan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Damdinsürengiin Jargalsaikhan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-099",
+    "name": "Даваагийн Цогтбаатар",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 1), DP",
+    "description": "Davaagiin Tsogtbaatar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Davaagiin Tsogtbaatar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-100",
+    "name": "Банзрагчийн Түвшин",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 2), DP",
+    "description": "Banzragchiin Tüvshin. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Banzragchiin Tüvshin"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-101",
+    "name": "Очирباتын Амгаланбаатар",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 2), DP",
+    "description": "Ochirbatyn Amgalanbaatar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ochirbatyn Amgalanbaatar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-102",
+    "name": "Батжаргалын Заяабал",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 2), MPP",
+    "description": "Batjargalyn Zayaabal. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Batjargalyn Zayaabal"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-103",
+    "name": "Энхбатын Болормаа",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 2), MPP",
+    "description": "Enkhbatyn Bolormaa. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Enkhbatyn Bolormaa"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-104",
+    "name": "Хажыкбэрийн Жангабыл",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 3), MPP",
+    "description": "Khajyekbyeriin Jangabyl. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Khajyekbyeriin Jangabyl"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-105",
+    "name": "Тильюханы Аубакар",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 3), MPP",
+    "description": "Tilyeukhany Aubakir. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Tilyeukhany Aubakir"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-106",
+    "name": "Бат-Өлзийн Бат-Эрдэнэ",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 4), MPP",
+    "description": "Bat-Ölziin Bat-Erdene. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Bat-Ölziin Bat-Erdene"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-107",
+    "name": "Доржсүрэнгийн Үүриинтуяа",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 4), MPP",
+    "description": "Dorjsürengiin Üüriintuyaa. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dorjsürengiin Üüriintuyaa"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-108",
+    "name": "Далайн Батбаяр",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 5), DP",
+    "description": "Dalain Batbayar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dalain Batbayar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-109",
+    "name": "Буяагийн Туул",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 5), MPP",
+    "description": "Buyaagiin Tulga. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Buyaagiin Tulga"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-110",
+    "name": "Сүхбаатарын Эрдэнэбөлд",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 5), DP",
+    "description": "Sükhbaataryn Erdenebold. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Sükhbaataryn Erdenebold"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-111",
+    "name": "Сүрэнжавын Лүндэг",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 5), MPP",
+    "description": "Sürenjavyn Lündeg. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Sürenjavyn Lündeg"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-112",
+    "name": "Мягмарсүрэнгийн Бадамсүрэн",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 6), MPP",
+    "description": "Myagmarsürengiin Badamsüren. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Myagmarsürengiin Badamsüren"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-113",
+    "name": "Ухнаагийн Отгонбаяр",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 6), MPP",
+    "description": "Ukhnaagiin Otgonbayar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ukhnaagiin Otgonbayar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-114",
+    "name": "Лхагвасүрэнгийн Соронзонболд",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 6), MPP",
+    "description": "Lkhagvasürengiin Soronzonbold. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Lkhagvasürengiin Soronzonbold"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-115",
+    "name": "Шинэбаярын Бямбасүрэн",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 6), DP",
+    "description": "Shinebayaryn Byambasüren. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Shinebayaryn Byambasüren"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-116",
+    "name": "Мөнгөнцогийн Ганхүлэг",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 6), MPP",
+    "description": "Möngöntsogiin Gankhüleg. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Möngöntsogiin Gankhüleg"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-117",
+    "name": "Ренчинбямбын Сэддэрж",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 7), DP",
+    "description": "Renchinbyambyn Seddorj. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Renchinbyambyn Seddorj"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-118",
+    "name": "Лувсанбямбаагийн Мөнхбаясгалан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 7), DP",
+    "description": "Luvsanbyambaagiin Mönkhbayasgalan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Luvsanbyambaagiin Mönkhbayasgalan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-119",
+    "name": "Цагаанхүүгийн Мөнхбат",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 7), DP",
+    "description": "Tsagaankhüügiin Mönkhbat. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Tsagaankhüügiin Mönkhbat"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-120",
+    "name": "Равжихийн Эрдэнэбүрэн",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 7), DP",
+    "description": "Ravjikhyn Erdenebüren. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ravjikhyn Erdenebüren"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-121",
+    "name": "Гомбын Ганбаатар",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 7), DP",
+    "description": "Gombyn Ganbaatar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Gombyn Ganbaatar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-122",
+    "name": "Пүрэвсүрэнгийн Наранбаяр",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 8), HUN Party",
+    "description": "Pürevsürengiin Naranbayar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Pürevsürengiin Naranbayar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-123",
+    "name": "Жаргалсайханы Золжаргал",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 9), HUN Party",
+    "description": "Jargalsaikhany Zoljargal. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн. Left HUN Party Dec 2025, became independent",
+    "aliases": [
+      "Jargalsaikhany Zoljargal"
+    ],
+    "importance": 75
+  },
+  {
+    "id": "person-124",
+    "name": "Отгоншарын Батнайрамдал",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 10), MPP",
+    "description": "Otgonsharyn Batnairamdal. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Otgonsharyn Batnairamdal"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-125",
+    "name": "Цэндийн Баатархүү",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 10), DP",
+    "description": "Tsendiin Baatarkhüü. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Tsendiin Baatarkhüü"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-126",
+    "name": "Натсагдоржийн Батсүмбэрэл",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 10), MPP",
+    "description": "Natsagdorjiin Batsümberel. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Natsagdorjiin Batsümberel"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-127",
+    "name": "Хөххүүгийн Болормаа",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 10), DP",
+    "description": "Khökhkhüügiin Bolormaa. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Khökhkhüügiin Bolormaa"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-128",
+    "name": "Наранцэцэгийн Алтаншагай",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 11), MPP",
+    "description": "Narantsetsegiin Altanshagai. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Narantsetsegiin Altanshagai"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-129",
+    "name": "Пүрэвжавын Сайнзorig",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 11), MPP",
+    "description": "Pürevjavyn Sainzorig. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Pürevjavyn Sainzorig"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-130",
+    "name": "Чинбатын Номин",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 11), MPP",
+    "description": "Chinbatyn Nomin. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Chinbatyn Nomin"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-131",
+    "name": "Тогтмолын Мөнхсайхан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 12), MPP",
+    "description": "Togtmolyn Mönkhsaikhan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Togtmolyn Mönkhsaikhan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-132",
+    "name": "Чулуунбилигийн Лодойсамбуу",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 12), DP",
+    "description": "Chuluunbilegiin Lodoisambuu. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Chuluunbilegiin Lodoisambuu"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-133",
+    "name": "Жуковын Алдаржавхлан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Тойрог 12), MPP",
+    "description": "Jukovyn Aldarjavkhlan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Jukovyn Aldarjavkhlan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-134",
+    "name": "Ганзоригийн Лувсанжамц",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Ganzorigiin Luvsanjamts. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ganzorigiin Luvsanjamts"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-135",
+    "name": "Мөнхчулууны Энхцэцэг",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Mönkhchuluuny Enkhtsetseg. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Mönkhchuluuny Enkhtsetseg"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-136",
+    "name": "Чинбаатарын Анар",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Chinbaataryn Anar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Chinbaataryn Anar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-137",
+    "name": "Отгоны Саранчулун",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Otgony Saranchuluun. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Otgony Saranchuluun"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-138",
+    "name": "Дүгэрийн Рэгдэл",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Dügeriin Regdel. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dügeriin Regdel"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-139",
+    "name": "Даваасамбуугийн Ганмаа",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Davaasambuugiin Ganmaa. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Davaasambuugiin Ganmaa"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-140",
+    "name": "Сүхбаатарын Эрдэнэбат",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Sükhbaataryn Erdenebat. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Sükhbaataryn Erdenebat"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-141",
+    "name": "Мэндбаярын Мандхай",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Mendbayaryn Mandkhai. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Mendbayaryn Mandkhai"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-142",
+    "name": "Дашцэрэнгийн Энхтүвшин",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Dashtserengiin Enkhtüvshin. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dashtserengiin Enkhtüvshin"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-143",
+    "name": "Болдын Уянга",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Boldyn Uyanga. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Boldyn Uyanga"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-144",
+    "name": "Жанчивын Галбадрах",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Janchivyn Galbadrakh. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Janchivyn Galbadrakh"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-145",
+    "name": "Лхагвасүрэнгийн Бямбадорж",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Lkhagvasürengiin Byambadorj. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Lkhagvasürengiin Byambadorj"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-146",
+    "name": "Дамбадаржaa Батмөнх",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Dambadarjaa Batmunkh. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dambadarjaa Batmunkh"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-147",
+    "name": "Дашзэгвийн Батбаяр",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Dashzegviin Batbayar. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Dashzegviin Batbayar"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-148",
+    "name": "Сүрэнцэцэгийн Нямжав",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Sürentsegei Nyamjav. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Sürentsegei Nyamjav"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-149",
+    "name": "Цэнгэлийн Одончимэг",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Tsengeliin Odontsetseg. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Tsengeliin Odontsetseg"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-150",
+    "name": "Ганболдын Сүрэнжаргал",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Ganboldyn Sürenjargal. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Ganboldyn Sürenjargal"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-151",
+    "name": "Бямбадоржийн Мөнхбат",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), MPP",
+    "description": "Byambadorjiin Mönkhbat. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Byambadorjiin Mönkhbat"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-152",
+    "name": "Дамсүрэнгийн Өнөрболор",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), HUN Party",
+    "description": "Damsürengiin Örönbolor. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Damsürengiin Örönbolor"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-153",
+    "name": "Сүрэнжавын Баясгалан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), HUN Party",
+    "description": "Sürenjavyn Bayasgalan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Sürenjavyn Bayasgalan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-154",
+    "name": "Бадамхүүгийн Эрдэнэцэцэг",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), HUN Party",
+    "description": "Badamkhüügiin Erdentsetseg. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Badamkhüügiin Erdentsetseg"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-155",
+    "name": "Хүрэлбаатарын Баясгалан",
+    "type": "person",
+    "subtype": "politician",
+    "role_title": "УИХ-ын гишүүн (Улсын нэмэлт), Civil Will-Green Party",
+    "description": "Khürelbaataryn Bayasgalan. Монгол Улсын 2024-2028 оны УИХ-ын гишүүн.",
+    "aliases": [
+      "Khürelbaataryn Bayasgalan"
+    ],
+    "importance": 65
+  },
+  {
+    "id": "person-158",
+    "name": "З.Дашдаваа",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3657/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3657/nitem"
+  },
+  {
+    "id": "person-159",
+    "name": "Азжаргал Олон",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3647/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3647/nitem"
+  },
+  {
+    "id": "person-160",
+    "name": "Тахсин Саади",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3647/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3647/nitem"
+  },
+  {
+    "id": "person-161",
+    "name": "Г.Азжаргал",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3647/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3647/nitem"
+  },
+  {
+    "id": "person-162",
+    "name": "Томас Пауэлл",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3640/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3640/nitem"
+  },
+  {
+    "id": "person-163",
+    "name": "Хсиан Ван",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3640/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3640/nitem"
+  },
+  {
+    "id": "person-164",
+    "name": "Жорж Бабикутти",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3640/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3640/nitem"
+  },
+  {
+    "id": "person-165",
+    "name": "Д.Гансүрэн",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3632/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3632/nitem"
+  },
+  {
+    "id": "person-166",
+    "name": "Ж.Дамдинсүрэн",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3632/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3632/nitem"
+  },
+  {
+    "id": "person-167",
+    "name": "Э.Баатархүү",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3624/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3624/nitem"
+  },
+  {
+    "id": "person-168",
+    "name": "С.Батзориг",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3624/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3624/nitem"
+  },
+  {
+    "id": "person-169",
+    "name": "Б.Батхуяг",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3624/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3624/nitem"
+  },
+  {
+    "id": "person-170",
+    "name": "Ц.Анхбаяр",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3624/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3624/nitem"
+  },
+  {
+    "id": "person-171",
+    "name": "Б.Эрдэнэ",
+    "type": "person",
+    "subtype": "official",
+    "role_title": "",
+    "description": "Mentioned in IAAC report: https://iaac.mn/3624/nitem",
+    "aliases": [],
+    "importance": 30,
+    "source": "https://iaac.mn/3624/nitem"
+  },
+  {
+    "id": "person-172",
+    "name": "Н.Долгорсүрэн",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-173",
+    "name": "С.Соёмбо-Эрдэнэ",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-174",
+    "name": "Д.Ганзориг",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/1470?id=3&court_cat=2",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/1470?id=3&court_cat=2"
+  },
+  {
+    "id": "person-175",
+    "name": "Т.Мөнх-Эрдэнэ",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-176",
+    "name": "Ж.Бурмаа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-177",
+    "name": "Ц.Амаржаргал",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-178",
+    "name": "Цогийн Оч",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/17481?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/17481?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-179",
+    "name": "Б.Отгонцэцэг",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/37065?start_date=&end_date=&id=1&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/37065?start_date=&end_date=&id=1&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-180",
+    "name": "Бямбаа Ариунхишиг",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/13827?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/13827?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-181",
+    "name": "Ж.Баттогтох",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-182",
+    "name": "Ю.Энхмаа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/82509?start_date=&end_date=&id=1&court_cat=2&bb=1%C2%A0",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/82509?start_date=&end_date=&id=1&court_cat=2&bb=1%C2%A0"
+  },
+  {
+    "id": "person-183",
+    "name": "О.Чулуунцэцэг",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/8507?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/8507?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-184",
+    "name": "М.Мөнхдаваа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-185",
+    "name": "Ц.Дагиймаа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/131936?start_date=&end_date=&id=1&court_cat=1&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/131936?start_date=&end_date=&id=1&court_cat=1&bb=1"
+  },
+  {
+    "id": "person-186",
+    "name": "М.Баясгалан",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1"
+  },
+  {
+    "id": "person-187",
+    "name": "Н.Батсайхан",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/12186?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/12186?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-188",
+    "name": "Л.Наранбаяр",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1"
+  },
+  {
+    "id": "person-189",
+    "name": "Ж.Оюунчимэг",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-190",
+    "name": "Ц.Сувдмаа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-191",
+    "name": "Н.Хонинхүү",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/8001?daterange=2024-01-01%20-%202024-10-17&id=2&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/8001?daterange=2024-01-01%20-%202024-10-17&id=2&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-192",
+    "name": "Д.Мөнхтуяа",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/2371?start_date=&end_date=&id=3&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/2371?start_date=&end_date=&id=3&court_cat=3&bb=1"
+  },
+  {
+    "id": "person-193",
+    "name": "Э.Лхагвасүрэн",
+    "type": "person",
+    "subtype": "judge",
+    "role_title": "Шүүгч",
+    "description": "Judge in case: https://shuukh.mn/single_case/2471?start_date=&end_date=&id=2&court_cat=3&bb=1",
+    "aliases": [],
+    "importance": 25,
+    "source": "https://shuukh.mn/single_case/2471?start_date=&end_date=&id=2&court_cat=3&bb=1"
+  },
+  {
+    "id": "gov-194",
+    "name": "Эрчим хүчний яам",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3657/nitem"
+  },
+  {
+    "id": "gov-195",
+    "name": "Элчин сайдын яам",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3657/nitem"
+  },
+  {
+    "id": "gov-196",
+    "name": "Зам тээврийн яам",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3653/nitem"
+  },
+  {
+    "id": "gov-197",
+    "name": "Эрүүл мэндийн яам",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3653/nitem"
+  },
+  {
+    "id": "gov-198",
+    "name": "Тамгын газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3653/nitem"
+  },
+  {
+    "id": "gov-199",
+    "name": "Авлигатай тэмцэх газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3647/nitem"
+  },
+  {
+    "id": "gov-200",
+    "name": "Авлигатай тэмцэх үндэсний",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3647/nitem"
+  },
+  {
+    "id": "gov-201",
+    "name": "Т нарт холбогдох хэргийг шүүх",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3645/nitem"
+  },
+  {
+    "id": "gov-202",
+    "name": "Нийтийн тээврийн газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3641/nitem"
+  },
+  {
+    "id": "gov-203",
+    "name": "Хууль зүйн яам",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3640/nitem"
+  },
+  {
+    "id": "gov-204",
+    "name": "Мал эмнэлгийн газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3635/nitem"
+  },
+  {
+    "id": "gov-205",
+    "name": "Үндэсний статистикийн хороо",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3635/nitem"
+  },
+  {
+    "id": "gov-206",
+    "name": "Тагнуулын ерөнхий газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3633/nitem"
+  },
+  {
+    "id": "gov-207",
+    "name": "Эрээн хотод суух консулын газар",
+    "type": "government_body",
+    "subtype": "",
+    "role_title": "",
+    "description": "Mentioned in IAAC report",
+    "aliases": [],
+    "importance": 40,
+    "source": "https://iaac.mn/3627/nitem"
   }
 ]

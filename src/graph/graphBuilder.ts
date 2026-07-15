@@ -1,25 +1,49 @@
 import Graph from 'graphology'
-import circular from 'graphology-layout/circular'
 import forceAtlas2 from 'graphology-layout-forceatlas2'
 import type { Node } from '@/types/node'
 import type { Edge } from '@/types/edge'
 import { NODE_TYPE_COLORS } from '@/types/node'
 import { CONFIDENCE_COLORS, CONFIDENCE_DASH } from '@/types/edge'
 
+function getConnectedComponents(graph: Graph): string[][] {
+  const visited = new Set<string>()
+  const components: string[][] = []
+
+  for (const node of graph.nodes()) {
+    if (visited.has(node)) continue
+    const component: string[] = []
+    const queue = [node]
+    while (queue.length > 0) {
+      const current = queue.shift()!
+      if (visited.has(current)) continue
+      visited.add(current)
+      component.push(current)
+      for (const neighbor of graph.neighbors(current)) {
+        if (!visited.has(neighbor)) queue.push(neighbor)
+      }
+    }
+    components.push(component)
+  }
+
+  components.sort((a, b) => b.length - a.length)
+  return components
+}
+
 export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
   const graph = new Graph({ type: 'directed', multi: true })
 
   for (const node of nodes) {
     const color = NODE_TYPE_COLORS[node.type] ?? '#64748b'
-    const size = 4 + Math.pow((node.importance ?? 50) / 100, 1.5) * 24
-    const labelColor = (node.importance ?? 50) >= 70 ? '#e2e8f0' : '#94a3b8'
+    const imp = node.importance ?? 50
+    const size = 3 + Math.pow(imp / 100, 1.5) * 12
+    const labelColor = imp >= 70 ? '#e2e8f0' : '#94a3b8'
     graph.addNode(node.id, {
       label: node.name,
       color,
       size,
       labelColor,
       nodeType: node.type,
-      importance: node.importance ?? 50,
+      importance: imp,
     })
   }
 
@@ -29,12 +53,15 @@ export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
 
     const edgeColor = CONFIDENCE_COLORS[edge.confidence]
     const dash = CONFIDENCE_DASH[edge.confidence]
+    const weight = edge.confidence === 'documented' ? 3 : edge.confidence === 'reported' ? 2 : 1
 
     graph.addEdgeWithKey(edge.id, edge.from, edge.to, {
       label: edge.relationship_type.replace(/_/g, ' '),
       color: edgeColor,
-      size: 1.5,
+      size: edge.confidence === 'documented' ? 1.5 : 1,
+      type: dash ? 'dashed' : 'arrow',
       dash,
+      weight,
       confidence: edge.confidence,
       edgeId: edge.id,
     })
@@ -45,23 +72,99 @@ export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
 
 export function applyForceLayout(graph: Graph): void {
   if (graph.order === 0) return
+
   try {
-    circular.assign(graph)
-    const settings = forceAtlas2.inferSettings(graph)
-    forceAtlas2.assign(graph, {
-      iterations: 400,
-      settings: {
-        ...settings,
-        gravity: 0.3,
-        scalingRatio: 8,
-        strongGravityMode: false,
-        barnesHutOptimize: graph.order > 30,
-        slowDown: 2,
-        edgeWeightInfluence: 0.5,
-      },
-    })
+    const components = getConnectedComponents(graph)
+
+    if (components.length === 1) {
+      runForceAtlas(graph, graph.nodes())
+      return
+    }
+
+    const cols = Math.ceil(Math.sqrt(components.length))
+    const spacing = 300
+
+    for (let i = 0; i < components.length; i++) {
+      const compNodes = components[i]
+      const col = i % cols
+      const row = Math.floor(i / cols)
+      const offsetX = (col - (cols - 1) / 2) * spacing
+      const offsetY = (row - Math.ceil(components.length / cols - 1) / 2) * spacing
+
+      const subGraph = graph.copy()
+      for (const n of subGraph.nodes()) {
+        if (!compNodes.includes(n)) subGraph.dropNode(n)
+      }
+
+      if (subGraph.order > 1) {
+        runForceAtlas(subGraph, compNodes)
+        for (const nodeId of compNodes) {
+          const attrs = subGraph.getNodeAttributes(nodeId)
+          graph.setNodeAttribute(nodeId, 'x', (attrs.x ?? 0) + offsetX)
+          graph.setNodeAttribute(nodeId, 'y', (attrs.y ?? 0) + offsetY)
+        }
+      } else {
+        graph.setNodeAttribute(compNodes[0], 'x', offsetX)
+        graph.setNodeAttribute(compNodes[0], 'y', offsetY)
+      }
+    }
   } catch (e) {
-    console.error('[shout.mn] ForceAtlas2 layout failed:', e)
-    try { circular.assign(graph) } catch {}
+    console.error('[shout.mn] Layout failed:', e)
+  }
+}
+
+function runForceAtlas(graph: Graph, nodeIds: string[]): void {
+  if (graph.order === 0) return
+
+  const cx = graph.order / 2
+  const cy = graph.order / 2
+  for (const nodeId of graph.nodes()) {
+    const angle = Math.random() * Math.PI * 2
+    const r = Math.random() * 50
+    graph.setNodeAttribute(nodeId, 'x', cx + Math.cos(angle) * r)
+    graph.setNodeAttribute(nodeId, 'y', cy + Math.sin(angle) * r)
+  }
+
+  const edgeCount = graph.size
+  const nodeCount = graph.order
+  const density = edgeCount / (nodeCount * (nodeCount - 1) / 2)
+
+  forceAtlas2.assign(graph, {
+    iterations: 300,
+    settings: {
+      gravity: 0.8,
+      scalingRatio: 3,
+      strongGravityMode: true,
+      barnesHutOptimize: nodeCount > 50,
+      barnesHutTheta: 0.5,
+      slowDown: 1.5,
+      edgeWeightInfluence: 0.8,
+      outboundAttractionDistribution: false,
+      linLogMode: false,
+      adjustSizes: true,
+    },
+  })
+
+  const padding = 60
+  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity
+  for (const nodeId of graph.nodes()) {
+    const x = graph.getNodeAttribute(nodeId, 'x') ?? 0
+    const y = graph.getNodeAttribute(nodeId, 'y') ?? 0
+    minX = Math.min(minX, x)
+    maxX = Math.max(maxX, x)
+    minY = Math.min(minY, y)
+    maxY = Math.max(maxY, y)
+  }
+
+  const width = maxX - minX + padding * 2
+  const height = maxY - minY + padding * 2
+  const centerX = (minX + maxX) / 2
+  const centerY = (minY + maxY) / 2
+
+  for (const nodeId of graph.nodes()) {
+    const x = graph.getNodeAttribute(nodeId, 'x') ?? 0
+    const y = graph.getNodeAttribute(nodeId, 'y') ?? 0
+    graph.setNodeAttribute(nodeId, 'x', (x - centerX) + width / 2)
+    graph.setNodeAttribute(nodeId, 'y', (y - centerY) + height / 2)
   }
 }

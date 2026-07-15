@@ -1,0 +1,872 @@
+[
+  {
+    "source_node": "person-iaac-158",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3657/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "7 сарын 10, 2026 119 Авлигатай тэмцэх газрын дарга, тэргүүн комисс"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-158",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3657/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "7 сарын 10, 2026 119 Авлигатай тэмцэх газрын дарга, тэргүүн комисс"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-159",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3653/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 25, 2026 385 Авлигын эсрэг сургалтад 1879 албан тушаалтныг"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-160",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3653/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 25, 2026 385 Авлигын эсрэг сургалтад 1879 албан тушаалтныг"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-159",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3653/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 25, 2026 385 Авлигын эсрэг сургалтад 1879 албан тушаалтныг"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-160",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3653/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 25, 2026 385 Авлигын эсрэг сургалтад 1879 албан тушаалтныг"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-161",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-162",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-163",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-164",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-165",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-161",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-162",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-163",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-164",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-165",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3647/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-166",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3641/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 08, 2026 1427 Төлөвлөгөөт хяналтаар 17 албан тушаалтны ХАС"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-166",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3641/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 08, 2026 1427 Төлөвлөгөөт хяналтаар 17 албан тушаалтны ХАС"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-167",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-168",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-169",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-167",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-168",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-169",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3640/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "6 сарын 05, 2026 1807 АНУ-ын Элчин сайдын яамны төлөөлөгчдийг хүлэ"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-170",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-171",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-172",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-173",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-174",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-175",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-170",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-171",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-172",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-173",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-174",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-175",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3632/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-176",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3629/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1994 Авлигатай тэмцэх газраас “Соёл”, “Өлзийт”, “"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-177",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3629/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1994 Авлигатай тэмцэх газраас “Соёл”, “Өлзийт”, “"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-176",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3629/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1994 Авлигатай тэмцэх газраас “Соёл”, “Өлзийт”, “"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-177",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3629/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1994 Авлигатай тэмцэх газраас “Соёл”, “Өлзийт”, “"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-178",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3627/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1276 Нийтийн албанд томилогдохоор нэр дэвшсэн 460"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-178",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3627/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 26, 2026 1276 Нийтийн албанд томилогдохоор нэр дэвшсэн 460"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-179",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-180",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-181",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-182",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-183",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-179",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-180",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-181",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-182",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-183",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3624/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-184",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3623/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 21, 2026 1532 4,5 тэрбум төгрөгийн татвараас зайлсхийсэн з"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-185",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3623/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 21, 2026 1532 4,5 тэрбум төгрөгийн татвараас зайлсхийсэн з"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-184",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3623/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 21, 2026 1532 4,5 тэрбум төгрөгийн татвараас зайлсхийсэн з"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-185",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3623/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 21, 2026 1532 4,5 тэрбум төгрөгийн татвараас зайлсхийсэн з"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-186",
+    "target_node": "iaac",
+    "relationship_type": "investigated_by",
+    "confidence": "documented",
+    "evidence": [
+      {
+        "source_name": "IAAC weekly report",
+        "url": "https://iaac.mn/3622/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 20, 2026 2316 Нийслэлээс хэрэгжүүлж буй 24 мега төслийн со"
+      }
+    ]
+  },
+  {
+    "source_node": "person-iaac-186",
+    "target_node": "unknown-org",
+    "relationship_type": "employment",
+    "confidence": "reported",
+    "evidence": [
+      {
+        "source_name": "IAAC report",
+        "url": "https://iaac.mn/3622/nitem",
+        "date_accessed": "2026-07-15",
+        "document_type": "government_report",
+        "note": "5 сарын 20, 2026 2316 Нийслэлээс хэрэгжүүлж буй 24 мега төслийн со"
+      }
+    ]
+  }
+]

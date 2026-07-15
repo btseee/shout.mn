@@ -1,0 +1,1032 @@
+{
+  "nodes": [
+    {
+      "id": "person-ЗДа",
+      "type": "person",
+      "label": "З.Да",
+      "source": "https://iaac.mn/3657/nitem"
+    },
+    {
+      "id": "person-НТ",
+      "type": "person",
+      "label": "Н.Т",
+      "source": "https://iaac.mn/3657/nitem"
+    },
+    {
+      "id": "ministry-energy",
+      "type": "government_body",
+      "label": "Эрчим хүчний яам",
+      "source": "https://iaac.mn/3657/nitem"
+    },
+    {
+      "id": "person-БМ",
+      "type": "person",
+      "label": "Б.М",
+      "source": "https://iaac.mn/3656/nitem"
+    },
+    {
+      "id": "ministry-health",
+      "type": "government_body",
+      "label": "Эрүүл мэндийн яам",
+      "source": "https://iaac.mn/3653/nitem"
+    },
+    {
+      "id": "person-ГАз",
+      "type": "person",
+      "label": "Г.Аз",
+      "source": "https://iaac.mn/3647/nitem"
+    },
+    {
+      "id": "iaac",
+      "type": "government_body",
+      "label": "Авлигатай тэмцэх газар",
+      "source": "https://iaac.mn/3647/nitem"
+    },
+    {
+      "id": "person-амдо",
+      "type": "person",
+      "label": "ам.до",
+      "source": "https://iaac.mn/3645/nitem"
+    },
+    {
+      "id": "person-НБ",
+      "type": "person",
+      "label": "Н.Б",
+      "source": "https://iaac.mn/3642/nitem"
+    },
+    {
+      "id": "person-ГГ",
+      "type": "person",
+      "label": "Г.Г",
+      "source": "https://iaac.mn/3634/nitem"
+    },
+    {
+      "id": "person-ДГа",
+      "type": "person",
+      "label": "Д.Га",
+      "source": "https://iaac.mn/3632/nitem"
+    },
+    {
+      "id": "person-ЖДа",
+      "type": "person",
+      "label": "Ж.Да",
+      "source": "https://iaac.mn/3632/nitem"
+    },
+    {
+      "id": "person-ДГ",
+      "type": "person",
+      "label": "Д.Г",
+      "source": "https://iaac.mn/3630/nitem"
+    },
+    {
+      "id": "person-ЭБа",
+      "type": "person",
+      "label": "Э.Ба",
+      "source": "https://iaac.mn/3624/nitem"
+    },
+    {
+      "id": "person-СБа",
+      "type": "person",
+      "label": "С.Ба",
+      "source": "https://iaac.mn/3624/nitem"
+    },
+    {
+      "id": "person-ББа",
+      "type": "person",
+      "label": "Б.Ба",
+      "source": "https://iaac.mn/3624/nitem"
+    },
+    {
+      "id": "person-ЦАн",
+      "type": "person",
+      "label": "Ц.Ан",
+      "source": "https://iaac.mn/3624/nitem"
+    },
+    {
+      "id": "person-БЭр",
+      "type": "person",
+      "label": "Б.Эр",
+      "source": "https://iaac.mn/3624/nitem"
+    },
+    {
+      "id": "person-НШ",
+      "type": "person",
+      "label": "Н.Ш",
+      "source": "https://iaac.mn/3619/nitem"
+    },
+    {
+      "id": "person-ТД",
+      "type": "person",
+      "label": "Т.Д",
+      "source": "https://iaac.mn/3617/nitem"
+    },
+    {
+      "id": "person-СБ",
+      "type": "person",
+      "label": "С.Б",
+      "source": "https://iaac.mn/3617/nitem"
+    },
+    {
+      "id": "person-ПЯ",
+      "type": "person",
+      "label": "П.Я",
+      "source": "https://iaac.mn/3617/nitem"
+    },
+    {
+      "id": "person-ГЖ",
+      "type": "person",
+      "label": "Г.Ж",
+      "source": "https://iaac.mn/3617/nitem"
+    },
+    {
+      "id": "person-ДА",
+      "type": "person",
+      "label": "Д.А",
+      "source": "https://iaac.mn/3617/nitem"
+    },
+    {
+      "id": "person-намжилын-долгорсүрэн",
+      "type": "person",
+      "label": "Намжилын Долгорсүрэн",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1"
+    },
+    {
+      "id": "gov-захиргааны-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Захиргааны хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-сосорбурамын-со",
+      "type": "person",
+      "label": "Сосорбурамын Со",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "gov-нийслэлийн-эрүүгийн-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-дамдины-ганзориг",
+      "type": "person",
+      "label": "Дамдины Ганзориг",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/1470?id=3&court_cat=2"
+    },
+    {
+      "id": "gov-улсын-дээд-шүүх",
+      "type": "government_body",
+      "label": "Улсын дээд шүүх",
+      "source": "https://shuukh.mn/single_case/1470?id=3&court_cat=2"
+    },
+    {
+      "id": "person-тэрбишийн-мөнх",
+      "type": "person",
+      "label": "Тэрбишийн Мөнх",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "gov-нийслэл-дэх-захиргааны-хэргийн-анхан-шатны-шүүх",
+      "type": "government_body",
+      "label": "Нийслэл дэх Захиргааны хэргийн анхан шатны шүүх",
+      "source": "https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-жалбаагийн-бурмаа",
+      "type": "person",
+      "label": "Жалбаагийн Бурмаа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "gov-сэлэнгэ-аймаг-дахь-захиргааны-хэргийн-анхан-шатны-шүүх",
+      "type": "government_body",
+      "label": "Сэлэнгэ аймаг дахь Захиргааны хэргийн анхан шатны шүүх",
+      "source": "https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-цээлийн-амаржаргал",
+      "type": "person",
+      "label": "Цээлийн Амаржаргал",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "gov-дархан-уул-аймгийн-эрүүгийн-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Дархан-Уул аймгийн Эрүүгийн хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-цогийн-оч",
+      "type": "person",
+      "label": "Цогийн Оч",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/17481?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-бямбасүрэнгийн-отгонцэцэг",
+      "type": "person",
+      "label": "Бямбасүрэнгийн Отгонцэцэг",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/37065?start_date=&end_date=&id=1&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-бямбаа-ариунхишиг",
+      "type": "person",
+      "label": "Бямбаа Ариунхишиг",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/13827?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-жигдэнгийн-батттогтох",
+      "type": "person",
+      "label": "Жигдэнгийн Батттогтох",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "gov-завхан-аймгийн-эрүү,-иргэний-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Завхан аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-юндэнгийн-энхмаа",
+      "type": "person",
+      "label": "Юндэнгийн Энхмаа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/82509?start_date=&end_date=&id=1&court_cat=2&bb=1%C2%A0"
+    },
+    {
+      "id": "gov-архангай-аймгийн-эрүү,-иргэний-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Архангай аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/9338?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-очирбатын-чулуунцэцэг",
+      "type": "person",
+      "label": "Очирбатын Чулуунцэцэг",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/8507?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-магнайбаярын-мөнхдаваа",
+      "type": "person",
+      "label": "Магнайбаярын Мөнхдаваа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "gov-баянхонгор-аймгийн-эрүү,-иргэний-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Баянхонгор аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-цэгмэдийн-дагиймаа",
+      "type": "person",
+      "label": "Цэгмэдийн Дагиймаа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/131936?start_date=&end_date=&id=1&court_cat=1&bb=1"
+    },
+    {
+      "id": "person-мянгаагийн-баясгалан",
+      "type": "person",
+      "label": "Мянгаагийн Баясгалан",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1"
+    },
+    {
+      "id": "gov-баянгол-дүүргийн-иргэний-хэргийн-анхан-шатны-шүүх",
+      "type": "government_body",
+      "label": "Баянгол дүүргийн Иргэний хэргийн анхан шатны шүүх",
+      "source": "https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1"
+    },
+    {
+      "id": "person-намдагсүрэнгийн-батсайхан",
+      "type": "person",
+      "label": "Намдагсүрэнгийн Батсайхан",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/12186?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-лхүндэвийн-наранбаяр",
+      "type": "person",
+      "label": "Лхүндэвийн Наранбаяр",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "gov-дорнод-аймгийн-эрүү,-иргэний-хэргийн-давж-заалдах-шатны-шүүх",
+      "type": "government_body",
+      "label": "Дорнод аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх",
+      "source": "https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1"
+    },
+    {
+      "id": "person-жамъянхоролын-оюунчимэг",
+      "type": "person",
+      "label": "Жамъянхоролын Оюунчимэг",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "gov-дархан-уул-аймаг-дахь-захиргааны-хэргийн-анхан-шатны-шүүх",
+      "type": "government_body",
+      "label": "Дархан-Уул аймаг дахь Захиргааны хэргийн анхан шатны шүүх",
+      "source": "https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-цэдэвийн-сувдмаа",
+      "type": "person",
+      "label": "Цэдэвийн Сувдмаа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "gov-баянхонгор-аймаг-дахь-захиргааны-хэргийн-анхан-шатны-шүүх",
+      "type": "government_body",
+      "label": "Баянхонгор аймаг дахь Захиргааны хэргийн анхан шатны шүүх",
+      "source": "https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-ноостын-хонинхүү",
+      "type": "person",
+      "label": "Ноостын Хонинхүү",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/8001?daterange=2024-01-01%20-%202024-10-17&id=2&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-дашдоржийн-мөнхтуяа",
+      "type": "person",
+      "label": "Дашдоржийн Мөнхтуяа",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/2371?start_date=&end_date=&id=3&court_cat=3&bb=1"
+    },
+    {
+      "id": "person-эрдэмбилэгийн-лхагвасүрэн",
+      "type": "person",
+      "label": "Эрдэмбилэгийн Лхагвасүрэн",
+      "subtype": "judge",
+      "source": "https://shuukh.mn/single_case/2471?start_date=&end_date=&id=2&court_cat=3&bb=1"
+    }
+  ],
+  "edges": [
+    {
+      "source_node": "person-ЗДа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3657/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "7 сарын 10, 2026 119 Авлигатай тэмцэх газрын дарга, тэргүүн комисс"
+        }
+      ]
+    },
+    {
+      "source_node": "person-НТ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3657/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "7 сарын 10, 2026 119 Авлигатай тэмцэх газрын дарга, тэргүүн комисс"
+        }
+      ]
+    },
+    {
+      "source_node": "person-БМ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3656/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "7 сарын 02, 2026 908 Хэрэг бүртгэлтийн 1 хэрэгт 2 объектод нэгжлэг"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ГАз",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3647/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "6 сарын 17, 2026 1436 ОУВС-гийн төлөөлөгчдийг хүлээн авч уулзав "
+        }
+      ]
+    },
+    {
+      "source_node": "person-амдо",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3645/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "6 сарын 15, 2026 1273 Эрчим хүчний яамны Төрийн нарийн бичгийн дар"
+        }
+      ]
+    },
+    {
+      "source_node": "person-НБ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3642/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "6 сарын 09, 2026 1653 Мөрдөн шалгах ажиллагааны явцад хэрэг бүртгэ"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ГГ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3634/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "6 сарын 02, 2026 1255 Эрүүгийн 1027 хэрэгт мөрдөн шалгах ажиллагаа"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ДГа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3632/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+        }
+      ]
+    },
+    {
+      "source_node": "person-ЖДа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3632/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 29, 2026 2083 Э М Г Э Н Э Л "
+        }
+      ]
+    },
+    {
+      "source_node": "person-ДГ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3630/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 27, 2026 2586 Бусдад 87,7 мянган ам.долларыг хууль бусаар "
+        }
+      ]
+    },
+    {
+      "source_node": "person-ЭБа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3624/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+        }
+      ]
+    },
+    {
+      "source_node": "person-СБа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3624/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ББа",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3624/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ЦАн",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3624/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+        }
+      ]
+    },
+    {
+      "source_node": "person-БЭр",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3624/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 23, 2026 1625 Авлигатай тэмцэх газрын албан хаагчид “Улаан"
+        }
+      ]
+    },
+    {
+      "source_node": "person-НШ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3619/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 19, 2026 1355 Эрүүгийн 983 хэрэгт мөрдөн байцаалтын ажилла"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ТД",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3617/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 16, 2026 6367 “МА” компанийн менежер Т.Д нарын 6 хүнийг ял"
+        }
+      ]
+    },
+    {
+      "source_node": "person-СБ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3617/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 16, 2026 6367 “МА” компанийн менежер Т.Д нарын 6 хүнийг ял"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ПЯ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3617/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 16, 2026 6367 “МА” компанийн менежер Т.Д нарын 6 хүнийг ял"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ГЖ",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3617/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 16, 2026 6367 “МА” компанийн менежер Т.Д нарын 6 хүнийг ял"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ДА",
+      "target_node": "iaac",
+      "relationship_type": "investigated_by",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "IAAC weekly report",
+          "url": "https://iaac.mn/3617/nitem",
+          "date_accessed": "2026-07-15",
+          "document_type": "government_report",
+          "note": "5 сарын 16, 2026 6367 “МА” компанийн менежер Т.Д нарын 6 хүнийг ял"
+        }
+      ]
+    },
+    {
+      "source_node": "person-намжилын-долгорсүрэн",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/8044?daterange=2024-06-06%20-%202024-06-20&id=2&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Сонгууль,: Шүүх Захиргааны хэргийн давж заалдах шатны шүүх Шүүгч Намжилын Долгорсүрэн "
+        }
+      ]
+    },
+    {
+      "source_node": "person-сосорбурамын-со",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/7391?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Сосорбурамын С"
+        }
+      ]
+    },
+    {
+      "source_node": "person-дамдины-ганзориг",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/1470?id=3&court_cat=2",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Улсын дээд шүүх Шүүгч Дамдины Ганзориг Хэргийн индекс 107/2017/0079/Э"
+        }
+      ]
+    },
+    {
+      "source_node": "person-тэрбишийн-мөнх",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/17212?start_date=&end_date=&id=1&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Сонгууль,: Шүүх Нийслэл дэх Захиргааны хэргийн анхан шатны шүүх Шүүгч Тэрбишийн Мөнх-Эрд"
+        }
+      ]
+    },
+    {
+      "source_node": "person-жалбаагийн-бурмаа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/5678?start_date=&end_date=&id=1&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Төрийн алба,: Шүүх Сэлэнгэ аймаг дахь Захиргааны хэргийн анхан шатны шүүх Шүүгч Жалбаагийн "
+        }
+      ]
+    },
+    {
+      "source_node": "person-цээлийн-амаржаргал",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/10053?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Дархан-Уул аймгийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Цээлий"
+        }
+      ]
+    },
+    {
+      "source_node": "person-цогийн-оч",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/17481?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Цогийн Оч Х"
+        }
+      ]
+    },
+    {
+      "source_node": "person-бямбасүрэнгийн-отгонцэцэг",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/37065?start_date=&end_date=&id=1&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Архангай аймаг дахь сум дундын анхан шатны шүүх /Эрүүгийн хэрэг/ Шүүгч Б"
+        }
+      ]
+    },
+    {
+      "source_node": "person-бямбаа-ариунхишиг",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/13827?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Бямбаа Ариунхи"
+        }
+      ]
+    },
+    {
+      "source_node": "person-жигдэнгийн-батттогтох",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/21386?daterange=2025/01/01%20-%202025/01/24%20&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Завхан аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх Шүүгч Жигдэ"
+        }
+      ]
+    },
+    {
+      "source_node": "person-юндэнгийн-энхмаа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/82509?start_date=&end_date=&id=1&court_cat=2&bb=1%C2%A0",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Төв аймаг дахь сум дундын анхан шатны шүүх /Эрүүгийн хэрэг/ Шүүгч Юндэнг"
+        }
+      ]
+    },
+    {
+      "source_node": "person-очирбатын-чулуунцэцэг",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/8507?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Очирбатын Чулу"
+        }
+      ]
+    },
+    {
+      "source_node": "person-магнайбаярын-мөнхдаваа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/4870?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Баянхонгор аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх Шүүгч М"
+        }
+      ]
+    },
+    {
+      "source_node": "person-цэгмэдийн-дагиймаа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/131936?start_date=&end_date=&id=1&court_cat=1&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Хөдөлмөрийн гэрээ,: Шүүх Орхон аймаг дахь сум дундын анхан шатны шүүх /Иргэний хэрэг/ Шүүгч Цэгмэ"
+        }
+      ]
+    },
+    {
+      "source_node": "person-мянгаагийн-баясгалан",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/120176?daterange=2022/01/01%20-%202022/08/04%20&id=1&court_cat=1&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Үндэслэлгүйгээр хөрөнгөжих,  Эдийн бус гэм хорын арилгах: Шүүх Баянгол дүүргийн Иргэний хэргийн анхан шатны шүүх Шүүгч Мянгаагийн Баясг"
+        }
+      ]
+    },
+    {
+      "source_node": "person-намдагсүрэнгийн-батсайхан",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/12186?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Нийслэлийн Эрүүгийн хэргийн давж заалдах шатны шүүх Шүүгч Намдагсүрэнгий"
+        }
+      ]
+    },
+    {
+      "source_node": "person-лхүндэвийн-наранбаяр",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/7413?start_date=&end_date=&id=2&court_cat=2&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case : Шүүх Дорнод аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүх Шүүгч Лхүнд"
+        }
+      ]
+    },
+    {
+      "source_node": "person-жамъянхоролын-оюунчимэг",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/5508?start_date=&end_date=&id=1&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Төрийн алба,: Шүүх Дархан-Уул аймаг дахь Захиргааны хэргийн анхан шатны шүүх Шүүгч Жамъянхо"
+        }
+      ]
+    },
+    {
+      "source_node": "person-цэдэвийн-сувдмаа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/7687?start_date=&end_date=&id=1&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Бусад,: Шүүх Баянхонгор аймаг дахь Захиргааны хэргийн анхан шатны шүүх Шүүгч Цэдэвийн"
+        }
+      ]
+    },
+    {
+      "source_node": "person-ноостын-хонинхүү",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/8001?daterange=2024-01-01%20-%202024-10-17&id=2&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Газар,: Шүүх Захиргааны хэргийн давж заалдах шатны шүүх Шүүгч Ноостын Хонинхүү Хэр"
+        }
+      ]
+    },
+    {
+      "source_node": "person-дашдоржийн-мөнхтуяа",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/2371?start_date=&end_date=&id=3&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Бусад,: Шүүх Улсын дээд шүүх Шүүгч Дашдоржийн Мөнхтуяа Хэргийн индекс 128/2019/049"
+        }
+      ]
+    },
+    {
+      "source_node": "person-эрдэмбилэгийн-лхагвасүрэн",
+      "target_node": "iaac",
+      "relationship_type": "adjudicated",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "source_name": "shuukh.mn court decision",
+          "url": "https://shuukh.mn/single_case/2471?start_date=&end_date=&id=2&court_cat=3&bb=1",
+          "date_accessed": "2026-07-15",
+          "document_type": "court_decision",
+          "note": "Case Төрийн алба,: Шүүх Захиргааны хэргийн давж заалдах шатны шүүх Шүүгч Эрдэмбилэгийн Лхагвасүр"
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-07-15T21:29:18.787Z",
+  "sources": {
+    "iaac": 39,
+    "shuukh": 39
+  }
+}
