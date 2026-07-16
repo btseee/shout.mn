@@ -34,6 +34,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
   useEffect(() => {
     if (!containerRef.current) return
     if (graph.order === 0) return
+    if (containerRef.current.clientWidth === 0 || containerRef.current.clientHeight === 0) return
 
     const sigma = new Sigma(graph, containerRef.current, {
       renderEdgeLabels: false,
@@ -42,10 +43,13 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       labelSize: 11,
       labelWeight: '500',
       labelColor: { attribute: 'labelColor', color: '#94a3b8' },
-      labelRenderedSizeThreshold: 12,
-      labelGridSize: 200,
+      labelRenderedSizeThreshold: 14,
+      labelGridSize: 300,
       renderLabels: true,
       renderEdgeArrows: true,
+      enableCameraWheel: true,
+      enableCameraPan: true,
+      enableCameraRotate: false,
       edgeReducer: (edge, data) => {
         const sel = useSelectionStore.getState()
         const filt = useFiltersStore.getState()
@@ -160,19 +164,23 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
     })
 
     setTimeout(() => {
-      sigma.getCamera().animatedFitBounds({
-        x: 0, y: 0,
-        width: 1, height: 1,
-      }, { duration: 0 })
-      const bbox = sigma.getGraphBBox()
-      const padding = 80
-      sigma.getCamera().animatedFitBounds({
-        x: bbox.x - padding,
-        y: bbox.y - padding,
-        width: bbox.width + padding * 2,
-        height: bbox.height + padding * 2,
-      }, { duration: 500 })
-    }, 100)
+      try {
+        const camera = sigma.getCamera()
+        let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity
+        for (const nodeId of graph.nodes()) {
+          const x = graph.getNodeAttribute(nodeId, 'x') ?? 0
+          const y = graph.getNodeAttribute(nodeId, 'y') ?? 0
+          minX = Math.min(minX, x); maxX = Math.max(maxX, x)
+          minY = Math.min(minY, y); maxY = Math.max(maxY, y)
+        }
+        const cw = containerRef.current?.clientWidth || 800
+        const ch = containerRef.current?.clientHeight || 600
+        const gw = maxX - minX || 1
+        const gh = maxY - minY || 1
+        const ratio = Math.min(cw / gw, ch / gh) * 0.8
+        camera.setState({ ratio: 1 / ratio })
+      } catch {}
+    }, 200)
 
     sigmaRef.current = sigma
 

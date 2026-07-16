@@ -236,5 +236,15 @@
     "id": "source-018",
     "url": "https://montsame.mn/en/read/402324",
     "document_type": "news_article"
+  },
+  {
+    "id": "source-019",
+    "title": "Мэдүүлгийн ил тод байдлын цахим систем (xacxom.iaac.mn)",
+    "url": "https://xacxom.iaac.mn/xacxom",
+    "document_type": "declaration",
+    "publisher": "Авлигатай тэмцэх газар (IAAC)",
+    "date_accessed": "2026-07-15",
+    "reliability_notes": "Авлигатай тэмцэх газрын албан ёсны мэдүүлгийн систем. Өндөр найдвартай.",
+    "tags": ["asset-declaration", "IAAC", "anti-corruption"]
   }
 ]

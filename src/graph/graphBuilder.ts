@@ -3,7 +3,7 @@ import forceAtlas2 from 'graphology-layout-forceatlas2'
 import type { Node } from '@/types/node'
 import type { Edge } from '@/types/edge'
 import { NODE_TYPE_COLORS } from '@/types/node'
-import { CONFIDENCE_COLORS, CONFIDENCE_DASH } from '@/types/edge'
+import { RELATIONSHIP_TYPE_COLORS } from '@/types/edge'
 
 function getConnectedComponents(graph: Graph): string[][] {
   const visited = new Set<string>()
@@ -35,32 +35,40 @@ export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
   for (const node of nodes) {
     const color = NODE_TYPE_COLORS[node.type] ?? '#64748b'
     const imp = node.importance ?? 50
-    const size = 3 + Math.pow(imp / 100, 1.5) * 12
+    const size = 2 + Math.pow(imp / 100, 1.5) * 8
     const labelColor = imp >= 70 ? '#e2e8f0' : '#94a3b8'
-    graph.addNode(node.id, {
+
+    const attrs: Record<string, any> = {
       label: node.name,
       color,
       size,
       labelColor,
       nodeType: node.type,
       importance: imp,
-    })
+    }
+
+    graph.addNode(node.id, attrs)
   }
 
-  for (const edge of edges) {
-    if (!graph.hasNode(edge.from) || !graph.hasNode(edge.to)) continue
-    if (edge.from === edge.to) continue
+  const addedEdges = new Set<string>()
 
-    const edgeColor = CONFIDENCE_COLORS[edge.confidence]
-    const dash = CONFIDENCE_DASH[edge.confidence]
+  for (const edge of edges) {
+    if (!graph.hasNode(edge.source_node) || !graph.hasNode(edge.target_node)) continue
+    if (edge.source_node === edge.target_node) continue
+
+    // Skip duplicate edges between same pair
+    const edgeKey = `${edge.source_node}->${edge.target_node}`
+    if (addedEdges.has(edgeKey)) continue
+    addedEdges.add(edgeKey)
+
+    const edgeColor = RELATIONSHIP_TYPE_COLORS[edge.relationship_type] || '#64748b'
     const weight = edge.confidence === 'documented' ? 3 : edge.confidence === 'reported' ? 2 : 1
 
-    graph.addEdgeWithKey(edge.id, edge.from, edge.to, {
+    graph.addEdgeWithKey(edge.id, edge.source_node, edge.target_node, {
       label: edge.relationship_type.replace(/_/g, ' '),
       color: edgeColor,
-      size: edge.confidence === 'documented' ? 1.5 : 1,
-      type: dash ? 'dashed' : 'arrow',
-      dash,
+      size: edge.confidence === 'documented' ? 1 : 0.5,
+      type: 'arrow',
       weight,
       confidence: edge.confidence,
       edgeId: edge.id,

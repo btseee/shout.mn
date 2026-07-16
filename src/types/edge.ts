@@ -1,22 +1,22 @@
 export type ConfidenceTier = 'documented' | 'reported' | 'alleged'
 
 export type RelationshipType =
+  | 'colleague'
   | 'family'
-  | 'business_ownership'
-  | 'employment'
-  | 'appointment'
-  | 'board_membership'
-  | 'financial_transaction'
-  | 'contract_awarded'
-  | 'co_mention'
-  | 'political_affiliation'
+  | 'superior'
+  | 'subordinate'
+  | 'same_org'
+  | 'financial_link'
+  | 'political_ally'
+  | 'appointed_by'
+  | 'investigated'
 
 export type EvidenceDocType =
   | 'declaration'
-  | 'court_ruling'
   | 'registry_record'
-  | 'procurement_notice'
   | 'news_article'
+  | 'government_report'
+  | 'court_decision'
   | 'other'
 
 export interface Evidence {
@@ -29,11 +29,12 @@ export interface Evidence {
 
 export interface Edge {
   id: string
-  from: string
-  to: string
+  source_node: string
+  target_node: string
   relationship_type: RelationshipType
   confidence: ConfidenceTier
   evidence: Evidence[]
+  relationship_detail?: string
   date_range?: { from?: string; to?: string }
 }
 
@@ -43,10 +44,16 @@ export const CONFIDENCE_COLORS: Record<ConfidenceTier, string> = {
   alleged: '#94a3b8',
 }
 
-export const CONFIDENCE_DASH: Record<ConfidenceTier, number[] | undefined> = {
-  documented: undefined,
-  reported: [5, 3],
-  alleged: [2, 2],
+export const RELATIONSHIP_TYPE_COLORS: Record<RelationshipType, string> = {
+  colleague: '#60a5fa',      // blue
+  family: '#f472b6',         // pink
+  same_org: '#34d399',       // emerald
+  superior: '#fbbf24',       // amber
+  subordinate: '#fb923c',    // orange
+  financial_link: '#a78bfa', // violet
+  political_ally: '#f87171', // red
+  appointed_by: '#2dd4bf',   // teal
+  investigated: '#e879f9',   // fuchsia
 }
 
 export const CONFIDENCE_LABELS: Record<ConfidenceTier, string> = {
@@ -56,25 +63,25 @@ export const CONFIDENCE_LABELS: Record<ConfidenceTier, string> = {
 }
 
 export const RELATIONSHIP_TYPE_LABELS: Record<RelationshipType, string> = {
+  colleague: 'Хамт ажиллагч',
   family: 'Гэр бүлийн холбоо',
-  business_ownership: 'Бизнесийн өмчлөл',
-  employment: 'Хөдөлмөр эрхлэлт',
-  appointment: 'Томилгоо',
-  board_membership: 'Захирлын зөвлөлийн гишүүнчлэл',
-  financial_transaction: 'Санхүүгийн гүйлгээ',
-  contract_awarded: 'Гэрээний ялагч',
-  co_mention: 'Хамт нэр дурдсан',
-  political_affiliation: 'Улс төрийн холбоо',
+  superior: 'Дээрээс нь',
+  subordinate: 'Доороо нь',
+  same_org: 'Нэг байгууллагад',
+  financial_link: 'Санхүүгийн холбоо',
+  political_ally: 'Улс төрийн холбоотон',
+  appointed_by: 'Томилсон',
+  investigated: 'Шалгасан',
 }
 
 export const RELATIONSHIP_TYPE_LABELS_EN: Record<RelationshipType, string> = {
+  colleague: 'Colleague',
   family: 'Family',
-  business_ownership: 'Business Ownership',
-  employment: 'Employment',
-  appointment: 'Appointment',
-  board_membership: 'Board Membership',
-  financial_transaction: 'Financial Transaction',
-  contract_awarded: 'Contract Awarded',
-  co_mention: 'Co-mention',
-  political_affiliation: 'Political Affiliation',
+  superior: 'Superior',
+  subordinate: 'Subordinate',
+  same_org: 'Same Organization',
+  financial_link: 'Financial Link',
+  political_ally: 'Political Ally',
+  appointed_by: 'Appointed By',
+  investigated: 'Investigated',
 }
