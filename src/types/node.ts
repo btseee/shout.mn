@@ -77,7 +77,23 @@ export interface Node {
 }
 
 export const NODE_TYPE_COLORS: Record<NodeType, string> = {
-  person: '#3b82f6',
+  person: '#64748b',
+}
+
+export const PERSON_SUBTYPE_COLORS: Record<PersonSubtype, string> = {
+  politician: '#c75b70',
+  civil_servant: '#5b84ad',
+  business_person: '#ba8555',
+  public_figure: '#8168b8',
+  judge: '#5f9a7f',
+  prosecutor: '#a25f8f',
+  military: '#708f56',
+  other: '#6b7280',
+}
+
+export function getEmploymentColor(subtype?: PersonSubtype): string {
+  if (!subtype) return NODE_TYPE_COLORS.person
+  return PERSON_SUBTYPE_COLORS[subtype] ?? NODE_TYPE_COLORS.person
 }
 
 export const NODE_TYPE_LABELS: Record<NodeType, string> = {

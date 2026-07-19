@@ -45,15 +45,15 @@ export const CONFIDENCE_COLORS: Record<ConfidenceTier, string> = {
 }
 
 export const RELATIONSHIP_TYPE_COLORS: Record<RelationshipType, string> = {
-  colleague: '#60a5fa',      // blue
-  family: '#f472b6',         // pink
-  same_org: '#34d399',       // emerald
-  superior: '#fbbf24',       // amber
-  subordinate: '#fb923c',    // orange
-  financial_link: '#a78bfa', // violet
-  political_ally: '#f87171', // red
-  appointed_by: '#2dd4bf',   // teal
-  investigated: '#e879f9',   // fuchsia
+  colleague: '#5f7592',
+  family: '#8d6c8b',
+  same_org: '#5b8a7a',
+  superior: '#8f7a58',
+  subordinate: '#8b6e54',
+  financial_link: '#766c98',
+  political_ally: '#8f5f66',
+  appointed_by: '#5f8f8a',
+  investigated: '#7f668f',
 }
 
 export const CONFIDENCE_LABELS: Record<ConfidenceTier, string> = {
