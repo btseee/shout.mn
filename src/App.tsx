@@ -124,56 +124,57 @@ export default function App() {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-slate-950 text-white">
+    <div className="h-screen flex flex-col shout-canvas text-white">
       {/* Top bar */}
-      <div className="flex items-center gap-2 px-4 py-2 border-b border-slate-800 bg-slate-950/90 backdrop-blur-sm z-20 flex-wrap">
+      <div className="flex items-center gap-3 px-5 py-2.5 border-b border-[rgba(168,130,255,0.1)] glass z-20 flex-wrap">
         <span className="text-sm font-bold text-white tracking-tight">shout.mn</span>
-        <div className="w-px h-5 bg-slate-700" />
+        <div className="w-px h-5 bg-[rgba(168,130,255,0.15)]" />
         <input
           type="text"
           placeholder={t('search')}
           value={searchQuery}
           onChange={e => useFiltersStore.getState().setSearchQuery(e.target.value)}
-          className="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-sm text-white placeholder-slate-400 w-48 focus:outline-none focus:border-blue-500"
+          className="search-input bg-[rgba(168,130,255,0.05)] border border-[rgba(168,130,255,0.15)] rounded-lg px-3 py-1 text-sm text-white placeholder-[#888892] w-52 focus:outline-none transition-all"
         />
-        <div className="w-px h-5 bg-slate-700" />
+        <div className="w-px h-5 bg-[rgba(168,130,255,0.15)]" />
         <button
           onClick={() => setShowFilters(!showFilters)}
-          className={`text-xs px-2 py-1 rounded transition-colors flex items-center gap-1.5 ${
-            showFilters || hasActiveFilters ? 'bg-slate-600 text-white' : 'text-slate-500 hover:text-slate-300'
+          className={`filter-chip text-xs px-3 py-1 rounded-lg transition-all flex items-center gap-1.5 border ${
+            showFilters || hasActiveFilters
+              ? 'active border-[rgba(168,130,255,0.3)]'
+              : 'border-transparent text-[#888892] hover:text-white hover:border-[rgba(168,130,255,0.15)]'
           }`}
         >
           {t('filters')}
-          {hasActiveFilters && <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />}
+          {hasActiveFilters && <span className="w-1.5 h-1.5 rounded-full bg-[#a882ff]" />}
         </button>
-        <div className="w-px h-5 bg-slate-700" />
+        <div className="w-px h-5 bg-[rgba(168,130,255,0.15)]" />
         <button
           onClick={() => setShowAbout(true)}
-          className="text-xs text-slate-500 hover:text-slate-300"
+          className="text-xs text-[#888892] hover:text-white transition-colors"
         >
           {t('about')}
         </button>
         <div className="flex-1" />
-        <p className="text-xs text-slate-500">
+        <div className="stats-badge px-3 py-1 rounded-lg text-xs text-[#a882ff]">
           {graphNodes.length}/{allNodes.length} {t('nodes')} · {filteredEdges.length} {t('edges')}
-        </p>
+        </div>
       </div>
 
-      {/* Filter panel — all filters under one menu */}
+      {/* Filter panel */}
       {showFilters && (
-        <div className="px-4 py-3 border-b border-slate-800 bg-slate-900/80 z-10 space-y-3">
-          {/* Confidence */}
+        <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.1)] glass z-10 space-y-3 panel-enter">
           <div>
-            <span className="text-xs font-semibold text-slate-400 block mb-1.5">{t('confidence')}</span>
+            <span className="text-xs font-semibold text-[#888892] block mb-2">{t('confidence')}</span>
             <div className="flex gap-2">
               {(['documented', 'reported', 'alleged'] as ConfidenceTier[]).map(c => (
                 <button
                   key={c}
                   onClick={() => toggleConfidence(c)}
-                  className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
+                  className={`filter-chip px-3 py-1 rounded-lg text-xs font-medium transition-all border ${
                     selectedConfidence.includes(c) || selectedConfidence.length === 0
-                      ? 'bg-slate-700 text-white'
-                      : 'bg-slate-800 text-slate-600'
+                      ? 'active border-[rgba(168,130,255,0.3)]'
+                      : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
                   }`}
                 >
                   {t(c)}
@@ -182,18 +183,17 @@ export default function App() {
             </div>
           </div>
 
-          {/* Relationship types */}
           <div>
-            <span className="text-xs font-semibold text-slate-400 block mb-1.5">{t('relationshipTypes')}</span>
+            <span className="text-xs font-semibold text-[#888892] block mb-2">{t('relationshipTypes')}</span>
             <div className="flex gap-2 flex-wrap">
               {ALL_REL_TYPES.map(rt => (
                 <button
                   key={rt}
                   onClick={() => toggleRelType(rt)}
-                  className={`px-3 py-1 rounded text-xs font-medium transition-colors flex items-center gap-1.5 ${
+                  className={`filter-chip px-3 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 border ${
                     selectedRelTypes.length === 0 || selectedRelTypes.includes(rt)
-                      ? 'bg-slate-700 text-white'
-                      : 'bg-slate-800 text-slate-600'
+                      ? 'active border-[rgba(168,130,255,0.3)]'
+                      : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
                   }`}
                 >
                   <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: RELATIONSHIP_TYPE_COLORS[rt] }} />
@@ -203,18 +203,17 @@ export default function App() {
             </div>
           </div>
 
-          {/* Subtypes */}
           <div>
-            <span className="text-xs font-semibold text-slate-400 block mb-1.5">{t('jobTypes')}</span>
+            <span className="text-xs font-semibold text-[#888892] block mb-2">{t('jobTypes')}</span>
             <div className="flex gap-2 flex-wrap">
               {ALL_SUBTYPES.map(st => (
                 <button
                   key={st}
                   onClick={() => toggleSubtype(st)}
-                  className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
+                  className={`filter-chip px-3 py-1 rounded-lg text-xs font-medium transition-all border ${
                     selectedSubtypes.length === 0 || selectedSubtypes.includes(st)
-                      ? 'bg-slate-700 text-white'
-                      : 'bg-slate-800 text-slate-600'
+                      ? 'active border-[rgba(168,130,255,0.3)]'
+                      : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
                   }`}
                 >
                   {subtypeLabel(st)}
@@ -223,12 +222,11 @@ export default function App() {
             </div>
           </div>
 
-          {/* Clear all */}
           {hasActiveFilters && (
             <div className="pt-1">
               <button
                 onClick={() => useFiltersStore.getState().reset()}
-                className="px-3 py-1 rounded text-xs font-medium text-amber-400 hover:text-amber-300 bg-amber-500/10 transition-colors"
+                className="px-3 py-1 rounded-lg text-xs font-medium text-[#a882ff] hover:text-white bg-[rgba(168,130,255,0.1)] transition-all border border-[rgba(168,130,255,0.2)] hover:border-[rgba(168,130,255,0.4)]"
               >
                 ✕ {lang === 'en' ? 'Clear all filters' : 'Бүх шүүлтүүрийг арилгах'}
               </button>
@@ -237,35 +235,26 @@ export default function App() {
         </div>
       )}
 
-      {/* Legend overlay - always visible */}
-      <div className="absolute top-12 right-4 bg-slate-900 border border-slate-700 rounded-lg p-3 z-30 shadow-xl max-w-[220px]">
-        <h4 className="text-xs font-semibold text-slate-300 mb-2">{t('confidence')}</h4>
-        <div className="space-y-1">
-          {(['documented', 'reported', 'alleged'] as ConfidenceTier[]).map(c => (
-            <div key={c} className="flex items-center gap-2">
-              <div className="w-6 h-0.5 rounded" style={{ backgroundColor: c === 'documented' ? '#475569' : c === 'reported' ? '#64748b' : '#94a3b8' }} />
-              <span className="text-xs text-slate-400">{t(c)}</span>
+      {/* Legend overlay */}
+      <div className="absolute top-14 right-4 glass border border-[rgba(168,130,255,0.1)] rounded-xl p-4 z-30 shadow-2xl max-w-[200px]">
+        <h4 className="text-xs font-semibold text-[#dcddde] mb-2">{t('relationships')}</h4>
+        <div className="space-y-1.5">
+          {ALL_REL_TYPES.map(rt => (
+            <div key={rt} className="flex items-center gap-2">
+              <div className="w-5 h-0.5 rounded" style={{ backgroundColor: RELATIONSHIP_TYPE_COLORS[rt] }} />
+              <span className="text-xs text-[#888892]">{relLabel(rt)}</span>
             </div>
           ))}
         </div>
-        <div className="mt-3 pt-2 border-t border-slate-700">
-          <h4 className="text-xs font-semibold text-slate-300 mb-2">{t('relationships')}</h4>
-          <div className="space-y-1">
-            {ALL_REL_TYPES.map(rt => (
-              <div key={rt} className="flex items-center gap-2">
-                <div className="w-6 h-0.5 rounded" style={{ backgroundColor: RELATIONSHIP_TYPE_COLORS[rt] }} />
-                <span className="text-xs text-slate-400">{relLabel(rt)}</span>
+        <div className="mt-3 pt-2 border-t border-[rgba(168,130,255,0.1)]">
+          <h4 className="text-xs font-semibold text-[#dcddde] mb-2">{t('confidence')}</h4>
+          <div className="space-y-1.5">
+            {(['documented', 'reported', 'alleged'] as ConfidenceTier[]).map(c => (
+              <div key={c} className="flex items-center gap-2">
+                <div className="w-5 h-0.5 rounded" style={{ backgroundColor: c === 'documented' ? '#10b981' : c === 'reported' ? '#f59e0b' : '#ef4444' }} />
+                <span className="text-xs text-[#888892]">{t(c)}</span>
               </div>
             ))}
-          </div>
-        </div>
-        <div className="mt-3 pt-2 border-t border-slate-700">
-          <h4 className="text-xs font-semibold text-slate-300 mb-2">{t('nodeTypes')}</h4>
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: '#3b82f6' }} />
-              <span className="text-xs text-slate-400">{t('person')}</span>
-            </div>
           </div>
         </div>
       </div>
@@ -276,14 +265,14 @@ export default function App() {
           <>
             <SigmaGraph graph={graph} className="w-full h-full" />
             {/* Zoom controls */}
-            <div className="absolute bottom-4 right-4 flex flex-col gap-1 z-10">
-              <button onClick={handleZoomIn} className="w-8 h-8 bg-slate-800 hover:bg-slate-700 rounded-lg flex items-center justify-center text-sm text-slate-300 border border-slate-700">+</button>
-              <button onClick={handleZoomOut} className="w-8 h-8 bg-slate-800 hover:bg-slate-700 rounded-lg flex items-center justify-center text-sm text-slate-300 border border-slate-700">-</button>
-              <button onClick={handleReset} className="w-8 h-8 bg-slate-800 hover:bg-slate-700 rounded-lg flex items-center justify-center text-xs text-slate-300 border border-slate-700">⟲</button>
+            <div className="absolute bottom-4 right-4 flex flex-col gap-1.5 z-10">
+              <button onClick={handleZoomIn} className="w-9 h-9 glass border border-[rgba(168,130,255,0.15)] hover:border-[rgba(168,130,255,0.3)] rounded-lg flex items-center justify-center text-sm text-[#a882ff] transition-all btn-glow">+</button>
+              <button onClick={handleZoomOut} className="w-9 h-9 glass border border-[rgba(168,130,255,0.15)] hover:border-[rgba(168,130,255,0.3)] rounded-lg flex items-center justify-center text-sm text-[#a882ff] transition-all btn-glow">-</button>
+              <button onClick={handleReset} className="w-9 h-9 glass border border-[rgba(168,130,255,0.15)] hover:border-[rgba(168,130,255,0.3)] rounded-lg flex items-center justify-center text-xs text-[#a882ff] transition-all btn-glow">⟲</button>
             </div>
           </>
         ) : (
-          <div className="flex items-center justify-center h-full text-slate-500">
+          <div className="flex items-center justify-center h-full text-[#888892]">
             {t('graphEmpty')}
           </div>
         )}
@@ -291,54 +280,53 @@ export default function App() {
 
       {/* Side panel */}
       {selectedNode && (
-        <div className="fixed top-0 right-0 h-full w-96 bg-slate-900 border-l border-slate-700 z-30 overflow-y-auto shadow-2xl">
+        <div className="fixed top-0 right-0 h-full w-[400px] glass border-l border-[rgba(168,130,255,0.1)] z-30 overflow-y-auto shadow-2xl panel-enter">
           <div className="p-0">
-            {/* Profile header with image */}
-            <div className="relative bg-gradient-to-b from-blue-900/40 to-slate-900 p-4 pb-6">
-              <button onClick={clearSelection} className="absolute top-3 right-3 text-slate-400 hover:text-white text-lg z-10">&times;</button>
+            {/* Profile header */}
+            <div className="relative p-5 pb-6" style={{ background: 'linear-gradient(180deg, rgba(168,130,255,0.15) 0%, transparent 100%)' }}>
+              <button onClick={clearSelection} className="absolute top-3 right-3 text-[#888892] hover:text-white text-lg z-10 transition-colors">&times;</button>
               <div className="flex items-center gap-4">
                 {selectedNode.image_url && (
                   <img
                     src={selectedNode.image_url}
                     alt={selectedNode.name}
-                    className="w-16 h-16 rounded-full border-2 border-blue-500/50 object-cover"
+                    className="w-16 h-16 rounded-full border-2 border-[rgba(168,130,255,0.3)] object-cover"
                     onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
                   />
                 )}
                 <div className="flex-1 min-w-0">
                   <h2 className="text-lg font-bold text-white truncate">{selectedNode.name}</h2>
                   {selectedNode.profile?.position && (
-                    <p className="text-sm text-blue-300 mt-0.5">{selectedNode.profile.position}</p>
+                    <p className="text-sm text-[#a882ff] mt-0.5">{selectedNode.profile.position}</p>
                   )}
                   {selectedNode.profile?.organization && (
-                    <p className="text-xs text-slate-400 mt-0.5 truncate">{selectedNode.profile.organization}</p>
+                    <p className="text-xs text-[#888892] mt-0.5 truncate">{selectedNode.profile.organization}</p>
                   )}
                 </div>
               </div>
-              {/* Tags */}
               <div className="flex gap-2 mt-3 flex-wrap">
                 {selectedNode.subtype && (
-                  <span className="px-2 py-0.5 bg-blue-500/20 text-blue-300 rounded text-xs">
+                  <span className="px-2 py-0.5 bg-[rgba(168,130,255,0.15)] text-[#a882ff] rounded-md text-xs border border-[rgba(168,130,255,0.2)]">
                     {subtypeLabel(selectedNode.subtype)}
                   </span>
                 )}
                 {selectedNode.profile?.declaration_years && selectedNode.profile.declaration_years.length > 0 && (
-                  <span className="px-2 py-0.5 bg-slate-700 text-slate-300 rounded text-xs">
+                  <span className="px-2 py-0.5 bg-[rgba(168,130,255,0.05)] text-[#888892] rounded-md text-xs border border-[rgba(168,130,255,0.1)]">
                     {t('declYear')}: {selectedNode.profile.declaration_years.join(', ')}
                   </span>
                 )}
                 {selectedNode.profile?.rank != null && (
-                  <span className="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded text-xs">
+                  <span className="px-2 py-0.5 bg-[rgba(245,158,11,0.15)] text-amber-300 rounded-md text-xs border border-[rgba(245,158,11,0.2)]">
                     {lang === 'en' ? 'Rank' : 'Зэрэг'}: {selectedNode.profile.rank}
                   </span>
                 )}
                 {selectedNode.profile?.award_2026 && (
-                  <span className="px-2 py-0.5 bg-yellow-500/20 text-yellow-300 rounded text-xs">
+                  <span className="px-2 py-0.5 bg-[rgba(250,204,21,0.15)] text-yellow-300 rounded-md text-xs border border-[rgba(250,204,21,0.2)]">
                     {selectedNode.profile.award_2026}
                   </span>
                 )}
                 {selectedNode.profile?.political_faction && (
-                  <span className="px-2 py-0.5 bg-red-500/20 text-red-300 rounded text-xs">
+                  <span className="px-2 py-0.5 bg-[rgba(239,68,68,0.15)] text-rose-300 rounded-md text-xs border border-[rgba(239,68,68,0.2)]">
                     {selectedNode.profile.political_faction}
                   </span>
                 )}
@@ -347,127 +335,61 @@ export default function App() {
 
             {/* Work history */}
             {selectedNode.profile?.organization && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-3">
                   {lang === 'en' ? 'Work History' : 'Ажлын туршлага'}
                 </h3>
                 <div className="space-y-2">
-                  <div className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 shrink-0" />
+                  <div className="flex items-start gap-3">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#a882ff] mt-1.5 shrink-0" />
                     <div>
                       <p className="text-sm text-white">{selectedNode.profile.position}</p>
-                      <p className="text-xs text-slate-400">{selectedNode.profile.organization}</p>
-                      {selectedNode.profile.years && selectedNode.profile.years.length > 0 && (
-                        <p className="text-xs text-slate-500 mt-0.5">
-                          {lang === 'en' ? 'Declared' : 'Мэдүүлсэн'}: {selectedNode.profile.years.join(', ')}
-                        </p>
-                      )}
+                      <p className="text-xs text-[#888892]">{selectedNode.profile.organization}</p>
                     </div>
                   </div>
-                  {selectedNode.profile.award_role && selectedNode.profile.award_role !== selectedNode.profile.position && (
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-yellow-500 mt-1.5 shrink-0" />
-                      <div>
-                        <p className="text-sm text-white">{selectedNode.profile.award_role}</p>
-                        <p className="text-xs text-yellow-400">{selectedNode.profile.award_2026}</p>
-                      </div>
-                    </div>
-                  )}
                 </div>
               </div>
             )}
 
             {/* Assets */}
             {selectedNode.profile?.assets && Object.values(selectedNode.profile.assets).some(v => v != null && v !== 0 && v !== '') && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-3">
                   {lang === 'en' ? 'Assets' : 'Хөрөнгө'}
                 </h3>
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   {selectedNode.profile.assets.total_wealth != null && selectedNode.profile.assets.total_wealth > 0 && (
-                    <div className="bg-slate-800 rounded p-2">
-                      <p className="text-slate-500">{lang === 'en' ? 'Total' : 'Нийт'}</p>
+                    <div className="bg-[rgba(168,130,255,0.05)] rounded-lg p-2.5 border border-[rgba(168,130,255,0.08)]">
+                      <p className="text-[#888892]">{lang === 'en' ? 'Total' : 'Нийт'}</p>
                       <p className="text-white font-medium">{selectedNode.profile.assets.total_wealth.toLocaleString()} ₮</p>
                     </div>
                   )}
                   {selectedNode.profile.assets.buildings != null && selectedNode.profile.assets.buildings > 0 && (
-                    <div className="bg-slate-800 rounded p-2">
-                      <p className="text-slate-500">{lang === 'en' ? 'Buildings' : 'Барилга'}</p>
+                    <div className="bg-[rgba(168,130,255,0.05)] rounded-lg p-2.5 border border-[rgba(168,130,255,0.08)]">
+                      <p className="text-[#888892]">{lang === 'en' ? 'Buildings' : 'Барилга'}</p>
                       <p className="text-white font-medium">{selectedNode.profile.assets.buildings}</p>
                     </div>
                   )}
                   {selectedNode.profile.assets.savings != null && selectedNode.profile.assets.savings > 0 && (
-                    <div className="bg-slate-800 rounded p-2">
-                      <p className="text-slate-500">{lang === 'en' ? 'Savings' : 'Хадгаламж'}</p>
+                    <div className="bg-[rgba(168,130,255,0.05)] rounded-lg p-2.5 border border-[rgba(168,130,255,0.08)]">
+                      <p className="text-[#888892]">{lang === 'en' ? 'Savings' : 'Хадгаламж'}</p>
                       <p className="text-white font-medium">{selectedNode.profile.assets.savings.toLocaleString()} ₮</p>
                     </div>
                   )}
                   {selectedNode.profile.assets.loans != null && selectedNode.profile.assets.loans > 0 && (
-                    <div className="bg-slate-800 rounded p-2">
-                      <p className="text-slate-500">{lang === 'en' ? 'Loans' : 'Зээл'}</p>
+                    <div className="bg-[rgba(168,130,255,0.05)] rounded-lg p-2.5 border border-[rgba(168,130,255,0.08)]">
+                      <p className="text-[#888892]">{lang === 'en' ? 'Loans' : 'Зээл'}</p>
                       <p className="text-white font-medium">{selectedNode.profile.assets.loans.toLocaleString()} ₮</p>
                     </div>
                   )}
-                  {selectedNode.profile.assets.vehicle_value != null && selectedNode.profile.assets.vehicle_value > 0 && (
-                    <div className="bg-slate-800 rounded p-2 col-span-2">
-                      <p className="text-slate-500">{lang === 'en' ? 'Vehicles' : 'Тээвэр хэрэгсэл'}</p>
-                      <p className="text-white font-medium text-xs">{selectedNode.profile.assets.vehicles || '-'}</p>
-                      <p className="text-slate-400 text-xs">{selectedNode.profile.assets.vehicle_value.toLocaleString()} ₮</p>
-                    </div>
-                  )}
                 </div>
-              </div>
-            )}
-
-            {/* Work History from Parliament CV */}
-            {selectedNode.profile?.work_history && selectedNode.profile.work_history.length > 0 && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
-                  {lang === 'en' ? 'Career' : 'Ажлын замнал'}
-                </h3>
-                <div className="space-y-1.5 text-xs">
-                  {selectedNode.profile.work_history.map((item, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <div className="w-1 h-1 rounded-full bg-blue-500 mt-1.5 shrink-0" />
-                      <p className="text-slate-300">{item}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Awards from Parliament CV */}
-            {selectedNode.profile?.awards && selectedNode.profile.awards.length > 0 && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
-                  {lang === 'en' ? 'Awards' : 'Шагнал'}
-                </h3>
-                <div className="flex flex-wrap gap-1.5">
-                  {selectedNode.profile.awards.map((award, i) => (
-                    <span key={i} className="px-2 py-0.5 bg-yellow-500/10 text-yellow-300 rounded text-xs">
-                      {award}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Party */}
-            {selectedNode.profile?.party && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
-                  {lang === 'en' ? 'Party' : 'Нам'}
-                </h3>
-                <span className="px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded text-xs">
-                  {selectedNode.profile.party}
-                </span>
               </div>
             )}
 
             {/* Buildings Detail */}
-            {selectedNode.profile?.buildings_detail && Object.values(selectedNode.profile.buildings_detail).some(v => typeof v === 'number' && v > 0 && v !== selectedNode.profile.buildings_detail.total_value) && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+            {selectedNode.profile?.buildings_detail && Object.values(selectedNode.profile.buildings_detail).some(v => typeof v === 'number' && v > 0 && v !== selectedNode.profile!.buildings_detail!.total_value) && (
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-3">
                   {lang === 'en' ? 'Buildings Detail' : 'Барилгын дэлгэрэнгүй'}
                 </h3>
                 <div className="grid grid-cols-3 gap-1.5 text-xs">
@@ -482,51 +404,40 @@ export default function App() {
                     ['home', lang === 'en' ? 'Home' : 'Гэр'],
                     ['parking', lang === 'en' ? 'Parking' : 'Зогсоол'],
                     ['other', lang === 'en' ? 'Other' : 'Бусад'],
-                  ].filter(([key]) => (selectedNode.profile.buildings_detail[key] || 0) > 0).map(([key, label]) => (
-                    <div key={key} className="bg-slate-800 rounded p-1.5">
-                      <p className="text-slate-500 truncate">{label}</p>
-                      <p className="text-white font-medium">{selectedNode.profile.buildings_detail[key]}</p>
+                  ].filter(([key]) => ((selectedNode.profile!.buildings_detail as any)?.[key] || 0) > 0).map(([key, label]) => (
+                    <div key={key} className="bg-[rgba(168,130,255,0.05)] rounded-lg p-1.5 border border-[rgba(168,130,255,0.08)]">
+                      <p className="text-[#888892] truncate">{label}</p>
+                      <p className="text-white font-medium">{(selectedNode.profile!.buildings_detail as any)?.[key]}</p>
                     </div>
                   ))}
                 </div>
-                {selectedNode.profile.buildings_detail.total_value > 0 && (
-                  <p className="text-xs text-slate-400 mt-2">
-                    {lang === 'en' ? 'Total value' : 'Нийт үнэ'}: {selectedNode.profile.buildings_detail.total_value.toLocaleString()} ₮
-                  </p>
-                )}
               </div>
             )}
 
             {/* Animals */}
             {selectedNode.profile?.animals && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-2">
                   {lang === 'en' ? 'Livestock' : 'Мал'}
                 </h3>
                 <p className="text-sm text-white">{selectedNode.profile.animals}</p>
-                {selectedNode.profile.animal_total_value > 0 && (
-                  <p className="text-xs text-slate-400 mt-1">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.animal_total_value.toLocaleString()} ₮</p>
-                )}
               </div>
             )}
 
             {/* Lands */}
             {selectedNode.profile?.lands && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-2">
                   {lang === 'en' ? 'Land' : 'Газар'}
                 </h3>
                 <p className="text-sm text-white">{selectedNode.profile.lands}</p>
-                {selectedNode.profile.land_total_value > 0 && (
-                  <p className="text-xs text-slate-400 mt-1">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.land_total_value.toLocaleString()} ₮</p>
-                )}
               </div>
             )}
 
             {/* Business Deals */}
             {selectedNode.profile?.business_deals && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-2">
                   {lang === 'en' ? 'Business Deals' : 'Хэлцэл'}
                 </h3>
                 <p className="text-sm text-white">{selectedNode.profile.business_deals}</p>
@@ -535,70 +446,50 @@ export default function App() {
 
             {/* Stock Ownership */}
             {selectedNode.profile?.stock_owner && (
-              <div className="px-4 py-3 border-b border-slate-800">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              <div className="px-5 py-3 border-b border-[rgba(168,130,255,0.08)]">
+                <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-2">
                   {lang === 'en' ? 'Stock Ownership' : 'Хувьцаа эзэмшил'}
                 </h3>
-                <div className="space-y-1">
-                  <p className="text-sm text-white">{selectedNode.profile.stock_owner}</p>
-                  {selectedNode.profile.stock_count && selectedNode.profile.stock_count !== ' 0ш' && (
-                    <p className="text-xs text-slate-400">{lang === 'en' ? 'Shares' : 'Ширхэг'}: {selectedNode.profile.stock_count}</p>
-                  )}
-                  {selectedNode.profile.stock_total_value && selectedNode.profile.stock_total_value !== '0' && (
-                    <p className="text-xs text-slate-400">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.stock_total_value}</p>
-                  )}
-                </div>
+                <p className="text-sm text-white">{selectedNode.profile.stock_owner}</p>
               </div>
             )}
 
             {/* Connections */}
-            <div className="px-4 py-3">
-              <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+            <div className="px-5 py-3">
+              <h3 className="text-xs font-semibold text-[#888892] uppercase tracking-wider mb-3">
                 {t('connections')}
               </h3>
               <div className="space-y-2">
                 {allEdges
                   .filter(e => e.source_node === selectedNode.id || e.target_node === selectedNode.id)
+                  .slice(0, 20)
                   .map(edge => {
                     const otherId = edge.source_node === selectedNode.id ? edge.target_node : edge.source_node
                     const other = allNodes.find(n => n.id === otherId)
                     const rLabel = relLabel(edge.relationship_type)
                     const rColor = RELATIONSHIP_TYPE_COLORS[edge.relationship_type]
                     return (
-                      <div key={edge.id} className="bg-slate-800 rounded-lg p-3 hover:bg-slate-750 transition-colors">
+                      <div key={edge.id} className="connection-card bg-[rgba(168,130,255,0.03)] rounded-lg p-3 border border-[rgba(168,130,255,0.06)]">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-2 min-w-0">
                             {other?.image_url && (
-                              <img src={other.image_url} alt="" className="w-6 h-6 rounded-full object-cover shrink-0" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                              <img src={other.image_url} alt="" className="w-6 h-6 rounded-full object-cover shrink-0 border border-[rgba(168,130,255,0.2)]" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
                             )}
                             <span className="text-sm text-white font-medium truncate">{other?.name ?? otherId}</span>
                           </div>
-                          <span className={`text-xs px-1.5 py-0.5 rounded shrink-0 ml-2 ${
-                            edge.confidence === 'documented' ? 'bg-green-500/20 text-green-300' :
-                            edge.confidence === 'reported' ? 'bg-yellow-500/20 text-yellow-300' :
-                            'bg-red-500/20 text-red-300'
+                          <span className={`text-xs px-1.5 py-0.5 rounded-md shrink-0 ml-2 border ${
+                            edge.confidence === 'documented' ? 'bg-[rgba(16,185,129,0.1)] text-emerald-300 border-[rgba(16,185,129,0.2)]' :
+                            edge.confidence === 'reported' ? 'bg-[rgba(245,158,11,0.1)] text-amber-300 border-[rgba(245,158,11,0.2)]' :
+                            'bg-[rgba(239,68,68,0.1)] text-rose-300 border-[rgba(239,68,68,0.2)]'
                           }`}>{t(edge.confidence)}</span>
                         </div>
-                        <p className="text-xs mt-1" style={{ color: rColor }}>{rLabel}</p>
+                        <p className="text-xs mt-1.5 font-medium" style={{ color: rColor }}>{rLabel}</p>
                         {edge.relationship_detail && (
-                          <p className="text-xs text-slate-400 mt-0.5">{edge.relationship_detail}</p>
-                        )}
-                        {edge.evidence.length > 0 && (
-                          <div className="mt-2 border-t border-slate-700 pt-2">
-                            {edge.evidence.map((ev, i) => (
-                              <p key={i} className="text-xs text-slate-500">
-                                {ev.url ? <a href={ev.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">{ev.source_name}</a> : ev.source_name}
-                                {': '}{ev.note}
-                              </p>
-                            ))}
-                          </div>
+                          <p className="text-xs text-[#888892] mt-0.5">{edge.relationship_detail}</p>
                         )}
                       </div>
                     )
                   })}
-                {allEdges.filter(e => e.source_node === selectedNode.id || e.target_node === selectedNode.id).length === 0 && (
-                  <p className="text-xs text-slate-500">{lang === 'en' ? 'No connections found' : 'Холбоо олдсонгүй'}</p>
-                )}
               </div>
             </div>
           </div>
@@ -607,19 +498,19 @@ export default function App() {
 
       {/* About modal */}
       {showAbout && (
-        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4" onClick={() => setShowAbout(false)}>
-          <div className="bg-slate-900 border border-slate-700 rounded-xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6" onClick={e => e.stopPropagation()}>
+        <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4" onClick={() => setShowAbout(false)}>
+          <div className="glass border border-[rgba(168,130,255,0.15)] rounded-2xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6 panel-enter" onClick={e => e.stopPropagation()}>
             <div className="flex items-start justify-between mb-4">
               <h2 className="text-lg font-bold text-white">{t('aboutTitle')}</h2>
-              <button onClick={() => setShowAbout(false)} className="text-slate-400 hover:text-white text-lg">&times;</button>
+              <button onClick={() => setShowAbout(false)} className="text-[#888892] hover:text-white text-lg transition-colors">&times;</button>
             </div>
-            <div className="space-y-4 text-sm text-slate-300">
+            <div className="space-y-4 text-sm text-[#dcddde]">
               <p>
                 <strong className="text-white">shout.mn</strong> {t('aboutDesc')}
               </p>
               <div>
                 <h3 className="font-semibold text-white mb-1">{t('sources')}</h3>
-                <ul className="list-disc list-inside space-y-1 text-slate-400">
+                <ul className="list-disc list-inside space-y-1 text-[#888892]">
                   <li>Авлигатай тэмцэх газар (IAAC) — мэдэгдэл, ашиг сонирхлын мэдүүлэг</li>
                   <li>xacxom.iaac.mn — Хөрөнгө, орлогын мэдүүлэг</li>
                   <li>Татварын ерөнхий газар (GASR) — компанийн бүртгэл</li>
@@ -629,15 +520,15 @@ export default function App() {
               </div>
               <div>
                 <h3 className="font-semibold text-white mb-1">{t('confidenceTiers')}</h3>
-                <ul className="space-y-1 text-slate-400">
-                  <li><span className="text-green-400">{t('documented')}</span> — {t('documentedDesc')}</li>
-                  <li><span className="text-yellow-400">{t('reported')}</span> — {t('reportedDesc')}</li>
-                  <li><span className="text-red-400">{t('alleged')}</span> — {t('allegedDesc')}</li>
+                <ul className="space-y-1 text-[#888892]">
+                  <li><span className="text-emerald-400">{t('documented')}</span> — {t('documentedDesc')}</li>
+                  <li><span className="text-amber-400">{t('reported')}</span> — {t('reportedDesc')}</li>
+                  <li><span className="text-rose-400">{t('alleged')}</span> — {t('allegedDesc')}</li>
                 </ul>
               </div>
               <div>
                 <h3 className="font-semibold text-white mb-1">{t('legalNote')}</h3>
-                <p className="text-slate-400">
+                <p className="text-[#888892]">
                   {t('legalDesc')}
                 </p>
               </div>

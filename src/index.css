@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
-/* Class-based dark mode — html.dark triggers all dark: variants */
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  /* Entity type colors (accessible palette, no red/green guilt indicators) */
-  --color-entity-person: #3b82f6;
+  --color-entity-person: #a882ff;
   --color-entity-company: #8b5cf6;
   --color-entity-organization: #06b6d4;
   --color-entity-government-agency: #f59e0b;
@@ -21,15 +19,15 @@
   --color-status-inferred: #f59e0b;
   --color-status-disputed: #94a3b8;
 
-  --color-brand: #e11d48;
-  --color-brand-dim: #9f1239;
+  --color-brand: #a882ff;
+  --color-brand-dim: #7f6df2;
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
 @layer base {
-  :root { color-scheme: light dark; }
+  :root { color-scheme: dark; }
 
   *, *::before, *::after { box-sizing: border-box; }
 
@@ -39,48 +37,182 @@
   }
 
   body {
-    @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100;
+    @apply text-slate-100;
+    background: #0f0d1a;
     font-family: var(--font-sans);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
   }
 
   :focus-visible {
-    outline: 2px solid #e11d48;
+    outline: 2px solid #a882ff;
     outline-offset: 2px;
   }
 
   ::selection {
-    background-color: #fecdd3;
-    color: #9f1239;
+    background-color: rgba(168, 130, 255, 0.3);
+    color: #fff;
   }
 }
 
-.entity-person { color: #3b82f6; }
-.entity-company { color: #8b5cf6; }
-.entity-organization { color: #06b6d4; }
-.entity-government_agency { color: #f59e0b; }
-.entity-project { color: #10b981; }
-.entity-asset { color: #6366f1; }
-.entity-contract { color: #f97316; }
-.entity-donation { color: #ec4899; }
-.entity-media { color: #64748b; }
-.entity-source { color: #84cc16; }
+/* Obsidian-inspired canvas background */
+.shout-canvas {
+  background: radial-gradient(ellipse at center, #1a1528 0%, #0f0d1a 50%, #080711 100%);
+}
 
-.bg-entity-person { background-color: #3b82f6; }
-.bg-entity-company { background-color: #8b5cf6; }
-.bg-entity-organization { background-color: #06b6d4; }
-.bg-entity-government_agency { background-color: #f59e0b; }
-.bg-entity-project { background-color: #10b981; }
-.bg-entity-asset { background-color: #6366f1; }
-.bg-entity-contract { background-color: #f97316; }
-.bg-entity-donation { background-color: #ec4899; }
-.bg-entity-media { background-color: #64748b; }
-.bg-entity-source { background-color: #84cc16; }
-
+/* Node glow effects via sigma WebGL - applied via canvas CSS */
 .sigma-container {
   width: 100%;
   height: 100%;
   background: transparent;
+}
+
+/* Glow effect for canvas nodes */
+.sigma-container canvas {
+  filter: contrast(1.05) saturate(1.1);
+}
+
+/* Tooltip animations */
+.tooltip-enter {
+  animation: tooltip-in 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes tooltip-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -100%) translateY(8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -100%) translateY(0) scale(1);
+  }
+}
+
+/* Side panel slide animation */
+.panel-enter {
+  animation: panel-slide-in 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes panel-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Glass morphism for panels */
+.glass {
+  background: rgba(15, 13, 26, 0.85);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(1.5);
+}
+
+/* Glow pulse for selected nodes */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(168, 130, 255, 0.4); }
+  50% { box-shadow: 0 0 30px rgba(168, 130, 255, 0.6); }
+}
+
+/* Fade in animation for graph nodes */
+@keyframes node-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Connection card hover */
+.connection-card {
+  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.connection-card:hover {
+  transform: translateY(-1px);
+  background: rgba(168, 130, 255, 0.08);
+  border-color: rgba(168, 130, 255, 0.2);
+}
+
+/* Minimap styles */
+.minimap {
+  background: rgba(15, 13, 26, 0.9);
+  border: 1px solid rgba(168, 130, 255, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.minimap-viewport {
+  border: 1px solid rgba(168, 130, 255, 0.5);
+  background: rgba(168, 130, 255, 0.08);
+}
+
+/* Filter chip animations */
+.filter-chip {
+  transition: all 150ms ease;
+}
+
+.filter-chip:hover {
+  transform: translateY(-1px);
+}
+
+.filter-chip.active {
+  background: rgba(168, 130, 255, 0.2);
+  border-color: rgba(168, 130, 255, 0.4);
+  color: #a882ff;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 130, 255, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 130, 255, 0.3);
+}
+
+/* Loading shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.loading-shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(168, 130, 255, 0.1) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Search input focus glow */
+.search-input:focus {
+  box-shadow: 0 0 0 2px rgba(168, 130, 255, 0.3);
+  border-color: rgba(168, 130, 255, 0.5);
+}
+
+/* Button hover glow */
+.btn-glow:hover {
+  box-shadow: 0 0 20px rgba(168, 130, 255, 0.2);
+}
+
+/* Stats badge */
+.stats-badge {
+  background: rgba(168, 130, 255, 0.1);
+  border: 1px solid rgba(168, 130, 255, 0.2);
 }

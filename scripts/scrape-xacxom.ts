@@ -75,7 +75,7 @@ async function phase2(persons: any[]) {
   const priority = persons
     .filter(p => p.years && p.years.length >= 3)
     .sort((a, b) => (b.years?.length || 0) - (a.years?.length || 0))
-    .slice(0, 500); // Top 500 by years
+    .slice(0, 2000); // Top 2000 by years
 
   console.log(`Priority persons: ${priority.length}`);
 
@@ -88,7 +88,7 @@ async function phase2(persons: any[]) {
 
   for (const p of priority) {
     if (existingIds.has(p.aid_user_num)) continue;
-    if (count >= 500) break; // Limit per run
+    if (count >= 2000) break; // Limit per run
 
     process.stdout.write(`  [${count + 1}/${priority.length}] ${p.last_name} ${p.first_name} `);
     const decl = await getDeclaration(p.aid_user_num);
