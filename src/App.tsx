@@ -322,14 +322,24 @@ export default function App() {
                     {subtypeLabel(selectedNode.subtype)}
                   </span>
                 )}
-                {selectedNode.profile?.years && selectedNode.profile.years.length > 0 && (
+                {selectedNode.profile?.declaration_years && selectedNode.profile.declaration_years.length > 0 && (
                   <span className="px-2 py-0.5 bg-slate-700 text-slate-300 rounded text-xs">
-                    {selectedNode.profile.years.join(', ')}
+                    {t('declYear')}: {selectedNode.profile.declaration_years.join(', ')}
                   </span>
                 )}
                 {selectedNode.profile?.rank != null && (
                   <span className="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded text-xs">
                     {lang === 'en' ? 'Rank' : 'Зэрэг'}: {selectedNode.profile.rank}
+                  </span>
+                )}
+                {selectedNode.profile?.award_2026 && (
+                  <span className="px-2 py-0.5 bg-yellow-500/20 text-yellow-300 rounded text-xs">
+                    {selectedNode.profile.award_2026}
+                  </span>
+                )}
+                {selectedNode.profile?.political_faction && (
+                  <span className="px-2 py-0.5 bg-red-500/20 text-red-300 rounded text-xs">
+                    {selectedNode.profile.political_faction}
                   </span>
                 )}
               </div>
@@ -354,6 +364,15 @@ export default function App() {
                       )}
                     </div>
                   </div>
+                  {selectedNode.profile.award_role && selectedNode.profile.award_role !== selectedNode.profile.position && (
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-yellow-500 mt-1.5 shrink-0" />
+                      <div>
+                        <p className="text-sm text-white">{selectedNode.profile.award_role}</p>
+                        <p className="text-xs text-yellow-400">{selectedNode.profile.award_2026}</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
@@ -395,6 +414,138 @@ export default function App() {
                       <p className="text-white font-medium text-xs">{selectedNode.profile.assets.vehicles || '-'}</p>
                       <p className="text-slate-400 text-xs">{selectedNode.profile.assets.vehicle_value.toLocaleString()} ₮</p>
                     </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Work History from Parliament CV */}
+            {selectedNode.profile?.work_history && selectedNode.profile.work_history.length > 0 && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Career' : 'Ажлын замнал'}
+                </h3>
+                <div className="space-y-1.5 text-xs">
+                  {selectedNode.profile.work_history.map((item, i) => (
+                    <div key={i} className="flex items-start gap-2">
+                      <div className="w-1 h-1 rounded-full bg-blue-500 mt-1.5 shrink-0" />
+                      <p className="text-slate-300">{item}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Awards from Parliament CV */}
+            {selectedNode.profile?.awards && selectedNode.profile.awards.length > 0 && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Awards' : 'Шагнал'}
+                </h3>
+                <div className="flex flex-wrap gap-1.5">
+                  {selectedNode.profile.awards.map((award, i) => (
+                    <span key={i} className="px-2 py-0.5 bg-yellow-500/10 text-yellow-300 rounded text-xs">
+                      {award}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Party */}
+            {selectedNode.profile?.party && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Party' : 'Нам'}
+                </h3>
+                <span className="px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded text-xs">
+                  {selectedNode.profile.party}
+                </span>
+              </div>
+            )}
+
+            {/* Buildings Detail */}
+            {selectedNode.profile?.buildings_detail && Object.values(selectedNode.profile.buildings_detail).some(v => typeof v === 'number' && v > 0 && v !== selectedNode.profile.buildings_detail.total_value) && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Buildings Detail' : 'Барилгын дэлгэрэнгүй'}
+                </h3>
+                <div className="grid grid-cols-3 gap-1.5 text-xs">
+                  {[
+                    ['apartment', lang === 'en' ? 'Apartment' : 'Орон сууц'],
+                    ['house', lang === 'en' ? 'House' : 'Хашаа байшин'],
+                    ['cottage', lang === 'en' ? 'Cottage' : 'Зуслангийн байшин'],
+                    ['service', lang === 'en' ? 'Service' : 'Үйлчилгээний'],
+                    ['industrial', lang === 'en' ? 'Industrial' : 'Үйлдвэрийн'],
+                    ['office', lang === 'en' ? 'Office' : 'Оффис'],
+                    ['farm', lang === 'en' ? 'Farm' : 'Фермийн'],
+                    ['home', lang === 'en' ? 'Home' : 'Гэр'],
+                    ['parking', lang === 'en' ? 'Parking' : 'Зогсоол'],
+                    ['other', lang === 'en' ? 'Other' : 'Бусад'],
+                  ].filter(([key]) => (selectedNode.profile.buildings_detail[key] || 0) > 0).map(([key, label]) => (
+                    <div key={key} className="bg-slate-800 rounded p-1.5">
+                      <p className="text-slate-500 truncate">{label}</p>
+                      <p className="text-white font-medium">{selectedNode.profile.buildings_detail[key]}</p>
+                    </div>
+                  ))}
+                </div>
+                {selectedNode.profile.buildings_detail.total_value > 0 && (
+                  <p className="text-xs text-slate-400 mt-2">
+                    {lang === 'en' ? 'Total value' : 'Нийт үнэ'}: {selectedNode.profile.buildings_detail.total_value.toLocaleString()} ₮
+                  </p>
+                )}
+              </div>
+            )}
+
+            {/* Animals */}
+            {selectedNode.profile?.animals && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Livestock' : 'Мал'}
+                </h3>
+                <p className="text-sm text-white">{selectedNode.profile.animals}</p>
+                {selectedNode.profile.animal_total_value > 0 && (
+                  <p className="text-xs text-slate-400 mt-1">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.animal_total_value.toLocaleString()} ₮</p>
+                )}
+              </div>
+            )}
+
+            {/* Lands */}
+            {selectedNode.profile?.lands && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Land' : 'Газар'}
+                </h3>
+                <p className="text-sm text-white">{selectedNode.profile.lands}</p>
+                {selectedNode.profile.land_total_value > 0 && (
+                  <p className="text-xs text-slate-400 mt-1">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.land_total_value.toLocaleString()} ₮</p>
+                )}
+              </div>
+            )}
+
+            {/* Business Deals */}
+            {selectedNode.profile?.business_deals && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Business Deals' : 'Хэлцэл'}
+                </h3>
+                <p className="text-sm text-white">{selectedNode.profile.business_deals}</p>
+              </div>
+            )}
+
+            {/* Stock Ownership */}
+            {selectedNode.profile?.stock_owner && (
+              <div className="px-4 py-3 border-b border-slate-800">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                  {lang === 'en' ? 'Stock Ownership' : 'Хувьцаа эзэмшил'}
+                </h3>
+                <div className="space-y-1">
+                  <p className="text-sm text-white">{selectedNode.profile.stock_owner}</p>
+                  {selectedNode.profile.stock_count && selectedNode.profile.stock_count !== ' 0ш' && (
+                    <p className="text-xs text-slate-400">{lang === 'en' ? 'Shares' : 'Ширхэг'}: {selectedNode.profile.stock_count}</p>
+                  )}
+                  {selectedNode.profile.stock_total_value && selectedNode.profile.stock_total_value !== '0' && (
+                    <p className="text-xs text-slate-400">{lang === 'en' ? 'Value' : 'Үнэ'}: {selectedNode.profile.stock_total_value}</p>
                   )}
                 </div>
               </div>

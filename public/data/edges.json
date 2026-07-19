@@ -102,23 +102,6 @@
     "relationship_detail": "Хяналтын Улсын байцаагч & Ахлах нягтлан бодогч"
   },
   {
-    "id": "edge-00007",
-    "source_node": "person-0002",
-    "target_node": "person-0038",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Хан-Уул дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эрүүгийн мөрдөгч & Мөрдөгч"
-  },
-  {
     "id": "edge-00008",
     "source_node": "person-0003",
     "target_node": "person-0185",
@@ -202,533 +185,6 @@
       }
     ],
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & ИТХ -ын дарга"
-  },
-  {
-    "id": "edge-00013",
-    "source_node": "person-0010",
-    "target_node": "person-0047",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн"
-  },
-  {
-    "id": "edge-00014",
-    "source_node": "person-0010",
-    "target_node": "person-0126",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Ахлах эдийн засагч"
-  },
-  {
-    "id": "edge-00015",
-    "source_node": "person-0010",
-    "target_node": "person-0133",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00016",
-    "source_node": "person-0010",
-    "target_node": "person-0225",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00017",
-    "source_node": "person-0010",
-    "target_node": "person-0252",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00018",
-    "source_node": "person-0010",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00019",
-    "source_node": "person-0010",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах хянан шалгагч & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00020",
-    "source_node": "person-0047",
-    "target_node": "person-0126",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Ахлах эдийн засагч"
-  },
-  {
-    "id": "edge-00021",
-    "source_node": "person-0047",
-    "target_node": "person-0133",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00022",
-    "source_node": "person-0047",
-    "target_node": "person-0225",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00023",
-    "source_node": "person-0047",
-    "target_node": "person-0252",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00024",
-    "source_node": "person-0047",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00025",
-    "source_node": "person-0047",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00026",
-    "source_node": "person-0126",
-    "target_node": "person-0133",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00027",
-    "source_node": "person-0126",
-    "target_node": "person-0225",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00028",
-    "source_node": "person-0126",
-    "target_node": "person-0252",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00029",
-    "source_node": "person-0126",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00030",
-    "source_node": "person-0126",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00031",
-    "source_node": "person-0133",
-    "target_node": "person-0225",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Хянан шалгагч"
-  },
-  {
-    "id": "edge-00032",
-    "source_node": "person-0133",
-    "target_node": "person-0252",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00033",
-    "source_node": "person-0133",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00034",
-    "source_node": "person-0133",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00035",
-    "source_node": "person-0225",
-    "target_node": "person-0252",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00036",
-    "source_node": "person-0225",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00037",
-    "source_node": "person-0225",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хянан шалгагч & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00038",
-    "source_node": "person-0252",
-    "target_node": "person-0290",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хэлтсийн захирал & Хэлтсийн захирал"
-  },
-  {
-    "id": "edge-00039",
-    "source_node": "person-0252",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хэлтсийн захирал & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00040",
-    "source_node": "person-0290",
-    "target_node": "person-0402",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Монгол банк"
-      }
-    ],
-    "relationship_detail": "Хэлтсийн захирал & Нягтлан бодогч"
-  },
-  {
-    "id": "edge-00041",
-    "source_node": "person-0011",
-    "target_node": "person-0233",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Алтанцөгц сумын ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Сургуулийн захирал & Соёлын төвийн эрхлэгч"
-  },
-  {
-    "id": "edge-00042",
-    "source_node": "person-0014",
-    "target_node": "person-0352",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Авлигатай тэмцэх газар"
-      }
-    ],
-    "relationship_detail": "Мөрдөгч & Мөрдөгч"
-  },
-  {
-    "id": "edge-00043",
-    "source_node": "person-0018",
-    "target_node": "person-0166",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Төслийн зохицуулагч & Мэргэжилтэн"
   },
   {
     "id": "edge-00044",
@@ -816,57 +272,6 @@
     "relationship_detail": "Гаалийн улсын байцаагч & Ахлах шинжээч"
   },
   {
-    "id": "edge-00049",
-    "source_node": "person-0028",
-    "target_node": "person-0040",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Сургалтын менежер & Захирал"
-  },
-  {
-    "id": "edge-00050",
-    "source_node": "person-0028",
-    "target_node": "person-0052",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Сургалтын менежер & Ерөнхий захирал"
-  },
-  {
-    "id": "edge-00051",
-    "source_node": "person-0028",
-    "target_node": "person-0270",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Сургалтын менежер & Сургалтын албаны менежер"
-  },
-  {
     "id": "edge-00052",
     "source_node": "person-0028",
     "target_node": "person-0274",
@@ -901,159 +306,6 @@
     "relationship_detail": "Сургалтын менежер & Сургалтын менежер"
   },
   {
-    "id": "edge-00054",
-    "source_node": "person-0040",
-    "target_node": "person-0052",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Захирал & Ерөнхий захирал"
-  },
-  {
-    "id": "edge-00055",
-    "source_node": "person-0040",
-    "target_node": "person-0270",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Захирал & Сургалтын албаны менежер"
-  },
-  {
-    "id": "edge-00056",
-    "source_node": "person-0040",
-    "target_node": "person-0274",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Захирал & Ерөнхий нягтлан бодогч"
-  },
-  {
-    "id": "edge-00057",
-    "source_node": "person-0040",
-    "target_node": "person-0482",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Захирал & Сургалтын менежер"
-  },
-  {
-    "id": "edge-00058",
-    "source_node": "person-0052",
-    "target_node": "person-0270",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Ерөнхий захирал & Сургалтын албаны менежер"
-  },
-  {
-    "id": "edge-00059",
-    "source_node": "person-0052",
-    "target_node": "person-0274",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Ерөнхий захирал & Ерөнхий нягтлан бодогч"
-  },
-  {
-    "id": "edge-00060",
-    "source_node": "person-0052",
-    "target_node": "person-0482",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Ерөнхий захирал & Сургалтын менежер"
-  },
-  {
-    "id": "edge-00061",
-    "source_node": "person-0270",
-    "target_node": "person-0274",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Сургалтын албаны менежер & Ерөнхий нягтлан бодогч"
-  },
-  {
-    "id": "edge-00062",
-    "source_node": "person-0270",
-    "target_node": "person-0482",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Боловсрол, шинжлэх ухааны яам"
-      }
-    ],
-    "relationship_detail": "Сургалтын албаны менежер & Сургалтын менежер"
-  },
-  {
     "id": "edge-00063",
     "source_node": "person-0274",
     "target_node": "person-0482",
@@ -1071,74 +323,6 @@
     "relationship_detail": "Ерөнхий нягтлан бодогч & Сургалтын менежер"
   },
   {
-    "id": "edge-00064",
-    "source_node": "person-0029",
-    "target_node": "person-0341",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Төрийн банк"
-      }
-    ],
-    "relationship_detail": "менежер & Тооцооны төвийн захирал"
-  },
-  {
-    "id": "edge-00065",
-    "source_node": "person-0030",
-    "target_node": "person-0366",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Татварын ерөнхий газар"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00066",
-    "source_node": "person-0030",
-    "target_node": "person-0414",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Татварын ерөнхий газар"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00067",
-    "source_node": "person-0366",
-    "target_node": "person-0414",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Татварын ерөнхий газар"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
     "id": "edge-00068",
     "source_node": "person-0033",
     "target_node": "person-0110",
@@ -1154,23 +338,6 @@
       }
     ],
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & Сумын ИТХ-ын төлөөлөгч"
-  },
-  {
-    "id": "edge-00069",
-    "source_node": "person-0035",
-    "target_node": "person-0202",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Гүйцэтгэх захирал & Ахлах мэргэжилтэн"
   },
   {
     "id": "edge-00070",
@@ -1222,23 +389,6 @@
       }
     ],
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & Сумын ИТХ-ын төлөөлөгч"
-  },
-  {
-    "id": "edge-00073",
-    "source_node": "person-0039",
-    "target_node": "person-0145",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Банк хадгаламж зээлийн хоршооны төлбөр барагдуулах ажлын алба"
-      }
-    ],
-    "relationship_detail": "Шийдвэр гүйцэтгэгч & Ахлах шийдвэр гүйцэтгэгч"
   },
   {
     "id": "edge-00074",
@@ -1360,74 +510,6 @@
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & ИТХ ын төлөөлөгч"
   },
   {
-    "id": "edge-00081",
-    "source_node": "person-0053",
-    "target_node": "person-0432",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Улсын байцаагч"
-  },
-  {
-    "id": "edge-00082",
-    "source_node": "person-0053",
-    "target_node": "person-0448",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Мэргэжлийн хяналтын улсын байцаагч"
-  },
-  {
-    "id": "edge-00083",
-    "source_node": "person-0432",
-    "target_node": "person-0448",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Мэргэжлийн хяналтын улсын байцаагч"
-  },
-  {
-    "id": "edge-00084",
-    "source_node": "person-0055",
-    "target_node": "person-0084",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Өвөрхангай аймгийн Улсын бүртгэлийн хэлтэс"
-      }
-    ],
-    "relationship_detail": "Улсын бүртгэгч & Улсын бүртгэгч"
-  },
-  {
     "id": "edge-00085",
     "source_node": "person-0061",
     "target_node": "person-0215",
@@ -1443,125 +525,6 @@
       }
     ],
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & Багийн засаг дарга"
-  },
-  {
-    "id": "edge-00086",
-    "source_node": "person-0065",
-    "target_node": "person-0121",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Өвөрхангай аймгийн ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Орон нутгийн хамгаалалт, сургалтын офицер & Гүйцэтгэх захирал"
-  },
-  {
-    "id": "edge-00087",
-    "source_node": "person-0069",
-    "target_node": "person-0262",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Архангай  Мал эмнэлгийн газар "
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Хяналтын байцаагч"
-  },
-  {
-    "id": "edge-00088",
-    "source_node": "person-0074",
-    "target_node": "person-0426",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Орхон аймгийн Баян-өндөр сумын Засаг даргын Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Ахлах нягтлан бодогч & Сургуулийн захирал"
-  },
-  {
-    "id": "edge-00089",
-    "source_node": "person-0074",
-    "target_node": "person-0444",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Орхон аймгийн Баян-өндөр сумын Засаг даргын Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Ахлах нягтлан бодогч & Цэцэрлэгийн эрхлэгч"
-  },
-  {
-    "id": "edge-00090",
-    "source_node": "person-0426",
-    "target_node": "person-0444",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Орхон аймгийн Баян-өндөр сумын Засаг даргын Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Сургуулийн захирал & Цэцэрлэгийн эрхлэгч"
-  },
-  {
-    "id": "edge-00091",
-    "source_node": "person-0075",
-    "target_node": "person-0277",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Онцгой байдлын газар"
-      }
-    ],
-    "relationship_detail": "Ангийн захирагч & Мэргэжилтэн"
-  },
-  {
-    "id": "edge-00092",
-    "source_node": "person-0076",
-    "target_node": "person-0335",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Дотоодын цэргийн 805 дугаар анги"
-      }
-    ],
-    "relationship_detail": "Хамгаалалтын офицер & Хүний нөөц хариуцсан ахлах офицер"
   },
   {
     "id": "edge-00093",
@@ -1683,57 +646,6 @@
     "relationship_detail": "Сумын Засаг дарга & Багийн засаг дарга"
   },
   {
-    "id": "edge-00100",
-    "source_node": "person-0389",
-    "target_node": "person-0447",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Хэсгийн байцаагч & Чиглэлийн ахлах байцаагч"
-  },
-  {
-    "id": "edge-00101",
-    "source_node": "person-0389",
-    "target_node": "person-0097",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Хэсгийн байцаагч & Ахлах мөрдөгч"
-  },
-  {
-    "id": "edge-00102",
-    "source_node": "person-0447",
-    "target_node": "person-0097",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Чиглэлийн ахлах байцаагч & Ахлах мөрдөгч"
-  },
-  {
     "id": "edge-00103",
     "source_node": "person-0098",
     "target_node": "person-0245",
@@ -1785,227 +697,6 @@
     "relationship_detail": "Ахлах мэргэжилтэн & Мэргэжилтэн"
   },
   {
-    "id": "edge-00106",
-    "source_node": "person-0099",
-    "target_node": "person-0260",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00107",
-    "source_node": "person-0099",
-    "target_node": "person-0327",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00108",
-    "source_node": "person-0099",
-    "target_node": "person-0431",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00109",
-    "source_node": "person-0099",
-    "target_node": "person-0435",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Улсын байцаагч"
-  },
-  {
-    "id": "edge-00110",
-    "source_node": "person-0099",
-    "target_node": "person-0455",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00111",
-    "source_node": "person-0260",
-    "target_node": "person-0327",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00112",
-    "source_node": "person-0260",
-    "target_node": "person-0431",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00113",
-    "source_node": "person-0260",
-    "target_node": "person-0435",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Улсын байцаагч"
-  },
-  {
-    "id": "edge-00114",
-    "source_node": "person-0260",
-    "target_node": "person-0455",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00115",
-    "source_node": "person-0327",
-    "target_node": "person-0431",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын ахлах байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00116",
-    "source_node": "person-0327",
-    "target_node": "person-0435",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын ахлах байцаагч & Улсын байцаагч"
-  },
-  {
-    "id": "edge-00117",
-    "source_node": "person-0327",
-    "target_node": "person-0455",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын ахлах байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00118",
-    "source_node": "person-0431",
-    "target_node": "person-0435",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Улсын байцаагч"
-  },
-  {
     "id": "edge-00119",
     "source_node": "person-0431",
     "target_node": "person-0455",
@@ -2021,125 +712,6 @@
       }
     ],
     "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00120",
-    "source_node": "person-0435",
-    "target_node": "person-0455",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингис хаан олон улсын нисэх буудал дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00121",
-    "source_node": "person-0100",
-    "target_node": "person-0441",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Газар зохион байгуулалтын алба"
-      }
-    ],
-    "relationship_detail": "Газар зохион байгуулагч & Мэргэжилтэн"
-  },
-  {
-    "id": "edge-00122",
-    "source_node": "person-0107",
-    "target_node": "person-0417",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чингэлтэй ДЗДТГ"
-      }
-    ],
-    "relationship_detail": "Дотоод аудитор & Цэцэрлэгийн эрхлэгч"
-  },
-  {
-    "id": "edge-00123",
-    "source_node": "person-0108",
-    "target_node": "person-0210",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Мэргэжлийн хяналтын улсын байцаагч & Улсын байцаагч"
-  },
-  {
-    "id": "edge-00124",
-    "source_node": "person-0108",
-    "target_node": "person-0201",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Мэргэжлийн хяналтын улсын байцаагч & Хүний нөөцийн ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00125",
-    "source_node": "person-0210",
-    "target_node": "person-0201",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Хүний нөөцийн ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00126",
-    "source_node": "person-0113",
-    "target_node": "person-0162",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Цагаан-Уул сумын ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Цэцэрлэгийн эрхлэгч & Соёлын төвийн эрхлэгч"
   },
   {
     "id": "edge-00127",
@@ -2210,23 +782,6 @@
     "relationship_detail": "Тасгийн дарга & Мэдээлэл судалгаа, дүн шинжилгээ хариуцсан мэргэжилтэн"
   },
   {
-    "id": "edge-00131",
-    "source_node": "person-0118",
-    "target_node": "person-0157",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Гэр бүл, хүүхэд, залуучуудын хөгжлийн газар"
-      }
-    ],
-    "relationship_detail": "Хэлтсийн даргын албан үүргийг түр орлон гүйцэтгэгч & Ахлах мэргэжилтэн"
-  },
-  {
     "id": "edge-00132",
     "source_node": "person-0137",
     "target_node": "person-0119",
@@ -2244,108 +799,6 @@
     "relationship_detail": "Хэсгийн төлөөлөгч & Мөрдөгч"
   },
   {
-    "id": "edge-00133",
-    "source_node": "person-0120",
-    "target_node": "person-0266",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Дотоод хэргийн их сургууль"
-      }
-    ],
-    "relationship_detail": "Удирдлагын академийн захирал & Их, дээд сургуулийн дэд профессор"
-  },
-  {
-    "id": "edge-00134",
-    "source_node": "person-0159",
-    "target_node": "person-0125",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Мэргэшсэн шинжээч"
-  },
-  {
-    "id": "edge-00135",
-    "source_node": "person-0159",
-    "target_node": "person-0207",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Шинжээч"
-  },
-  {
-    "id": "edge-00136",
-    "source_node": "person-0159",
-    "target_node": "person-0213",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Шинжээч"
-  },
-  {
-    "id": "edge-00137",
-    "source_node": "person-0159",
-    "target_node": "person-0283",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Шинжээч эмч"
-  },
-  {
-    "id": "edge-00138",
-    "source_node": "person-0159",
-    "target_node": "person-0299",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Шинжээч"
-  },
-  {
     "id": "edge-00139",
     "source_node": "person-0159",
     "target_node": "person-0410",
@@ -2361,312 +814,6 @@
       }
     ],
     "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00140",
-    "source_node": "person-0125",
-    "target_node": "person-0207",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00141",
-    "source_node": "person-0125",
-    "target_node": "person-0213",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00142",
-    "source_node": "person-0125",
-    "target_node": "person-0283",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч & Шинжээч эмч"
-  },
-  {
-    "id": "edge-00143",
-    "source_node": "person-0125",
-    "target_node": "person-0299",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00144",
-    "source_node": "person-0125",
-    "target_node": "person-0410",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00145",
-    "source_node": "person-0207",
-    "target_node": "person-0213",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00146",
-    "source_node": "person-0207",
-    "target_node": "person-0283",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Шинжээч эмч"
-  },
-  {
-    "id": "edge-00147",
-    "source_node": "person-0207",
-    "target_node": "person-0299",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00148",
-    "source_node": "person-0207",
-    "target_node": "person-0410",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00149",
-    "source_node": "person-0213",
-    "target_node": "person-0283",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Шинжээч эмч"
-  },
-  {
-    "id": "edge-00150",
-    "source_node": "person-0213",
-    "target_node": "person-0299",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Шинжээч"
-  },
-  {
-    "id": "edge-00151",
-    "source_node": "person-0213",
-    "target_node": "person-0410",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00152",
-    "source_node": "person-0283",
-    "target_node": "person-0299",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч эмч & Шинжээч"
-  },
-  {
-    "id": "edge-00153",
-    "source_node": "person-0283",
-    "target_node": "person-0410",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч эмч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00154",
-    "source_node": "person-0299",
-    "target_node": "person-0410",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Шүүхийн шинжилгээний хүрээлэн"
-      }
-    ],
-    "relationship_detail": "Шинжээч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00155",
-    "source_node": "person-0127",
-    "target_node": "person-0338",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Хан-Уул ДЗДТГ"
-      }
-    ],
-    "relationship_detail": "Ерөнхий нягтлан бодогч & Цэцэрлэгийн эрхлэгч"
-  },
-  {
-    "id": "edge-00156",
-    "source_node": "person-0127",
-    "target_node": "person-0390",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Хан-Уул ДЗДТГ"
-      }
-    ],
-    "relationship_detail": "Ерөнхий нягтлан бодогч & Хэлтсийн даргын албан үүргийг түр орлон гүйцэтгэгч"
-  },
-  {
-    "id": "edge-00157",
-    "source_node": "person-0338",
-    "target_node": "person-0390",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Хан-Уул ДЗДТГ"
-      }
-    ],
-    "relationship_detail": "Цэцэрлэгийн эрхлэгч & Хэлтсийн даргын албан үүргийг түр орлон гүйцэтгэгч"
   },
   {
     "id": "edge-00158",
@@ -2720,74 +867,6 @@
     "relationship_detail": "Засгийн газрын агентлагийн дарга & Авлигатай тэмцэх газрын дэд дарга"
   },
   {
-    "id": "edge-00161",
-    "source_node": "person-0156",
-    "target_node": "person-0465",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баруун-Урт сумын ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Нягтлан бодогч & Сургуулийн захирал"
-  },
-  {
-    "id": "edge-00162",
-    "source_node": "person-0311",
-    "target_node": "person-0164",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийтийн хэв журам хамгаалах, олон нийтийн аюулгүй байдлыг хангах алба"
-      }
-    ],
-    "relationship_detail": "Хэв журмын байцаагч & Эргүүл, хамгаалалтын офицер"
-  },
-  {
-    "id": "edge-00163",
-    "source_node": "person-0176",
-    "target_node": "person-0328",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Орхон аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00164",
-    "source_node": "person-0189",
-    "target_node": "person-0214",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Цэнгэл сумын ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Эрхлэгч & Сургуулийн захирал"
-  },
-  {
     "id": "edge-00165",
     "source_node": "person-0190",
     "target_node": "person-0192",
@@ -2837,176 +916,6 @@
       }
     ],
     "relationship_detail": "Сумын ИТХ-ын төлөөлөгч & Багийн засаг дарга"
-  },
-  {
-    "id": "edge-00168",
-    "source_node": "person-0191",
-    "target_node": "person-0194",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00169",
-    "source_node": "person-0191",
-    "target_node": "person-0195",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00170",
-    "source_node": "person-0191",
-    "target_node": "person-0218",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00171",
-    "source_node": "person-0191",
-    "target_node": "person-0276",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00172",
-    "source_node": "person-0194",
-    "target_node": "person-0195",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00173",
-    "source_node": "person-0194",
-    "target_node": "person-0218",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00174",
-    "source_node": "person-0194",
-    "target_node": "person-0276",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00175",
-    "source_node": "person-0195",
-    "target_node": "person-0218",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00176",
-    "source_node": "person-0195",
-    "target_node": "person-0276",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00177",
-    "source_node": "person-0218",
-    "target_node": "person-0276",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын ахлах байцаагч"
   },
   {
     "id": "edge-00178",
@@ -3060,278 +969,6 @@
     "relationship_detail": "Тасгийн эрхлэгч & Сувилахуйн арга зүйч"
   },
   {
-    "id": "edge-00181",
-    "source_node": "person-0196",
-    "target_node": "person-0209",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь шүүхийн Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Шүүгчийн туслах & Шүүгчийн туслах"
-  },
-  {
-    "id": "edge-00182",
-    "source_node": "person-0196",
-    "target_node": "person-0221",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь шүүхийн Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Шүүгчийн туслах & Мэдээлэл лавлагааны мэргэжилтэн"
-  },
-  {
-    "id": "edge-00183",
-    "source_node": "person-0209",
-    "target_node": "person-0221",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь шүүхийн Тамгын газар"
-      }
-    ],
-    "relationship_detail": "Шүүгчийн туслах & Мэдээлэл лавлагааны мэргэжилтэн"
-  },
-  {
-    "id": "edge-00184",
-    "source_node": "person-0199",
-    "target_node": "person-0226",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Эрүүл мэндийн газар"
-      }
-    ],
-    "relationship_detail": "Чанарын менежер & Хүний нөөцийн мэргэжилтэн"
-  },
-  {
-    "id": "edge-00185",
-    "source_node": "person-0199",
-    "target_node": "person-0411",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Эрүүл мэндийн газар"
-      }
-    ],
-    "relationship_detail": "Чанарын менежер & Салбарын эрхлэгч"
-  },
-  {
-    "id": "edge-00186",
-    "source_node": "person-0226",
-    "target_node": "person-0411",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн Эрүүл мэндийн газар"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн мэргэжилтэн & Салбарын эрхлэгч"
-  },
-  {
-    "id": "edge-00187",
-    "source_node": "person-0205",
-    "target_node": "person-0275",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Өлгий сумын ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Цэцэрлэгийн эрхлэгч & Цэцэрлэгийн эрхлэгч"
-  },
-  {
-    "id": "edge-00188",
-    "source_node": "person-0216",
-    "target_node": "person-0224",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00189",
-    "source_node": "person-0216",
-    "target_node": "person-0250",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00190",
-    "source_node": "person-0216",
-    "target_node": "person-0450",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00191",
-    "source_node": "person-0224",
-    "target_node": "person-0250",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00192",
-    "source_node": "person-0224",
-    "target_node": "person-0450",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00193",
-    "source_node": "person-0250",
-    "target_node": "person-0450",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймаг дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын ахлах байцаагч"
-  },
-  {
-    "id": "edge-00194",
-    "source_node": "person-0217",
-    "target_node": "person-0219",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Дэлүүн сумын ЗДТГазар"
-      }
-    ],
-    "relationship_detail": "Соёлын төвийн эрхлэгч & Сургуулийн захирал"
-  },
-  {
-    "id": "edge-00195",
-    "source_node": "person-0222",
-    "target_node": "person-0326",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баян-Өлгий аймгийн Улсын бүртгэлийн хэлтэс"
-      }
-    ],
-    "relationship_detail": "Улсын бүртгэгч & Улсын бүртгэгч"
-  },
-  {
-    "id": "edge-00196",
-    "source_node": "person-0477",
-    "target_node": "person-0231",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянгол дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Ахлах байцаагч & Эрүүжүүлэх, саатуулах байрны эмч"
-  },
-  {
     "id": "edge-00197",
     "source_node": "person-0234",
     "target_node": "person-0249",
@@ -3364,23 +1001,6 @@
       }
     ],
     "relationship_detail": "ИТХ ын төлөөлөгч & Баг, хорооны Засаг дарга"
-  },
-  {
-    "id": "edge-00199",
-    "source_node": "person-0255",
-    "target_node": "person-0284",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Сүхбаатар дүүргийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
   },
   {
     "id": "edge-00200",
@@ -3536,142 +1156,6 @@
     "relationship_detail": "Захирал & Цэцэрлэгийн эрхлэгч"
   },
   {
-    "id": "edge-00209",
-    "source_node": "person-0279",
-    "target_node": "person-0382",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 3-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эрүүгийн ахлах мөрдөгч & Чиглэлийн ахлах мөрдөгч"
-  },
-  {
-    "id": "edge-00210",
-    "source_node": "person-0279",
-    "target_node": "person-0478",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 3-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эрүүгийн ахлах мөрдөгч & Гэр бүлийн хүчирхийллээс урьдчилан сэргийлэх ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00211",
-    "source_node": "person-0382",
-    "target_node": "person-0478",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянзүрх дүүрэг дэх цагдаагийн 3-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Чиглэлийн ахлах мөрдөгч & Гэр бүлийн хүчирхийллээс урьдчилан сэргийлэх ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00212",
-    "source_node": "person-0280",
-    "target_node": "person-0423",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Нийслэлийн улсын бүртгэлийн газар"
-      }
-    ],
-    "relationship_detail": "Ахлах улсын бүртгэгч & Улсын бүртгэгч"
-  },
-  {
-    "id": "edge-00213",
-    "source_node": "person-0281",
-    "target_node": "person-0329",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Дорнод аймгийн прокурорын газар"
-      }
-    ],
-    "relationship_detail": "Ахлах прокурор & Хяналтын прокурор"
-  },
-  {
-    "id": "edge-00214",
-    "source_node": "person-0285",
-    "target_node": "person-0317",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Сонгинохайрхан дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эргүүлийн офицер & Эрүүгийн мөрдөгч"
-  },
-  {
-    "id": "edge-00215",
-    "source_node": "person-0285",
-    "target_node": "person-0440",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Сонгинохайрхан дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эргүүлийн офицер & Мөрдөгч"
-  },
-  {
-    "id": "edge-00216",
-    "source_node": "person-0317",
-    "target_node": "person-0440",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Сонгинохайрхан дүүрэг дэх цагдаагийн 1-р хэлтэс"
-      }
-    ],
-    "relationship_detail": "Эрүүгийн мөрдөгч & Мөрдөгч"
-  },
-  {
     "id": "edge-00217",
     "source_node": "person-0292",
     "target_node": "person-0381",
@@ -3706,108 +1190,6 @@
     "relationship_detail": "Тасгийн дарга & Холбооны ахлах инженер"
   },
   {
-    "id": "edge-00219",
-    "source_node": "person-0297",
-    "target_node": "person-0314",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Замын Цагдаагийн алба"
-      }
-    ],
-    "relationship_detail": "Зохицуулагч & Ахлах мэргэжилтэн"
-  },
-  {
-    "id": "edge-00220",
-    "source_node": "person-0305",
-    "target_node": "person-0309",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Сонгинохайрхан дүүргийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00221",
-    "source_node": "person-0307",
-    "target_node": "person-0464",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Улаанбаатар хот дахь гаалийн газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00222",
-    "source_node": "person-0412",
-    "target_node": "person-0436",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянгол дүүргийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00223",
-    "source_node": "person-0412",
-    "target_node": "person-0308",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянгол дүүргийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч & Татварын улсын байцаагч"
-  },
-  {
-    "id": "edge-00224",
-    "source_node": "person-0436",
-    "target_node": "person-0308",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баянгол дүүргийн Татварын хэлтэс"
-      }
-    ],
-    "relationship_detail": "Татварын улсын байцаагч & Татварын улсын байцаагч"
-  },
-  {
     "id": "edge-00225",
     "source_node": "person-0331",
     "target_node": "person-0353",
@@ -3823,23 +1205,6 @@
       }
     ],
     "relationship_detail": "Хэсгийн дарга & Эрүүгийн мөрдөгч"
-  },
-  {
-    "id": "edge-00226",
-    "source_node": "person-0334",
-    "target_node": "person-0407",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Орхон аймгийн Мэргэжлийн хяналтын газар"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч & Улсын байцаагч"
   },
   {
     "id": "edge-00227",
@@ -3944,40 +1309,6 @@
     "relationship_detail": "ИТХ ийн нарийн бичгийн дарга & ИТХ ын төлөөлөгч"
   },
   {
-    "id": "edge-00233",
-    "source_node": "person-0457",
-    "target_node": "person-0458",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Гаалийн ерөнхий газар"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын байцаагч & Гаалийн улсын байцаагч"
-  },
-  {
-    "id": "edge-00234",
-    "source_node": "person-0490",
-    "target_node": "person-0491",
-    "relationship_type": "same_org",
-    "confidence": "documented",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Хэрлэн сум ЗДТГ"
-      }
-    ],
-    "relationship_detail": "Сургуулийн захирал & Нягтлан бодогч"
-  },
-  {
     "id": "edge-00235",
     "source_node": "person-0001",
     "target_node": "person-0304",
@@ -4012,23 +1343,6 @@
     "relationship_detail": "Лхамжав"
   },
   {
-    "id": "edge-00237",
-    "source_node": "person-0008",
-    "target_node": "person-0177",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Дамбаренчин"
-      }
-    ],
-    "relationship_detail": "Дамбаренчин"
-  },
-  {
     "id": "edge-00238",
     "source_node": "person-0009",
     "target_node": "person-0268",
@@ -4044,57 +1358,6 @@
       }
     ],
     "relationship_detail": "Усника"
-  },
-  {
-    "id": "edge-00239",
-    "source_node": "person-0015",
-    "target_node": "person-0078",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баатар"
-      }
-    ],
-    "relationship_detail": "Баатар"
-  },
-  {
-    "id": "edge-00240",
-    "source_node": "person-0015",
-    "target_node": "person-0129",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баатар"
-      }
-    ],
-    "relationship_detail": "Баатар"
-  },
-  {
-    "id": "edge-00241",
-    "source_node": "person-0078",
-    "target_node": "person-0129",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баатар"
-      }
-    ],
-    "relationship_detail": "Баатар"
   },
   {
     "id": "edge-00242",
@@ -4197,57 +1460,6 @@
       }
     ],
     "relationship_detail": "Пүрэвжав"
-  },
-  {
-    "id": "edge-00248",
-    "source_node": "person-0023",
-    "target_node": "person-0342",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Даваа"
-      }
-    ],
-    "relationship_detail": "Даваа"
-  },
-  {
-    "id": "edge-00249",
-    "source_node": "person-0023",
-    "target_node": "person-0424",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Даваа"
-      }
-    ],
-    "relationship_detail": "Даваа"
-  },
-  {
-    "id": "edge-00250",
-    "source_node": "person-0342",
-    "target_node": "person-0424",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Даваа"
-      }
-    ],
-    "relationship_detail": "Даваа"
   },
   {
     "id": "edge-00251",
@@ -4420,40 +1632,6 @@
     "relationship_detail": "Болдбаатар"
   },
   {
-    "id": "edge-00261",
-    "source_node": "person-0030",
-    "target_node": "person-0299",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Ганзориг"
-      }
-    ],
-    "relationship_detail": "Ганзориг"
-  },
-  {
-    "id": "edge-00262",
-    "source_node": "person-0034",
-    "target_node": "person-0065",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Чулуунбаатар"
-      }
-    ],
-    "relationship_detail": "Чулуунбаатар"
-  },
-  {
     "id": "edge-00263",
     "source_node": "person-0038",
     "target_node": "person-0180",
@@ -4469,193 +1647,6 @@
       }
     ],
     "relationship_detail": "Лхагважав"
-  },
-  {
-    "id": "edge-00264",
-    "source_node": "person-0040",
-    "target_node": "person-0475",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баасанжав"
-      }
-    ],
-    "relationship_detail": "Баасанжав"
-  },
-  {
-    "id": "edge-00265",
-    "source_node": "person-0050",
-    "target_node": "person-0081",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00266",
-    "source_node": "person-0050",
-    "target_node": "person-0317",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00267",
-    "source_node": "person-0050",
-    "target_node": "person-0336",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00268",
-    "source_node": "person-0050",
-    "target_node": "person-0435",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00269",
-    "source_node": "person-0081",
-    "target_node": "person-0317",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00270",
-    "source_node": "person-0081",
-    "target_node": "person-0336",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00271",
-    "source_node": "person-0081",
-    "target_node": "person-0435",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00272",
-    "source_node": "person-0317",
-    "target_node": "person-0336",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00273",
-    "source_node": "person-0317",
-    "target_node": "person-0435",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
-  },
-  {
-    "id": "edge-00274",
-    "source_node": "person-0336",
-    "target_node": "person-0435",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баярсайхан"
-      }
-    ],
-    "relationship_detail": "Баярсайхан"
   },
   {
     "id": "edge-00275",
@@ -4709,176 +1700,6 @@
     "relationship_detail": "Бямбаа"
   },
   {
-    "id": "edge-00278",
-    "source_node": "person-0063",
-    "target_node": "person-0087",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00279",
-    "source_node": "person-0063",
-    "target_node": "person-0245",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00280",
-    "source_node": "person-0063",
-    "target_node": "person-0378",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00281",
-    "source_node": "person-0063",
-    "target_node": "person-0448",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00282",
-    "source_node": "person-0087",
-    "target_node": "person-0245",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00283",
-    "source_node": "person-0087",
-    "target_node": "person-0378",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00284",
-    "source_node": "person-0087",
-    "target_node": "person-0448",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00285",
-    "source_node": "person-0245",
-    "target_node": "person-0378",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00286",
-    "source_node": "person-0245",
-    "target_node": "person-0448",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
-    "id": "edge-00287",
-    "source_node": "person-0378",
-    "target_node": "person-0448",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Пүрэв"
-      }
-    ],
-    "relationship_detail": "Пүрэв"
-  },
-  {
     "id": "edge-00288",
     "source_node": "person-0064",
     "target_node": "person-0394",
@@ -4928,74 +1749,6 @@
       }
     ],
     "relationship_detail": "Батбаатар"
-  },
-  {
-    "id": "edge-00291",
-    "source_node": "person-0069",
-    "target_node": "person-0296",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Бат-Эрдэнэ"
-      }
-    ],
-    "relationship_detail": "Бат-Эрдэнэ"
-  },
-  {
-    "id": "edge-00292",
-    "source_node": "person-0069",
-    "target_node": "person-0434",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Бат-Эрдэнэ"
-      }
-    ],
-    "relationship_detail": "Бат-Эрдэнэ"
-  },
-  {
-    "id": "edge-00293",
-    "source_node": "person-0296",
-    "target_node": "person-0434",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Бат-Эрдэнэ"
-      }
-    ],
-    "relationship_detail": "Бат-Эрдэнэ"
-  },
-  {
-    "id": "edge-00294",
-    "source_node": "person-0071",
-    "target_node": "person-0139",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Баттулга"
-      }
-    ],
-    "relationship_detail": "Баттулга"
   },
   {
     "id": "edge-00295",
@@ -5287,23 +2040,6 @@
     "relationship_detail": "Аюурзана"
   },
   {
-    "id": "edge-00312",
-    "source_node": "person-0114",
-    "target_node": "person-0486",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Даш"
-      }
-    ],
-    "relationship_detail": "Даш"
-  },
-  {
     "id": "edge-00313",
     "source_node": "person-0116",
     "target_node": "person-0159",
@@ -5370,23 +2106,6 @@
       }
     ],
     "relationship_detail": "Мөнхбат"
-  },
-  {
-    "id": "edge-00317",
-    "source_node": "person-0119",
-    "target_node": "person-0389",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Цогбадрах"
-      }
-    ],
-    "relationship_detail": "Цогбадрах"
   },
   {
     "id": "edge-00318",
@@ -5661,74 +2380,6 @@
     "relationship_detail": "Ганболд"
   },
   {
-    "id": "edge-00334",
-    "source_node": "person-0149",
-    "target_node": "person-0341",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Гантөмөр"
-      }
-    ],
-    "relationship_detail": "Гантөмөр"
-  },
-  {
-    "id": "edge-00335",
-    "source_node": "person-0149",
-    "target_node": "person-0412",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Гантөмөр"
-      }
-    ],
-    "relationship_detail": "Гантөмөр"
-  },
-  {
-    "id": "edge-00336",
-    "source_node": "person-0341",
-    "target_node": "person-0412",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Гантөмөр"
-      }
-    ],
-    "relationship_detail": "Гантөмөр"
-  },
-  {
-    "id": "edge-00337",
-    "source_node": "person-0151",
-    "target_node": "person-0470",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Даваадорж"
-      }
-    ],
-    "relationship_detail": "Даваадорж"
-  },
-  {
     "id": "edge-00338",
     "source_node": "person-0154",
     "target_node": "person-0413",
@@ -5780,23 +2431,6 @@
     "relationship_detail": "Ойдов"
   },
   {
-    "id": "edge-00341",
-    "source_node": "person-0169",
-    "target_node": "person-0401",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Эрдэнэхуяг"
-      }
-    ],
-    "relationship_detail": "Эрдэнэхуяг"
-  },
-  {
     "id": "edge-00342",
     "source_node": "person-0170",
     "target_node": "person-0184",
@@ -5846,23 +2480,6 @@
       }
     ],
     "relationship_detail": "Гомбо"
-  },
-  {
-    "id": "edge-00345",
-    "source_node": "person-0183",
-    "target_node": "person-0291",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Эрдэнэбат"
-      }
-    ],
-    "relationship_detail": "Эрдэнэбат"
   },
   {
     "id": "edge-00346",
@@ -5967,23 +2584,6 @@
     "relationship_detail": "Лхамсүрэн"
   },
   {
-    "id": "edge-00352",
-    "source_node": "person-0252",
-    "target_node": "person-0477",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Бадам"
-      }
-    ],
-    "relationship_detail": "Бадам"
-  },
-  {
     "id": "edge-00353",
     "source_node": "person-0258",
     "target_node": "person-0351",
@@ -6033,57 +2633,6 @@
       }
     ],
     "relationship_detail": "Дашням"
-  },
-  {
-    "id": "edge-00356",
-    "source_node": "person-0259",
-    "target_node": "person-0354",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Доржготов"
-      }
-    ],
-    "relationship_detail": "Доржготов"
-  },
-  {
-    "id": "edge-00357",
-    "source_node": "person-0259",
-    "target_node": "person-0459",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Доржготов"
-      }
-    ],
-    "relationship_detail": "Доржготов"
-  },
-  {
-    "id": "edge-00358",
-    "source_node": "person-0354",
-    "target_node": "person-0459",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Доржготов"
-      }
-    ],
-    "relationship_detail": "Доржготов"
   },
   {
     "id": "edge-00359",
@@ -6137,40 +2686,6 @@
     "relationship_detail": "Лхагвасүрэн"
   },
   {
-    "id": "edge-00362",
-    "source_node": "person-0269",
-    "target_node": "person-0464",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Цагаан"
-      }
-    ],
-    "relationship_detail": "Цагаан"
-  },
-  {
-    "id": "edge-00363",
-    "source_node": "person-0283",
-    "target_node": "person-0382",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Төмөрбаатар"
-      }
-    ],
-    "relationship_detail": "Төмөрбаатар"
-  },
-  {
     "id": "edge-00364",
     "source_node": "person-0290",
     "target_node": "person-0403",
@@ -6203,40 +2718,6 @@
       }
     ],
     "relationship_detail": "Мягмарсүрэн"
-  },
-  {
-    "id": "edge-00366",
-    "source_node": "person-0316",
-    "target_node": "person-0334",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Бат-Очир"
-      }
-    ],
-    "relationship_detail": "Бат-Очир"
-  },
-  {
-    "id": "edge-00367",
-    "source_node": "person-0329",
-    "target_node": "person-0417",
-    "relationship_type": "family",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Адъяа"
-      }
-    ],
-    "relationship_detail": "Адъяа"
   },
   {
     "id": "edge-00368",
@@ -6392,57 +2873,6 @@
     "relationship_detail": "Нийгмийн хөгжлийн хэлтсийн дарга (rank 16) → Албаны дарга (rank 13)"
   },
   {
-    "id": "edge-00377",
-    "source_node": "person-0047",
-    "target_node": "person-0290",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 85 supervises rank 84"
-      }
-    ],
-    "relationship_detail": "Банкны эрх хүлээн авагчийн зөвлөлийн гишүүн (rank 85) → Хэлтсийн захирал (rank 84)"
-  },
-  {
-    "id": "edge-00378",
-    "source_node": "person-0126",
-    "target_node": "person-0402",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 89 supervises rank 85"
-      }
-    ],
-    "relationship_detail": "Ахлах эдийн засагч (rank 89) → Нягтлан бодогч (rank 85)"
-  },
-  {
-    "id": "edge-00379",
-    "source_node": "person-0233",
-    "target_node": "person-0011",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 95 supervises rank 93"
-      }
-    ],
-    "relationship_detail": "Соёлын төвийн эрхлэгч (rank 95) → Сургуулийн захирал (rank 93)"
-  },
-  {
     "id": "edge-00380",
     "source_node": "person-0147",
     "target_node": "person-0024",
@@ -6477,142 +2907,6 @@
     "relationship_detail": "Шинжээч (rank 45) → Референт (rank 44)"
   },
   {
-    "id": "edge-00382",
-    "source_node": "person-0028",
-    "target_node": "person-0040",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 62 supervises rank 60"
-      }
-    ],
-    "relationship_detail": "Сургалтын менежер (rank 62) → Захирал (rank 60)"
-  },
-  {
-    "id": "edge-00383",
-    "source_node": "person-0270",
-    "target_node": "person-0482",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 67 supervises rank 62"
-      }
-    ],
-    "relationship_detail": "Сургалтын албаны менежер (rank 67) → Сургалтын менежер (rank 62)"
-  },
-  {
-    "id": "edge-00384",
-    "source_node": "person-0052",
-    "target_node": "person-0270",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 68 supervises rank 67"
-      }
-    ],
-    "relationship_detail": "Ерөнхий захирал (rank 68) → Сургалтын албаны менежер (rank 67)"
-  },
-  {
-    "id": "edge-00385",
-    "source_node": "person-0145",
-    "target_node": "person-0039",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 31"
-      }
-    ],
-    "relationship_detail": "Ахлах шийдвэр гүйцэтгэгч (rank 32) → Шийдвэр гүйцэтгэгч (rank 31)"
-  },
-  {
-    "id": "edge-00386",
-    "source_node": "person-0053",
-    "target_node": "person-0448",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 12 supervises rank 9"
-      }
-    ],
-    "relationship_detail": "Улсын байцаагч (rank 12) → Мэргэжлийн хяналтын улсын байцаагч (rank 9)"
-  },
-  {
-    "id": "edge-00387",
-    "source_node": "person-0426",
-    "target_node": "person-0074",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 93 supervises rank 88"
-      }
-    ],
-    "relationship_detail": "Сургуулийн захирал (rank 93) → Ахлах нягтлан бодогч (rank 88)"
-  },
-  {
-    "id": "edge-00388",
-    "source_node": "person-0075",
-    "target_node": "person-0277",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 34 supervises rank 32"
-      }
-    ],
-    "relationship_detail": "Ангийн захирагч (rank 34) → Мэргэжилтэн (rank 32)"
-  },
-  {
-    "id": "edge-00389",
-    "source_node": "person-0335",
-    "target_node": "person-0076",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 29"
-      }
-    ],
-    "relationship_detail": "Хүний нөөц хариуцсан ахлах офицер (rank 32) → Хамгаалалтын офицер (rank 29)"
-  },
-  {
     "id": "edge-00390",
     "source_node": "person-0094",
     "target_node": "person-0456",
@@ -6630,40 +2924,6 @@
     "relationship_detail": "Хэлтсийн дарга (rank 16) → Мэргэжилтэн (rank 12)"
   },
   {
-    "id": "edge-00391",
-    "source_node": "person-0097",
-    "target_node": "person-0389",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 31 supervises rank 29"
-      }
-    ],
-    "relationship_detail": "Ахлах мөрдөгч (rank 31) → Хэсгийн байцаагч (rank 29)"
-  },
-  {
-    "id": "edge-00392",
-    "source_node": "person-0447",
-    "target_node": "person-0097",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 31"
-      }
-    ],
-    "relationship_detail": "Чиглэлийн ахлах байцаагч (rank 32) → Ахлах мөрдөгч (rank 31)"
-  },
-  {
     "id": "edge-00393",
     "source_node": "person-0245",
     "target_node": "person-0380",
@@ -6679,40 +2939,6 @@
       }
     ],
     "relationship_detail": "Ахлах мэргэжилтэн (rank 14) → Мэргэжилтэн (rank 13)"
-  },
-  {
-    "id": "edge-00394",
-    "source_node": "person-0327",
-    "target_node": "person-0455",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 30"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын ахлах байцаагч (rank 32) → Гаалийн улсын байцаагч (rank 30)"
-  },
-  {
-    "id": "edge-00395",
-    "source_node": "person-0162",
-    "target_node": "person-0113",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 95 supervises rank 93"
-      }
-    ],
-    "relationship_detail": "Соёлын төвийн эрхлэгч (rank 95) → Цэцэрлэгийн эрхлэгч (rank 93)"
   },
   {
     "id": "edge-00396",
@@ -6766,91 +2992,6 @@
     "relationship_detail": "Тасгийн дарга (rank 32) → Мэдээлэл судалгаа, дүн шинжилгээ хариуцсан мэргэжилтэн (rank 29)"
   },
   {
-    "id": "edge-00399",
-    "source_node": "person-0120",
-    "target_node": "person-0266",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 37 supervises rank 34"
-      }
-    ],
-    "relationship_detail": "Удирдлагын академийн захирал (rank 37) → Их, дээд сургуулийн дэд профессор (rank 34)"
-  },
-  {
-    "id": "edge-00400",
-    "source_node": "person-0410",
-    "target_node": "person-0299",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 30"
-      }
-    ],
-    "relationship_detail": "Ахлах мэргэжилтэн (rank 32) → Шинжээч (rank 30)"
-  },
-  {
-    "id": "edge-00401",
-    "source_node": "person-0125",
-    "target_node": "person-0410",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 33 supervises rank 32"
-      }
-    ],
-    "relationship_detail": "Мэргэшсэн шинжээч (rank 33) → Ахлах мэргэжилтэн (rank 32)"
-  },
-  {
-    "id": "edge-00402",
-    "source_node": "person-0159",
-    "target_node": "person-0125",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 34 supervises rank 33"
-      }
-    ],
-    "relationship_detail": "Хүний нөөцийн чиглэлийн ахлах байцаагч (rank 34) → Мэргэшсэн шинжээч (rank 33)"
-  },
-  {
-    "id": "edge-00403",
-    "source_node": "person-0338",
-    "target_node": "person-0127",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 93 supervises rank 89"
-      }
-    ],
-    "relationship_detail": "Цэцэрлэгийн эрхлэгч (rank 93) → Ерөнхий нягтлан бодогч (rank 89)"
-  },
-  {
     "id": "edge-00404",
     "source_node": "person-0306",
     "target_node": "person-0132",
@@ -6866,108 +3007,6 @@
       }
     ],
     "relationship_detail": "Нэгжийн дарга (rank 36) → Мэргэжилтэн (rank 32)"
-  },
-  {
-    "id": "edge-00405",
-    "source_node": "person-0465",
-    "target_node": "person-0156",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 93 supervises rank 88"
-      }
-    ],
-    "relationship_detail": "Сургуулийн захирал (rank 93) → Нягтлан бодогч (rank 88)"
-  },
-  {
-    "id": "edge-00406",
-    "source_node": "person-0191",
-    "target_node": "person-0218",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 13 supervises rank 12"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч (rank 13) → Татварын улсын байцаагч (rank 12)"
-  },
-  {
-    "id": "edge-00407",
-    "source_node": "person-0221",
-    "target_node": "person-0209",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 13 supervises rank 12"
-      }
-    ],
-    "relationship_detail": "Мэдээлэл лавлагааны мэргэжилтэн (rank 13) → Шүүгчийн туслах (rank 12)"
-  },
-  {
-    "id": "edge-00408",
-    "source_node": "person-0450",
-    "target_node": "person-0250",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 30"
-      }
-    ],
-    "relationship_detail": "Гаалийн улсын ахлах байцаагч (rank 32) → Гаалийн улсын байцаагч (rank 30)"
-  },
-  {
-    "id": "edge-00409",
-    "source_node": "person-0217",
-    "target_node": "person-0219",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 95 supervises rank 93"
-      }
-    ],
-    "relationship_detail": "Соёлын төвийн эрхлэгч (rank 95) → Сургуулийн захирал (rank 93)"
-  },
-  {
-    "id": "edge-00410",
-    "source_node": "person-0477",
-    "target_node": "person-0231",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 31 supervises rank 29"
-      }
-    ],
-    "relationship_detail": "Ахлах байцаагч (rank 31) → Эрүүжүүлэх, саатуулах байрны эмч (rank 29)"
   },
   {
     "id": "edge-00411",
@@ -7004,40 +3043,6 @@
     "relationship_detail": "Цэцэрлэгийн эрхлэгч (rank 93) → Захирал (rank 91)"
   },
   {
-    "id": "edge-00413",
-    "source_node": "person-0382",
-    "target_node": "person-0478",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 31"
-      }
-    ],
-    "relationship_detail": "Чиглэлийн ахлах мөрдөгч (rank 32) → Гэр бүлийн хүчирхийллээс урьдчилан сэргийлэх ахлах мэргэжилтэн (rank 31)"
-  },
-  {
-    "id": "edge-00414",
-    "source_node": "person-0280",
-    "target_node": "person-0423",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 13 supervises rank 12"
-      }
-    ],
-    "relationship_detail": "Ахлах улсын бүртгэгч (rank 13) → Улсын бүртгэгч (rank 12)"
-  },
-  {
     "id": "edge-00415",
     "source_node": "person-0292",
     "target_node": "person-0381",
@@ -7070,40 +3075,6 @@
       }
     ],
     "relationship_detail": "Тасгийн дарга (rank 34) → Холбооны ахлах инженер (rank 31)"
-  },
-  {
-    "id": "edge-00417",
-    "source_node": "person-0314",
-    "target_node": "person-0297",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 32 supervises rank 29"
-      }
-    ],
-    "relationship_detail": "Ахлах мэргэжилтэн (rank 32) → Зохицуулагч (rank 29)"
-  },
-  {
-    "id": "edge-00418",
-    "source_node": "person-0412",
-    "target_node": "person-0308",
-    "relationship_type": "superior",
-    "confidence": "reported",
-    "evidence": [
-      {
-        "source_name": "xacxom.iaac.mn",
-        "url": "https://xacxom.iaac.mn/xacxom",
-        "date_accessed": "2026-07-16",
-        "document_type": "declaration",
-        "note": "Rank 13 supervises rank 12"
-      }
-    ],
-    "relationship_detail": "Татварын улсын ахлах байцаагч (rank 13) → Татварын улсын байцаагч (rank 12)"
   },
   {
     "id": "edge-00419",
@@ -20670,5 +16641,662 @@
       }
     ],
     "relationship_detail": "Ардчилсан Нам (АН)"
+  },
+  {
+    "id": "edge-0980",
+    "source_node": "person-0273",
+    "target_node": "person-0265",
+    "relationship_type": "subordinate",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "ХЗДХ-ийн сайдаас \"хусагдаж\" Б.Энхбаяраар солигдсон",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-0981",
+    "source_node": "person-0263",
+    "target_node": "person-0289",
+    "relationship_type": "colleague",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Хоёр ч Гавьяат хуульч шагнал хүртсэн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-0982",
+    "source_node": "person-0265",
+    "target_node": "person-0267",
+    "relationship_type": "colleague",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Хоёр ч Гавьяат эдийн засагч шагнал хүртсэн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-0983",
+    "source_node": "person-0009",
+    "target_node": "person-0289",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Үхэр, Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0984",
+    "source_node": "person-0028",
+    "target_node": "person-0274",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0985",
+    "source_node": "person-0033",
+    "target_node": "person-0110",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Үхэр",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0986",
+    "source_node": "person-0036",
+    "target_node": "person-0041",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Ямаа, Хонь, Үхэр",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0987",
+    "source_node": "person-0036",
+    "target_node": "person-0388",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Ямаа, Хонь, Үхэр",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0988",
+    "source_node": "person-0041",
+    "target_node": "person-0388",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Ямаа, Хонь, Үхэр, Адуу, Тэмээ",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0989",
+    "source_node": "person-0046",
+    "target_node": "person-0090",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0990",
+    "source_node": "person-0046",
+    "target_node": "person-0406",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0991",
+    "source_node": "person-0083",
+    "target_node": "person-0340",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0992",
+    "source_node": "person-0090",
+    "target_node": "person-0406",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Ямаа, Үхэр, Адуу, Хонь",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0993",
+    "source_node": "person-0093",
+    "target_node": "person-0243",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0994",
+    "source_node": "person-0093",
+    "target_node": "person-0320",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0995",
+    "source_node": "person-0096",
+    "target_node": "person-0376",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Үхэр, Ямаа, Хонь, Адуу",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0996",
+    "source_node": "person-0190",
+    "target_node": "person-0192",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Үхэр, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0997",
+    "source_node": "person-0190",
+    "target_node": "person-0227",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Үхэр, Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0998",
+    "source_node": "person-0192",
+    "target_node": "person-0227",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Үхэр, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-0999",
+    "source_node": "person-0234",
+    "target_node": "person-0249",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Адуу, Хонь, Ямаа",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-1000",
+    "source_node": "person-0243",
+    "target_node": "person-0320",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Ямаа, Хонь",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-1001",
+    "source_node": "person-0331",
+    "target_node": "person-0353",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Үхэр, Адуу, Хонь",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-1002",
+    "source_node": "person-0361",
+    "target_node": "person-0373",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Ямаа, Адуу",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-1003",
+    "source_node": "parliament-0021",
+    "target_node": "parliament-0059",
+    "relationship_type": "colleague",
+    "confidence": "alleged",
+    "weight": 0.3,
+    "relationship_detail": "Хамтран мал эзэмшиж байж магадгүй: Хонь, Үхэр, Адуу",
+    "evidence": [
+      {
+        "source_name": "xacxom.iaac.mn",
+        "note": "Малын мэдүүлэгт үндэслэсэн"
+      }
+    ]
+  },
+  {
+    "id": "edge-1004",
+    "source_node": "person-0263",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн фракцыг төлөөлж УИХ-ын даргаар сонгогдсон",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1005",
+    "source_node": "person-0265",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн тамгын газрын дарга, дараа нь Ерөнхий сайд",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1006",
+    "source_node": "person-0267",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Гурван танхим дамнан сайдаар ажилласан, Ерөнхийлөгчийн фракц",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1007",
+    "source_node": "person-0269",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн фракцаас Засгийн газарт орж ирсэн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1008",
+    "source_node": "person-0271",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн фракцаас Засгийн газарт орж ирсэн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1009",
+    "source_node": "person-0275",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн фракцын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1010",
+    "source_node": "person-0299",
+    "target_node": "person-key-001",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Ерөнхийлөгчийн үед тамгын газрын даргаар ажиллаж байсан",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1011",
+    "source_node": "person-0265",
+    "target_node": "person-key-002",
+    "relationship_type": "superior",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Н.Учралыг Ерөнхий сайд болгох фракцын шахалтыг хүлээн авч ажлаа өгсөн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1012",
+    "source_node": "person-0295",
+    "target_node": "person-key-003",
+    "relationship_type": "political_ally",
+    "confidence": "reported",
+    "weight": 0.7,
+    "relationship_detail": "Л.Оюун-Эрдэнийн фракцад хамаарч явдаг",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч, 2026-07-09",
+        "url": "https://www.unnu.news/article/chimeeg-j-shagnal-h-rtsen-22-uls-t-rch-uih-yn-20-gish-nij-czaadah-uls-t-r"
+      }
+    ]
+  },
+  {
+    "id": "edge-1013",
+    "source_node": "person-0263",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1014",
+    "source_node": "person-0265",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1015",
+    "source_node": "person-0267",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1016",
+    "source_node": "person-0269",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1017",
+    "source_node": "person-0271",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1018",
+    "source_node": "person-0275",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1019",
+    "source_node": "person-0299",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1020",
+    "source_node": "person-0277",
+    "target_node": "org-001",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1021",
+    "source_node": "person-0301",
+    "target_node": "org-002",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
+  },
+  {
+    "id": "edge-1022",
+    "source_node": "person-0305",
+    "target_node": "org-002",
+    "relationship_type": "political_ally",
+    "confidence": "documented",
+    "weight": 0.8,
+    "relationship_detail": "Намын гишүүн",
+    "evidence": [
+      {
+        "source_name": "unnu.news",
+        "note": "Чимээгүй шагнал хүртсэн 22 улс төрч"
+      }
+    ]
   }
 ]

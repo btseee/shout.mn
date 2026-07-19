@@ -8,6 +8,47 @@ export interface PersonProfile {
   assigned_date?: string
   rank?: number
   assets?: PersonAssets
+  // Enriched fields
+  declaration_years?: number[]
+  latest_declaration?: number
+  civil_service_rank?: string
+  receivable_total?: number
+  total_treasure_value?: number
+  buildings_detail?: BuildingsDetail
+  animals?: string
+  animal_total_value?: number
+  lands?: string
+  land_total_value?: number
+  business_deals?: string
+  stock_owner?: string
+  stock_count?: string
+  stock_total_value?: string
+  all_organizations?: string[]
+  all_positions?: string[]
+  // Award data
+  award_2026?: string
+  award_role?: string
+  political_faction?: string
+  // Parliament CV data
+  work_history?: string[]
+  awards?: string[]
+  party?: string
+}
+
+export interface BuildingsDetail {
+  apartment?: number
+  house?: number
+  cottage?: number
+  fence?: number
+  service?: number
+  industrial?: number
+  office?: number
+  farm?: number
+  home?: number
+  parking?: number
+  auto_parking?: number
+  other?: number
+  total_value?: number
 }
 
 export interface PersonAssets {

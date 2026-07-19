@@ -1,5 +1,11 @@
 {
   "name": "shout.mn",
+  "description": "",
+  "author": {
+    "email": "bbattseren88@gmail.com",
+    "name": "Battseren Badral",
+    "url": "https://github.com/btseee"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
