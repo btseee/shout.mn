@@ -34495,6 +34495,7 @@
       },
       "declaration_years": [
         2021,
+        2021,
         2021
       ],
       "latest_declaration": 2021,
@@ -36697,31 +36698,11 @@
       "political_faction": null,
       "declaration_years": [
         2021,
-        2021,
-        2021,
-        2021
+        2022,
+        2023,
+        2024,
+        2025
       ],
-      "civil_service_rank": "УТ",
-      "receivable_total": 0,
-      "total_treasure_value": 0,
-      "buildings_detail": {
-        "apartment": 0,
-        "house": 0,
-        "cottage": 0,
-        "fence": 0,
-        "service": 0,
-        "industrial": 0,
-        "office": 0,
-        "farm": 0,
-        "home": 1,
-        "parking": 0,
-        "auto_parking": 0,
-        "other": 0,
-        "total_value": 5000
-      },
-      "animals": "Ямаа-130, Хонь-115, Үхэр-7, Адуу-18",
-      "animal_total_value": 41400,
-      "latest_declaration": 2021,
       "work_history": [
         "2001-2002 онд",
         "Ерөнхийлөгчийн тамгын газарт дадлагажигчаар",
@@ -37134,7 +37115,7 @@
     "name": "МАН",
     "type": "organization",
     "subtype": "political_party",
-    "description": "Монгол Ардын Нам — Үндсэн хуулиар бүртгүүлсэн нам",
+    "description": "Монгол Ардын Нам",
     "importance": 90,
     "tags": [
       "political-party",
@@ -37147,12 +37128,225 @@
     "name": "Ардчилсан нам",
     "type": "organization",
     "subtype": "political_party",
-    "description": "Ардчилсан нам — Үндсэн хуулиар бүртгүүлсэн нам",
+    "description": "Ардчилсан нам",
     "importance": 85,
     "tags": [
       "political-party",
       "opposition-party"
     ],
     "profile": {}
+  },
+  {
+    "id": "org-khun",
+    "name": "ХҮН нам",
+    "type": "organization",
+    "subtype": "political_party",
+    "description": "Хүн Эх Орны Нэгдсэн Нам",
+    "importance": 70,
+    "tags": [
+      "political-party"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "org-unevs",
+    "name": "Үндэсний Эвсэл",
+    "type": "organization",
+    "subtype": "political_party",
+    "description": "Үндэсний Эвсэл",
+    "importance": 60,
+    "tags": [
+      "political-party"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "org-iznn",
+    "name": "Иргэний Зориг Ногоон Нам",
+    "type": "organization",
+    "subtype": "political_party",
+    "description": "Иргэний Зориг Ногоон Нам",
+    "importance": 60,
+    "tags": [
+      "political-party"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "faction-khurelsukh",
+    "name": "Хүрэлсүхийн фракц",
+    "type": "organization",
+    "subtype": "political_faction",
+    "description": "МАН-ын доторх Ерөнхийлөгчийн фракц",
+    "importance": 75,
+    "tags": [
+      "faction"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "faction-oyun-erden",
+    "name": "Оюун-Эрдэнийн фракц",
+    "type": "organization",
+    "subtype": "political_faction",
+    "description": "МАН-ын доторх Ерөнхий сайдын фракц",
+    "importance": 70,
+    "tags": [
+      "faction"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "faction-grand-mongol",
+    "name": "Гранд Монгол",
+    "type": "organization",
+    "subtype": "political_faction",
+    "description": "АН-ын либерал фракц",
+    "importance": 60,
+    "tags": [
+      "faction"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "faction-neeg-mongol",
+    "name": "Нэг Монгол",
+    "type": "organization",
+    "subtype": "political_faction",
+    "description": "АН-ын консерватив фракц",
+    "importance": 65,
+    "tags": [
+      "faction"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "faction-moah",
+    "name": "МОАХ",
+    "type": "organization",
+    "subtype": "political_faction",
+    "description": "Монголын Ардчилсан Холбоо фракц",
+    "importance": 60,
+    "tags": [
+      "faction"
+    ],
+    "profile": {}
+  },
+  {
+    "id": "person-2024-001",
+    "name": "С.Баярцогт",
+    "type": "person",
+    "subtype": "politician",
+    "description": "УИХ-ын гишүүн, АН",
+    "importance": 70,
+    "tags": [
+      "parliament-2024-2028",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=С.Баярцогт&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "УИХ-ын гишүүн",
+      "political_faction": "Гранд Монгол"
+    }
+  },
+  {
+    "id": "person-2024-002",
+    "name": "О.Цогтгэрэл",
+    "type": "person",
+    "subtype": "politician",
+    "description": "УИХ-ын гишүүн, АН-ын бүлгийн дарга",
+    "importance": 75,
+    "tags": [
+      "parliament-2024-2028",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=О.Цогтгэрэл&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "УИХ-ын АН-ын бүлгийн дарга",
+      "political_faction": "Нэг Монгол"
+    }
+  },
+  {
+    "id": "person-2024-003",
+    "name": "Ж.Батсуурь",
+    "type": "person",
+    "subtype": "politician",
+    "description": "УИХ-ын гишүүн, АН",
+    "importance": 65,
+    "tags": [
+      "parliament-2024-2028",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=Ж.Батсуурь&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "УИХ-ын гишүүн",
+      "political_faction": "Нэг Монгол"
+    }
+  },
+  {
+    "id": "person-2024-004",
+    "name": "Ц.Туваан",
+    "type": "person",
+    "subtype": "politician",
+    "description": "УИХ-ын гишүүн, АН",
+    "importance": 65,
+    "tags": [
+      "parliament-2024-2028",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=Ц.Туваан&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "УИХ-ын гишүүн",
+      "political_faction": "Нэг Монгол"
+    }
+  },
+  {
+    "id": "person-2024-005",
+    "name": "Л.Гантөмөр",
+    "type": "person",
+    "subtype": "politician",
+    "description": "Ардчилсан намын дарга асан",
+    "importance": 70,
+    "tags": [
+      "an-chairman"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=Л.Гантөмөр&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "АН-ын дарга асан"
+    }
+  },
+  {
+    "id": "person-2024-006",
+    "name": "Н.Алтанхуяг",
+    "type": "person",
+    "subtype": "politician",
+    "description": "Монгол Улсын Ерөнхий сайд асан",
+    "importance": 75,
+    "tags": [
+      "former-prime-minister",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=Н.Алтанхуяг&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "Ерөнхий сайд асан",
+      "political_faction": "МОАХ"
+    }
+  },
+  {
+    "id": "person-2024-007",
+    "name": "Ц.Элбэгдорж",
+    "type": "person",
+    "subtype": "politician",
+    "description": "Монгол Улсын Ерөнхийлөгч асан",
+    "importance": 80,
+    "tags": [
+      "former-president",
+      "an"
+    ],
+    "image_url": "https://ui-avatars.com/api/?name=Ц.Элбэгдорж&background=2563eb&color=fff&size=256&bold=true",
+    "profile": {
+      "position": "Ерөнхийлөгч асан",
+      "political_faction": "Гранд Монгол"
+    }
   }
 ]
