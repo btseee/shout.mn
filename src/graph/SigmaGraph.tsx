@@ -3,7 +3,6 @@ import Sigma from 'sigma'
 import type Graph from 'graphology'
 import { useSelectionStore } from '@/store/selection'
 import { useFiltersStore } from '@/store/filters'
-import { useGraphViewStore } from '@/store/graphView'
 import type { NodeType, PersonSubtype } from '@/types/node'
 import type { ConfidenceTier, RelationshipType } from '@/types/edge'
 import { RELATIONSHIP_TYPE_LABELS, RELATIONSHIP_TYPE_LABELS_EN, CONFIDENCE_LABELS } from '@/types/edge'
@@ -26,7 +25,7 @@ interface TooltipData {
 }
 
 function scaleColorAlpha(color: string, factor: number): string {
-  const f = Math.max(0, Math.min(1, factor))
+  const f = Math.max(0, Math.min(4, factor))
 
   const rgbaMatch = color.match(/^rgba?\(([^)]+)\)$/i)
   if (rgbaMatch) {
@@ -47,7 +46,7 @@ function scaleColorAlpha(color: string, factor: number): string {
     const r = Number.parseInt(hex.slice(0, 2), 16)
     const g = Number.parseInt(hex.slice(2, 4), 16)
     const b = Number.parseInt(hex.slice(4, 6), 16)
-    return `rgba(${r}, ${g}, ${b}, ${f})`
+    return `rgba(${r}, ${g}, ${b}, ${Math.min(1, f)})`
   }
 
   return color
@@ -58,8 +57,10 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
   const sigmaRef = useRef<Sigma | null>(null)
   const zoomFittedRef = useRef(false)
   const hoveredNodeRef = useRef<string | null>(null)
+  const refreshTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const { selectNode, selectEdge, clearSelection } = useSelectionStore()
   const [tooltip, setTooltip] = useState<TooltipData | null>(null)
+  const [isRefreshing, setIsRefreshing] = useState(false)
   const { lang } = useI18n()
 
   const parallelEdgeMeta = useMemo(() => {
@@ -91,9 +92,22 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
 
     zoomFittedRef.current = false
     hoveredNodeRef.current = null
-    const initialView = useGraphViewStore.getState()
+    const matchesEdgeFilters = (data: Record<string, unknown>) => {
+      const filt = useFiltersStore.getState()
 
-    const matchesNodeFilters = (node: string, data: Record<string, unknown>) => {
+      if (filt.selectedConfidence.length > 0 && !filt.selectedConfidence.includes(data.confidence as ConfidenceTier)) {
+        return false
+      }
+
+      if (filt.selectedRelTypes.length > 0) {
+        const relLabel = String(data.label ?? '').replace(/ /g, '_')
+        if (!filt.selectedRelTypes.includes(relLabel as RelationshipType)) return false
+      }
+
+      return true
+    }
+
+    const matchesBasicNodeFilters = (node: string, data: Record<string, unknown>) => {
       const filt = useFiltersStore.getState()
 
       if (filt.selectedNodeTypes.length > 0 && !filt.selectedNodeTypes.includes(data.nodeType as NodeType)) {
@@ -104,6 +118,8 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       if (filt.selectedSubtypes.length > 0 && (!subtype || !filt.selectedSubtypes.includes(subtype))) {
         return false
       }
+
+      if (graph.degree(node) < filt.minConnections) return false
 
       const query = filt.searchQuery.trim().toLowerCase()
       if (!query) return true
@@ -116,12 +132,27 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       return searchable.includes(query)
     }
 
+    const matchesNodeFilters = (node: string, data: Record<string, unknown>) => {
+      if (!matchesBasicNodeFilters(node, data)) return false
+
+      const filt = useFiltersStore.getState()
+      if (filt.selectedRelTypes.length === 0 && filt.selectedConfidence.length === 0) return true
+
+      return graph.edges(node).some(edgeId => {
+        if (!matchesEdgeFilters(graph.getEdgeAttributes(edgeId) as Record<string, unknown>)) return false
+        const source = graph.source(edgeId)
+        const target = graph.target(edgeId)
+        const other = source === node ? target : source
+        return matchesBasicNodeFilters(other, graph.getNodeAttributes(other) as Record<string, unknown>)
+      })
+    }
+
     const sigma = new Sigma(graph, containerRef.current, {
       renderEdgeLabels: false,
       renderLabels: true,
-      labelRenderedSizeThreshold: initialView.textFadeThreshold,
+      labelRenderedSizeThreshold: 7,
       defaultNodeType: 'circle',
-      defaultEdgeType: initialView.showArrows ? 'arrow' : 'line',
+      defaultEdgeType: 'line',
       enableCameraZooming: true,
       enableCameraPanning: true,
       enableCameraRotation: false,
@@ -133,14 +164,12 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
       edgeReducer: (edge, data) => {
         const sel = useSelectionStore.getState()
         const filt = useFiltersStore.getState()
-        const view = useGraphViewStore.getState()
         const source = graph.source(edge)
         const target = graph.target(edge)
         const sourceAttrs = graph.getNodeAttributes(source)
         const targetAttrs = graph.getNodeAttributes(target)
         const hoveredNode = hoveredNodeRef.current
-        const edgeScale = Math.max(0.1, view.edgeSizeScale)
-        const edgeType = view.showArrows ? 'arrow' : 'line'
+        const edgeType = 'line'
         const sx = Number(sourceAttrs.x ?? 0)
         const sy = Number(sourceAttrs.y ?? 0)
         const tx = Number(targetAttrs.x ?? 0)
@@ -148,29 +177,24 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         const edgeLength = Math.hypot(sx - tx, sy - ty)
         const sourceDegree = graph.degree(source)
         const targetDegree = graph.degree(target)
-        const lengthAttenuation = Math.max(0.05, Math.min(1, 84 / (edgeLength + 24)))
-        const longEdgePenalty = edgeLength > 180 ? Math.max(0.08, 180 / edgeLength) : 1
+        const lengthAttenuation = Math.max(0.1, Math.min(1, 92 / (edgeLength + 58)))
         const baseColor = String(data.color ?? 'rgba(116, 122, 143, 0.12)')
-        let visibilityAttenuation = Math.max(0.05, Math.min(1, lengthAttenuation * longEdgePenalty))
+        const confidenceAttenuation = data.confidence === 'documented' ? 1 : data.confidence === 'reported' ? 0.78 : 0.58
+        const visibilityAttenuation = lengthAttenuation * confidenceAttenuation
 
         if (!matchesNodeFilters(source, sourceAttrs as Record<string, unknown>) || !matchesNodeFilters(target, targetAttrs as Record<string, unknown>)) {
           return { ...data, hidden: true, size: 0, type: edgeType }
         }
 
-        if (filt.selectedConfidence.length > 0 && !filt.selectedConfidence.includes(data.confidence as ConfidenceTier)) {
+        if (!matchesEdgeFilters(data as Record<string, unknown>)) {
           return { ...data, hidden: true, size: 0, type: edgeType }
-        }
-        if (filt.selectedRelTypes.length > 0) {
-          const relLabel = (data.label as string).replace(/ /g, '_')
-          if (!filt.selectedRelTypes.includes(relLabel as RelationshipType)) {
-            return { ...data, hidden: true, size: 0, type: edgeType }
-          }
         }
 
         const hasScopedEdgeFilters = filt.selectedRelTypes.length > 0 || filt.selectedConfidence.length > 0
         const hasScopedNodeFilters =
           filt.selectedNodeTypes.length > 0 ||
           filt.selectedSubtypes.length > 0 ||
+          filt.minConnections > 0 ||
           filt.searchQuery.trim().length > 0
         const parallel = parallelEdgeMeta.get(String(edge))
         const hideParallelEdge =
@@ -186,72 +210,44 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
           return { ...data, hidden: true, size: 0, type: edgeType }
         }
 
-        const isGlobalView = !sel.selectedNodeId && !hoveredNode
-        if (isGlobalView && !hasScopedEdgeFilters && !hasScopedNodeFilters) {
-          const cameraRatio = sigmaRef.current?.getCamera().ratio ?? 1
-          const minDegree = Math.min(sourceDegree, targetDegree)
-          const maxDegree = Math.max(sourceDegree, targetDegree)
+        const attenuatedColor = scaleColorAlpha(baseColor, 0.32 + visibilityAttenuation * 0.16)
+        const focusNode = sel.selectedNodeId ?? hoveredNode
 
-          // Obsidian-like LOD: trim twig links at wide zoom, reveal them as user zooms in.
-          if ((cameraRatio > 1.05 && minDegree <= 1 && maxDegree <= 3) ||
-              (cameraRatio > 1.2 && minDegree <= 1 && edgeLength > 34)) {
-            return { ...data, hidden: true, size: 0, type: edgeType }
-          }
-
-          const zoomNorm = Math.max(0.45, Math.min(2.6, cameraRatio))
-          const zoomAttenuation = 1 / Math.pow(zoomNorm, 0.6)
-          const globalLongEdgeFade = Math.max(0.05, Math.min(1, Math.pow(185 / (edgeLength + 24), 1.15)))
-          const avgDegree = (sourceDegree + targetDegree) * 0.5
-          const hubFade = Math.max(0.2, Math.min(1, 1 / Math.pow(Math.max(1, avgDegree), 0.4)))
-          const confidenceFade =
-            data.confidence === 'documented'
-              ? 1
-              : data.confidence === 'reported'
-                ? 0.78
-                : 0.5
-          const branchFade =
-            sourceDegree <= 1 && targetDegree <= 1
-              ? 0.28
-              : sourceDegree <= 2 && targetDegree <= 2
-                ? 0.42
-                : sourceDegree <= 3 && targetDegree <= 3
-                  ? 0.72
-                  : 1
-          visibilityAttenuation *= globalLongEdgeFade * zoomAttenuation * hubFade * branchFade * confidenceFade
-
-          if (visibilityAttenuation < 0.015) {
-            return { ...data, hidden: true, size: 0, type: edgeType }
-          }
-        }
-
-        const attenuatedColor = scaleColorAlpha(baseColor, 0.02 + visibilityAttenuation * 0.15)
-
-        if (sel.selectedNodeId) {
-          if (source !== sel.selectedNodeId && target !== sel.selectedNodeId) {
-            return { ...data, hidden: true, type: edgeType }
-          }
+        if (focusNode) {
           if (edge === sel.selectedEdgeId) {
-            return { ...data, color: '#c4b5fd', size: 0.8 * edgeScale, type: edgeType }
+            return { ...data, color: '#c4b5fd', size: 1.1, type: edgeType, zIndex: 3 }
           }
-          return { ...data, color: attenuatedColor, size: Math.max(0.06, 0.18 * edgeScale * visibilityAttenuation), type: edgeType }
+          if (source === focusNode || target === focusNode) {
+            return {
+              ...data,
+              color: scaleColorAlpha(baseColor, 2.4),
+              size: Math.max(0.42, 0.62 * visibilityAttenuation),
+              type: edgeType,
+              zIndex: 2,
+            }
+          }
+          return {
+            ...data,
+            color: scaleColorAlpha(baseColor, 0.04),
+            size: Math.max(0.06, 0.12 * visibilityAttenuation),
+            type: edgeType,
+            zIndex: 0,
+          }
         }
 
-        if (hoveredNode) {
-          if (source === hoveredNode || target === hoveredNode) {
-            return { ...data, color: attenuatedColor, size: Math.max(0.06, 0.2 * edgeScale * visibilityAttenuation), type: edgeType }
-          }
-          return { ...data, hidden: true, type: edgeType }
+        const averageDegree = (sourceDegree + targetDegree) * 0.5
+        const densityFade = Math.max(0.62, Math.min(1, 1 / Math.pow(Math.max(1, averageDegree / 5), 0.18)))
+        return {
+          ...data,
+          color: scaleColorAlpha(attenuatedColor, densityFade),
+          size: Math.max(0.11, 0.23 * visibilityAttenuation),
+          type: edgeType,
         }
-
-        return { ...data, color: attenuatedColor, size: Math.max(0.006, 0.055 * edgeScale * visibilityAttenuation), type: edgeType }
       },
       nodeReducer: (node, data) => {
         const sel = useSelectionStore.getState()
-        const filt = useFiltersStore.getState()
-        const view = useGraphViewStore.getState()
         const hoveredNode = hoveredNodeRef.current
-        const nodeScale = Math.max(0.2, view.nodeSizeScale)
-        const baseSize = (Number(data.size) || 1) * nodeScale
+        const baseSize = (Number(data.size) || 1) * 0.46
         const degree = Number((data as Record<string, unknown>).degree ?? 0)
 
         if (!matchesNodeFilters(node, data as Record<string, unknown>)) {
@@ -264,19 +260,25 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
           const isNeighbor = neighbors.includes(node)
 
           if (!isSelected && !isNeighbor) {
-            return { ...data, hidden: true }
+            return {
+              ...data,
+              color: scaleColorAlpha(String(data.color ?? '#94a3b8'), 0.18),
+              size: Math.max(0.55, baseSize * 0.72),
+              label: '',
+              zIndex: 0,
+            }
           }
           if (isSelected) {
             return {
               ...data,
               highlighted: true,
               zIndex: 3,
-              size: baseSize * 2,
+              size: baseSize * 1.7,
               borderColor: '#c4b5fd',
               borderWidth: 2,
             }
           }
-          return { ...data, zIndex: 1, size: baseSize * 1.2 }
+          return { ...data, zIndex: 2, size: baseSize * 1.18 }
         }
 
         if (hoveredNode === node) {
@@ -289,24 +291,20 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         }
 
         if (hoveredNode && node !== hoveredNode) {
-          return { ...data, hidden: true }
+          const isNeighbor = graph.neighbors(hoveredNode).includes(node)
+          if (isNeighbor) return { ...data, zIndex: 2, size: baseSize * 1.12 }
+          return {
+            ...data,
+            color: scaleColorAlpha(String(data.color ?? '#94a3b8'), 0.58),
+            size: Math.max(0.55, baseSize * 0.9),
+            label: '',
+            zIndex: 0,
+          }
         }
 
         if (!hoveredNode && !sel.selectedNodeId) {
-          const hasScopedNodeFilters =
-            filt.selectedNodeTypes.length > 0 ||
-            filt.selectedSubtypes.length > 0 ||
-            filt.searchQuery.trim().length > 0
-          const cameraRatio = sigmaRef.current?.getCamera().ratio ?? 1
-
-          if (!hasScopedNodeFilters) {
-            if ((cameraRatio > 1.05 && degree <= 1) || (cameraRatio > 1.35 && degree <= 2)) {
-              return { ...data, hidden: true }
-            }
-          }
-
-          const degreeFade = degree <= 1 ? 0.5 : degree <= 2 ? 0.68 : degree <= 3 ? 0.82 : 1
-          const degreeSize = degree <= 1 ? 0.78 : degree <= 2 ? 0.88 : degree <= 3 ? 0.94 : 1
+          const degreeFade = degree === 0 ? 0.72 : degree === 1 ? 0.84 : degree === 2 ? 0.92 : 1
+          const degreeSize = degree === 0 ? 0.72 : degree === 1 ? 0.82 : degree === 2 ? 0.9 : 1
           return {
             ...data,
             color: scaleColorAlpha(String(data.color ?? '#94a3b8'), degreeFade),
@@ -405,7 +403,7 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         const { width: viewWidthPx, height: viewHeightPx } = sigma.getDimensions()
 
         // Target a roomy frame similar to Obsidian's default graph viewport.
-        const fill = 0.78
+          const fill = 0.86
         const widthScale = graphWidthPx / Math.max(1, viewWidthPx * fill)
         const heightScale = graphHeightPx / Math.max(1, viewHeightPx * fill)
         const fitScale = Math.max(widthScale, heightScale)
@@ -415,40 +413,39 @@ export function SigmaGraph({ graph, className = '' }: SigmaGraphProps) {
         targetRatio = Math.min(8, Math.max(0.06, targetRatio))
 
         if (typeof camera.animate === 'function') {
-          camera.animate({ ratio: targetRatio }, { duration: 320 }).catch(() => {})
+          camera.animate({ ratio: targetRatio }, { duration: 650 }).catch(() => {})
         } else {
           camera.setState({ ratio: targetRatio })
         }
-      } catch {}
+      } catch {
+        // Camera fitting is best-effort; Sigma's default camera remains usable.
+      }
     }, 50)
 
     sigmaRef.current = sigma
 
     const unsubscribeFilters = useFiltersStore.subscribe(() => {
+      setIsRefreshing(true)
       sigma.refresh()
+      if (refreshTimerRef.current) clearTimeout(refreshTimerRef.current)
+      refreshTimerRef.current = setTimeout(() => setIsRefreshing(false), 220)
     })
 
     const unsubscribeSelection = useSelectionStore.subscribe(() => {
       sigma.refresh()
     })
 
-    const unsubscribeView = useGraphViewStore.subscribe((state) => {
-      sigma.setSetting('defaultEdgeType', state.showArrows ? 'arrow' : 'line')
-      sigma.setSetting('labelRenderedSizeThreshold', state.textFadeThreshold)
-      sigma.refresh()
-    })
-
     return () => {
       unsubscribeFilters()
       unsubscribeSelection()
-      unsubscribeView()
+      if (refreshTimerRef.current) clearTimeout(refreshTimerRef.current)
       sigma.kill()
       sigmaRef.current = null
     }
-  }, [graph, lang])
+  }, [clearSelection, graph, lang, parallelEdgeMeta, selectEdge, selectNode])
 
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative ${isRefreshing ? 'graph-refreshing' : ''} ${className}`}>
       <div
         ref={containerRef}
         className="sigma-container w-full h-full"

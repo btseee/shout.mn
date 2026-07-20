@@ -8,6 +8,7 @@ interface FiltersState {
   selectedRelTypes: RelationshipType[]
   selectedConfidence: ConfidenceTier[]
   selectedSubtypes: PersonSubtype[]
+  minConnections: number
   searchQuery: string
   toggleNodeType: (t: NodeType) => void
   toggleRelType: (t: RelationshipType) => void
@@ -16,6 +17,7 @@ interface FiltersState {
   setRelTypes: (t: RelationshipType[]) => void
   setSubtypes: (s: PersonSubtype[]) => void
   setConfidence: (c: ConfidenceTier[]) => void
+  setMinConnections: (count: number) => void
   setSearchQuery: (q: string) => void
   reset: () => void
 }
@@ -25,6 +27,7 @@ export const useFiltersStore = create<FiltersState>((set) => ({
   selectedRelTypes: [],
   selectedConfidence: [],
   selectedSubtypes: [],
+  minConnections: 0,
   searchQuery: '',
   toggleNodeType: (t) => set(s => ({
     selectedNodeTypes: s.selectedNodeTypes.includes(t)
@@ -49,6 +52,7 @@ export const useFiltersStore = create<FiltersState>((set) => ({
   setRelTypes: (t) => set({ selectedRelTypes: t }),
   setSubtypes: (s) => set({ selectedSubtypes: s }),
   setConfidence: (c) => set({ selectedConfidence: c }),
+  setMinConnections: (minConnections) => set({ minConnections }),
   setSearchQuery: (q) => set({ searchQuery: q }),
-  reset: () => set({ selectedNodeTypes: [], selectedRelTypes: [], selectedConfidence: [], selectedSubtypes: [], searchQuery: '' }),
+  reset: () => set({ selectedNodeTypes: [], selectedRelTypes: [], selectedConfidence: [], selectedSubtypes: [], minConnections: 0, searchQuery: '' }),
 }))

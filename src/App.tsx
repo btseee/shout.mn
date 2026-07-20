@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useMemo, useState, useRef } from 'react'
 import type { Node } from '@/types/node'
 import type { Edge } from '@/types/edge'
 import { fetchNodes, fetchEdges } from '@/data/loaders'
@@ -11,6 +11,7 @@ import { RELATIONSHIP_TYPE_LABELS, RELATIONSHIP_TYPE_LABELS_EN, RELATIONSHIP_TYP
 import type { ConfidenceTier } from '@/types/edge'
 import type { RelationshipType } from '@/types/edge'
 import type { PersonSubtype } from '@/types/node'
+import type { BuildingsDetail } from '@/types/node'
 import { useI18n } from '@/store/i18n'
 import Graph from 'graphology'
 
@@ -20,43 +21,36 @@ const ALL_SUBTYPES: PersonSubtype[] = ['politician', 'civil_servant', 'business_
 export default function App() {
   const [graph, setGraph] = useState<Graph | null>(null)
   const [allNodes, setNodes] = useState<Node[]>([])
-  const [, setEdges] = useState<Edge[]>([])
+  const [allEdges, setEdges] = useState<Edge[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [showAbout, setShowAbout] = useState(false)
   const builtRef = useRef(false)
+  const sidePanelRef = useRef<HTMLElement>(null)
   const { selectedNodeId, clearSelection } = useSelectionStore()
   const {
     selectedConfidence,
     selectedRelTypes,
     selectedSubtypes,
+    minConnections,
     searchQuery,
     toggleConfidence,
     toggleRelType,
     toggleSubtype,
+    setConfidence,
+    setRelTypes,
+    setSubtypes,
+    setMinConnections,
     setSearchQuery,
     reset,
   } = useFiltersStore()
   const {
     showFilters,
     showLegend,
-    showArrows,
-    textFadeThreshold,
-    nodeSizeScale,
-    edgeSizeScale,
-    centerForce,
-    repelForce,
-    linkForce,
     setShowFilters,
-    setShowArrows,
-    setTextFadeThreshold,
-    setNodeSizeScale,
-    setEdgeSizeScale,
-    setCenterForce,
-    setRepelForce,
-    setLinkForce,
+    setShowLegend,
   } = useGraphViewStore()
-  const { t, lang } = useI18n()
+  const { t, lang, toggleLang } = useI18n()
 
   // Build graph ONCE on mount
   useEffect(() => {
@@ -68,17 +62,57 @@ export default function App() {
         setNodes(n)
         setEdges(e)
         const g = buildGraph(n, e)
-        const view = useGraphViewStore.getState()
-        applyForceLayout(g, {
-          centerForce: view.centerForce,
-          repelForce: view.repelForce,
-          linkForce: view.linkForce,
-        })
+        applyForceLayout(g)
         setGraph(g)
       })
       .catch(err => setError(err.message))
       .finally(() => setLoading(false))
   }, [])
+
+  useEffect(() => {
+    sidePanelRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [selectedNodeId])
+
+  const filterStats = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase()
+    const matchingNodeIds = new Set(allNodes.filter(node => {
+      if (selectedSubtypes.length > 0 && (!node.subtype || !selectedSubtypes.includes(node.subtype))) return false
+      if ((graph?.degree(node.id) ?? 0) < minConnections) return false
+      if (!query) return true
+
+      const searchable = [
+        node.name,
+        node.description,
+        ...(node.aliases ?? []),
+        node.profile?.organization,
+        node.profile?.position,
+        node.profile?.party,
+        node.profile?.political_faction,
+        ...(node.profile?.all_organizations ?? []),
+        ...(node.profile?.all_positions ?? []),
+      ].filter(Boolean).join(' ').toLowerCase()
+
+      return searchable.includes(query)
+    }).map(node => node.id))
+
+    const matchingEdges = allEdges.filter(edge =>
+      matchingNodeIds.has(edge.source_node) &&
+      matchingNodeIds.has(edge.target_node) &&
+      (selectedConfidence.length === 0 || selectedConfidence.includes(edge.confidence)) &&
+      (selectedRelTypes.length === 0 || selectedRelTypes.includes(edge.relationship_type))
+    )
+
+    if (selectedConfidence.length > 0 || selectedRelTypes.length > 0) {
+      const connectedIds = new Set<string>()
+      matchingEdges.forEach(edge => {
+        connectedIds.add(edge.source_node)
+        connectedIds.add(edge.target_node)
+      })
+      return { nodes: connectedIds.size, edges: matchingEdges.length }
+    }
+
+    return { nodes: matchingNodeIds.size, edges: matchingEdges.length }
+  }, [allEdges, allNodes, graph, minConnections, searchQuery, selectedConfidence, selectedRelTypes, selectedSubtypes])
 
   if (loading) return <div className="flex items-center justify-center h-screen text-slate-500 bg-slate-950">{t('loading')}</div>
   if (error) return <div className="flex items-center justify-center h-screen text-red-500 bg-slate-950">{t('error')}: {error}</div>
@@ -101,14 +135,31 @@ export default function App() {
 
   const relLabel = (r: RelationshipType) => {
     const labels = lang === 'en' ? RELATIONSHIP_TYPE_LABELS_EN : RELATIONSHIP_TYPE_LABELS
-    return (labels as any)[r] ?? r.replace(/_/g, ' ')
+    return labels[r] ?? r.replace(/_/g, ' ')
   }
 
-  const animateLayout = () => {
-    if (!graph) return
-    const g = graph.copy()
-    applyForceLayout(g, { centerForce, repelForce, linkForce })
-    setGraph(g)
+  const activeFilterCount =
+    selectedConfidence.length +
+    selectedRelTypes.length +
+    selectedSubtypes.length +
+    (minConnections > 0 ? 1 : 0) +
+    (searchQuery.trim() ? 1 : 0)
+
+  const applyPreset = (preset: 'key' | 'verified' | 'public' | 'influence') => {
+    reset()
+    if (preset === 'key') setMinConnections(5)
+    if (preset === 'verified') {
+      setConfidence(['documented'])
+      setMinConnections(1)
+    }
+    if (preset === 'public') {
+      setSubtypes(['politician', 'civil_servant', 'judge', 'prosecutor'])
+      setMinConnections(1)
+    }
+    if (preset === 'influence') {
+      setRelTypes(['political_ally', 'appointed_by', 'financial_link'])
+      setMinConnections(1)
+    }
   }
 
   return (
@@ -132,9 +183,14 @@ export default function App() {
               ? 'active border-[rgba(168,130,255,0.3)]'
               : 'border-transparent text-[#888892] hover:text-white hover:border-[rgba(168,130,255,0.15)]'
           }`}
+          aria-expanded={showFilters}
         >
           {t('filters')}
-          {(selectedConfidence.length > 0 || selectedRelTypes.length > 0 || selectedSubtypes.length > 0) && <span className="w-1.5 h-1.5 rounded-full bg-[#a882ff]" />}
+          {activeFilterCount > 0 && (
+            <span className="min-w-4 h-4 px-1 rounded-full bg-[#a882ff] text-[10px] leading-4 text-black font-bold text-center">
+              {activeFilterCount}
+            </span>
+          )}
         </button>
         <div className="w-px h-5 bg-[rgba(168,130,255,0.15)]" />
         <button
@@ -142,6 +198,22 @@ export default function App() {
           className="text-xs text-[#888892] hover:text-white transition-colors"
         >
           {t('about')}
+        </button>
+        <button
+          type="button"
+          onClick={() => setShowLegend(!showLegend)}
+          className={`text-xs transition-colors ${showLegend ? 'text-[#c4b5fd]' : 'text-[#888892] hover:text-white'}`}
+          aria-pressed={showLegend}
+        >
+          {t('legend')}
+        </button>
+        <button
+          type="button"
+          onClick={toggleLang}
+          className="text-xs text-[#888892] hover:text-white transition-colors"
+          aria-label={lang === 'en' ? 'Switch to Mongolian' : 'Англи хэл рүү солих'}
+        >
+          {t('langToggle')}
         </button>
         <div className="flex-1" />
         <div className="stats-badge px-3 py-1 rounded-lg text-xs text-[#a882ff]">
@@ -152,145 +224,145 @@ export default function App() {
       {/* Graph */}
       <div className="flex-1 relative">
         {showFilters && (
-          <div className="absolute top-4 left-4 w-[320px] max-h-[calc(100%-2rem)] overflow-y-auto glass border border-[rgba(168,130,255,0.15)] rounded-xl p-4 z-30 shadow-2xl panel-enter">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-sm font-semibold text-white">{t('filters')}</h3>
+          <div className="filter-panel absolute top-4 left-4 w-[min(360px,calc(100%-2rem))] max-h-[calc(100%-2rem)] overflow-y-auto glass border border-[rgba(168,130,255,0.15)] rounded-2xl p-4 z-30 shadow-2xl filter-panel-enter">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-sm font-semibold text-white">{t('filters')}</h3>
+                <p className="text-[11px] text-[#777783] mt-0.5">
+                  {lang === 'en' ? 'Focus the graph in a few clicks' : 'Графикийг хэдхэн товшилтоор нарийсгах'}
+                </p>
+              </div>
               <button
+                type="button"
                 onClick={() => setShowFilters(false)}
-                className="text-[#888892] hover:text-white text-xs transition-colors"
+                aria-label={lang === 'en' ? 'Close filters' : 'Шүүлтүүрийг хаах'}
+                className="icon-button text-[#888892] hover:text-white text-xs"
               >
                 ✕
               </button>
             </div>
 
-            <div className="space-y-3 pb-2 border-b border-[rgba(168,130,255,0.1)]">
-              <div>
-                <span className="text-xs font-semibold text-[#888892] block mb-2">{t('confidence')}</span>
-                <div className="flex gap-2 flex-wrap">
+            <div className="filter-result mb-4 flex items-center justify-between rounded-xl px-3 py-2.5 border border-[rgba(168,130,255,0.12)] bg-[rgba(168,130,255,0.05)]" aria-live="polite">
+              <span className="text-xs text-[#a8a8b3]">{lang === 'en' ? 'Showing' : 'Харуулж байна'}</span>
+              <span key={`${filterStats.nodes}-${filterStats.edges}`} className="result-count text-xs font-semibold text-[#c4b5fd]">
+                {filterStats.nodes} {t('nodes')} · {filterStats.edges} {t('edges')}
+              </span>
+            </div>
+
+            <section className="filter-section">
+              <div className="filter-section-title">
+                <span>{lang === 'en' ? 'Quick views' : 'Шуурхай сонголт'}</span>
+                {activeFilterCount > 0 && (
+                  <button type="button" onClick={reset} className="filter-clear">
+                    {lang === 'en' ? 'Clear all' : 'Бүгдийг арилгах'}
+                  </button>
+                )}
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                {([
+                  ['key', '◎', lang === 'en' ? 'Key people' : 'Гол хүмүүс', lang === 'en' ? '5+ connections' : '5+ холбоостой'],
+                  ['verified', '✓', lang === 'en' ? 'Verified' : 'Баталгаатай', lang === 'en' ? 'Documented links' : 'Нотлогдсон холбоо'],
+                  ['public', '◇', lang === 'en' ? 'Public office' : 'Төрийн алба', lang === 'en' ? 'Officials & judges' : 'Албан хаагч, шүүгч'],
+                  ['influence', '↗', lang === 'en' ? 'Influence' : 'Нөлөөлөл', lang === 'en' ? 'Power & money' : 'Эрх мэдэл, санхүү'],
+                ] as const).map(([id, icon, label, detail]) => (
+                  <button key={id} type="button" onClick={() => applyPreset(id)} className="preset-card">
+                    <span className="preset-icon">{icon}</span>
+                    <span className="min-w-0">
+                      <span className="block text-xs font-medium text-white truncate">{label}</span>
+                      <span className="block text-[10px] text-[#777783] truncate mt-0.5">{detail}</span>
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section className="filter-section">
+              <div className="filter-section-title">
+                <span>{lang === 'en' ? 'Connections per person' : 'Нэг хүний холбоос'}</span>
+              </div>
+              <div className="segmented-control" role="group" aria-label={lang === 'en' ? 'Minimum connections' : 'Хамгийн бага холбоос'}>
+                {[0, 2, 5, 10].map(count => (
+                  <button
+                    key={count}
+                    type="button"
+                    onClick={() => setMinConnections(count)}
+                    className={minConnections === count ? 'active' : ''}
+                    aria-pressed={minConnections === count}
+                  >
+                    {count === 0 ? (lang === 'en' ? 'Any' : 'Бүгд') : `${count}+`}
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section className="filter-section">
+              <div className="filter-section-title">
+                <span>{t('confidence')}</span>
+                {selectedConfidence.length > 0 && <button type="button" onClick={() => setConfidence([])} className="filter-clear">{lang === 'en' ? 'Reset' : 'Арилгах'}</button>}
+              </div>
+              <div className="flex gap-1.5 flex-wrap">
+                <button type="button" onClick={() => setConfidence([])} className={`filter-chip ${selectedConfidence.length === 0 ? 'active' : ''}`}>{lang === 'en' ? 'Any' : 'Бүгд'}</button>
                   {(['documented', 'reported', 'alleged'] as ConfidenceTier[]).map(c => (
                     <button
+                      type="button"
                       key={c}
                       onClick={() => toggleConfidence(c)}
-                      className={`filter-chip px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${
-                        selectedConfidence.length === 0 || selectedConfidence.includes(c)
-                          ? 'active border-[rgba(168,130,255,0.3)]'
-                          : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
-                      }`}
+                      className={`filter-chip ${selectedConfidence.includes(c) ? 'active' : ''}`}
+                      aria-pressed={selectedConfidence.includes(c)}
                     >
                       {t(c)}
                     </button>
                   ))}
-                </div>
               </div>
+            </section>
 
-              <div>
-                <span className="text-xs font-semibold text-[#888892] block mb-2">{t('relationshipTypes')}</span>
-                <div className="flex gap-1.5 flex-wrap">
+            <section className="filter-section">
+              <div className="filter-section-title">
+                <span>{t('relationshipTypes')}</span>
+                {selectedRelTypes.length > 0 && <button type="button" onClick={() => setRelTypes([])} className="filter-clear">{lang === 'en' ? 'Reset' : 'Арилгах'}</button>}
+              </div>
+              <div className="flex gap-1.5 flex-wrap">
+                <button type="button" onClick={() => setRelTypes([])} className={`filter-chip ${selectedRelTypes.length === 0 ? 'active' : ''}`}>{lang === 'en' ? 'Any' : 'Бүгд'}</button>
                   {ALL_REL_TYPES.map(rt => (
                     <button
+                      type="button"
                       key={rt}
                       onClick={() => toggleRelType(rt)}
-                      className={`filter-chip px-2.5 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 border ${
-                        selectedRelTypes.length === 0 || selectedRelTypes.includes(rt)
-                          ? 'active border-[rgba(168,130,255,0.3)]'
-                          : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
-                      }`}
+                      className={`filter-chip flex items-center gap-1.5 ${selectedRelTypes.includes(rt) ? 'active' : ''}`}
+                      aria-pressed={selectedRelTypes.includes(rt)}
                     >
                       <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: RELATIONSHIP_TYPE_COLORS[rt] }} />
                       {relLabel(rt)}
                     </button>
                   ))}
-                </div>
               </div>
+            </section>
 
-              <div>
-                <span className="text-xs font-semibold text-[#888892] block mb-2">{t('jobTypes')}</span>
-                <div className="flex gap-1.5 flex-wrap">
+            <section className="filter-section">
+              <div className="filter-section-title">
+                <span>{t('jobTypes')}</span>
+                {selectedSubtypes.length > 0 && <button type="button" onClick={() => setSubtypes([])} className="filter-clear">{lang === 'en' ? 'Reset' : 'Арилгах'}</button>}
+              </div>
+              <div className="flex gap-1.5 flex-wrap">
+                <button type="button" onClick={() => setSubtypes([])} className={`filter-chip ${selectedSubtypes.length === 0 ? 'active' : ''}`}>{lang === 'en' ? 'Any' : 'Бүгд'}</button>
                   {ALL_SUBTYPES.map(st => (
                     <button
+                      type="button"
                       key={st}
                       onClick={() => toggleSubtype(st)}
-                      className={`filter-chip px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${
-                        selectedSubtypes.length === 0 || selectedSubtypes.includes(st)
-                          ? 'active border-[rgba(168,130,255,0.3)]'
-                          : 'border-transparent bg-[rgba(168,130,255,0.05)] text-[#888892]'
-                      }`}
+                      className={`filter-chip ${selectedSubtypes.includes(st) ? 'active' : ''}`}
+                      aria-pressed={selectedSubtypes.includes(st)}
                     >
                       {subtypeLabel(st)}
                     </button>
                   ))}
-                </div>
               </div>
-
-              {(selectedConfidence.length > 0 || selectedRelTypes.length > 0 || selectedSubtypes.length > 0 || searchQuery.trim().length > 0) && (
-                <button
-                  onClick={reset}
-                  className="px-3 py-1 rounded-lg text-xs font-medium text-[#a882ff] hover:text-white bg-[rgba(168,130,255,0.1)] transition-all border border-[rgba(168,130,255,0.2)] hover:border-[rgba(168,130,255,0.4)]"
-                >
-                  ✕ {lang === 'en' ? 'Clear all filters' : 'Бүх шүүлтүүрийг арилгах'}
-                </button>
-              )}
-            </div>
-
-            <div className="pt-3 space-y-3 border-b border-[rgba(168,130,255,0.1)] pb-3">
-              <h4 className="text-xs font-semibold text-[#888892] uppercase tracking-wider">Display</h4>
-
-              <label className="flex items-center justify-between text-xs text-[#dcddde] gap-3">
-                <span>Arrows</span>
-                <input
-                  type="checkbox"
-                  checked={showArrows}
-                  onChange={(e) => setShowArrows(e.target.checked)}
-                  className="accent-[#a882ff]"
-                />
-              </label>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Text fade threshold: {textFadeThreshold.toFixed(0)}</span>
-                <input type="range" min={0} max={1200} step={10} value={textFadeThreshold} onChange={(e) => setTextFadeThreshold(Number(e.target.value))} className="w-full" />
-              </label>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Node size: {nodeSizeScale.toFixed(2)}</span>
-                <input type="range" min={0.1} max={2} step={0.05} value={nodeSizeScale} onChange={(e) => setNodeSizeScale(Number(e.target.value))} className="w-full" />
-              </label>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Link thickness: {edgeSizeScale.toFixed(1)}</span>
-                <input type="range" min={0.2} max={3} step={0.1} value={edgeSizeScale} onChange={(e) => setEdgeSizeScale(Number(e.target.value))} className="w-full" />
-              </label>
-            </div>
-
-            <div className="pt-3 space-y-3">
-              <h4 className="text-xs font-semibold text-[#888892] uppercase tracking-wider">Forces</h4>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Center force: {centerForce.toFixed(2)}</span>
-                <input type="range" min={0} max={1} step={0.05} value={centerForce} onChange={(e) => setCenterForce(Number(e.target.value))} className="w-full" />
-              </label>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Repel force: {repelForce.toFixed(1)}</span>
-                <input type="range" min={0.5} max={8} step={0.1} value={repelForce} onChange={(e) => setRepelForce(Number(e.target.value))} className="w-full" />
-              </label>
-
-              <label className="block text-xs text-[#dcddde]">
-                <span className="block mb-1">Link force: {linkForce.toFixed(2)}</span>
-                <input type="range" min={0} max={2} step={0.05} value={linkForce} onChange={(e) => setLinkForce(Number(e.target.value))} className="w-full" />
-              </label>
-
-              <button
-                onClick={animateLayout}
-                className="w-full px-3 py-1.5 rounded-lg text-xs font-medium text-white bg-[rgba(168,130,255,0.2)] hover:bg-[rgba(168,130,255,0.35)] border border-[rgba(168,130,255,0.3)] transition-all"
-              >
-                Animate
-              </button>
-            </div>
+            </section>
           </div>
         )}
 
         {showLegend && (
-          <div className="absolute top-4 right-4 glass border border-[rgba(168,130,255,0.1)] rounded-xl p-4 z-30 shadow-2xl max-w-[220px]">
+          <div className="absolute top-4 right-4 glass border border-[rgba(168,130,255,0.1)] rounded-xl p-4 z-30 shadow-2xl max-w-[220px] soft-pop">
             <h4 className="text-xs font-semibold text-[#dcddde] mb-2">{t('relationships')}</h4>
             <div className="space-y-1.5">
               {ALL_REL_TYPES.map(rt => (
@@ -314,11 +386,22 @@ export default function App() {
 
       {/* Side panel */}
       {selectedNode && (
-        <div className="fixed top-0 right-0 h-full w-[400px] glass border-l border-[rgba(168,130,255,0.1)] z-30 overflow-y-auto shadow-2xl panel-enter">
-          <div className="p-0">
+        <aside
+          ref={sidePanelRef}
+          aria-label={lang === 'en' ? 'Selected person details' : 'Сонгосон хүний мэдээлэл'}
+          className="fixed top-0 right-0 h-full w-[min(400px,100vw)] glass border-l border-[rgba(168,130,255,0.1)] z-30 overflow-y-auto shadow-2xl panel-enter"
+        >
+          <div key={selectedNodeId} className="p-0 profile-content-enter">
             {/* Profile header */}
             <div className="relative p-5 pb-6" style={{ background: 'linear-gradient(180deg, rgba(168,130,255,0.15) 0%, transparent 100%)' }}>
-              <button onClick={clearSelection} className="absolute top-3 right-3 text-[#888892] hover:text-white text-lg z-10 transition-colors">&times;</button>
+              <button
+                type="button"
+                onClick={clearSelection}
+                aria-label={lang === 'en' ? 'Close details' : 'Мэдээллийг хаах'}
+                className="absolute top-3 right-3 text-[#888892] hover:text-white text-lg z-10 transition-colors"
+              >
+                &times;
+              </button>
               <div className="flex items-center gap-4">
                 {selectedNode.image_url && (
                   <img
@@ -426,7 +509,7 @@ export default function App() {
                   {lang === 'en' ? 'Buildings Detail' : 'Барилгын дэлгэрэнгүй'}
                 </h3>
                 <div className="grid grid-cols-3 gap-1.5 text-xs">
-                  {[
+                  {([
                     ['apartment', lang === 'en' ? 'Apartment' : 'Орон сууц'],
                     ['house', lang === 'en' ? 'House' : 'Хашаа байшин'],
                     ['cottage', lang === 'en' ? 'Cottage' : 'Зуслангийн байшин'],
@@ -437,10 +520,10 @@ export default function App() {
                     ['home', lang === 'en' ? 'Home' : 'Гэр'],
                     ['parking', lang === 'en' ? 'Parking' : 'Зогсоол'],
                     ['other', lang === 'en' ? 'Other' : 'Бусад'],
-                  ].filter(([key]) => ((selectedNode.profile!.buildings_detail as any)?.[key] || 0) > 0).map(([key, label]) => (
+                  ] as Array<[keyof BuildingsDetail, string]>).filter(([key]) => (selectedNode.profile!.buildings_detail?.[key] || 0) > 0).map(([key, label]) => (
                     <div key={key} className="bg-[rgba(168,130,255,0.05)] rounded-lg p-1.5 border border-[rgba(168,130,255,0.08)]">
                       <p className="text-[#888892] truncate">{label}</p>
-                      <p className="text-white font-medium">{(selectedNode.profile!.buildings_detail as any)?.[key]}</p>
+                      <p className="text-white font-medium">{selectedNode.profile!.buildings_detail?.[key]}</p>
                     </div>
                   ))}
                 </div>
@@ -501,7 +584,13 @@ export default function App() {
                   const rLabel = relLabel(relKey)
                   const rColor = RELATIONSHIP_TYPE_COLORS[relKey] || '#64748b'
                   return (
-                    <div key={neighborId} className="connection-card bg-[rgba(168,130,255,0.03)] rounded-lg p-3 border border-[rgba(168,130,255,0.06)]">
+                    <button
+                      type="button"
+                      key={neighborId}
+                      onClick={() => useSelectionStore.getState().selectNode(neighborId)}
+                      className="connection-card w-full text-left bg-[rgba(168,130,255,0.03)] rounded-lg p-3 border border-[rgba(168,130,255,0.06)] cursor-pointer focus-visible:border-[rgba(168,130,255,0.4)]"
+                      aria-label={`${other?.name ?? neighborId}: ${rLabel}`}
+                    >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2 min-w-0">
                           {other?.image_url && (
@@ -511,19 +600,19 @@ export default function App() {
                         </div>
                       </div>
                       <p className="text-xs mt-1.5 font-medium" style={{ color: rColor }}>{rLabel}</p>
-                    </div>
+                    </button>
                   )
                 })}
               </div>
             </div>
           </div>
-        </div>
+        </aside>
       )}
 
       {/* About modal */}
       {showAbout && (
-        <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4" onClick={() => setShowAbout(false)}>
-          <div className="glass border border-[rgba(168,130,255,0.15)] rounded-2xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6 panel-enter" onClick={e => e.stopPropagation()}>
+        <div className="modal-backdrop fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4" onClick={() => setShowAbout(false)}>
+          <div className="modal-content glass border border-[rgba(168,130,255,0.15)] rounded-2xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6" onClick={e => e.stopPropagation()}>
             <div className="flex items-start justify-between mb-4">
               <h2 className="text-lg font-bold text-white">{t('aboutTitle')}</h2>
               <button onClick={() => setShowAbout(false)} className="text-[#888892] hover:text-white text-lg transition-colors">&times;</button>

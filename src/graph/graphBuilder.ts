@@ -5,12 +5,6 @@ import type { Edge } from '@/types/edge'
 import { getEmploymentColor } from '@/types/node'
 import { RELATIONSHIP_TYPE_COLORS } from '@/types/edge'
 
-export interface ForceLayoutOptions {
-  centerForce?: number
-  repelForce?: number
-  linkForce?: number
-}
-
 function getConnectedComponents(graph: Graph): string[][] {
   const visited = new Set<string>()
   const components: string[][] = []
@@ -75,15 +69,6 @@ function stableNoise(seed: string): number {
 
 function stableNoise01(seed: string): number {
   return (stableNoise(seed) + 1) * 0.5
-}
-
-function applyAlpha(hex: string, alpha: number): string {
-  const value = hex.replace('#', '')
-  if (!/^[0-9a-fA-F]{6}$/.test(value)) return `rgba(107,114,128,${alpha})`
-  const r = Number.parseInt(value.slice(0, 2), 16)
-  const g = Number.parseInt(value.slice(2, 4), 16)
-  const b = Number.parseInt(value.slice(4, 6), 16)
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
 function toMutedRgba(hex: string, alpha: number, mix = 0.9): string {
@@ -238,148 +223,6 @@ function separateOverlaps(graph: Graph, options: { passes?: number; padding?: nu
   }
 }
 
-function contractLeafNodes(graph: Graph, ratio = 0.5): void {
-  if (graph.order <= 2) return
-
-  const r = Math.max(0, Math.min(1, ratio))
-  for (const nodeId of graph.nodes()) {
-    if (graph.degree(nodeId) !== 1) continue
-
-    const [neighborId] = graph.neighbors(nodeId)
-    if (!neighborId) continue
-
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const nx = Number(graph.getNodeAttribute(neighborId, 'x') ?? 0)
-    const ny = Number(graph.getNodeAttribute(neighborId, 'y') ?? 0)
-
-    graph.setNodeAttribute(nodeId, 'x', nx + (x - nx) * r)
-    graph.setNodeAttribute(nodeId, 'y', ny + (y - ny) * r)
-  }
-}
-
-function tuckLeafNodesToNeighbors(graph: Graph, ratio = 0.32, jitter = 4): void {
-  if (graph.order <= 2) return
-
-  const r = Math.max(0.05, Math.min(0.95, ratio))
-  const j = Math.max(0, jitter)
-
-  for (const nodeId of graph.nodes()) {
-    if (graph.degree(nodeId) !== 1) continue
-
-    const [neighborId] = graph.neighbors(nodeId)
-    if (!neighborId) continue
-
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const nx = Number(graph.getNodeAttribute(neighborId, 'x') ?? 0)
-    const ny = Number(graph.getNodeAttribute(neighborId, 'y') ?? 0)
-
-    let vx = x - nx
-    let vy = y - ny
-    let dist = Math.hypot(vx, vy)
-
-    if (dist <= 1e-6) {
-      const fallbackAngle = stableNoise01(`${nodeId}-leaf-fallback-angle`) * Math.PI * 2
-      vx = Math.cos(fallbackAngle)
-      vy = Math.sin(fallbackAngle)
-      dist = 1
-    }
-
-    let ux = vx / dist
-    let uy = vy / dist
-
-    const angleJitter = stableNoise(`${nodeId}-leaf-angle`) * 0.45
-    const cosA = Math.cos(angleJitter)
-    const sinA = Math.sin(angleJitter)
-    const rux = ux * cosA - uy * sinA
-    const ruy = ux * sinA + uy * cosA
-    ux = rux
-    uy = ruy
-
-    const targetDist = Math.max(5, Math.min(24, dist * r))
-    const radialJitter = stableNoise(`${nodeId}-leaf-radial`) * j
-    const finalDist = Math.max(4, targetDist + radialJitter)
-
-    graph.setNodeAttribute(nodeId, 'x', nx + ux * finalDist)
-    graph.setNodeAttribute(nodeId, 'y', ny + uy * finalDist)
-  }
-}
-
-function softenDegreeTwoChains(graph: Graph, pull = 0.3, passes = 2): void {
-  if (graph.order <= 2) return
-
-  const p = Math.max(0.05, Math.min(0.9, pull))
-  const nPasses = Math.max(1, Math.min(6, passes))
-
-  for (let pass = 0; pass < nPasses; pass++) {
-    const updates: Array<{ id: string; x: number; y: number }> = []
-
-    for (const nodeId of graph.nodes()) {
-      if (graph.degree(nodeId) !== 2) continue
-
-      const neighbors = graph.neighbors(nodeId)
-      if (neighbors.length !== 2) continue
-
-      const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-      const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-
-      const n1x = Number(graph.getNodeAttribute(neighbors[0], 'x') ?? 0)
-      const n1y = Number(graph.getNodeAttribute(neighbors[0], 'y') ?? 0)
-      const n2x = Number(graph.getNodeAttribute(neighbors[1], 'x') ?? 0)
-      const n2y = Number(graph.getNodeAttribute(neighbors[1], 'y') ?? 0)
-
-      const midX = (n1x + n2x) * 0.5
-      const midY = (n1y + n2y) * 0.5
-
-      updates.push({
-        id: nodeId,
-        x: x + (midX - x) * p,
-        y: y + (midY - y) * p,
-      })
-    }
-
-    if (updates.length === 0) break
-    for (const u of updates) {
-      graph.setNodeAttribute(u.id, 'x', u.x)
-      graph.setNodeAttribute(u.id, 'y', u.y)
-    }
-  }
-}
-
-function compressOuterTail(graph: Graph, knee = 0.62, tailScale = 0.38): void {
-  if (graph.order <= 1) return
-
-  const nodes = graph.nodes()
-  let maxRadius = 0
-
-  for (const nodeId of nodes) {
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const r = Math.hypot(x, y)
-    if (r > maxRadius) maxRadius = r
-  }
-
-  if (!Number.isFinite(maxRadius) || maxRadius <= 1e-9) return
-
-  const k = Math.max(0.2, Math.min(0.9, knee))
-  const tScale = Math.max(0.1, Math.min(1, tailScale))
-
-  for (const nodeId of nodes) {
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const r = Math.hypot(x, y)
-    if (r <= 1e-9) continue
-
-    const t = Math.max(0, Math.min(1, r / maxRadius))
-    const mapped = t <= k ? t : k + (t - k) * tScale
-    const scale = mapped / t
-
-    graph.setNodeAttribute(nodeId, 'x', x * scale)
-    graph.setNodeAttribute(nodeId, 'y', y * scale)
-  }
-}
-
 function buildSearchText(node: Node): string {
   const aliases = (node.aliases ?? []).join(' ')
   const profileBits = [
@@ -435,15 +278,15 @@ export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
     if (edge.source_node === edge.target_node) continue
 
     const baseEdgeColor = RELATIONSHIP_TYPE_COLORS[edge.relationship_type] || '#3d3654'
-    const edgeAlpha = edge.confidence === 'documented' ? 0.085 : edge.confidence === 'reported' ? 0.062 : 0.045
-    const edgeColor = toMutedRgba(baseEdgeColor, edgeAlpha)
+    const edgeAlpha = edge.confidence === 'documented' ? 0.13 : edge.confidence === 'reported' ? 0.09 : 0.055
+    const edgeColor = toMutedRgba(baseEdgeColor, edgeAlpha, 0.8)
     const weight = edge.confidence === 'documented' ? 1.5 : edge.confidence === 'reported' ? 1 : 0.5
 
     graph.addEdgeWithKey(edge.id, edge.source_node, edge.target_node, {
       label: edge.relationship_type.replace(/_/g, ' '),
       color: edgeColor,
       size: 0.3,
-      type: 'arrow',
+      type: 'line',
       weight,
       confidence: edge.confidence,
       edgeId: edge.id,
@@ -453,25 +296,28 @@ export function buildGraph(nodes: Node[], edges: Edge[]): Graph {
   return graph
 }
 
-export function applyForceLayout(graph: Graph, options: ForceLayoutOptions = {}): void {
+export function applyForceLayout(graph: Graph): void {
   if (graph.order === 0) return
 
   try {
     const components = getConnectedComponents(graph)
 
     if (components.length === 1) {
-      runForceAtlas(graph, options)
-      separateOverlaps(graph, { passes: 4, padding: 1.1 })
-      normalizeLayoutSpan(graph, { minSpan: 520, maxSpan: 1300, multiplier: 32 })
+      runForceAtlas(graph)
+      separateOverlaps(graph, { passes: 5, padding: 1.5 })
+      normalizeLayoutSpan(graph, { minSpan: 640, maxSpan: 1100, multiplier: 32 })
       return
     }
 
     const [mainComponent, ...restComponents] = components
+    const connectedComponents = restComponents.filter(component => component.length > 1)
+    const isolatedComponents = restComponents.filter(component => component.length === 1)
     const mainGraph = extractComponentGraph(graph, mainComponent)
 
     if (mainGraph.order > 1) {
-      runForceAtlas(mainGraph, options)
-      normalizeLayoutSpan(mainGraph, { minSpan: 900, maxSpan: 2400, multiplier: 68 })
+      runForceAtlas(mainGraph)
+      separateOverlaps(mainGraph, { passes: 5, padding: 1.4 })
+      normalizeLayoutSpan(mainGraph, { minSpan: 760, maxSpan: 1080, multiplier: 32 })
       copyLayoutPositions(graph, mainGraph, mainComponent)
     } else {
       graph.setNodeAttribute(mainComponent[0], 'x', 0)
@@ -479,37 +325,41 @@ export function applyForceLayout(graph: Graph, options: ForceLayoutOptions = {})
     }
 
     const mainRadius = estimateRadius(mainGraph)
-    // Distribute disconnected components through the same cloud (not an annulus)
-    // to avoid the persistent donut/hollow-center appearance.
-    const innerRadius = 0
-    const outerRadius = Math.max(mainRadius * 0.34, 56 + Math.sqrt(restComponents.length) * 3.2)
+    const satelliteInnerRadius = mainRadius * 0.76
+    const satelliteOuterRadius = mainRadius * 1.12
 
-    restComponents.forEach(componentNodes => {
-      const anchor = getCloudAnchor(componentNodes[0], innerRadius, outerRadius)
-
-      if (componentNodes.length === 1) {
-        const nodeId = componentNodes[0]
-        const jitterX = stableNoise(`${nodeId}-jx`) * 6
-        const jitterY = stableNoise(`${nodeId}-jy`) * 6
-        graph.setNodeAttribute(nodeId, 'x', anchor.x + jitterX)
-        graph.setNodeAttribute(nodeId, 'y', anchor.y + jitterY)
-        return
-      }
-
+    connectedComponents.forEach(componentNodes => {
+      const anchor = getCloudAnchor(componentNodes[0], satelliteInnerRadius, satelliteOuterRadius)
       const subGraph = extractComponentGraph(graph, componentNodes)
-      runForceAtlas(subGraph, options)
-      separateOverlaps(subGraph, { passes: 4, padding: 1.0 })
+      runForceAtlas(subGraph)
+      separateOverlaps(subGraph, { passes: 4, padding: 1.25 })
 
-      const targetSpan = Math.min(120, Math.max(30, Math.sqrt(subGraph.order) * 16))
+      const targetSpan = Math.min(110, Math.max(24, Math.sqrt(subGraph.order) * 14))
       normalizeLayoutSpan(subGraph, { minSpan: targetSpan, maxSpan: targetSpan, multiplier: 32 })
 
       copyLayoutPositions(graph, subGraph, componentNodes, anchor.x, anchor.y)
     })
 
-    separateOverlaps(graph, { passes: 4, padding: 1.1 })
+    // Isolated nodes form a quiet outer halo, as in Obsidian's overview graph.
+    const haloBaseRadius = mainRadius * 1.2
+    const haloRings = Math.max(2, Math.min(4, Math.ceil(isolatedComponents.length / 120)))
+    isolatedComponents.forEach((componentNodes, index) => {
+      const nodeId = componentNodes[0]
+      const ring = index % haloRings
+      const ringIndex = Math.floor(index / haloRings)
+      const nodesInRing = Math.ceil(isolatedComponents.length / haloRings)
+      const angle = (ringIndex / Math.max(1, nodesInRing)) * Math.PI * 2
+        + ring * 0.17
+        + stableNoise(`${nodeId}-halo-angle`) * 0.018
+      const radius = haloBaseRadius * (1 + ring * 0.055)
+        + stableNoise(`${nodeId}-halo-radius`) * mainRadius * 0.018
 
-    // Final global normalization to keep viewport framing stable.
-    normalizeLayoutSpan(graph, { minSpan: 540, maxSpan: 1350, multiplier: 34 })
+      graph.setNodeAttribute(nodeId, 'x', Math.cos(angle) * radius)
+      graph.setNodeAttribute(nodeId, 'y', Math.sin(angle) * radius)
+    })
+
+    separateOverlaps(graph, { passes: 3, padding: 1.2 })
+    normalizeLayoutSpan(graph, { minSpan: 900, maxSpan: 1450, multiplier: 34 })
   } catch (e) {
     console.error('[shout.mn] Layout failed:', e)
   }
@@ -550,46 +400,10 @@ function normalizeLayoutSpan(
   }
 }
 
-function compactRadialCore(graph: Graph, exponent = 1.16): void {
-  if (graph.order <= 1) return
-
-  let maxRadius = 0
-  const nodes = graph.nodes()
-
-  for (const nodeId of nodes) {
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const radius = Math.hypot(x, y)
-    if (radius > maxRadius) maxRadius = radius
-  }
-
-  if (!Number.isFinite(maxRadius) || maxRadius <= 1e-6) return
-
-  for (const nodeId of nodes) {
-    const x = Number(graph.getNodeAttribute(nodeId, 'x') ?? 0)
-    const y = Number(graph.getNodeAttribute(nodeId, 'y') ?? 0)
-    const radius = Math.hypot(x, y)
-    if (radius <= 1e-9) continue
-
-    const t = Math.max(0, Math.min(1, radius / maxRadius))
-    const mapped = Math.pow(t, exponent)
-    const scale = mapped / t
-
-    graph.setNodeAttribute(nodeId, 'x', x * scale)
-    graph.setNodeAttribute(nodeId, 'y', y * scale)
-  }
-}
-
-function runForceAtlas(graph: Graph, options: ForceLayoutOptions = {}): void {
+function runForceAtlas(graph: Graph): void {
   if (graph.order === 0) return
 
-  const gravity = Number.isFinite(options.centerForce) ? Math.max(0.06, (options.centerForce as number) * 0.75) : 0.24
-  const scalingRatio = Number.isFinite(options.repelForce) ? Math.max(1.2, (options.repelForce as number) * 1.05) : 2.8
-  const edgeWeightInfluence = Number.isFinite(options.linkForce)
-    ? Math.max(0, Math.min(0.86, (options.linkForce as number) * 0.9))
-    : 0.5
-
-  const spread = Math.sqrt(graph.order) * 5.8
+  const spread = Math.sqrt(graph.order) * 7.5
   for (const nodeId of graph.nodes()) {
     const angle = stableNoise01(`${nodeId}-a`) * Math.PI * 2
     const r = Math.sqrt(stableNoise01(`${nodeId}-r`)) * spread
@@ -598,17 +412,17 @@ function runForceAtlas(graph: Graph, options: ForceLayoutOptions = {}): void {
   }
 
   forceAtlas2.assign(graph, {
-    iterations: 460,
+    iterations: graph.order > 500 ? 420 : 260,
     settings: {
-      gravity,
-      scalingRatio,
+      gravity: 0.22,
+      scalingRatio: 3.4,
       strongGravityMode: false,
       barnesHutOptimize: true,
       barnesHutTheta: 0.5,
-      slowDown: 1.5,
-      edgeWeightInfluence,
-      outboundAttractionDistribution: false,
-      linLogMode: false,
+      slowDown: 2,
+      edgeWeightInfluence: 0.65,
+      outboundAttractionDistribution: true,
+      linLogMode: true,
       adjustSizes: false,
     },
   })
@@ -634,17 +448,6 @@ function runForceAtlas(graph: Graph, options: ForceLayoutOptions = {}): void {
     graph.setNodeAttribute(nodeId, 'y', y - cy)
   }
 
-  // Pull outer shell inward slightly to avoid hollow ring morphology.
-  if (graph.order > 120) compactRadialCore(graph, 1.18)
-
-  // Reduce spoke-like tails while preserving topology by tucking low-degree chains
-  // closer to their local neighborhoods.
-  if (graph.order > 80) {
-    tuckLeafNodesToNeighbors(graph, 0.22, 1.6)
-    softenDegreeTwoChains(graph, 0.22, 1)
-    separateOverlaps(graph, { passes: 3, padding: 0.9 })
-  }
-
-  // Keep each component's internal span bounded before it is composed on the grid.
+  separateOverlaps(graph, { passes: 4, padding: 1.25 })
   normalizeLayoutSpan(graph, { minSpan: 300, maxSpan: 1400, multiplier: 45 })
 }
